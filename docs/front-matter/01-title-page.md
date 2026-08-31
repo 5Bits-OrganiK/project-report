@@ -21,7 +21,7 @@
 
 ## INFORME DE TRABAJO FINAL — AV1
 
-**Startup:** 5Bits.ai
+**Startup:** 5Bits
 
 **Producto:** OrganiK
 
