@@ -1,7 +1,3 @@
-# OrganiK
-
-Plataforma de control de inventario y preservación de productos organicos
-
 <!-- AUTO-DOCS:START -->
 
 ![UPC_LOGO.png](assets/img/caratula/UPC_LOGO.png)
