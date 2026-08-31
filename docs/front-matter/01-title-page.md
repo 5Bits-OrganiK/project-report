@@ -19,15 +19,12 @@
 
 **Profesor:** Angel Auguto Velasquez Nuñez
 
----
-
 ## INFORME DE TRABAJO FINAL — AV1
 
 **Startup:** 5Bits.ai
 
 **Producto:** OrganiK
 
----
 
 ### INTEGRANTES:
 
@@ -41,4 +38,3 @@
 
 **Lima, agosto de 2026**
 
----
