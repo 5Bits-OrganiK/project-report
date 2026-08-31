@@ -40,6 +40,7 @@
 
 **Lima, agosto de 2026**
 
+</div>
 ---
 
 # Registro de versiones del informe
