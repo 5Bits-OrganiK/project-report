@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 .idea/
 node_modules/
 .env
 *.log
 .DS_Store
+=======
+.idea/
+node_modules/
+.env
+*.log
+.DS_Store
+>>>>>>> f3d809c674ab4ea3311553e9f1931e937965f45b
