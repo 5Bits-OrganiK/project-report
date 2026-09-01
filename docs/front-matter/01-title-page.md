@@ -37,7 +37,6 @@
 | [Apellidos y Nombres del Integrante 5] | [Código]         |
 
 **Lima, agosto de 2026**
-
 </div>
 
 
