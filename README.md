@@ -1,11 +1,9 @@
-# OrganiK
-
-Plataforma de control de inventario y preservación de productos organicos
-
 <!-- AUTO-DOCS:START -->
 
-![UPC_LOGO.png](assets/img/caratula/UPC_LOGO.png)
-
+<div align="center">
+<br>
+<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<br><br>
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 **Facultad:** Facultad de Ingeniería
@@ -45,5 +43,5 @@ Plataforma de control de inventario y preservación de productos organicos
 **Lima, agosto de 2026**
 
 ---
-
+</div>
 <!-- AUTO-DOCS:END -->
