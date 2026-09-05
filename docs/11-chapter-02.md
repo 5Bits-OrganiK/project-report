@@ -2,13 +2,12 @@
 
 ## 2.1. Competidores
 
-Para **OrganiK**, hemos identificado tres tipos de competidores que actualmente ofrecen soluciones relacionadas con la gestión de inventarios, abastecimiento, trazabilidad y monitoreo de productos:
+Para **OrganiK**, hemos identificado dos aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
 
-- **Plataformas de gestión empresarial e inventarios:** Ofrecen módulos para controlar productos, existencias, compras, ventas y proveedores, pero no necesariamente están especializadas en productos orgánicos ni integran el monitoreo de condiciones de almacenamiento.
-- **Plataformas especializadas en trazabilidad y cadena de suministro:** Permiten realizar seguimiento de productos y operaciones logísticas, aunque pueden estar orientadas principalmente a empresas de mayor tamaño y requerir implementaciones más complejas.
-- **Soluciones de monitoreo IoT:** Permiten supervisar variables ambientales como temperatura y humedad, pero generalmente se enfocan en el monitoreo de las condiciones físicas sin integrar directamente inventario, abastecimiento y gestión de proveedores.
+- **CasaMarket:** Plataforma de gestión empresarial orientada principalmente a bodegas, minimarkets y tiendas de conveniencia. Permite gestionar inventarios, compras, proveedores, ventas, pedidos, reposiciones y reportes, además de ofrecer funcionalidades para distribuidores.
+- **limaPOS:** Plataforma de punto de venta e inventario que permite gestionar productos, stock, lotes, vencimientos, compras, proveedores, órdenes de compra, almacenes y distribución. También cuenta con funcionalidades específicas para minimarkets, distribuidores y mayoristas.
 
-OrganiK busca diferenciarse mediante la integración de estos componentes dentro de una misma plataforma, conectando las necesidades de los **administradores de minimarkets** con la oferta de los **proveedores**.
+Ambas soluciones presentan funcionalidades relevantes para la gestión comercial y de inventarios, por lo que representan una competencia directa para parte de la propuesta de valor de OrganiK. Sin embargo, **OrganiK busca diferenciarse mediante la especialización en productos orgánicos y la integración de inventario, abastecimiento, proveedores, trazabilidad por lotes y monitoreo de las condiciones de almacenamiento mediante IoT**.
 
 ### 2.1.1. Análisis competitivo
 
@@ -22,7 +21,7 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
   <tr>
     <th>¿Por qué llevar a cabo este análisis?</th>
     <td colspan="4">
-      Este análisis se lleva a cabo con la finalidad de conocer las soluciones existentes relacionadas con la gestión de inventarios, abastecimiento, trazabilidad y monitoreo de productos, identificando sus principales fortalezas y limitaciones para determinar cómo OrganiK puede diferenciarse y generar valor para sus usuarios.
+      Este análisis se lleva a cabo con la finalidad de comparar OrganiK con soluciones existentes que ofrecen funcionalidades de gestión de inventarios, compras, proveedores, abastecimiento y operaciones para minimarkets y distribuidores. Esto permitirá identificar sus principales fortalezas y limitaciones, así como establecer elementos diferenciadores que permitan a OrganiK generar valor para sus usuarios.
     </td>
   </tr>
 
@@ -35,14 +34,14 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
       <img src="../assets/img/chapter-2/organiklogo.png" alt="OrganiK" width="100">
     </th>
     <th>
-      Plataformas de gestión de inventarios
+      CasaMarket
       <br>
-      <img src="../assets/img/chapter-2/inventory.png" alt="Plataformas de inventarios" width="100">
+      <img src="../assets/img/chapter-2/casamarket.png" alt="CasaMarket" width="100">
     </th>
     <th>
-      Soluciones IoT de monitoreo
+      limaPOS
       <br>
-      <img src="../assets/img/chapter-2/iot.png" alt="Soluciones IoT" width="100">
+      <img src="../assets/img/chapter-2/limapos.png" alt="limaPOS" width="100">
     </th>
   </tr>
 
@@ -54,23 +53,23 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
       Plataforma digital orientada a la gestión logística, abastecimiento e inventario de productos orgánicos, integrada con monitoreo de temperatura y humedad.
     </td>
     <td>
-      Plataformas orientadas principalmente a la administración de inventarios, productos, compras, ventas y proveedores.
+      Plataforma de gestión empresarial orientada a bodegas, minimarkets y tiendas de conveniencia, que permite administrar inventario, compras, ventas, proveedores y operaciones comerciales.
     </td>
     <td>
-      Soluciones especializadas en recopilar y visualizar información ambiental mediante sensores IoT.
+      Plataforma de punto de venta e inventario en la nube orientada a diferentes tipos de negocios, incluyendo minimarkets, distribuidores y mayoristas, con funcionalidades de inventario, compras, proveedores y distribución.
     </td>
   </tr>
 
   <tr>
     <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
     <td>
-      Integración entre inventario, abastecimiento, proveedores y monitoreo de las condiciones de almacenamiento dentro de una misma plataforma.
+      Integración entre inventario, abastecimiento, proveedores, trazabilidad de productos y monitoreo de las condiciones de almacenamiento dentro de una misma plataforma. Además, cuenta con funcionalidades diferenciadas para minimarkets y proveedores de productos orgánicos.
     </td>
     <td>
-      Amplia variedad de funcionalidades administrativas y capacidad para gestionar diferentes tipos de productos y operaciones empresariales.
+      Amplia variedad de funcionalidades para administrar negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones, reportes y gestión de múltiples tiendas o almacenes.
     </td>
     <td>
-      Monitoreo continuo de variables ambientales y generación de información en tiempo real sobre las condiciones de almacenamiento.
+      Integración entre ventas, inventario, compras, proveedores, almacenes y distribución. También permite gestionar lotes y vencimientos, además de ofrecer funcionalidades específicas para minimarkets y distribuidores.
     </td>
   </tr>
 
@@ -79,26 +78,26 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
     <th rowspan="2">Perfil de Marketing</th>
     <th>Mercado objetivo</th>
     <td>
-      Administradores de minimarkets y proveedores de productos orgánicos que necesitan mejorar la gestión de inventarios, abastecimiento y conservación de sus productos.
+      Administradores de minimarkets y proveedores de productos orgánicos que necesitan mejorar la gestión de inventarios, abastecimiento, trazabilidad y conservación de sus productos.
     </td>
     <td>
-      Pequeñas, medianas y grandes empresas que requieren digitalizar y centralizar sus procesos administrativos y de inventario.
+      Bodegas, minimarkets, tiendas de conveniencia y otros pequeños y medianos negocios que buscan digitalizar y centralizar sus procesos comerciales y administrativos.
     </td>
     <td>
-      Empresas que necesitan controlar condiciones ambientales en almacenes, cámaras de conservación, centros de distribución u otros espacios de almacenamiento.
+      Minimarkets, bodegas, distribuidores, mayoristas y otros negocios que requieren gestionar ventas, inventario, compras, proveedores y distribución.
     </td>
   </tr>
 
   <tr>
     <th>Estrategias de marketing</th>
     <td>
-      Marketing de nicho enfocado en minimarkets y proveedores de productos orgánicos, destacando la integración entre inventario, abastecimiento y monitoreo IoT.
+      Marketing de nicho enfocado en minimarkets y proveedores de productos orgánicos, destacando la integración entre inventario, abastecimiento, trazabilidad y monitoreo IoT.
     </td>
     <td>
-      Marketing basado en la amplitud de funcionalidades, automatización de procesos y capacidad de integración con otros sistemas empresariales.
+      Marketing orientado a la digitalización de pequeños y medianos negocios, destacando el control del inventario, las ventas, las compras y la información financiera para facilitar la toma de decisiones.
     </td>
     <td>
-      Marketing enfocado en la eficiencia del monitoreo, reducción de riesgos y supervisión de condiciones ambientales.
+      Marketing orientado a la centralización de las operaciones comerciales, destacando la gestión de inventario, ventas, compras, proveedores, distribución y automatización de procesos.
     </td>
   </tr>
 
@@ -110,23 +109,23 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
       Plataforma web con gestión de inventarios, productos, lotes, vencimientos, abastecimiento, proveedores y monitoreo IoT de temperatura y humedad.
     </td>
     <td>
-      Sistemas web o SaaS para gestión de inventarios, compras, ventas, productos, proveedores y operaciones empresariales.
+      Sistema de gestión con funcionalidades de facturación electrónica, punto de venta, inventario, compras, proveedores, reposiciones, devoluciones, tienda online, reportes y gestión de almacenes.
     </td>
     <td>
-      Sensores IoT, plataformas de monitoreo y dashboards para supervisar temperatura, humedad y otras variables ambientales.
+      Plataforma de punto de venta e inventario con módulos de ventas, compras, proveedores, lotes, vencimientos, almacenes, distribución, reportes y herramientas de apoyo para la toma de decisiones.
     </td>
   </tr>
 
   <tr>
     <th>Precios & Costos</th>
     <td>
-      Modelo orientado a pequeñas y medianas empresas, buscando mantener costos accesibles mediante una solución SaaS.
+      Modelo orientado a pequeñas y medianas empresas, buscando mantener costos accesibles mediante una solución SaaS especializada.
     </td>
     <td>
-      Generalmente utilizan modelos de suscripción cuyos costos dependen del número de usuarios, funcionalidades y volumen de operaciones.
+      Cuenta con planes orientados a minimarkets y otros negocios, con costos asociados a las funcionalidades y servicios incluidos en cada plan.
     </td>
     <td>
-      El costo depende principalmente de la cantidad de sensores, infraestructura requerida, almacenamiento de datos y servicios de monitoreo.
+      Utiliza un modelo de suscripción con diferentes planes, cuyos costos varían según las funcionalidades y necesidades de cada negocio.
     </td>
   </tr>
 
@@ -136,10 +135,10 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
       Web. Acceso mediante una plataforma centralizada disponible desde navegadores web.
     </td>
     <td>
-      Web / Móvil. Plataformas disponibles mediante aplicaciones web, móviles o ambas.
+      Web / Móvil. Dispone de aplicaciones y herramientas para gestionar diferentes actividades del negocio desde dispositivos digitales.
     </td>
     <td>
-      Web / Móvil. Dashboards y aplicaciones para visualizar información recopilada por los dispositivos IoT.
+      Web / Móvil. Cuenta con una plataforma en la nube y aplicaciones orientadas a actividades como ventas, toma de pedidos y gestión de operaciones.
     </td>
   </tr>
 
@@ -148,13 +147,13 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
     <th rowspan="4">Análisis SWOT</th>
     <th>Fortalezas</th>
     <td>
-      Integración de inventario, abastecimiento, proveedores y monitoreo IoT. Enfoque especializado en productos orgánicos. Dashboards diferenciados para cada segmento.
+      Integración de inventario, abastecimiento, proveedores y monitoreo IoT. Enfoque especializado en productos orgánicos. Trazabilidad mediante productos, lotes y vencimientos. Dashboards diferenciados para minimarkets y proveedores.
     </td>
     <td>
-      Amplia cantidad de funcionalidades administrativas y experiencia en gestión empresarial.
+      Amplia experiencia en la digitalización de bodegas y minimarkets. Cuenta con funcionalidades de inventario, compras, proveedores, ventas, reposiciones, reportes y gestión de almacenes.
     </td>
     <td>
-      Especialización en monitoreo ambiental y recopilación continua de datos.
+      Amplia cobertura funcional para ventas, inventario, compras, proveedores, lotes, vencimientos, almacenes, distribución y diferentes tipos de negocios.
     </td>
   </tr>
 
@@ -164,50 +163,50 @@ OrganiK busca diferenciarse mediante la integración de estos componentes dentro
       Startup en etapa inicial, bajo reconocimiento de marca y dependencia inicial de datos IoT simulados para validar el funcionamiento de la solución.
     </td>
     <td>
-      Pueden requerir configuraciones complejas y no estar específicamente adaptadas a los procesos de productos orgánicos y conservación.
+      Su enfoque es generalista y está orientado a la gestión comercial de diferentes tipos de negocios, por lo que no se especializa específicamente en la conservación de productos orgánicos ni en el monitoreo de condiciones ambientales.
     </td>
     <td>
-      Se enfocan principalmente en el monitoreo ambiental y pueden requerir sistemas adicionales para gestionar inventarios y abastecimiento.
+      Su amplio alcance funcional puede hacer que la solución sea más generalista para negocios que buscan una plataforma especializada en productos orgánicos y conservación.
     </td>
   </tr>
 
   <tr>
     <th>Oportunidades</th>
     <td>
-      Crecimiento de la digitalización de pequeños negocios, necesidad de mejorar el control de productos y posibilidad de incorporar sensores IoT reales y capacidades analíticas avanzadas.
+      Crecimiento de la digitalización de pequeños negocios, necesidad de mejorar el control de productos orgánicos y posibilidad de incorporar sensores IoT reales y capacidades analíticas avanzadas.
     </td>
     <td>
-      Mayor demanda de herramientas digitales para pequeñas y medianas empresas y crecimiento de soluciones SaaS.
+      Crecimiento de la digitalización de bodegas y minimarkets, incorporación de nuevos negocios al comercio digital y expansión de funcionalidades orientadas a la gestión empresarial.
     </td>
     <td>
-      Expansión del uso de IoT para supervisar condiciones de almacenamiento y conservación de productos.
+      Crecimiento de la demanda de soluciones integrales de gestión, automatización de procesos comerciales y herramientas de análisis para inventarios, ventas y abastecimiento.
     </td>
   </tr>
 
   <tr>
     <th>Amenazas</th>
     <td>
-      Entrada de plataformas empresariales con mayores recursos, resistencia de los usuarios al cambio y dificultad inicial para establecer una red suficiente de proveedores y minimarkets.
+      Entrada de plataformas consolidadas con mayores recursos, resistencia de los usuarios al cambio y dificultad inicial para establecer una red suficiente de proveedores y minimarkets.
     </td>
     <td>
-      Competencia de plataformas consolidadas con mayor reconocimiento, recursos y ecosistemas de integración.
+      Competencia de otras plataformas de gestión empresarial, evolución de las soluciones tecnológicas y necesidad de mantener una propuesta de valor atractiva frente a nuevos sistemas especializados.
     </td>
     <td>
-      Aparición de soluciones IoT de menor costo y evolución rápida de las tecnologías de sensores y monitoreo.
+      Alta competencia en soluciones de punto de venta y gestión empresarial, incorporación constante de nuevas funcionalidades por parte de plataformas competidoras y evolución de tecnologías de automatización e inteligencia artificial.
     </td>
   </tr>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Luego de haber realizado el análisis de nuestra solución con respecto a las soluciones existentes, nuestro equipo procederá a plantear estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
+Luego de haber realizado el análisis de nuestra solución con respecto a **CasaMarket** y **limaPOS**, nuestro equipo procederá a plantear estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
 
 #### Matriz CAME para el desarrollo de estrategias en base al análisis FODA
 
 | **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
 |---|---|---|
-| **Fortalezas (F)**<br>1. Integración de inventario, abastecimiento y monitoreo IoT.<br>2. Especialización en productos orgánicos.<br>3. Dashboards diferenciados para minimarkets y proveedores.<br>4. Centralización de información operativa. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Promover la integración entre minimarkets y proveedores como principal elemento diferenciador.<br>3. Incorporar progresivamente sensores IoT reales para ampliar las capacidades de monitoreo.<br>4. Desarrollar capacidades analíticas que permitan identificar patrones de inventario y abastecimiento.<br>5. Establecer alianzas con minimarkets y proveedores para validar y ampliar la plataforma. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de procesos que normalmente requieren múltiples herramientas.<br>2. Mantener una interfaz sencilla para reducir la complejidad frente a plataformas empresariales de mayor tamaño.<br>3. Priorizar la especialización en productos orgánicos frente a soluciones generalistas.<br>4. Fortalecer la seguridad y privacidad de la información gestionada por la plataforma.<br>5. Utilizar los resultados de pilotos con usuarios para demostrar el valor de la solución frente a competidores consolidados. |
-| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial de desarrollo.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar validaciones mediante Lean UX con administradores de minimarkets y proveedores.<br>2. Implementar pilotos con usuarios reales para obtener retroalimentación temprana.<br>3. Priorizar las funcionalidades principales antes de ampliar el alcance de la plataforma.<br>4. Desarrollar contenido demostrativo sobre los beneficios de centralizar inventario, abastecimiento y monitoreo.<br>5. Evolucionar progresivamente desde datos IoT simulados hacia sensores reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar las funcionalidades de mayor valor para evitar competir directamente con plataformas empresariales de propósito general.<br>2. Mantener costos de implementación accesibles para pequeñas y medianas empresas.<br>3. Establecer mecanismos de respaldo y seguridad de la información.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets para fortalecer el efecto de red de la plataforma. |
+| **Fortalezas (F)**<br>1. Integración de inventario, abastecimiento y monitoreo IoT.<br>2. Especialización en productos orgánicos.<br>3. Dashboards diferenciados para minimarkets y proveedores.<br>4. Trazabilidad de productos, lotes y vencimientos. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Promover la integración entre minimarkets y proveedores como principal elemento diferenciador frente a soluciones generalistas como CasaMarket y limaPOS.<br>3. Incorporar progresivamente sensores IoT reales para ampliar las capacidades de monitoreo.<br>4. Desarrollar capacidades analíticas que permitan identificar patrones de inventario, vencimiento y abastecimiento.<br>5. Establecer alianzas con minimarkets y proveedores para validar y ampliar la plataforma. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de procesos de abastecimiento, trazabilidad y conservación que no constituyen el enfoque principal de las plataformas generalistas.<br>2. Mantener una interfaz sencilla y especializada para evitar competir únicamente por cantidad de funcionalidades.<br>3. Priorizar la especialización en productos orgánicos como elemento diferenciador frente a CasaMarket y limaPOS.<br>4. Fortalecer la seguridad y privacidad de la información gestionada por la plataforma.<br>5. Utilizar los resultados de pilotos con usuarios para demostrar el valor de la solución frente a competidores consolidados. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial de desarrollo.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar validaciones mediante Lean UX con administradores de minimarkets y proveedores.<br>2. Implementar pilotos con usuarios reales para obtener retroalimentación temprana.<br>3. Priorizar las funcionalidades principales antes de ampliar el alcance de la plataforma.<br>4. Desarrollar contenido demostrativo sobre los beneficios de centralizar inventario, abastecimiento, trazabilidad y monitoreo.<br>5. Evolucionar progresivamente desde datos IoT simulados hacia sensores reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar las funcionalidades de mayor valor para evitar competir directamente con plataformas de propósito general por cantidad de funcionalidades.<br>2. Mantener costos de implementación accesibles para pequeñas y medianas empresas.<br>3. Establecer mecanismos de respaldo y seguridad de la información.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets para fortalecer el efecto de red de la plataforma. |
 
 ## 2.2. Entrevistas
 
