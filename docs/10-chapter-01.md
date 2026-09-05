@@ -32,17 +32,17 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 
 ## 1.2. Solution Profile
 
-Nuestra solución, **OrganiK**, es una plataforma web orientada a la **gestión de inventarios, abastecimiento y monitoreo de productos orgánicos**. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo gestionar productos, inventarios, lotes, fechas de vencimiento, abastecimiento y condiciones de almacenamiento desde una plataforma centralizada.
+Nuestra solución OrganiK, es una plataforma web para la gestión de inventarios, abastecimiento y monitoreo de productos orgánicos, que conecta a administradores de minimarkets y proveedores mediante un ecosistema digital centralizado.
 
-Para los **administradores de minimarkets**, la plataforma permite controlar de manera integral la información de su negocio, incluyendo inventario, productos, lotes, fechas de vencimiento, ubicaciones, pérdidas, mermas y donaciones. Asimismo, permite supervisar las condiciones de almacenamiento mediante el monitoreo de temperatura y humedad, generando alertas cuando se detectan condiciones que puedan representar un riesgo para determinados productos.
+Para los administradores de minimarkets, permite gestionar productos, inventario, lotes, vencimientos, ubicaciones, mermas y donaciones, además de monitorear temperatura y humedad para detectar posibles riesgos de conservación.
 
-Los administradores también pueden gestionar las operaciones de abastecimiento. Cuando un **proveedor crea un pedido de abastecimiento**, el administrador del minimarket puede revisarlo y decidir si lo **acepta o rechaza**. La aceptación del pedido genera el registro de la operación y actualiza el inventario del minimarket con los productos, cantidades y lotes correspondientes. En caso de rechazo, el inventario no es modificado.
+Para los proveedores, permite gestionar productos, disponibilidad y lotes, así como crear y consultar pedidos de abastecimiento dirigidos a los minimarkets. Los proveedores no pueden modificar directamente el inventario.
 
-Para los **proveedores**, la plataforma permite gestionar su catálogo de productos, disponibilidad y lotes, además de consultar la información necesaria para generar **pedidos de abastecimiento dirigidos a los minimarkets**. Los proveedores pueden crear y realizar seguimiento de sus pedidos, pero no pueden modificar directamente el inventario de los minimarkets. De esta manera, se mantiene un control sobre las operaciones y se evita que un proveedor pueda alterar información perteneciente al negocio receptor.
+Los pedidos generados por los proveedores son revisados por el administrador, quien puede aceptarlos o rechazarlos. Si el pedido es aceptado, se registra la operación y se actualiza el inventario; si es rechazado, el inventario permanece sin cambios.
 
-La solución integra información de inventario, abastecimiento y monitoreo IoT para proporcionar una visión más completa de la operación. Los datos de los sensores pueden ser simulados durante la implementación del proyecto, permitiendo validar los flujos de monitoreo y generación de alertas sin depender de dispositivos físicos.
+La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
 
-OrganiK busca mejorar la eficiencia de la cadena de abastecimiento de productos orgánicos mediante información centralizada, trazabilidad y flujos de trabajo diferenciados para cada segmento. El flujo de abastecimiento se basa en el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario**.
+De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados**, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario.
 
 ### 1.2.1. Antecedentes y problemática
 
