@@ -4,19 +4,15 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**5bits** es una startup tecnológica orientada al desarrollo de soluciones digitales para mejorar la gestión logística, el abastecimiento y la conservación de productos orgánicos. Su propuesta busca conectar a **administradores de minimarkets y proveedores** mediante soluciones digitales que permitan centralizar y optimizar los principales procesos relacionados con el manejo de productos orgánicos.
+5bits es una startup tecnológica enfocada en el desarrollo de soluciones digitales para mejorar la gestión logística, el abastecimiento y la conservación de productos orgánicos. La startup busca contribuir a la transformación digital de los procesos relacionados con la comercialización y distribución de productos orgánicos, promoviendo una gestión más eficiente y sostenible.
 
-Como parte de su propuesta tecnológica, **5bits** desarrolla **OrganiK**, una plataforma digital orientada a mejorar la gestión de inventarios, abastecimiento y condiciones de almacenamiento de productos orgánicos. La solución busca proporcionar información centralizada que facilite la toma de decisiones logísticas y permita anticipar necesidades de reposición, identificar productos en riesgo y mejorar la coordinación entre minimarkets y proveedores.
+Su enfoque se encuentra dirigido principalmente a administradores de minimarkets y proveedores de productos orgánicos, considerando las necesidades y desafíos que ambos segmentos enfrentan dentro de la cadena de abastecimiento. De esta manera, 5bits busca generar valor mediante el uso de tecnologías digitales que faciliten la gestión de información y la coordinación entre los diferentes actores involucrados.
 
-La plataforma contempla dos segmentos de negocio diferenciados: **administradores de minimarkets y proveedores**. Ambos comparten una infraestructura tecnológica común, autenticación, comunicación, notificaciones y gestión de pedidos, pero cuentan con dashboards, funcionalidades y permisos específicos de acuerdo con sus necesidades operativas y procesos de negocio.
+La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el control de inventarios, abastecimiento, trazabilidad, conservación y gestión de productos orgánicos, buscando contribuir a una cadena de suministro más organizada, eficiente y transparente.
 
-Los administradores de minimarkets utilizan la plataforma principalmente para gestionar sus inventarios, productos, lotes, fechas de vencimiento, ubicaciones y condiciones de almacenamiento. Asimismo, pueden identificar necesidades de abastecimiento, consultar proveedores, realizar solicitudes de abastecimiento y recibir alertas relacionadas con productos o condiciones de almacenamiento que representen un riesgo.
+**Misión:** Facilitar la transformación digital de la gestión logística, el abastecimiento y la conservación de productos orgánicos, contribuyendo a que minimarkets y proveedores desarrollen operaciones más eficientes, organizadas y sostenibles.
 
-Por su parte, los proveedores utilizan la plataforma para gestionar su catálogo de productos, disponibilidad, lotes, pedidos provenientes de los minimarkets y procesos relacionados con el abastecimiento. De esta manera, OrganiK permite conectar la necesidad de productos de los minimarkets con la oferta disponible de los proveedores.
-
-**Misión:** Facilitar la gestión logística, el abastecimiento y la conservación de productos orgánicos mediante herramientas digitales que permitan a administradores de minimarkets y proveedores mejorar la eficiencia de sus operaciones y tomar decisiones basadas en información centralizada.
-
-**Visión:** Convertirse en una plataforma tecnológica de referencia para la gestión inteligente de productos orgánicos, conectando digitalmente a minimarkets y proveedores y contribuyendo a una cadena de abastecimiento más eficiente y sostenible.
+**Visión:** Convertirse en una startup tecnológica de referencia en la transformación digital de la cadena de abastecimiento de productos orgánicos, promoviendo una gestión más eficiente, transparente y sostenible.
 
 **Valores:** Eficiencia, trazabilidad, sostenibilidad, transparencia, innovación y orientación al usuario.
 
