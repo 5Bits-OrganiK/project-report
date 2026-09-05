@@ -8,27 +8,24 @@ Para **OrganiK**, hemos identificado tres aplicaciones que representan competido
 - **limaPOS:** Plataforma de punto de venta e inventario en la nube que permite gestionar productos, stock, lotes, vencimientos, compras, proveedores, órdenes de compra, almacenes y distribución.
 - **Spry Sales:** Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets. Permite controlar inventario, stock, fechas de vencimiento, pedidos, compras, proveedores, rutas de reparto y entregas.
 
-Estas soluciones presentan funcionalidades que coinciden con diferentes componentes de la propuesta de valor de OrganiK, especialmente en la gestión de inventarios, productos, proveedores, compras y abastecimiento.
+Estas soluciones presentan funcionalidades relacionadas con diferentes componentes de la propuesta de valor de OrganiK, especialmente en la gestión de inventarios, productos, proveedores, compras y abastecimiento.
 
-Sin embargo, **OrganiK busca diferenciarse mediante la especialización en productos orgánicos y la integración de inventario, abastecimiento, proveedores, trazabilidad por lotes y monitoreo de las condiciones de almacenamiento mediante IoT**, además de conectar directamente las operaciones de minimarkets y proveedores dentro de una misma plataforma.
+Sin embargo, **OrganiK busca diferenciarse mediante la especialización en productos orgánicos y la integración de inventario, abastecimiento, trazabilidad por lotes y monitoreo de las condiciones de almacenamiento mediante IoT**, además de conectar directamente las operaciones de minimarkets y proveedores mediante un flujo controlado de pedidos.
 
 ### 2.1.1. Análisis competitivo
 
 <table border="1" cellspacing="0" cellpadding="5">
-  <!-- Título principal -->
   <tr>
     <th colspan="6">Competitive Analysis Landscape</th>
   </tr>
 
-  <!-- Explicación -->
   <tr>
     <th>¿Por qué llevar a cabo este análisis?</th>
     <td colspan="5">
-      Este análisis se lleva a cabo con la finalidad de comparar OrganiK con soluciones existentes que ofrecen funcionalidades de gestión de inventarios, compras, proveedores, abastecimiento y operaciones para minimarkets y otros negocios. Esto permitirá identificar sus principales fortalezas y limitaciones, así como establecer elementos diferenciadores que permitan a OrganiK generar valor para sus usuarios.
+      Este análisis permite comparar OrganiK con soluciones existentes de gestión comercial e inventarios, identificando sus fortalezas, limitaciones y oportunidades de diferenciación. Esto permitirá establecer una propuesta de valor enfocada en la reducción de pérdidas, trazabilidad, conservación y coordinación del abastecimiento de productos orgánicos.
     </td>
   </tr>
 
-  <!-- Encabezados competidores -->
   <tr>
     <th colspan="2">Competidores</th>
     <th>
@@ -53,41 +50,39 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     </th>
   </tr>
 
-  <!-- PERFIL -->
   <tr>
     <th rowspan="2">Perfil</th>
     <th>Overview</th>
     <td>
-      Plataforma digital orientada a la gestión logística, abastecimiento e inventario de productos orgánicos, integrada con monitoreo de temperatura y humedad.
+      Plataforma digital especializada en la gestión de inventarios, abastecimiento y conservación de productos orgánicos, integrada con monitoreo de temperatura y humedad.
     </td>
     <td>
-      Plataforma de gestión empresarial orientada a bodegas, minimarkets y tiendas de conveniencia, que permite administrar inventario, compras, proveedores, ventas y operaciones comerciales.
+      Plataforma de gestión empresarial orientada a bodegas, minimarkets y tiendas de conveniencia, con funcionalidades de inventario, compras, proveedores, ventas y operaciones comerciales.
     </td>
     <td>
-      Plataforma de punto de venta e inventario en la nube orientada a diferentes tipos de negocios, incluyendo minimarkets, distribuidores y mayoristas, con funcionalidades de inventario, compras, proveedores y distribución.
+      Plataforma de punto de venta e inventario en la nube orientada a diferentes tipos de negocios, incluyendo minimarkets, distribuidores y mayoristas.
     </td>
     <td>
-      Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets, que permite controlar inventario, stock, fechas de vencimiento, pedidos, compras, proveedores, reparto y entregas.
+      Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets, con funcionalidades de inventario, pedidos, compras, proveedores y distribución.
     </td>
   </tr>
 
   <tr>
     <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
     <td>
-      Integración entre inventario, abastecimiento, proveedores, trazabilidad de productos y monitoreo de las condiciones de almacenamiento dentro de una misma plataforma. Además, cuenta con funcionalidades diferenciadas para minimarkets y proveedores de productos orgánicos.
+      Integración de inventario, abastecimiento, proveedores, trazabilidad y monitoreo de las condiciones de almacenamiento. Cuenta con funcionalidades diferenciadas para minimarkets y proveedores de productos orgánicos.
     </td>
     <td>
-      Amplia variedad de funcionalidades para administrar negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones, reportes y gestión de almacenes.
+      Amplia variedad de funcionalidades para administrar negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones y reportes.
     </td>
     <td>
-      Integración entre ventas, inventario, compras, proveedores, almacenes y distribución. También permite gestionar lotes y vencimientos y ofrece funcionalidades para minimarkets y distribuidores.
+      Integración entre ventas, inventario, compras, proveedores, almacenes y distribución, incluyendo gestión de lotes y vencimientos.
     </td>
     <td>
-      Integración de gestión comercial, inventario, pedidos, compras, proveedores, reparto y entregas, con funcionalidades específicas para negocios como minimarkets.
+      Integración de gestión comercial, inventario, pedidos, compras, proveedores, reparto y entregas, con funcionalidades para negocios como minimarkets.
     </td>
   </tr>
 
-  <!-- PERFIL DE MARKETING -->
   <tr>
     <th rowspan="2">Perfil de Marketing</th>
     <th>Mercado objetivo</th>
@@ -95,7 +90,7 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Administradores de minimarkets y proveedores de productos orgánicos que necesitan mejorar la gestión de inventarios, abastecimiento, trazabilidad y conservación de sus productos.
     </td>
     <td>
-      Bodegas, minimarkets, tiendas de conveniencia y otros pequeños y medianos negocios que buscan digitalizar y centralizar sus procesos comerciales y administrativos.
+      Bodegas, minimarkets, tiendas de conveniencia y pequeños y medianos negocios que buscan digitalizar sus procesos comerciales y administrativos.
     </td>
     <td>
       Minimarkets, bodegas, distribuidores, mayoristas y otros negocios que requieren gestionar ventas, inventario, compras, proveedores y distribución.
@@ -108,50 +103,49 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
   <tr>
     <th>Estrategias de marketing</th>
     <td>
-      Marketing de nicho enfocado en minimarkets y proveedores de productos orgánicos, destacando la integración entre inventario, abastecimiento, trazabilidad y monitoreo IoT.
+      Marketing de nicho enfocado en productos orgánicos, destacando la reducción de pérdidas, trazabilidad, conservación y coordinación entre minimarkets y proveedores.
     </td>
     <td>
-      Marketing orientado a la digitalización de pequeños y medianos negocios, destacando el control del inventario, las ventas, las compras y la información financiera para facilitar la toma de decisiones.
+      Marketing orientado a la digitalización de pequeños y medianos negocios, destacando la gestión de inventario, ventas, compras y administración.
     </td>
     <td>
-      Marketing orientado a la centralización de las operaciones comerciales, destacando la gestión de inventario, ventas, compras, proveedores, distribución y automatización de procesos.
+      Marketing orientado a la centralización de operaciones comerciales, destacando la gestión de inventario, ventas, compras, proveedores y distribución.
     </td>
     <td>
-      Marketing orientado a la digitalización y gestión integral de negocios, destacando el control de stock, pedidos, compras, reparto, entregas y facturación electrónica.
+      Marketing orientado a la digitalización y gestión integral de negocios, destacando el control de stock, pedidos, compras, reparto y entregas.
     </td>
   </tr>
 
-  <!-- PERFIL DE PRODUCTO -->
   <tr>
     <th rowspan="3">Perfil de Producto</th>
     <th>Productos & Servicios</th>
     <td>
-      Plataforma web con gestión de inventarios, productos, lotes, vencimientos, abastecimiento, proveedores y monitoreo IoT de temperatura y humedad.
+      Plataforma web con gestión de inventarios, productos, lotes, vencimientos, abastecimiento, proveedores y monitoreo de temperatura y humedad.
     </td>
     <td>
-      Sistema de gestión con funcionalidades de facturación electrónica, punto de venta, inventario, compras, proveedores, reposiciones, devoluciones, tienda online, reportes y gestión de almacenes.
+      Sistema de gestión con funcionalidades de facturación electrónica, punto de venta, inventario, compras, proveedores, reposiciones, devoluciones, tienda online y reportes.
     </td>
     <td>
-      Plataforma de punto de venta e inventario con módulos de ventas, compras, proveedores, lotes, vencimientos, almacenes, distribución, reportes y herramientas de apoyo para la toma de decisiones.
+      Plataforma de punto de venta e inventario con módulos de ventas, compras, proveedores, lotes, vencimientos, almacenes, distribución y reportes.
     </td>
     <td>
-      Software de gestión comercial con funcionalidades de control de stock, inventario, pedidos, compras, proveedores, fechas de vencimiento, reparto, entregas y facturación electrónica.
+      Software de gestión comercial con funcionalidades de control de stock, inventario, pedidos, compras, proveedores, fechas de vencimiento, reparto y entregas.
     </td>
   </tr>
 
   <tr>
     <th>Precios & Costos</th>
     <td>
-      Modelo orientado a pequeñas y medianas empresas, buscando mantener costos accesibles mediante una solución SaaS especializada.
+      Modelo SaaS orientado a pequeñas y medianas empresas, buscando mantener costos accesibles mediante una solución especializada.
     </td>
     <td>
-      Cuenta con planes orientados a minimarkets y otros negocios, con costos asociados a las funcionalidades y servicios incluidos en cada plan.
+      Cuenta con planes orientados a minimarkets y otros negocios, con costos asociados a las funcionalidades y servicios incluidos.
     </td>
     <td>
-      Utiliza un modelo de suscripción con diferentes planes, cuyos costos varían según las funcionalidades y necesidades de cada negocio.
+      Utiliza un modelo de suscripción con diferentes planes según las funcionalidades y necesidades del negocio.
     </td>
     <td>
-      Cuenta con diferentes modalidades y planes de servicio de acuerdo con las necesidades operativas y comerciales de cada negocio.
+      Cuenta con diferentes modalidades y planes de servicio según las necesidades operativas y comerciales de cada negocio.
     </td>
   </tr>
 
@@ -161,22 +155,21 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Web. Acceso mediante una plataforma centralizada disponible desde navegadores web.
     </td>
     <td>
-      Web / Móvil. Dispone de aplicaciones y herramientas para gestionar diferentes actividades del negocio desde dispositivos digitales.
+      Web / Móvil. Dispone de herramientas para gestionar diferentes actividades del negocio desde dispositivos digitales.
     </td>
     <td>
-      Web / Móvil. Cuenta con una plataforma en la nube y aplicaciones orientadas a actividades como ventas, toma de pedidos y gestión de operaciones.
+      Web / Móvil. Cuenta con una plataforma en la nube y aplicaciones orientadas a actividades comerciales y operativas.
     </td>
     <td>
       Web / Móvil. Permite gestionar diferentes actividades comerciales y operativas mediante herramientas digitales.
     </td>
   </tr>
 
-  <!-- ANÁLISIS SWOT -->
   <tr>
     <th rowspan="4">Análisis SWOT</th>
     <th>Fortalezas</th>
     <td>
-      Integración de inventario, abastecimiento, proveedores y monitoreo IoT. Enfoque especializado en productos orgánicos. Trazabilidad mediante productos, lotes y vencimientos. Dashboards diferenciados para minimarkets y proveedores.
+      Especialización en productos orgánicos. Integración de inventario, abastecimiento, proveedores, trazabilidad y monitoreo de condiciones de almacenamiento. Dashboards diferenciados y flujo controlado de pedidos.
     </td>
     <td>
       Amplia variedad de funcionalidades para la gestión de minimarkets y negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones y reportes.
@@ -185,69 +178,69 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Amplia cobertura funcional para ventas, inventario, compras, proveedores, lotes, vencimientos, almacenes y distribución.
     </td>
     <td>
-      Integración de inventario, pedidos, compras, proveedores, reparto y entregas. Cuenta además con funcionalidades orientadas específicamente a minimarkets y control de fechas de vencimiento.
+      Integración de inventario, pedidos, compras, proveedores, reparto y entregas, además de funcionalidades orientadas a minimarkets.
     </td>
   </tr>
 
   <tr>
     <th>Debilidades</th>
     <td>
-      Startup en etapa inicial, bajo reconocimiento de marca y dependencia inicial de datos IoT simulados para validar el funcionamiento de la solución.
+      Startup en etapa inicial, bajo reconocimiento de marca y dependencia inicial de datos IoT simulados para validar el monitoreo.
     </td>
     <td>
-      Su enfoque es generalista y está orientado a la gestión comercial de diferentes tipos de negocios, por lo que no se especializa específicamente en la conservación de productos orgánicos ni en el monitoreo de condiciones ambientales.
+      Enfoque generalista orientado a la gestión comercial de diferentes negocios, sin especialización en productos orgánicos, conservación o monitoreo ambiental.
     </td>
     <td>
-      Su amplio alcance funcional puede hacer que la solución sea más generalista para negocios que buscan una plataforma especializada en productos orgánicos, conservación y coordinación entre minimarkets y proveedores.
+      Enfoque generalista que puede resultar menos especializado para negocios que requieren integrar conservación, trazabilidad y abastecimiento de productos orgánicos.
     </td>
     <td>
-      Su enfoque se centra principalmente en la gestión comercial y operativa, por lo que no está especializado en la conservación de productos orgánicos ni en el monitoreo IoT de condiciones ambientales.
+      Enfoque principalmente comercial y operativo, sin especialización en conservación de productos orgánicos ni monitoreo IoT de condiciones ambientales.
     </td>
   </tr>
 
   <tr>
     <th>Oportunidades</th>
     <td>
-      Crecimiento de la digitalización de pequeños negocios, necesidad de mejorar el control de productos orgánicos y posibilidad de incorporar sensores IoT reales y capacidades analíticas avanzadas.
+      Necesidad de reducir pérdidas de productos perecibles, crecimiento de la digitalización de pequeños negocios y posibilidad de incorporar sensores IoT reales y capacidades analíticas.
     </td>
     <td>
-      Crecimiento de la digitalización de bodegas y minimarkets, incorporación de nuevos negocios al comercio digital y expansión de funcionalidades orientadas a la gestión empresarial.
+      Crecimiento de la digitalización de bodegas y minimarkets y expansión de herramientas para la gestión empresarial.
     </td>
     <td>
-      Crecimiento de la demanda de soluciones integrales de gestión, automatización de procesos comerciales y herramientas de análisis para inventarios, ventas y abastecimiento.
+      Crecimiento de la demanda de soluciones integrales de gestión, automatización y análisis de inventarios y operaciones.
     </td>
     <td>
-      Crecimiento de la digitalización de minimarkets y pequeños negocios, así como la necesidad de centralizar inventario, ventas, compras y distribución.
+      Crecimiento de la digitalización de minimarkets y pequeños negocios y necesidad de centralizar sus operaciones.
     </td>
   </tr>
 
   <tr>
     <th>Amenazas</th>
     <td>
-      Entrada de plataformas consolidadas con mayores recursos, resistencia de los usuarios al cambio y dificultad inicial para establecer una red suficiente de proveedores y minimarkets.
+      Entrada de plataformas consolidadas con mayores recursos, resistencia al cambio y dificultad inicial para establecer una red suficiente de proveedores y minimarkets.
     </td>
     <td>
-      Competencia de otras plataformas de gestión empresarial, evolución de las soluciones tecnológicas y aparición de nuevas plataformas especializadas.
+      Competencia de otras plataformas de gestión empresarial y aparición de nuevas soluciones especializadas.
     </td>
     <td>
-      Alta competencia en soluciones de punto de venta y gestión empresarial, incorporación constante de nuevas funcionalidades por parte de plataformas competidoras y evolución de tecnologías de automatización e inteligencia artificial.
+      Alta competencia en soluciones de punto de venta y gestión empresarial y evolución constante de nuevas tecnologías.
     </td>
     <td>
-      Competencia de plataformas de gestión comercial consolidadas y aparición de nuevas soluciones especializadas en minimarkets, inventario y comercio digital.
+      Competencia de plataformas de gestión comercial consolidadas y aparición de nuevas soluciones especializadas.
     </td>
   </tr>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Luego de haber realizado el análisis de nuestra solución con respecto a **CasaMarket, limaPOS y Spry Sales**, nuestro equipo procederá a plantear estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
+Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket, limaPOS y Spry Sales**, nuestro equipo plantea estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
 
 #### Matriz CAME para el desarrollo de estrategias en base al análisis FODA
 
 | **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
 |---|---|---|
-| **Fortalezas (F)**<br>1. Integración de inventario, abastecimiento y monitoreo IoT.<br>2. Especialización en productos orgánicos.<br>3. Dashboards diferenciados para minimarkets y proveedores.<br>4. Trazabilidad de productos, lotes y vencimientos. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Promover la integración entre minimarkets y proveedores como principal elemento diferenciador frente a soluciones generalistas como CasaMarket, limaPOS y Spry Sales.<br>3. Incorporar progresivamente sensores IoT reales para ampliar las capacidades de monitoreo.<br>4. Desarrollar capacidades analíticas que permitan identificar patrones de inventario, vencimiento y abastecimiento.<br>5. Establecer alianzas con minimarkets y proveedores para validar y ampliar la plataforma. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación dentro de una solución especializada.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades específicas de los productos orgánicos.<br>3. Priorizar la especialización en productos orgánicos como elemento diferenciador frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información gestionada por la plataforma.<br>5. Utilizar los resultados de pilotos con usuarios para demostrar el valor de la solución frente a competidores consolidados. |
-| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial de desarrollo.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar validaciones mediante Lean UX con administradores de minimarkets y proveedores.<br>2. Implementar pilotos con usuarios reales para obtener retroalimentación temprana.<br>3. Priorizar las funcionalidades principales antes de ampliar el alcance de la plataforma.<br>4. Desarrollar contenido demostrativo sobre los beneficios de centralizar inventario, abastecimiento, trazabilidad y monitoreo.<br>5. Evolucionar progresivamente desde datos IoT simulados hacia sensores reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar las funcionalidades de mayor valor para evitar competir directamente con plataformas de propósito general por cantidad de funcionalidades.<br>2. Mantener costos de implementación accesibles para pequeñas y medianas empresas.<br>3. Establecer mecanismos de respaldo y seguridad de la información.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets para fortalecer el efecto de red de la plataforma. |
+| **Fortalezas (F)**<br>1. Especialización en productos orgánicos.<br>2. Integración de inventario, abastecimiento y monitoreo.<br>3. Trazabilidad de productos, lotes y vencimientos.<br>4. Dashboards diferenciados para minimarkets y proveedores. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Destacar la reducción de pérdidas mediante el control de inventarios, vencimientos y condiciones de almacenamiento.<br>3. Promover la integración entre minimarkets y proveedores como elemento diferenciador.<br>4. Incorporar progresivamente sensores IoT reales y capacidades analíticas.<br>5. Validar la solución mediante pilotos con minimarkets y proveedores. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades de productos orgánicos.<br>3. Priorizar la especialización frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información.<br>5. Utilizar resultados de pilotos para demostrar el valor de la solución. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar entrevistas con administradores y proveedores.<br>2. Implementar pilotos con usuarios reales.<br>3. Priorizar las funcionalidades de mayor valor.<br>4. Desarrollar contenido demostrativo sobre reducción de pérdidas y mejora del abastecimiento.<br>5. Evolucionar progresivamente hacia sensores IoT reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar funcionalidades de mayor valor para evitar competir por cantidad de funcionalidades.<br>2. Mantener costos accesibles para pequeñas y medianas empresas.<br>3. Implementar mecanismos de respaldo y seguridad.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets. |
 
 ## 2.2. Entrevistas
 
@@ -274,14 +267,13 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 
 #### Preguntas Principales
 
-10. ¿Cómo lleva actualmente el control de los productos que tiene disponibles en el minimarket?
+10. ¿Cómo lleva actualmente el control de los productos, lotes y fechas de vencimiento que tiene en el minimarket?
 11. ¿Podría describir el flujo de trabajo actual desde que identifica la necesidad de reponer un producto hasta que recibe el pedido de su proveedor?
-12. ¿Cómo controla actualmente los lotes y las fechas de vencimiento de los productos?
-13. ¿Cómo determina cuándo necesita realizar un nuevo pedido de abastecimiento?
+12. ¿Cómo determina actualmente cuándo un producto necesita ser repuesto o retirado por encontrarse próximo a vencer?
+13. ¿Cómo controla las condiciones de almacenamiento, como temperatura y humedad, de los productos orgánicos?
 14. ¿Qué dificultades encuentra al buscar, comparar y seleccionar proveedores cuando necesita reponer productos?
-15. ¿Ha experimentado pérdidas o problemas operativos debido a productos próximos a vencer, falta de stock o condiciones inadecuadas de almacenamiento?
-16. ¿Qué tan útil sería para usted contar con una plataforma que integre inventario, abastecimiento, proveedores y monitoreo de las condiciones de almacenamiento?
-
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento?
+16. ¿Qué tan útil sería para usted contar con una plataforma que integre inventario, lotes, vencimientos, abastecimiento, proveedores y monitoreo de las condiciones de almacenamiento?
 
 **Segmento objetivo 2: Proveedores de productos orgánicos**
 
@@ -296,16 +288,16 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 #### Preguntas de Hábitos Digitales
 
 6. ¿Cuál es el dispositivo que utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades de su negocio (Laptop, Tablet o Celular)?
-7. ¿Qué navegador web y sistema operativo utiliza con mayor frecuencia para revisar información relacionada con sus productos, inventario y pedidos?
+7. ¿Qué navegador web y sistema operativo utiliza con mayor frecuencia para revisar información relacionada con sus productos y pedidos?
 8. ¿Cuáles son los canales digitales de interacción que más utiliza para comunicarse con sus clientes (WhatsApp, correo electrónico, llamadas u otros)?
-9. ¿Utiliza actualmente algún software, aplicación o herramienta digital para gestionar su inventario, catálogo, pedidos o clientes?
+9. ¿Utiliza actualmente algún software, aplicación o herramienta digital para gestionar sus productos, disponibilidad, pedidos o clientes?
 
 #### Preguntas Principales
 
-10. ¿Cómo gestiona actualmente el catálogo de productos que ofrece y la disponibilidad de sus productos y lotes?
-11. ¿Podría describir el flujo de trabajo actual desde que recibe un pedido de un minimarket hasta que realiza el despacho del producto?
+10. ¿Cómo gestiona actualmente el catálogo, disponibilidad y lotes de los productos orgánicos que ofrece?
+11. ¿Podría describir el flujo de trabajo actual desde que un minimarket solicita productos hasta que realiza el despacho?
 12. ¿Cómo gestiona actualmente las solicitudes o pedidos provenientes de diferentes minimarkets?
 13. ¿Cómo informa a sus clientes sobre la disponibilidad, precios y características de los productos que ofrece?
-14. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, precios, disponibilidad y lotes?
-15. ¿Ha experimentado pérdidas o problemas operativos relacionados con el deterioro de productos, almacenamiento o gestión de pedidos?
-16. ¿Qué tan útil sería para usted contar con una plataforma que permita gestionar productos, inventario, pedidos y solicitudes de abastecimiento de diferentes minimarkets?
+14. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
+15. ¿Ha experimentado pérdidas o problemas operativos relacionados con el deterioro de productos, almacenamiento, falta de coordinación o gestión de pedidos?
+16. ¿Qué tan útil sería para usted contar con una plataforma que permita gestionar productos, disponibilidad y pedidos de abastecimiento dirigidos a diferentes minimarkets y consultar el estado de cada operación?
