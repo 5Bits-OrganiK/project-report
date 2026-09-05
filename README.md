@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
@@ -264,7 +264,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
-| <img src="docs/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
+| <img src="./assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
@@ -288,31 +288,23 @@ De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos 
 
 ### 1.2.1. Antecedentes y problemática
 
-Los productos orgánicos y alimentos frescos presentan una alta sensibilidad a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento. Cuando estas condiciones no son controladas adecuadamente, aumenta el riesgo de deterioro y, como consecuencia, pueden generarse pérdidas económicas, desperdicio de productos y disminución de la disponibilidad de mercadería para los consumidores.
+El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, alrededor del 44% corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Dávila et al., 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
-En los minimarkets, uno de los principales desafíos consiste en mantener un control adecuado sobre los productos almacenados, sus lotes, fechas de vencimiento y niveles de stock. La ausencia de mecanismos centralizados de seguimiento puede dificultar la identificación temprana de productos próximos a vencer o con niveles de inventario bajos, provocando pérdidas o situaciones de desabastecimiento.
+En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento.
 
-A esta problemática se suma la necesidad de mantener condiciones apropiadas de conservación. El monitoreo manual o fragmentado de variables como temperatura y humedad limita la capacidad de los responsables del establecimiento para identificar oportunamente situaciones anómalas que puedan afectar la conservación de determinados productos.
-
-Por otro lado, el abastecimiento representa un segundo desafío. Los administradores de minimarkets necesitan conocer qué productos se encuentran disponibles y qué proveedores pueden atender sus necesidades de reposición. Los proveedores, a su vez, necesitan gestionar la disponibilidad de sus productos y generar pedidos de abastecimiento dirigidos a los minimarkets.
-
-Esta situación puede generar una fragmentación de información entre inventarios, disponibilidad de productos, proveedores y pedidos. La utilización de hojas de cálculo, aplicaciones de mensajería u otras herramientas independientes puede dificultar la coordinación entre ambas partes y aumentar el riesgo de errores, retrasos y pérdidas de productos.
-
-Además, cuando los procesos de abastecimiento no cuentan con mecanismos de autorización, existe el riesgo de que las operaciones no sean registradas adecuadamente o que se produzcan modificaciones no controladas sobre el inventario. Por ello, resulta necesario establecer un flujo en el que el proveedor pueda generar un pedido, mientras que el administrador del minimarket mantenga el control sobre la aceptación de la operación y la actualización de su inventario.
-
-Ante este escenario, se propone **OrganiK**, una plataforma digital que centraliza la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento, manteniendo diferenciados los procesos de negocio y permisos de los administradores de minimarkets y proveedores, pero conectándolos mediante un flujo controlado de abastecimiento.
+Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos y generar pedidos dirigidos a los establecimientos. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **OrganiK** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los proveedores generen pedidos y que los administradores mantengan el control sobre su aceptación y actualización del inventario.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
 | The 5W's y 2H's | Pregunta | Descripción |
 |:---|:---|:---|
-| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de gestionar el inventario y abastecimiento de productos orgánicos, y proveedores encargados de ofrecer dichos productos y generar pedidos de abastecimiento. |
-| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada el inventario, niveles de stock, lotes, vencimientos, condiciones de almacenamiento y operaciones de abastecimiento de productos orgánicos. |
-| **Where** | ¿Dónde ocurre? | Principalmente en los procesos de almacenamiento, gestión de inventarios y abastecimiento de productos orgánicos en minimarkets, así como en la gestión de productos, disponibilidad y pedidos de los proveedores. |
+| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de gestionar inventarios, conservación y abastecimiento, y proveedores encargados de gestionar la disponibilidad de productos y generar pedidos de abastecimiento. |
+| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada inventarios, niveles de stock, lotes, vencimientos, condiciones de almacenamiento y operaciones de abastecimiento de productos orgánicos. |
+| **Where** | ¿Dónde ocurre? | En los procesos de almacenamiento, gestión de inventarios y abastecimiento de productos orgánicos en minimarkets, así como en la gestión de productos, disponibilidad y pedidos de los proveedores. |
 | **When** | ¿Cuándo sucede? | Durante el almacenamiento, control de inventarios, seguimiento de lotes y vencimientos, identificación de necesidades de reposición, generación de pedidos y aceptación o rechazo de las operaciones de abastecimiento. |
-| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, utilización de procesos manuales y ausencia de una plataforma especializada que conecte inventario, abastecimiento y monitoreo de las condiciones de almacenamiento mediante permisos diferenciados. |
-| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos con stock bajo, controlar lotes y vencimientos, detectar condiciones ambientales anómalas, consultar productos disponibles, generar pedidos de abastecimiento y realizar seguimiento de su aceptación o rechazo. |
-| **How Much** | ¿Cuánto impacto tiene? | El problema puede traducirse en pérdidas económicas por productos deteriorados o vencidos, situaciones de desabastecimiento, mayores tiempos de gestión, errores en los pedidos y dificultades para coordinar las operaciones entre minimarkets y proveedores. |
+| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, el uso de procesos manuales y la ausencia de una plataforma especializada que integre inventario, abastecimiento y monitoreo de las condiciones de almacenamiento. |
+| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos con stock bajo, controlar lotes y vencimientos, detectar condiciones ambientales anómalas, consultar disponibilidad, generar pedidos y realizar seguimiento de las operaciones de abastecimiento. |
+| **How Much** | ¿Cuánto impacto tiene? | En el Perú se pierden aproximadamente **12,8 millones de toneladas de alimentos al año**, equivalentes al **47,6% de la oferta anual de alimentos**. Además, alrededor del **44% de estas pérdidas corresponde a frutas y hortalizas**, productos especialmente sensibles a las condiciones de almacenamiento (OECD, 2025; Dávila et al., 2021). A nivel operativo, estas pérdidas pueden traducirse en productos deteriorados o vencidos, desabastecimiento y mayores costos de gestión. |
 
 ---
 
@@ -320,13 +312,9 @@ Ante este escenario, se propone **OrganiK**, una plataforma digital que centrali
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer o con niveles de inventario que requieran reposición.
+Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer, niveles de inventario bajos o condiciones ambientales que puedan afectar su conservación.
 
-La ausencia de monitoreo integrado de las condiciones ambientales también limita la capacidad de los responsables para reaccionar oportunamente ante variaciones de temperatura o humedad que puedan afectar la conservación de los productos.
-
-Paralelamente, los administradores de minimarkets necesitan conocer la disponibilidad de productos ofrecidos por los proveedores para atender sus necesidades de abastecimiento. Los proveedores, por su parte, necesitan gestionar su catálogo, disponibilidad y lotes, además de contar con un mecanismo que les permita generar pedidos de abastecimiento dirigidos a los minimarkets.
-
-Como consecuencia, pueden producirse pérdidas por deterioro o vencimiento, situaciones de desabastecimiento, errores en los pedidos, retrasos en las operaciones y dificultades para mantener una coordinación eficiente entre compradores y proveedores.
+Asimismo, los proveedores necesitan gestionar sus productos, disponibilidad y lotes, además de generar pedidos de abastecimiento dirigidos a los minimarkets. La falta de integración entre ambas partes puede generar errores, retrasos y poca trazabilidad en las operaciones de abastecimiento, incrementando el riesgo de pérdidas y desabastecimiento.
 
 Ante esto nos surge la siguiente pregunta:
 
@@ -336,13 +324,13 @@ Ante esto nos surge la siguiente pregunta:
 
 2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
 
-3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y dificultades para coordinar y realizar seguimiento de pedidos de abastecimiento.
+3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y coordinar pedidos de abastecimiento.
 
-4. **Gap:** Falta de una plataforma especializada que integre inventario, monitoreo de condiciones de almacenamiento y abastecimiento entre minimarkets y proveedores, manteniendo permisos diferenciados para controlar quién puede modificar el inventario.
+4. **Gap:** Falta de una plataforma especializada que integre inventario, monitoreo de condiciones de almacenamiento y abastecimiento entre minimarkets y proveedores, con permisos diferenciados para controlar quién puede modificar el inventario.
 
-5. **Vision/Strategy:** Centralizar digitalmente la información operativa y proporcionar herramientas que permitan identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que los proveedores puedan generar pedidos y los administradores puedan aceptarlos o rechazarlos antes de actualizar el inventario.
+5. **Vision/Strategy:** Centralizar la información operativa para identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que los proveedores generen pedidos y los administradores puedan aceptarlos o rechazarlos antes de actualizar el inventario.
 
-6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y coordinación de abastecimiento.
+6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y abastecimiento.
 
 ---
 
@@ -358,15 +346,15 @@ Ante esto nos surge la siguiente pregunta:
 
 4. Se asume que la integración entre minimarkets y proveedores permitirá mejorar la eficiencia del proceso de abastecimiento.
 
-5. Se considera que las alertas generadas a partir de las condiciones de temperatura y humedad permitirán identificar oportunamente productos o lotes que puedan encontrarse en riesgo.
+5. Se considera que las alertas de temperatura y humedad permitirán identificar oportunamente condiciones que puedan afectar la conservación de los productos.
 
-6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento entre compradores y proveedores.
+6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento.
 
 7. Se estima que un modelo SaaS puede facilitar el acceso de pequeñas y medianas empresas a las funcionalidades de la plataforma sin requerir infraestructura tecnológica propia.
 
-8. Se considera que la principal diferenciación de la solución será integrar en una misma plataforma la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
+8. Se considera que la principal diferenciación de la solución será integrar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
 
-9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial del proyecto para validar los flujos funcionales sin depender de dispositivos físicos.
+9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial para validar los flujos funcionales sin depender de dispositivos físicos.
 
 10. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y capacidades analíticas más avanzadas.
 
@@ -571,7 +559,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
-Estos segmentos representan dos tipos de organizaciones con necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
+Estos segmentos presentan necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
@@ -585,7 +573,7 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 | **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para gestionar y validar pedidos de abastecimiento provenientes de proveedores. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
-### 1.3.2. Proveedores de Productos Organicos
+### 1.3.2. Proveedores de Productos Orgánicos
 
 | Dimensión | Detalle del perfil |
 |---|---|
