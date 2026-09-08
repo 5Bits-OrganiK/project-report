@@ -36,7 +36,7 @@
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
 | Olivares Lao, Gustavo Alonso           | U202216448       |
 | Quispe Almonacid, Andre Sebastian      | u201815005       |
-| [Apellidos y Nombres del Integrante 5] | [Código]         |
+| Torres | [Código]         |
 
 **Lima, agosto de 2026**
 </div>
