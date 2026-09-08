@@ -32,7 +32,7 @@
 |----------------------------------------|------------------|
 | Atencio Cristobal,Cielo Valentina      | u202424216       |
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| [Apellidos y Nombres del Integrante 3] | [Código]         |
+| Olivares Lao, Gustavo Alonso           | U202216448       |
 | Quispe Almonacid, Andre Sebastian      | u201815005       |
 | [Apellidos y Nombres del Integrante 5] | [Código]         |
 
