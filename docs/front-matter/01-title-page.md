@@ -31,7 +31,7 @@
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| [Apellidos y Nombres del Integrante 2] | [Código]         |
+| Atencio Cristobal,Cielo Vlentina       | u202424216       |
 | [Apellidos y Nombres del Integrante 3] | [Código]         |
 | [Apellidos y Nombres del Integrante 4] | [Código]         |
 | [Apellidos y Nombres del Integrante 5] | [Código]         |
