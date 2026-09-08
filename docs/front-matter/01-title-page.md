@@ -30,8 +30,8 @@
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
+| Atencio Cristobal,Cielo Valentina      | u202424216       |
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| Atencio Cristobal,Cielo Vlentina       | u202424216       |
 | [Apellidos y Nombres del Integrante 3] | [Código]         |
 | [Apellidos y Nombres del Integrante 4] | [Código]         |
 | [Apellidos y Nombres del Integrante 5] | [Código]         |
