@@ -838,54 +838,54 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 #### Preguntas Demográficas
 
 1. ¿Cuál es su nombre completo y qué edad tiene?
-2. ¿Cómo se definiría profesionalmente?
-3. ¿Cuál es su estado civil y tiene familia a su cargo?
-4. ¿Cuál es su cargo exacto y cuántos años de experiencia tiene en la gestión de minimarkets o negocios comerciales?
-5. ¿En qué distrito/provincia reside y dónde se ubica usualmente el minimarket en el que trabaja?
+2. ¿Cuál es su cargo dentro del minimarket y cuántos años de experiencia tiene en la gestión del negocio?
+3. ¿En qué distrito o provincia se encuentra ubicado el minimarket?
 
 #### Preguntas de Hábitos Digitales
 
-6. ¿Cuál es el dispositivo que utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket (Laptop, Tablet o Celular)?
-7. ¿Qué navegador web y sistema operativo utiliza con mayor frecuencia para revisar información relacionada con el inventario y las operaciones del negocio?
-8. ¿Cuáles son los canales digitales de interacción que más utiliza para comunicarse con sus proveedores (WhatsApp, correo electrónico, llamadas u otros)?
-9. ¿Utiliza actualmente algún software, aplicación o herramienta digital para gestionar el inventario, las compras o los proveedores?
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información del inventario?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus proveedores?
 
 #### Preguntas Principales
 
-10. ¿Cómo lleva actualmente el control de los productos, lotes y fechas de vencimiento que tiene en el minimarket?
-11. ¿Podría describir el flujo de trabajo actual desde que identifica la necesidad de reponer un producto hasta que recibe el pedido de su proveedor?
-12. ¿Cómo determina actualmente cuándo un producto necesita ser repuesto o retirado por encontrarse próximo a vencer?
-13. ¿Cómo controla las condiciones de almacenamiento, como temperatura y humedad, de los productos orgánicos?
-14. ¿Qué dificultades encuentra al buscar, comparar y seleccionar proveedores cuando necesita reponer productos?
-15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento?
-16. ¿Qué tan útil sería para usted contar con una plataforma que integre inventario, lotes, vencimientos, abastecimiento, proveedores y monitoreo de las condiciones de almacenamiento?
+7. ¿Cómo registra y controla actualmente los productos disponibles en el minimarket?
+8. ¿Podría describir el proceso desde que identifica la necesidad de abastecer un producto hasta que este queda registrado en el inventario?
+9. ¿Cómo controla actualmente los lotes y las fechas de vencimiento de los productos?
+10. ¿Cómo determina qué productos necesitan ser repuestos o retirados por encontrarse próximos a vencer?
+11. ¿Cómo controla actualmente las condiciones de almacenamiento de los productos, como temperatura y humedad?
+12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
+13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
+14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
 
 **Segmento objetivo 2: Proveedores de productos orgánicos**
 
 #### Preguntas Demográficas
 
 1. ¿Cuál es su nombre completo y qué edad tiene?
-2. ¿Cómo se definiría profesionalmente?
-3. ¿Cuál es su estado civil y tiene familia a su cargo?
-4. ¿Cuál es su cargo exacto y cuántos años de experiencia tiene en la comercialización o distribución de productos orgánicos?
-5. ¿En qué distrito/provincia reside y dónde se ubica usualmente la empresa o negocio proveedor?
+2. ¿Cuál es su cargo dentro de la empresa y cuántos años de experiencia tiene en la comercialización o distribución de productos?
+3. ¿En qué distrito o provincia se encuentra ubicado su negocio o centro de operaciones?
 
 #### Preguntas de Hábitos Digitales
 
-6. ¿Cuál es el dispositivo que utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades de su negocio (Laptop, Tablet o Celular)?
-7. ¿Qué navegador web y sistema operativo utiliza con mayor frecuencia para revisar información relacionada con sus productos y pedidos?
-8. ¿Cuáles son los canales digitales de interacción que más utiliza para comunicarse con sus clientes (WhatsApp, correo electrónico, llamadas u otros)?
-9. ¿Utiliza actualmente algún software, aplicación o herramienta digital para gestionar sus productos, disponibilidad, pedidos o clientes?
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar productos y pedidos?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información de los productos que ofrece?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus clientes?
 
 #### Preguntas Principales
 
-10. ¿Cómo gestiona actualmente el catálogo, disponibilidad y lotes de los productos orgánicos que ofrece?
-11. ¿Podría describir el flujo de trabajo actual desde que un minimarket solicita productos hasta que realiza el despacho?
-12. ¿Cómo gestiona actualmente las solicitudes o pedidos provenientes de diferentes minimarkets?
-13. ¿Cómo informa a sus clientes sobre la disponibilidad, precios y características de los productos que ofrece?
-14. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
-15. ¿Ha experimentado pérdidas o problemas operativos relacionados con el deterioro de productos, almacenamiento, falta de coordinación o gestión de pedidos?
-16. ¿Qué tan útil sería para usted contar con una plataforma que permita gestionar productos, disponibilidad y pedidos de abastecimiento dirigidos a diferentes minimarkets y consultar el estado de cada operación?
+7. ¿Cómo registra y administra actualmente el catálogo de productos que ofrece?
+8. ¿Cómo controla actualmente la disponibilidad y los lotes de los productos que tiene para ofrecer?
+9. ¿Podría describir el proceso desde que un minimarket solicita productos hasta que el pedido es preparado y despachado?
+10. ¿Cómo gestiona actualmente los pedidos o solicitudes provenientes de diferentes minimarkets?
+11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
+12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
+13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
+15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
 ### 2.2.2. Registro de entrevistas
 
