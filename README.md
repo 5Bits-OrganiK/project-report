@@ -32,13 +32,14 @@
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
+| Atencio Cristobal,Cielo Valentina      | u202424216       |
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| [Apellidos y Nombres del Integrante 2] | [Código]         |
-| [Apellidos y Nombres del Integrante 3] | [Código]         |
-| [Apellidos y Nombres del Integrante 4] | [Código]         |
-| [Apellidos y Nombres del Integrante 5] | [Código]         |
+| Olivares Lao, Gustavo Alonso           | U202216448       |
+| Quispe Almonacid, Andre Sebastian      | u201815005       |
+| Torres | [Código]         |
 
 **Lima, agosto de 2026**
+</div>
 
 ---
 
@@ -247,73 +248,63 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 ### 1.1.1. Descripción de la Startup
 
-**5bits** es una startup tecnológica orientada al desarrollo de soluciones digitales para mejorar la gestión logística, el abastecimiento y la conservación de productos orgánicos. Su propuesta busca conectar a **administradores de minimarkets y proveedores** mediante soluciones digitales que permitan centralizar y optimizar los principales procesos relacionados con el manejo de productos orgánicos.
+5bits es una startup tecnológica enfocada en el desarrollo de soluciones digitales para mejorar la gestión logística, el abastecimiento y la conservación de productos orgánicos. La startup busca contribuir a la transformación digital de los procesos relacionados con la comercialización y distribución de productos orgánicos, promoviendo una gestión más eficiente y sostenible.
 
-Como parte de su propuesta tecnológica, **5bits** desarrolla **OrganiK**, una plataforma digital orientada a mejorar la gestión de inventarios, abastecimiento y condiciones de almacenamiento de productos orgánicos. La solución busca proporcionar información centralizada que facilite la toma de decisiones logísticas y permita anticipar necesidades de reposición, identificar productos en riesgo y mejorar la coordinación entre minimarkets y proveedores.
+Su enfoque se encuentra dirigido principalmente a administradores de minimarkets y proveedores de productos orgánicos, considerando las necesidades y desafíos que ambos segmentos enfrentan dentro de la cadena de abastecimiento. De esta manera, 5bits busca generar valor mediante el uso de tecnologías digitales que faciliten la gestión de información y la coordinación entre los diferentes actores involucrados.
 
-La plataforma contempla dos segmentos de negocio diferenciados: **administradores de minimarkets y proveedores**. Ambos comparten una infraestructura tecnológica común, autenticación, comunicación, notificaciones y gestión de pedidos, pero cuentan con dashboards, funcionalidades y permisos específicos de acuerdo con sus necesidades operativas y procesos de negocio.
+La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el control de inventarios, abastecimiento, trazabilidad, conservación y gestión de productos orgánicos, buscando contribuir a una cadena de suministro más organizada, eficiente y transparente.
 
-Los administradores de minimarkets utilizan la plataforma principalmente para gestionar sus inventarios, productos, lotes, fechas de vencimiento, ubicaciones y condiciones de almacenamiento. Asimismo, pueden identificar necesidades de abastecimiento, consultar proveedores, realizar solicitudes de abastecimiento y recibir alertas relacionadas con productos o condiciones de almacenamiento que representen un riesgo.
+**Misión:** Facilitar la transformación digital de la gestión logística, el abastecimiento y la conservación de productos orgánicos, contribuyendo a que minimarkets y proveedores desarrollen operaciones más eficientes, organizadas y sostenibles.
 
-Por su parte, los proveedores utilizan la plataforma para gestionar su catálogo de productos, disponibilidad, lotes, pedidos provenientes de los minimarkets y procesos relacionados con el abastecimiento. De esta manera, OrganiK permite conectar la necesidad de productos de los minimarkets con la oferta disponible de los proveedores.
-
-**Misión:** Facilitar la gestión logística, el abastecimiento y la conservación de productos orgánicos mediante herramientas digitales que permitan a administradores de minimarkets y proveedores mejorar la eficiencia de sus operaciones y tomar decisiones basadas en información centralizada.
-
-**Visión:** Convertirse en una plataforma tecnológica de referencia para la gestión inteligente de productos orgánicos, conectando digitalmente a minimarkets y proveedores y contribuyendo a una cadena de abastecimiento más eficiente y sostenible.
+**Visión:** Convertirse en una startup tecnológica de referencia en la transformación digital de la cadena de abastecimiento de productos orgánicos, promoviendo una gestión más eficiente, transparente y sostenible.
 
 **Valores:** Eficiencia, trazabilidad, sostenibilidad, transparencia, innovación y orientación al usuario.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> **Plantilla:** completar los datos de cada integrante y reemplazar la ruta de la imagen por la fotografía correspondiente.
-
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="./assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
+| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Andre Sebastian Quispe Almonacid** | U201815005 | Ingeniería de Software | Me considero un estudiante de ingeniería de software responsable, proactivo y que se adapta rápidamente a los retos de cada ciclo. Disfruto trabajar en equipo y siempre estoy dispuesto a ayudar a mis compañeros en lo que necesiten. Combino esta actitud colaborativa con mi pasión por la tecnología y la docencia para construir soluciones prácticas: desde aplicaciones web y bases de datos, hasta plataformas para mis propias tutorías y el negocio familiar. Además, en mi tiempo libre optimizo hardware, estudio inglés y disfruto los videojuegos, siempre buscando aportar valor y llevar mis ideas a la realidad.|
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
+| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 
 ---
 
 ## 1.2. Solution Profile
 
-Nuestra solución, **OrganiK**, es una plataforma web orientada a la **gestión logística, abastecimiento y monitoreo de productos orgánicos**. La solución conecta a administradores de minimarkets y proveedores dentro de un mismo ecosistema digital, permitiendo gestionar inventarios, productos, lotes, abastecimiento y condiciones de almacenamiento desde una plataforma centralizada.
+Nuestra solución OrganiK, es una plataforma web para la gestión de inventarios, abastecimiento y monitoreo de productos orgánicos, que conecta a administradores de minimarkets y proveedores mediante un ecosistema digital centralizado.
 
-Para los **administradores de minimarkets**, la plataforma permite controlar el inventario de productos, gestionar lotes, fechas de vencimiento y ubicaciones, identificar necesidades de reposición y realizar solicitudes de abastecimiento a proveedores. Asimismo, permite supervisar las condiciones de almacenamiento mediante el monitoreo de temperatura y humedad, generando alertas cuando se detectan condiciones que puedan representar un riesgo para determinados productos.
+Para los administradores de minimarkets, permite gestionar productos, inventario, lotes, vencimientos, ubicaciones, mermas y donaciones, además de monitorear temperatura y humedad para detectar posibles riesgos de conservación.
 
-Para los **proveedores**, la plataforma permite gestionar su catálogo de productos, disponibilidad, lotes y pedidos provenientes de los minimarkets. De esta manera, pueden atender las necesidades de abastecimiento, administrar sus operaciones y mantener información actualizada sobre los productos disponibles para sus clientes.
+Para los proveedores, permite gestionar productos, disponibilidad y lotes, así como crear y consultar pedidos de abastecimiento dirigidos a los minimarkets. Los proveedores no pueden modificar directamente el inventario.
 
-La solución integra información de inventario, abastecimiento y monitoreo IoT para proporcionar una visión más completa de la operación. Los datos de los sensores pueden ser simulados durante la implementación del proyecto, permitiendo validar los flujos de monitoreo y generación de alertas sin depender de dispositivos físicos.
+Los pedidos generados por los proveedores son revisados por el administrador, quien puede aceptarlos o rechazarlos. Si el pedido es aceptado, se registra la operación y se actualiza el inventario; si es rechazado, el inventario permanece sin cambios.
 
-OrganiK busca mejorar la eficiencia de la cadena de abastecimiento de productos orgánicos mediante información centralizada, trazabilidad y flujos de trabajo diferenciados para cada segmento.
+La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
+
+De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados**, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario.
 
 ### 1.2.1. Antecedentes y problemática
 
-Los productos orgánicos y alimentos frescos presentan una alta sensibilidad a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento. Cuando estas condiciones no son controladas adecuadamente, aumenta el riesgo de deterioro y, como consecuencia, pueden generarse pérdidas económicas, desperdicio de productos y disminución de la disponibilidad de mercadería para los consumidores.
+El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, alrededor del 44% corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Dávila et al., 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
-En los minimarkets, uno de los principales desafíos consiste en mantener un control adecuado sobre los productos almacenados, sus lotes, fechas de vencimiento y niveles de stock. La ausencia de mecanismos centralizados de seguimiento puede dificultar la identificación temprana de productos próximos a vencer o con niveles de inventario bajos, provocando pérdidas o situaciones de desabastecimiento.
+En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento.
 
-A esta problemática se suma la necesidad de mantener condiciones apropiadas de conservación. El monitoreo manual o fragmentado de variables como temperatura y humedad limita la capacidad de los responsables del establecimiento para identificar oportunamente situaciones anómalas que puedan afectar la conservación de determinados productos.
-
-Por otro lado, el abastecimiento representa un segundo desafío. Los administradores de minimarkets necesitan conocer qué productos se encuentran disponibles y qué proveedores pueden atender sus necesidades de reposición. Los proveedores, a su vez, necesitan gestionar las solicitudes y pedidos provenientes de diferentes minimarkets y mantener información actualizada sobre su oferta y disponibilidad.
-
-Esta situación puede generar una fragmentación de información entre inventarios, necesidades de abastecimiento, proveedores y pedidos. La utilización de hojas de cálculo, aplicaciones de mensajería u otras herramientas independientes puede dificultar la coordinación entre ambas partes y aumentar el riesgo de errores, retrasos y pérdidas de productos.
-
-Ante este escenario, se propone **OrganiK**, una plataforma digital que centraliza la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento, manteniendo diferenciados los procesos de negocio de los administradores de minimarkets y proveedores, pero conectándolos mediante el flujo de abastecimiento.
+Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos y generar pedidos dirigidos a los establecimientos. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **OrganiK** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los proveedores generen pedidos y que los administradores mantengan el control sobre su aceptación y actualización del inventario.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
 | The 5W's y 2H's | Pregunta | Descripción |
 |:---|:---|:---|
-| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de gestionar el inventario y abastecimiento de productos orgánicos, y proveedores encargados de ofrecer y abastecer dichos productos. |
-| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada el inventario, niveles de stock, lotes, vencimientos, condiciones de almacenamiento y abastecimiento de productos orgánicos. |
-| **Where** | ¿Dónde ocurre? | Principalmente en los procesos de almacenamiento, gestión de inventarios y abastecimiento de productos orgánicos en minimarkets, así como en la gestión de productos y pedidos de los proveedores. |
-| **When** | ¿Cuándo sucede? | Durante el almacenamiento, control de inventarios, seguimiento de lotes y vencimientos, identificación de necesidades de reposición y procesos de abastecimiento. |
-| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, utilización de procesos manuales y ausencia de una plataforma especializada que conecte inventario, abastecimiento y monitoreo de las condiciones de almacenamiento. |
-| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos con stock bajo, controlar lotes y vencimientos, detectar condiciones ambientales anómalas, encontrar proveedores disponibles y realizar seguimiento de las solicitudes y pedidos de abastecimiento. |
-| **How Much** | ¿Cuánto impacto tiene? | El problema puede traducirse en pérdidas económicas por productos deteriorados o vencidos, situaciones de desabastecimiento, mayores tiempos de gestión y dificultades para coordinar las operaciones entre minimarkets y proveedores. |
+| **Who** | ¿Quiénes están involucrados? | Administradores de minimarkets responsables de gestionar inventarios, conservación y abastecimiento, y proveedores encargados de gestionar la disponibilidad de productos y generar pedidos de abastecimiento. |
+| **What** | ¿Cuál es el problema? | Dificultad para gestionar de manera integrada inventarios, niveles de stock, lotes, vencimientos, condiciones de almacenamiento y operaciones de abastecimiento de productos orgánicos. |
+| **Where** | ¿Dónde ocurre? | En los procesos de almacenamiento, gestión de inventarios y abastecimiento de productos orgánicos en minimarkets, así como en la gestión de productos, disponibilidad y pedidos de los proveedores. |
+| **When** | ¿Cuándo sucede? | Durante el almacenamiento, control de inventarios, seguimiento de lotes y vencimientos, identificación de necesidades de reposición, generación de pedidos y aceptación o rechazo de las operaciones de abastecimiento. |
+| **Why** | ¿Por qué sucede? | Debido a la fragmentación de la información, el uso de procesos manuales y la ausencia de una plataforma especializada que integre inventario, abastecimiento y monitoreo de las condiciones de almacenamiento. |
+| **How** | ¿Cómo se manifiesta? | Mediante dificultades para identificar productos con stock bajo, controlar lotes y vencimientos, detectar condiciones ambientales anómalas, consultar disponibilidad, generar pedidos y realizar seguimiento de las operaciones de abastecimiento. |
+| **How Much** | ¿Cuánto impacto tiene? | En el Perú se pierden aproximadamente **12,8 millones de toneladas de alimentos al año**, equivalentes al **47,6% de la oferta anual de alimentos**. Además, alrededor del **44% de estas pérdidas corresponde a frutas y hortalizas**, productos especialmente sensibles a las condiciones de almacenamiento (OECD, 2025; Dávila et al., 2021). A nivel operativo, estas pérdidas pueden traducirse en productos deteriorados o vencidos, desabastecimiento y mayores costos de gestión. |
 
 ---
 
@@ -321,29 +312,25 @@ Ante este escenario, se propone **OrganiK**, una plataforma digital que centrali
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer o con niveles de inventario que requieran reposición.
+Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer, niveles de inventario bajos o condiciones ambientales que puedan afectar su conservación.
 
-La ausencia de monitoreo integrado de las condiciones ambientales también limita la capacidad de los responsables para reaccionar oportunamente ante variaciones de temperatura o humedad que puedan afectar la conservación de los productos.
-
-Paralelamente, los administradores de minimarkets necesitan mantener una comunicación eficiente con sus proveedores para conocer la disponibilidad de productos y realizar solicitudes de abastecimiento. Los proveedores, por su parte, necesitan administrar las solicitudes y pedidos provenientes de diferentes minimarkets y mantener actualizada la información de sus productos y disponibilidad.
-
-Como consecuencia, pueden producirse pérdidas por deterioro o vencimiento, situaciones de desabastecimiento, errores en solicitudes de abastecimiento, retrasos en los pedidos y dificultades para mantener una coordinación eficiente entre compradores y proveedores.
+Asimismo, los proveedores necesitan gestionar sus productos, disponibilidad y lotes, además de generar pedidos de abastecimiento dirigidos a los minimarkets. La falta de integración entre ambas partes puede generar errores, retrasos y poca trazabilidad en las operaciones de abastecimiento, incrementando el riesgo de pérdidas y desabastecimiento.
 
 Ante esto nos surge la siguiente pregunta:
 
-**¿Cómo podría una plataforma web centralizar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos para reducir pérdidas, anticipar necesidades de reposición y mejorar la coordinación entre administradores de minimarkets y proveedores?**
+**¿Cómo podría una plataforma web centralizar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos para reducir pérdidas, anticipar necesidades de reposición y mejorar la coordinación entre administradores de minimarkets y proveedores mediante un flujo controlado de pedidos?**
 
 1. **Domain:** Gestión logística, abastecimiento y monitoreo de productos orgánicos.
 
 2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
 
-3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, y problemas de coordinación durante el abastecimiento.
+3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y coordinar pedidos de abastecimiento.
 
-4. **Gap:** Falta de una plataforma especializada que integre inventario, monitoreo de condiciones de almacenamiento y abastecimiento entre minimarkets y proveedores.
+4. **Gap:** Falta de una plataforma especializada que integre inventario, monitoreo de condiciones de almacenamiento y abastecimiento entre minimarkets y proveedores, con permisos diferenciados para controlar quién puede modificar el inventario.
 
-5. **Vision/Strategy:** Centralizar digitalmente la información operativa y proporcionar herramientas que permitan identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento.
+5. **Vision/Strategy:** Centralizar la información operativa para identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que los proveedores generen pedidos y los administradores puedan aceptarlos o rechazarlos antes de actualizar el inventario.
 
-6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y coordinación de abastecimiento.
+6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y abastecimiento.
 
 ---
 
@@ -355,19 +342,19 @@ Ante esto nos surge la siguiente pregunta:
 
 2. Se plantea que una plataforma centralizada puede mejorar la visibilidad sobre inventarios, niveles de stock, lotes, vencimientos y condiciones de almacenamiento.
 
-3. Se considera que los proveedores necesitan una herramienta especializada para gestionar productos, disponibilidad, lotes y pedidos provenientes de diferentes minimarkets.
+3. Se considera que los proveedores necesitan una herramienta especializada para gestionar productos, disponibilidad, lotes y pedidos de abastecimiento dirigidos a diferentes minimarkets.
 
 4. Se asume que la integración entre minimarkets y proveedores permitirá mejorar la eficiencia del proceso de abastecimiento.
 
-5. Se considera que las alertas generadas a partir de las condiciones de temperatura y humedad permitirán identificar oportunamente productos o lotes que puedan encontrarse en riesgo.
+5. Se considera que las alertas de temperatura y humedad permitirán identificar oportunamente condiciones que puedan afectar la conservación de los productos.
 
-6. Se plantea que la centralización de las solicitudes y pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento entre compradores y proveedores.
+6. Se plantea que la centralización de los pedidos permitirá mejorar la trazabilidad de las operaciones de abastecimiento.
 
 7. Se estima que un modelo SaaS puede facilitar el acceso de pequeñas y medianas empresas a las funcionalidades de la plataforma sin requerir infraestructura tecnológica propia.
 
-8. Se considera que la principal diferenciación de la solución será integrar en una misma plataforma la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
+8. Se considera que la principal diferenciación de la solución será integrar la gestión de inventarios, abastecimiento y monitoreo de las condiciones de almacenamiento de productos orgánicos.
 
-9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial del proyecto para validar los flujos funcionales sin depender de dispositivos físicos.
+9. Se asume que los datos de monitoreo IoT pueden ser simulados durante la etapa inicial para validar los flujos funcionales sin depender de dispositivos físicos.
 
 10. Se asume que la plataforma podrá evolucionar posteriormente para incorporar sensores IoT reales y capacidades analíticas más avanzadas.
 
@@ -389,7 +376,7 @@ Ante esto nos surge la siguiente pregunta:
 
 5. Mejorar la disponibilidad de información para la toma de decisiones relacionadas con el abastecimiento.
 
-6. Incrementar la trazabilidad de las solicitudes y pedidos desde su creación hasta su atención.
+6. Incrementar la trazabilidad de los pedidos desde su creación por parte del proveedor hasta su aceptación o rechazo por parte del administrador.
 
 **User Assumptions**
 
@@ -401,11 +388,11 @@ Ante esto nos surge la siguiente pregunta:
 
 4. Los administradores de minimarkets necesitan consultar la disponibilidad de productos ofrecidos por proveedores conectados.
 
-5. Los proveedores necesitan visualizar y gestionar las solicitudes y pedidos recibidos de diferentes minimarkets desde un único sistema.
+5. Los proveedores necesitan visualizar y gestionar sus productos, disponibilidad y lotes desde un único sistema.
 
-6. Los proveedores requieren controlar la disponibilidad de sus productos y lotes para atender las necesidades de abastecimiento.
+6. Los proveedores requieren generar pedidos de abastecimiento dirigidos a los minimarkets y consultar el estado de sus operaciones.
 
-7. Ambos segmentos necesitan consultar el estado de una solicitud o pedido y mantener información actualizada sobre el proceso de abastecimiento.
+7. Ambos segmentos necesitan consultar el estado de un pedido y mantener información actualizada sobre el proceso de abastecimiento.
 
 **User Outcome Assumptions**
 
@@ -415,11 +402,11 @@ Ante esto nos surge la siguiente pregunta:
 
 3. Los administradores de minimarkets podrán identificar condiciones ambientales anómalas que puedan representar un riesgo para los productos almacenados.
 
-4. Los administradores de minimarkets podrán encontrar productos disponibles en proveedores conectados sin depender de múltiples canales de comunicación.
+4. Los administradores de minimarkets podrán revisar los pedidos generados por proveedores y decidir si aceptarlos o rechazarlos antes de modificar su inventario.
 
-5. Los proveedores podrán administrar sus solicitudes y pedidos de manera más organizada y mantener trazabilidad sobre cada operación de abastecimiento.
+5. Los proveedores podrán consultar sus productos y disponibilidad, generar pedidos de abastecimiento y realizar seguimiento de su estado.
 
-6. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de las solicitudes y pedidos de abastecimiento.
+6. Los usuarios experimentarán una reducción de la incertidumbre respecto al estado de los pedidos de abastecimiento.
 
 7. Los administradores de ambos segmentos podrán tomar decisiones operativas con mayor rapidez al contar con información centralizada y actualizada.
 
@@ -437,11 +424,11 @@ Creemos que al implementar un sistema de monitoreo de temperatura y humedad, aco
 
 **Hypothesis 3**
 
-Creemos que al conectar la disponibilidad de productos de los proveedores con las necesidades de abastecimiento de los minimarkets, reduciremos el tiempo necesario para encontrar productos disponibles para reposición. Lo sabremos cuando los administradores puedan consultar y seleccionar productos de proveedores conectados desde la plataforma.
+Creemos que al permitir que los proveedores consulten sus productos y disponibilidad y generen pedidos de abastecimiento dirigidos a los minimarkets, facilitaremos la coordinación de las operaciones de abastecimiento. Lo sabremos cuando los proveedores puedan crear pedidos desde la plataforma y consultar su estado sin depender de canales externos.
 
 **Hypothesis 4**
 
-Creemos que al centralizar el proceso de abastecimiento y el ciclo de vida de las solicitudes y pedidos, reduciremos la incertidumbre sobre el estado de las operaciones. Lo sabremos cuando administradores de minimarkets y proveedores puedan consultar el estado actualizado de cada operación sin depender de canales externos de comunicación.
+Creemos que al implementar un flujo en el que los administradores de minimarkets puedan aceptar o rechazar los pedidos generados por proveedores, mantendremos el control sobre las modificaciones del inventario. Lo sabremos cuando un pedido aceptado actualice correctamente el inventario y un pedido rechazado no genere modificaciones sobre este.
 
 **Hypothesis 5**
 
@@ -458,9 +445,9 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
       <br><br>
       Los administradores de minimarkets y proveedores de productos orgánicos gestionan inventarios, abastecimiento y condiciones de almacenamiento mediante procesos que pueden encontrarse fragmentados.
       <br><br>
-      Esta falta de centralización dificulta identificar productos con niveles de stock bajos, controlar lotes y vencimientos, detectar condiciones de almacenamiento de riesgo, conocer la disponibilidad de proveedores y realizar seguimiento de las operaciones de abastecimiento.
+      Esta falta de centralización dificulta identificar productos con niveles de stock bajos, controlar lotes y vencimientos, detectar condiciones de almacenamiento de riesgo, conocer la disponibilidad de productos y realizar seguimiento de las operaciones de abastecimiento.
       <br><br>
-      Como consecuencia, pueden generarse pérdidas por deterioro o vencimiento, situaciones de desabastecimiento y dificultades de coordinación entre minimarkets y proveedores.
+      Además, la ausencia de un flujo controlado de pedidos puede dificultar que los administradores mantengan el control sobre las modificaciones de su inventario.
     </td>
     <td rowspan="2" valign="top">
       <strong>Solution ideas</strong>
@@ -473,15 +460,21 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
       <br><br>
       - Control de niveles de stock y necesidades de reposición
       <br><br>
+      - Gestión de pérdidas, mermas y donaciones
+      <br><br>
       - Monitoreo de temperatura y humedad mediante datos simulados
       <br><br>
       - Sistema de alertas para productos o lotes en riesgo
       <br><br>
       - Catálogo y disponibilidad de productos de proveedores
       <br><br>
-      - Gestión de solicitudes de abastecimiento
+      - Creación de pedidos de abastecimiento por parte de proveedores
       <br><br>
-      - Gestión y seguimiento de pedidos
+      - Aceptación o rechazo de pedidos por parte de los administradores
+      <br><br>
+      - Actualización del inventario únicamente después de aceptar un pedido
+      <br><br>
+      - Seguimiento del estado de los pedidos
       <br><br>
       - Información centralizada para apoyar decisiones logísticas
     </td>
@@ -498,7 +491,9 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
       <br><br>
       - Incrementar la visibilidad sobre las condiciones de almacenamiento
       <br><br>
-      - Mejorar la visibilidad sobre el estado de las solicitudes y pedidos
+      - Mejorar la visibilidad sobre el estado de los pedidos
+      <br><br>
+      - Mantener el control de los administradores sobre las modificaciones del inventario
       <br><br>
       - Centralizar la información operativa de minimarkets y proveedores
     </td>
@@ -522,9 +517,11 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
       <br><br>
       - Identificación de condiciones de almacenamiento anómalas
       <br><br>
-      - Consulta de disponibilidad de proveedores
+      - Consulta de disponibilidad de productos
       <br><br>
-      - Gestión y seguimiento de solicitudes y pedidos
+      - Creación y seguimiento de pedidos de abastecimiento
+      <br><br>
+      - Control del administrador sobre la aceptación o rechazo de pedidos
       <br><br>
       - Mejor coordinación entre minimarkets y proveedores
     </td>
@@ -537,9 +534,9 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
       <br><br>
       - Si se implementan alertas basadas en temperatura y humedad, se detectarán oportunamente condiciones de almacenamiento de riesgo.
       <br><br>
-      - Si se conecta la disponibilidad de proveedores con las necesidades de los minimarkets, se facilitará el abastecimiento.
+      - Si los proveedores pueden consultar sus productos y generar pedidos de abastecimiento, se facilitará la coordinación con los minimarkets.
       <br><br>
-      - Si se centraliza el ciclo de vida de las solicitudes y pedidos, se reducirá la incertidumbre sobre las operaciones de abastecimiento.
+      - Si los administradores pueden aceptar o rechazar los pedidos antes de actualizar el inventario, se mantendrá el control sobre las modificaciones de sus existencias.
       <br><br>
       - Si cada segmento cuenta con un dashboard especializado, se facilitará la ejecución de sus tareas principales.
     </td>
@@ -551,7 +548,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
     <td valign="top">
       <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
       <br><br>
-      Realizar entrevistas con administradores de minimarkets y proveedores y validar mediante un prototipo de baja fidelidad los flujos principales de inventario, alertas de monitoreo, consulta de disponibilidad y gestión de solicitudes y pedidos de abastecimiento.
+      Realizar entrevistas con administradores de minimarkets y proveedores y validar mediante un prototipo de baja fidelidad los flujos principales de inventario, alertas de monitoreo, consulta de disponibilidad, creación de pedidos por parte del proveedor y aceptación o rechazo de pedidos por parte del administrador.
     </td>
   </tr>
 </table>
@@ -562,7 +559,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
-Estos segmentos representan dos tipos de organizaciones con necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
+Estos segmentos presentan necesidades de negocio diferentes. Por ello, la plataforma utiliza una infraestructura tecnológica compartida, pero ofrece dashboards, funcionalidades y permisos específicos para cada segmento.
 
 Los roles operativos que puedan existir dentro de cada empresa forman parte de la estructura interna de cada segmento y no constituyen segmentos objetivos independientes.
 
@@ -573,21 +570,671 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 | **Perfil Demográfico** | Propietarios, administradores o responsables de pequeños y medianos minimarkets dedicados a la comercialización de productos orgánicos y alimentos frescos. Son responsables de supervisar las operaciones del establecimiento y tomar decisiones relacionadas con inventario, conservación y abastecimiento. |
 | **Perfil Geográfico** | Negocios ubicados principalmente en zonas urbanas con demanda de productos orgánicos y necesidad de mantener un abastecimiento constante. El segmento inicial puede concentrarse en Lima Metropolitana. |
 | **Perfil Psicográfico** | Personas orientadas a mantener la calidad y disponibilidad de sus productos, reducir pérdidas y mejorar la eficiencia de sus operaciones. Valoran soluciones sencillas que permitan controlar el inventario, anticipar necesidades de reposición y tomar decisiones basadas en información actualizada. |
-| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento de productos, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para encontrar proveedores disponibles. |
+| **Puntos de Dolor** | Pérdidas ocasionadas por deterioro o vencimiento, dificultad para controlar niveles de stock, lotes y fechas de vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, situaciones de desabastecimiento y dificultad para gestionar y validar pedidos de abastecimiento provenientes de proveedores. |
 | **Uso de Tecnología** | Utilizan herramientas digitales para administrar ventas, inventarios y comunicación con proveedores, aunque pueden depender de hojas de cálculo, aplicaciones de mensajería y sistemas independientes que no integran toda la información operativa. |
 
-### 1.3.2. Proveedores
+### 1.3.2. Proveedores de Productos Orgánicos
 
 | Dimensión | Detalle del perfil |
 |---|---|
-| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad, lotes, solicitudes y pedidos de abastecimiento. |
+| **Perfil Demográfico** | Empresas, productores, distribuidores o comerciantes mayoristas de productos orgánicos que abastecen a minimarkets. Sus representantes son responsables de gestionar el catálogo, productos, disponibilidad, lotes y pedidos de abastecimiento. |
 | **Perfil Geográfico** | Proveedores ubicados en zonas productoras, centros de distribución o áreas comerciales que atienden a minimarkets y otros negocios comercializadores de productos orgánicos. |
-| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, atender solicitudes oportunamente y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
-| **Puntos de Dolor** | Dificultad para administrar solicitudes y pedidos de múltiples minimarkets, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la disponibilidad de sus productos. |
-| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar inventarios, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets. |
+| **Perfil Psicográfico** | Negocios orientados a mantener una disponibilidad eficiente de sus productos, generar pedidos de abastecimiento oportunamente y establecer relaciones comerciales duraderas con sus clientes. Valoran la organización, trazabilidad y visibilidad de sus operaciones de abastecimiento. |
+| **Puntos de Dolor** | Dificultad para administrar productos y disponibilidad, generar pedidos de abastecimiento para diferentes minimarkets, falta de visibilidad sobre el estado de las operaciones, gestión fragmentada de productos y lotes, y dificultades para coordinar el abastecimiento y mantener actualizada la información de sus productos. |
+| **Uso de Tecnología** | Utilizan herramientas digitales, hojas de cálculo y aplicaciones de comunicación para gestionar productos, clientes y pedidos, pero pueden carecer de una plataforma especializada que conecte directamente su disponibilidad de productos con las necesidades de los minimarkets y permita realizar seguimiento de los pedidos generados. |
 
 ---
 
-hola
+## 2.1. Competidores
+
+Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
+
+- **CasaMarket:** Plataforma de gestión empresarial orientada principalmente a bodegas, minimarkets y tiendas de conveniencia. Permite gestionar inventarios, compras, proveedores, ventas, pedidos, reposiciones y reportes.
+- **limaPOS:** Plataforma de punto de venta e inventario en la nube que permite gestionar productos, stock, lotes, vencimientos, compras, proveedores, órdenes de compra, almacenes y distribución.
+- **Spry Sales:** Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets. Permite controlar inventario, stock, fechas de vencimiento, pedidos, compras, proveedores, rutas de reparto y entregas.
+
+Estas soluciones presentan funcionalidades relacionadas con diferentes componentes de la propuesta de valor de OrganiK, especialmente en la gestión de inventarios, productos, proveedores, compras y abastecimiento.
+
+Sin embargo, **OrganiK busca diferenciarse mediante la especialización en productos orgánicos y la integración de inventario, abastecimiento, trazabilidad por lotes y monitoreo de las condiciones de almacenamiento mediante IoT**, además de conectar directamente las operaciones de minimarkets y proveedores mediante un flujo controlado de pedidos.
+
+### 2.1.1. Análisis competitivo
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+
+  <tr>
+    <th>¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="5">
+      Este análisis permite comparar OrganiK con soluciones existentes de gestión comercial e inventarios, identificando sus fortalezas, limitaciones y oportunidades de diferenciación. Esto permitirá establecer una propuesta de valor enfocada en la reducción de pérdidas, trazabilidad, conservación y coordinación del abastecimiento de productos orgánicos.
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="2">Competidores</th>
+    <th>
+      OrganiK
+      <br>
+      <img src="../assets/img/chapter-2/organiklogo.png" alt="OrganiK" width="100">
+    </th>
+    <th>
+      CasaMarket
+      <br>
+      <img src="../assets/img/chapter-2/casamarket.png" alt="CasaMarket" width="100">
+    </th>
+    <th>
+      limaPOS
+      <br>
+      <img src="../assets/img/chapter-2/limapos.png" alt="limaPOS" width="100">
+    </th>
+    <th>
+      Spry Sales
+      <br>
+      <img src="../assets/img/chapter-2/sprysales.png" alt="Spry Sales" width="100">
+    </th>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Perfil</th>
+    <th>Overview</th>
+    <td>
+      Plataforma digital especializada en la gestión de inventarios, abastecimiento y conservación de productos orgánicos, integrada con monitoreo de temperatura y humedad.
+    </td>
+    <td>
+      Plataforma de gestión empresarial orientada a bodegas, minimarkets y tiendas de conveniencia, con funcionalidades de inventario, compras, proveedores, ventas y operaciones comerciales.
+    </td>
+    <td>
+      Plataforma de punto de venta e inventario en la nube orientada a diferentes tipos de negocios, incluyendo minimarkets, distribuidores y mayoristas.
+    </td>
+    <td>
+      Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets, con funcionalidades de inventario, pedidos, compras, proveedores y distribución.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
+    <td>
+      Integración de inventario, abastecimiento, proveedores, trazabilidad y monitoreo de las condiciones de almacenamiento. Cuenta con funcionalidades diferenciadas para minimarkets y proveedores de productos orgánicos.
+    </td>
+    <td>
+      Amplia variedad de funcionalidades para administrar negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones y reportes.
+    </td>
+    <td>
+      Integración entre ventas, inventario, compras, proveedores, almacenes y distribución, incluyendo gestión de lotes y vencimientos.
+    </td>
+    <td>
+      Integración de gestión comercial, inventario, pedidos, compras, proveedores, reparto y entregas, con funcionalidades para negocios como minimarkets.
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <th>Mercado objetivo</th>
+    <td>
+      Administradores de minimarkets y proveedores de productos orgánicos que necesitan mejorar la gestión de inventarios, abastecimiento, trazabilidad y conservación de sus productos.
+    </td>
+    <td>
+      Bodegas, minimarkets, tiendas de conveniencia y pequeños y medianos negocios que buscan digitalizar sus procesos comerciales y administrativos.
+    </td>
+    <td>
+      Minimarkets, bodegas, distribuidores, mayoristas y otros negocios que requieren gestionar ventas, inventario, compras, proveedores y distribución.
+    </td>
+    <td>
+      Minimarkets, bodegas, emprendedores y otros negocios que necesitan controlar sus operaciones comerciales, inventario, pedidos, compras, proveedores y entregas.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Estrategias de marketing</th>
+    <td>
+      Marketing de nicho enfocado en productos orgánicos, destacando la reducción de pérdidas, trazabilidad, conservación y coordinación entre minimarkets y proveedores.
+    </td>
+    <td>
+      Marketing orientado a la digitalización de pequeños y medianos negocios, destacando la gestión de inventario, ventas, compras y administración.
+    </td>
+    <td>
+      Marketing orientado a la centralización de operaciones comerciales, destacando la gestión de inventario, ventas, compras, proveedores y distribución.
+    </td>
+    <td>
+      Marketing orientado a la digitalización y gestión integral de negocios, destacando el control de stock, pedidos, compras, reparto y entregas.
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <th>Productos & Servicios</th>
+    <td>
+      Plataforma web con gestión de inventarios, productos, lotes, vencimientos, abastecimiento, proveedores y monitoreo de temperatura y humedad.
+    </td>
+    <td>
+      Sistema de gestión con funcionalidades de facturación electrónica, punto de venta, inventario, compras, proveedores, reposiciones, devoluciones, tienda online y reportes.
+    </td>
+    <td>
+      Plataforma de punto de venta e inventario con módulos de ventas, compras, proveedores, lotes, vencimientos, almacenes, distribución y reportes.
+    </td>
+    <td>
+      Software de gestión comercial con funcionalidades de control de stock, inventario, pedidos, compras, proveedores, fechas de vencimiento, reparto y entregas.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Precios & Costos</th>
+    <td>
+      Modelo SaaS orientado a pequeñas y medianas empresas, buscando mantener costos accesibles mediante una solución especializada.
+    </td>
+    <td>
+      Cuenta con planes orientados a minimarkets y otros negocios, con costos asociados a las funcionalidades y servicios incluidos.
+    </td>
+    <td>
+      Utiliza un modelo de suscripción con diferentes planes según las funcionalidades y necesidades del negocio.
+    </td>
+    <td>
+      Cuenta con diferentes modalidades y planes de servicio según las necesidades operativas y comerciales de cada negocio.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Canales de distribución<br>(Web y/o Móvil)</th>
+    <td>
+      Web. Acceso mediante una plataforma centralizada disponible desde navegadores web.
+    </td>
+    <td>
+      Web / Móvil. Dispone de herramientas para gestionar diferentes actividades del negocio desde dispositivos digitales.
+    </td>
+    <td>
+      Web / Móvil. Cuenta con una plataforma en la nube y aplicaciones orientadas a actividades comerciales y operativas.
+    </td>
+    <td>
+      Web / Móvil. Permite gestionar diferentes actividades comerciales y operativas mediante herramientas digitales.
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="4">Análisis SWOT</th>
+    <th>Fortalezas</th>
+    <td>
+      Especialización en productos orgánicos. Integración de inventario, abastecimiento, proveedores, trazabilidad y monitoreo de condiciones de almacenamiento. Dashboards diferenciados y flujo controlado de pedidos.
+    </td>
+    <td>
+      Amplia variedad de funcionalidades para la gestión de minimarkets y negocios comerciales, incluyendo inventario, compras, proveedores, ventas, reposiciones y reportes.
+    </td>
+    <td>
+      Amplia cobertura funcional para ventas, inventario, compras, proveedores, lotes, vencimientos, almacenes y distribución.
+    </td>
+    <td>
+      Integración de inventario, pedidos, compras, proveedores, reparto y entregas, además de funcionalidades orientadas a minimarkets.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Debilidades</th>
+    <td>
+      Startup en etapa inicial, bajo reconocimiento de marca y dependencia inicial de datos IoT simulados para validar el monitoreo.
+    </td>
+    <td>
+      Enfoque generalista orientado a la gestión comercial de diferentes negocios, sin especialización en productos orgánicos, conservación o monitoreo ambiental.
+    </td>
+    <td>
+      Enfoque generalista que puede resultar menos especializado para negocios que requieren integrar conservación, trazabilidad y abastecimiento de productos orgánicos.
+    </td>
+    <td>
+      Enfoque principalmente comercial y operativo, sin especialización en conservación de productos orgánicos ni monitoreo IoT de condiciones ambientales.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Oportunidades</th>
+    <td>
+      Necesidad de reducir pérdidas de productos perecibles, crecimiento de la digitalización de pequeños negocios y posibilidad de incorporar sensores IoT reales y capacidades analíticas.
+    </td>
+    <td>
+      Crecimiento de la digitalización de bodegas y minimarkets y expansión de herramientas para la gestión empresarial.
+    </td>
+    <td>
+      Crecimiento de la demanda de soluciones integrales de gestión, automatización y análisis de inventarios y operaciones.
+    </td>
+    <td>
+      Crecimiento de la digitalización de minimarkets y pequeños negocios y necesidad de centralizar sus operaciones.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Amenazas</th>
+    <td>
+      Entrada de plataformas consolidadas con mayores recursos, resistencia al cambio y dificultad inicial para establecer una red suficiente de proveedores y minimarkets.
+    </td>
+    <td>
+      Competencia de otras plataformas de gestión empresarial y aparición de nuevas soluciones especializadas.
+    </td>
+    <td>
+      Alta competencia en soluciones de punto de venta y gestión empresarial y evolución constante de nuevas tecnologías.
+    </td>
+    <td>
+      Competencia de plataformas de gestión comercial consolidadas y aparición de nuevas soluciones especializadas.
+    </td>
+  </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket, limaPOS y Spry Sales**, nuestro equipo plantea estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
+
+#### Matriz CAME para el desarrollo de estrategias en base al análisis FODA
+
+| **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
+|---|---|---|
+| **Fortalezas (F)**<br>1. Especialización en productos orgánicos.<br>2. Integración de inventario, abastecimiento y monitoreo.<br>3. Trazabilidad de productos, lotes y vencimientos.<br>4. Dashboards diferenciados para minimarkets y proveedores. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Destacar la reducción de pérdidas mediante el control de inventarios, vencimientos y condiciones de almacenamiento.<br>3. Promover la integración entre minimarkets y proveedores como elemento diferenciador.<br>4. Incorporar progresivamente sensores IoT reales y capacidades analíticas.<br>5. Validar la solución mediante pilotos con minimarkets y proveedores. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades de productos orgánicos.<br>3. Priorizar la especialización frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información.<br>5. Utilizar resultados de pilotos para demostrar el valor de la solución. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar entrevistas con administradores y proveedores.<br>2. Implementar pilotos con usuarios reales.<br>3. Priorizar las funcionalidades de mayor valor.<br>4. Desarrollar contenido demostrativo sobre reducción de pérdidas y mejora del abastecimiento.<br>5. Evolucionar progresivamente hacia sensores IoT reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar funcionalidades de mayor valor para evitar competir por cantidad de funcionalidades.<br>2. Mantener costos accesibles para pequeñas y medianas empresas.<br>3. Implementar mecanismos de respaldo y seguridad.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets. |
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
+
+**Segmento objetivo 1: Administradores de minimarkets**
+
+#### Preguntas Demográficas
+
+1. ¿Cuál es su nombre completo y qué edad tiene?
+2. ¿Cuál es su cargo dentro del minimarket y cuántos años de experiencia tiene en la gestión del negocio?
+3. ¿En qué distrito o provincia se encuentra ubicado el minimarket?
+
+#### Preguntas de Hábitos Digitales
+
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar las actividades del minimarket?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información del inventario?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus proveedores?
+
+#### Preguntas Principales
+
+7. ¿Cómo registra y controla actualmente los productos disponibles en el minimarket?
+8. ¿Podría describir el proceso desde que identifica la necesidad de abastecer un producto hasta que este queda registrado en el inventario?
+9. ¿Cómo controla actualmente los lotes y las fechas de vencimiento de los productos?
+10. ¿Cómo determina qué productos necesitan ser repuestos o retirados por encontrarse próximos a vencer?
+11. ¿Cómo controla actualmente las condiciones de almacenamiento de los productos, como temperatura y humedad?
+12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
+13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
+14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
+
+**Segmento objetivo 2: Proveedores de productos orgánicos**
+
+#### Preguntas Demográficas
+
+1. ¿Cuál es su nombre completo y qué edad tiene?
+2. ¿Cuál es su cargo dentro de la empresa y cuántos años de experiencia tiene en la comercialización o distribución de productos?
+3. ¿En qué distrito o provincia se encuentra ubicado su negocio o centro de operaciones?
+
+#### Preguntas de Hábitos Digitales
+
+4. ¿Qué dispositivo utiliza con mayor frecuencia durante su jornada laboral para gestionar productos y pedidos?
+5. ¿Qué herramientas utiliza actualmente para registrar o consultar información de los productos que ofrece?
+6. ¿Qué medios utiliza con mayor frecuencia para comunicarse con sus clientes?
+
+#### Preguntas Principales
+
+7. ¿Cómo registra y administra actualmente el catálogo de productos que ofrece?
+8. ¿Cómo controla actualmente la disponibilidad y los lotes de los productos que tiene para ofrecer?
+9. ¿Podría describir el proceso desde que un minimarket solicita productos hasta que el pedido es preparado y despachado?
+10. ¿Cómo gestiona actualmente los pedidos o solicitudes provenientes de diferentes minimarkets?
+11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
+12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
+13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
+15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento objetivo: [Nombre del segmento objetivo]**
+
+**Nombre del archivo de video consolidado:** `[nombre-del-video].mp4`
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-01.png" alt="Entrevista 1" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar un resumen de los principales aspectos mencionados por el entrevistado, incluyendo su contexto profesional, forma de trabajo, herramientas utilizadas, problemas identificados, procesos actuales, necesidades y percepción de una posible solución.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 5</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 6</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>[Nombre del entrevistado]</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>[Edad]</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>[Sistema operativo y navegador]</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>[Profesión y cargo]</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>[Canales digitales utilizados]</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>[Software utilizado]</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        [Redactar resumen de la entrevista.]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
+### Análisis por segmento objetivo
+
+**Segmento objetivo: [Nombre del segmento objetivo]**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las entrevistas registradas, se identificaron patrones comunes en sus características objetivas y subjetivas, los cuales sirven como base para la construcción del arquetipo correspondiente.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **[Característica objetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica objetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **[Característica subjetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **[Característica subjetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+
+#### 4. Hallazgos principales
+
+- **[Hallazgo principal 1] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **[Hallazgo principal 2] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **[Hallazgo principal 3] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+
+#### 5. Conclusión del segmento
+
+[Redactar una conclusión integrando los principales patrones identificados en las entrevistas, los problemas recurrentes, necesidades, comportamientos y motivaciones del segmento. Relacionar estos resultados con la construcción del arquetipo de usuario y las necesidades que deberá atender la solución.]
 
 <!-- AUTO-DOCS:END -->

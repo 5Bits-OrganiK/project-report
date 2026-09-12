@@ -30,11 +30,11 @@
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
+| Atencio Cristobal,Cielo Valentina      | u202424216       |
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| [Apellidos y Nombres del Integrante 2] | [Código]         |
-| [Apellidos y Nombres del Integrante 3] | [Código]         |
-| [Apellidos y Nombres del Integrante 4] | [Código]         |
-| [Apellidos y Nombres del Integrante 5] | [Código]         |
+| Olivares Lao, Gustavo Alonso           | U202216448       |
+| Quispe Almonacid, Andre Sebastian      | u201815005       |
+| Torres | [Código]         |
 
 **Lima, agosto de 2026**
 </div>
