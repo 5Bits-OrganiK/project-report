@@ -34,7 +34,7 @@
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
 | Olivares Lao, Gustavo Alonso           | U202216448       |
 | Quispe Almonacid, Andre Sebastian      | u201815005       |
-| Torres | [Código]         |
+| Torres Huaman, Alexis Calin            | U20241g152       |
 
 **Lima, agosto de 2026**
 </div>
