@@ -36,7 +36,7 @@
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
 | Olivares Lao, Gustavo Alonso           | U202216448       |
 | Quispe Almonacid, Andre Sebastian      | u201815005       |
-| Torres | [Código]         |
+| Torres Huaman, Alexis Calin            | U20241G152       |
 
 **Lima, agosto de 2026**
 </div>
@@ -268,7 +268,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Andre Sebastian Quispe Almonacid** | U201815005 | Ingeniería de Software | Me considero un estudiante de ingeniería de software responsable, proactivo y que se adapta rápidamente a los retos de cada ciclo. Disfruto trabajar en equipo y siempre estoy dispuesto a ayudar a mis compañeros en lo que necesiten. Combino esta actitud colaborativa con mi pasión por la tecnología y la docencia para construir soluciones prácticas: desde aplicaciones web y bases de datos, hasta plataformas para mis propias tutorías y el negocio familiar. Además, en mi tiempo libre optimizo hardware, estudio inglés y disfruto los videojuegos, siempre buscando aportar valor y llevar mis ideas a la realidad.|
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_3]" alt="Foto de [NOMBRE_INTEGRANTE_3]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| <img src=".docs/assets/chapter-01/alexis_torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src=".docs/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 ---
 
