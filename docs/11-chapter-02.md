@@ -461,65 +461,54 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 </table>
 
 <table style="width:100%; border-collapse:collapse;">
- <tbody> 
-  <tr>
-   <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
- </tr>
-<tr> 
-<td colspan="4" align="center">
- <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350"> 
-  </td> 
- </tr> 
-<tr> 
-  <td colspan="2" align="center">
-    <strong>Información del entrevistado</strong>
-  </td> 
-  <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
- </tr> 
-   <tr> 
-     <td>
-       <strong>Nombre completo</strong>
-     </td> <td>Marco Antonio Ríos Espinoza</td>
-     <td>
-       <strong>Dispositivo de mayor frecuencia</strong>
-     </td> 
-     <td>Laptop en oficina y celular Android en campo</td> 
-   </tr> 
-   <tr> 
-     <td>
-       <strong>Edad</strong>
-     </td> 
-     <td>24 años</td> 
-     <td>
-       <strong>Sistema operativo/browser</strong>
-     </td> 
-     <td>Windows 11 / Google Chrome</td> 
-   </tr> 
-   <tr> 
-     <td>
-       <strong>Definición profesional / cargo</strong>
-     </td> 
-     <td>Coordinador comercial de una distribuidora de productos orgánicos</td>
-     <td>
-       <strong>Canales digitales de comunicación</strong>
-     </td> 
-     <td>WhatsApp Business, llamadas y correo electrónico</td>
-   </tr> 
-   <tr> 
-     <td>
-       <strong>Residencia / ubicación</strong>
-     </td> 
-     <td>Lurín, Lima</td> 
-     <td>
-       <strong>Software especializado utilizado</strong>
-     </td> 
-     <td>Microsoft Excel y sistema de facturación electrónica</td> 
-   </tr> 
-   <tr> 
-     <td colspan="2">
-       <strong>Duración</strong>: [04:00]</td> <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td> 
-       </tr> 
- </tbody> 
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Marco Antonio Ríos Espinoza</td>
+      <td><strong>Dispositivo de mayor frecuencia</strong></td>
+      <td>Laptop en oficina y celular Android en campo</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>24 años</td>
+      <td><strong>Sistema operativo/browser</strong></td>
+      <td>Windows 11 / Google Chrome</td>
+    </tr>
+    <tr>
+      <td><strong>Definición profesional / cargo</strong></td>
+      <td>Coordinador comercial de una distribuidora de productos orgánicos</td>
+      <td><strong>Canales digitales de comunicación</strong></td>
+      <td>WhatsApp Business, llamadas y correo electrónico</td>
+    </tr>
+    <tr>
+      <td><strong>Residencia / ubicación</strong></td>
+      <td>Lurín, Lima</td>
+      <td><strong>Software especializado utilizado</strong></td>
+      <td>Microsoft Excel y sistema de facturación electrónica</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Duración</strong>: [04:00]</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular.
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <table style="width:100%; border-collapse:collapse;">
