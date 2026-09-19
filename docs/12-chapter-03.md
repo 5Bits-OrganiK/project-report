@@ -20,12 +20,13 @@
 | Gestión de órdenes de envío | Para los pedidos aceptados, genera una orden de envío indicando los productos, cantidades y demás información correspondiente al despacho. | “Necesito registrar correctamente lo que voy a enviar para que el minimarket pueda verificarlo al recibirlo.” | Enfocado y seguro al mantener trazabilidad del envío. |
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
+
 ## 3.1. User Stories
 
 ## Epics
 
 | EPIC ID | Título | Descripción |
-|--------|--------|-------------|
+|---|---|---|
 | EP-01 | Gestión de inventario | Permite registrar, visualizar, buscar y actualizar la información de los productos disponibles en el inventario del minimarket, incluyendo cantidades, mermas y productos disponibles como oferta. |
 | EP-02 | Gestión de lotes y vencimientos | Permite controlar los lotes, fechas de vencimiento y trazabilidad de los productos registrados en el inventario. |
 | EP-03 | Gestión de conservación | Permite registrar y visualizar las condiciones de conservación de los productos, así como generar alertas cuando se detecten condiciones de riesgo. |
@@ -37,7 +38,7 @@
 ## User Stories
 
 | US ID | Título | Descripción | Relacionado con (EPIC ID) |
-|------|--------|-------------|---------------------------|
+|---|---|---|---|
 | US 001 | Registrar producto en inventario | **Como** administrador de minimarket,<br>**Quiero** registrar productos en el inventario,<br>**Para** mantener actualizada la información de los productos disponibles. | EP-01 |
 | US 002 | Visualizar inventario | **Como** administrador de minimarket,<br>**Quiero** visualizar los productos registrados,<br>**Para** conocer el estado actual de mi inventario. | EP-01 |
 | US 003 | Buscar productos en inventario | **Como** administrador de minimarket,<br>**Quiero** buscar productos dentro del inventario,<br>**Para** encontrarlos rápidamente. | EP-01 |
@@ -72,7 +73,7 @@
 ## Technical Stories
 
 | TS ID | Título | Descripción | Relacionado con (EPIC ID) |
-|------|--------|-------------|---------------------------|
+|---|---|---|---|
 | TS-IAM-001 | Sign-in API | **Como** frontend developer, **Quiero** autenticar usuarios mediante una API de inicio de sesión, **Para** obtener las credenciales de sesión y permisos correspondientes. | EP-06 |
 | TS-IAM-002 | Sign-up API | **Como** frontend developer, **Quiero** registrar usuarios mediante una API, **Para** habilitar el acceso controlado a OrganiK. | EP-06 |
 | TS-IAM-003 | Users directory API | **Como** frontend developer, **Quiero** consultar y registrar usuarios mediante la API, **Para** administrar los usuarios autorizados de OrganiK. | EP-06 |
@@ -102,9 +103,10 @@
 ### Functional Stories
 
 | FS ID | Título | Descripción | Relacionado con (EPIC ID) |
-|------|--------|-------------|---------------------------|
+|---|---|---|---|
 | FS-001 | Permisos de pedidos según rol | **Como** sistema, **Quiero** aplicar permisos diferenciados sobre el módulo de pedidos, **Para** que el administrador pueda crear y gestionar sus pedidos mientras el proveedor pueda consultar, aceptar o rechazar los pedidos recibidos. | EP-04 / EP-06 |
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema, **Quiero** aplicar permisos diferenciados sobre las órdenes de envío, **Para** que el proveedor pueda gestionar sus órdenes mientras el administrador pueda consultar y aceptar o rechazar su recepción. | EP-04 / EP-06 |
+
 
 ### Flujo principal de abastecimiento
 
