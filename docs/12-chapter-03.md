@@ -109,7 +109,9 @@
 
 ### API Endpoint Coverage for Backend Web Services
 
-La siguiente matriz consolida los contratos REST esperados para la primera versión de los Web Services de **OrganiK**. Los endpoints se derivan de las Technical Stories, los módulos funcionales y los flujos definidos para los dos segmentos objetivo: administradores de minimarkets y proveedores de productos orgánicos.
+La siguiente matriz presenta la cobertura de endpoints REST definida para los Web Services de **OrganiK**. Estos endpoints permiten la comunicación entre el frontend y el backend, y se encuentran organizados de acuerdo con los módulos funcionales, Technical Stories y User Stories establecidas para la plataforma.
+
+Los servicios contemplan las funcionalidades requeridas por los dos segmentos objetivo de OrganiK: **administradores de minimarkets** y **proveedores de productos orgánicos**. La API utiliza el prefijo `/api/v1` para mantener una estructura versionada y facilitar futuras extensiones de los servicios.
 
 | Endpoint | Métodos esperados | Fuente de requisito | Contexto frontend / backend |
 |------|-------------------|---------------------|-----------------------------|
@@ -127,21 +129,27 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | `/api/v1/inventory/search` | GET | TS-INV-003 / US-003 / US-004 | inventory |
 | `/api/v1/lots` | GET, POST | TS-LOT-001 / US-006 / US-007 | lots |
 | `/api/v1/lots/{id}` | GET, PATCH | TS-LOT-002 / US-007 | lots |
-| `/api/v1/expirations` | GET | TS-EXP-001 / US-008 / US-009 | expiration |
+| `/api/v1/expirations` | GET | TS-EXP-001 / US-008 / US-009 | lots / expirations |
 | `/api/v1/conservation/monitoring` | GET | TS-CON-001 / US-010 / US-011 | conservation |
 | `/api/v1/conservation/alerts` | GET | TS-CON-002 / US-012 | conservation |
 | `/api/v1/suppliers` | GET, POST | TS-SUP-001 / US-016 / US-017 | suppliers |
 | `/api/v1/suppliers/{id}` | GET, PATCH | TS-SUP-001 / US-017 | suppliers |
 | `/api/v1/suppliers/{id}/products` | GET, POST | TS-SUP-002 / US-016 / US-017 | suppliers / products |
-| `/api/v1/orders` | GET, POST | TS-ORD-001 / US-018 / US-019 | supply-orders |
-| `/api/v1/orders/{id}` | GET, PATCH | TS-ORD-002 / US-021 / US-024 | supply-orders |
-| `/api/v1/orders/{id}/accept` | POST | TS-ORD-003 / US-022 | supply-orders / inventory |
-| `/api/v1/orders/{id}/reject` | POST | TS-ORD-004 / US-023 | supply-orders |
-| `/api/v1/waste` | GET, POST | TS-MER-001 / US-013 | inventory / waste |
-| `/api/v1/donations` | GET, POST | TS-MER-001 / US-014 | inventory / donations |
+| `/api/v1/orders` | GET, POST | TS-ORD-001 / US-018 / US-019 | orders |
+| `/api/v1/orders/{id}` | GET, PATCH | TS-ORD-002 / US-021 / US-024 | orders |
+| `/api/v1/orders/{id}/accept` | POST | TS-ORD-003 / US-022 | orders / inventory |
+| `/api/v1/orders/{id}/reject` | POST | TS-ORD-004 / US-023 | orders |
+| `/api/v1/waste` | GET, POST | TS-MER-001 / US-013 | waste |
+| `/api/v1/donations` | GET, POST | TS-MER-001 / US-014 | donations |
 | `/api/v1/dashboard` | GET | TS-DASH-001 / US-030 | dashboard |
 | `/api/v1/notifications` | GET, PATCH | TS-DASH-002 / US-009 / US-012 | notifications |
 | `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
+
+La cobertura definida permite separar las responsabilidades de los principales módulos de OrganiK. **IAM y Profiles** administran la identidad, autenticación y datos de los usuarios; **Products, Inventory y Lots** gestionan los productos, existencias, lotes y fechas de vencimiento; mientras que **Conservation** proporciona acceso a la información relacionada con las condiciones de conservación y sus respectivas alertas.
+
+Por otro lado, **Suppliers y Orders** soportan el proceso de abastecimiento entre proveedores y administradores de minimarkets. Los proveedores pueden gestionar la información de los productos que ofrecen y participar en el flujo de pedidos, mientras que los administradores pueden aceptar o rechazar dichos pedidos y actualizar posteriormente el inventario según corresponda.
+
+Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Activity History** complementan la operación de la plataforma mediante el registro de mermas y donaciones, la visualización de información resumida, la consulta de alertas y notificaciones, y el seguimiento de las actividades realizadas dentro del sistema.
 
 ## 3.2. Impact Mapping
 
