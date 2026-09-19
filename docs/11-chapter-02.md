@@ -667,3 +667,36 @@ Este segmento agrupa a los administradores y gerentes de minimarkets (enfocados 
 
 Los administradores de minimarkets son perfiles altamente dinámicos que gestionan sus negocios desde el celular. Su principal barrera es la desconexión tecnológica: utilizan métodos manuales para procesos críticos y canales informales para el abastecimiento, lo que genera estrés, pérdida de tiempo y mermas económicas. El arquetipo a construir reflejará a un gerente proactivo que exige una herramienta centralizada, automatizada y móvil que elimine la carga logística manual.
 
+**Segmento objetivo: Proveedores y Distribuidores (Segmento 2)**
+
+#### 1. Descripción general del segmento
+
+Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados de gestionar amplios catálogos y abastecer a múltiples minimarkets en simultáneo. A partir de las entrevistas, se evidencia que manejan un alto volumen de transacciones de entrada, enfrentando el desafío crítico de mantener sincronizado su stock real en almacén con la oferta que visibilizan a sus diversos clientes.
+
+#### 2. Características objetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Sistemas de registro desconectados** | 100% (2/2) | **Entrevistas [4, 6]:** Se depende de herramientas separadas como Excel (catálogos), cuadernos de almacén (lotes), sistema de facturación y WhatsApp. | El arquetipo requerirá vistas de escritorio robustas (*Backoffice*) para unificar inventarios complejos y pedidos en una sola pantalla. |
+| **Recepción multiformato de pedidos** | 100% (2/2) | **Entrevistas [4, 6]:** Los pedidos llegan por mensajería en formatos distintos y deben ser transcritos a una hoja de cálculo. | Justifica la creación de un flujo estandarizado de "Carrito B2B" directo desde el minimarket hacia el proveedor. |
+| **Actualización manual del inventario** | 100% (2/2) | **Entrevistas [4, 6]:** La disponibilidad y los lotes se registran de forma manual, lo que dificulta mantener sincronizado el catálogo con el stock real. | Sustenta la necesidad de un sistema que descuente el stock automáticamente al confirmar una orden de abastecimiento. |
+| **Ausencia de trazabilidad para clientes** | 100% (2/2) | **Entrevistas [4, 6]:** El estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar por su cuenta. | Define el requerimiento de implementar estados de orden (ej. "En preparación", "En ruta") visibles para ambas partes. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Presión por errores de transcripción** | 100% (2/2) | **Entrevistas [4, 6]:** La transcripción manual ocasiona pedidos omitidos, cantidades mal registradas y quiebres de stock. | Perfila a un usuario abrumado por la logística inversa y las quejas causadas por errores humanos de digitación. |
+| **Sobrecarga por atención al cliente** | 100% (2/2) | **Entrevistas [4, 6]:** La falta de integración genera llamadas constantes y conversaciones dispersas para confirmar despachos o cambios. | Refleja la urgencia de proporcionar transparencia total a sus compradores para liberar el tiempo de su equipo comercial. |
+| **Expectativa de centralización B2B** | 100% (2/2) | **Entrevistas [4, 6]:** Consideran vital una plataforma que centralice productos, disponibilidad, lotes y estados de cada operación. | Define la motivación principal del usuario: optimizar la eficiencia de su almacén y facilitar la coordinación con minimarkets. |
+| **Exigencia de simplicidad tecnológica** | 100% (2/2) | **Entrevistas [4, 6]:** Marco Antonio recalca que la herramienta facilitaría su gestión siempre que sea sencilla de usar y funcione desde el celular. | El arquetipo valorará interfaces limpias (UX/UI minimalista) que no requieran capacitaciones largas para su equipo logístico. |
+
+#### 4. Hallazgos principales
+
+- **La transcripción manual genera quiebres de stock (100% de coincidencia):** El salto de leer un mensaje en WhatsApp a digitarlo en un Excel es el principal punto de fallo, ocasionando que se informe disponibilidad desactualizada o se comprometa un mismo lote a varios clientes.
+- **La falta de trazabilidad satura el soporte (100% de coincidencia):** Al no existir una plataforma donde el minimarket vea el estado de su operación, el proveedor asume una carga extra respondiendo llamadas de confirmación.
+- **Riesgo por fragmentación de datos (100% de coincidencia):** Mantener catálogos en Excel y lotes en cuadernos físicos ralentiza toda la cadena de suministro y genera pérdida de información.
+
+#### 5. Conclusión del segmento
+
+Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
