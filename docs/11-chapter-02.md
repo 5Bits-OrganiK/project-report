@@ -303,18 +303,18 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 
 ### 2.2.2. Registro de entrevistas
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `[nombre-del-video].mp4`
+**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
 
-<table style="width:100%; border-collapse:collapse;">
+<table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
       <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-01.png" alt="Entrevista 1" height="350">
+        <img src="../docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -323,36 +323,37 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Rodrigo Guevara</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Celular (movilidad) y laptop (en caja)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>26 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>No especificado</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador general (3 años de experiencia)</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp Business y correo electrónico</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
-    </tr>
+      <td colspan="2"><strong>Duración</strong>: 05:04</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">Ver video</a></td>
+</tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar un resumen de los principales aspectos mencionados por el entrevistado, incluyendo su contexto profesional, forma de trabajo, herramientas utilizadas, problemas identificados, procesos actuales, necesidades y percepción de una posible solución.]
+        Rodrigo Guevara es el administrador general de un minimarket en José Leonardo Ortiz, Chiclayo. Gestiona el negocio apoyándose principalmente en su celular y una laptop, utilizando un sistema POS básico integrado con Excel en Drive para el registro de inventario. La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp Business.<br><br>
+        Actualmente, sus procesos de control de calidad son manuales: el registro de lotes y fechas de vencimiento se lleva en una libreta física, y la revisión de stock y condiciones de almacenamiento (temperatura) se hace de manera visual en los anaqueles y congeladoras. Rodrigo identifica que su principal problema es el tiempo excesivo que demanda este control manual, el desorden al coordinar por chats y las pérdidas económicas generadas por productos vencidos o malogrados que no se detectan a tiempo. Concluye que una plataforma centralizada para inventarios, vencimientos y proveedores solucionaría estos puntos críticos al ahorrar tiempo y evitar mermas.
       </td>
     </tr>
   </tbody>
@@ -374,27 +375,27 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Roly Hans Luna</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular(Smartphone)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>28 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>iOS / Android (Mobile Browser)</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador de Minimarket Orgánico</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>San Isidro, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [00:00]</td>
@@ -403,7 +404,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
       </td>
     </tr>
   </tbody>
