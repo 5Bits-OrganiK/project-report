@@ -136,7 +136,7 @@ Los servicios contemplan las funcionalidades requeridas por los dos segmentos ob
 | `/api/v1/profiles` | GET | TS-PROF-001 | profiles |
 | `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-PROF-001 | profiles |
 | `/api/v1/products` | GET, POST | TS-PROD-001 / US-001 / US-016 | products |
-| `/api/v1/products/{id}` | GET, PATCH, DELETE | TS-PROD-002 / US-005 / US-016 | products |
+| `/api/v1/products/{id}` | GET, PATCH, DELETE | TS-PROD-002 / US-005 / US-016 / US-017 | products |
 | `/api/v1/inventory` | GET, POST | TS-INV-001 / US-001 / US-002 | inventory |
 | `/api/v1/inventory/{id}` | GET, PATCH | TS-INV-002 / US-005 / US-029 | inventory |
 | `/api/v1/inventory/search` | GET | TS-INV-003 / US-003 / US-004 | inventory |
@@ -145,18 +145,23 @@ Los servicios contemplan las funcionalidades requeridas por los dos segmentos ob
 | `/api/v1/expirations` | GET | TS-EXP-001 / US-008 / US-009 | lots / expirations |
 | `/api/v1/conservation/monitoring` | GET | TS-CON-001 / US-010 / US-011 | conservation |
 | `/api/v1/conservation/alerts` | GET | TS-CON-002 / US-012 | conservation |
-| `/api/v1/suppliers` | GET, POST | TS-SUP-001 / US-016 / US-017 | suppliers |
+| `/api/v1/suppliers` | GET, POST | TS-SUP-001 / US-015 / US-016 / US-017 | suppliers |
 | `/api/v1/suppliers/{id}` | GET, PATCH | TS-SUP-001 / US-017 | suppliers |
-| `/api/v1/suppliers/{id}/products` | GET, POST | TS-SUP-002 / US-016 / US-017 | suppliers / products |
-| `/api/v1/orders` | GET, POST | TS-ORD-001 / US-018 / US-019 | orders |
-| `/api/v1/orders/{id}` | GET, PATCH | TS-ORD-002 / US-021 / US-024 | orders |
-| `/api/v1/orders/{id}/accept` | POST | TS-ORD-003 / US-022 | orders / inventory |
-| `/api/v1/orders/{id}/reject` | POST | TS-ORD-004 / US-023 | orders |
+| `/api/v1/suppliers/{id}/products` | GET, POST | TS-SUP-002 / US-015 / US-016 / US-017 | suppliers / products |
+| `/api/v1/requisitions` | GET, POST | TS-ORD-001 / US-018 / US-019 | requisitions |
+| `/api/v1/requisitions/{id}` | GET | TS-ORD-001 / US-019 | requisitions |
+| `/api/v1/requisitions/{id}/accept` | POST | TS-ORD-002 / US-020 | requisitions |
+| `/api/v1/requisitions/{id}/reject` | POST | TS-ORD-002 / US-020 | requisitions |
+| `/api/v1/purchase-orders` | GET, POST | TS-ORD-003 / US-021 / US-022 | purchase-orders |
+| `/api/v1/purchase-orders/{id}` | GET | TS-ORD-003 / US-022 | purchase-orders |
+| `/api/v1/purchase-orders/{id}/accept` | POST | TS-ORD-004 / US-023 | purchase-orders / inventory |
+| `/api/v1/purchase-orders/{id}/reject` | POST | TS-ORD-004 / US-024 | purchase-orders |
 | `/api/v1/waste` | GET, POST | TS-MER-001 / US-013 | waste |
-| `/api/v1/donations` | GET, POST | TS-MER-001 / US-014 | donations |
+| `/api/v1/offers` | GET, POST | TS-MER-001 / US-014 | offers |
 | `/api/v1/dashboard` | GET | TS-DASH-001 / US-030 | dashboard |
 | `/api/v1/notifications` | GET, PATCH | TS-DASH-002 / US-009 / US-012 | notifications |
 | `/api/v1/activity-history` | GET | TS-AUD-001 / US-025 | audit |
+
 
 La cobertura definida permite separar las responsabilidades de los principales módulos de OrganiK. **IAM y Profiles** administran la identidad, autenticación y datos de los usuarios; **Products, Inventory y Lots** gestionan los productos, existencias, lotes y fechas de vencimiento; mientras que **Conservation** proporciona acceso a la información relacionada con las condiciones de conservación y sus respectivas alertas.
 
