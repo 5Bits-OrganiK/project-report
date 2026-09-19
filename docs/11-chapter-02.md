@@ -667,6 +667,8 @@ Este segmento agrupa a los administradores y gerentes de minimarkets (enfocados 
 
 Los administradores de minimarkets son perfiles altamente dinámicos que gestionan sus negocios desde el celular. Su principal barrera es la desconexión tecnológica: utilizan métodos manuales para procesos críticos y canales informales para el abastecimiento, lo que genera estrés, pérdida de tiempo y mermas económicas. El arquetipo a construir reflejará a un gerente proactivo que exige una herramienta centralizada, automatizada y móvil que elimine la carga logística manual.
 
+---
+
 **Segmento objetivo: Proveedores y Distribuidores (Segmento 2)**
 
 #### 1. Descripción general del segmento
