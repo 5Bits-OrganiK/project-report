@@ -643,27 +643,27 @@ Este segmento agrupa a los administradores y gerentes de minimarkets (enfocados 
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica objetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica objetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Comportamiento Mobile-First** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo gestiona el negocio principalmente desde su celular; Roly utiliza su teléfono durante el 90% de su jornada laboral. | Define que la interfaz de la solución (OrganiK) para este segmento debe ser estrictamente *responsive* y optimizada para su uso en movimiento. |
+| **Control de calidad físico y manual** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo registra lotes en libretas y revisa anaqueles visualmente; Roly revisa vencimientos visualmente y verifica temperaturas con termómetros físicos. | Justifica la necesidad arquitectónica de integrar módulos IoT de monitoreo de temperatura y un sistema automatizado de lotes. |
+| **Fragmentación de herramientas digitales** | 100% (2/2) | **Entrevistas [1, 2]:** Ambos utilizan sistemas POS básicos combinados con hojas de cálculo de Excel (Google Drive), libretas físicas y WhatsApp Business. | Evidencia la necesidad técnica de unificar bases de datos dispersas en un dashboard centralizado y fácil de operar. |
+| **Dependencia de mensajería para B2B** | 100% (2/2) | **Entrevistas [1, 2]:** La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp. | Obliga a diseñar un módulo de "Abastecimiento" que reemplace la coordinación informal por chats. |
 
 #### 3. Características subjetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **[Característica subjetiva 1]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 2]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 3]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
-| **[Característica subjetiva 4]** | [X% (X/5)] | **Entrevistas [números]:** [Evidencia encontrada en las entrevistas.] | [Relación de la característica con el arquetipo.] |
+| **Frustración económica por mermas** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo identifica pérdidas por productos malogrados no detectados; Roly señala las mermas de perecibles por falta de control como su principal problema. | El arquetipo debe mostrar a un usuario altamente preocupado por proteger su capital y la rentabilidad del negocio. |
+| **Desgaste por tiempo invertido** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo sufre por el tiempo excesivo que demanda el control manual y el desorden al coordinar; Roly experimenta altos niveles de frustración operativa. | Refleja a un usuario saturado que valora las herramientas tecnológicas que le devuelvan horas útiles en su día a día. |
+| **Expectativa de automatización** | 100% (2/2) | **Entrevistas [1, 2]:** Roly es entusiasta ante alertas automáticas (clima/vencimientos); Rodrigo concluye que centralizar inventarios solucionaría sus puntos críticos. | Perfila a un usuario abierto a adoptar nuevas plataformas si el retorno de inversión (ahorro de tiempo) es inmediato. |
+| **Inseguridad operativa fuera de horario** | 100% (2/2) | **Entrevistas [1, 2]:** Roly menciona que el control manual lo deja expuesto a fallas mecánicas durante la madrugada. | Define la motivación del usuario: recuperar la tranquilidad mental delegando el monitoreo preventivo al software. |
 
 #### 4. Hallazgos principales
 
-- **[Hallazgo principal 1] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 2] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
-- **[Hallazgo principal 3] ([X% de coincidencia]):** [Descripción del hallazgo y su evidencia.]
+- **Pérdida del control de calidad por métodos análogos (100% de coincidencia):** La dependencia de revisiones visuales expone a los administradores a perder la cadena de frío o no detectar vencimientos a tiempo, traduciéndose directamente en mermas y pérdidas económicas.
+- **WhatsApp como cuello de botella B2B (100% de coincidencia):** Utilizar WhatsApp como herramienta central para consultar catálogos y pedir mercadería genera desorden logístico y exige excesivo tiempo de coordinación manual.
+- **Validación del modelo tecnológico (100% de coincidencia):** Ambos administradores confirman explícitamente que una plataforma centralizada que envíe alertas al celular y actualice su stock al aprobar un pedido reduciría sus pérdidas a cero.
 
 #### 5. Conclusión del segmento
 
-[Redactar una conclusión integrando los principales patrones identificados en las entrevistas, los problemas recurrentes, necesidades, comportamientos y motivaciones del segmento. Relacionar estos resultados con la construcción del arquetipo de usuario y las necesidades que deberá atender la solución.]
+Los administradores de minimarkets son perfiles altamente dinámicos que gestionan sus negocios desde el celular. Su principal barrera es la desconexión tecnológica: utilizan métodos manuales para procesos críticos y canales informales para el abastecimiento, lo que genera estrés, pérdida de tiempo y mermas económicas. El arquetipo a construir reflejará a un gerente proactivo que exige una herramienta centralizada, automatizada y móvil que elimine la carga logística manual.
 
