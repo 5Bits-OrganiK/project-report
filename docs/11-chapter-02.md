@@ -530,7 +530,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5" height="350">
+        <img src="../docs/assets/chapter-02/interview-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -564,10 +564,12 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:17</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/6VBH0kRNnoY" target="_blank">Ver video</a></td>
-    </tr>
+</tr>
     <tr>
+      <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Juan José Rázuri es el encargado de ventas y distribución de productos orgánicos, operando desde Olmos, Lambayeque. Durante su jornada utiliza principalmente su celular por la movilidad constante en campo y almacén, apoyándose en una laptop por las noches para tareas administrativas. Sus herramientas de gestión se basan en Excel para el registro de inventario y la creación de catálogos en PDF. El 90% de su comunicación y recepción de pedidos con los minimarkets ocurre a través de WhatsApp.<br><br>
+        Sus procesos actuales son altamente manuales: anota lotes y fechas de cosecha en cuadernos físicos antes de digitarlos en Excel, y coordina la logística o resolución de problemas mediante llamadas telefónicas en el momento. Su principal dificultad es la incapacidad de mantener el stock sincronizado en tiempo real, lo que le ha generado problemas como vender mercadería ya agotada o cometer errores al transcribir pedidos rápidos desde los chats. Concluye que una plataforma donde los clientes puedan visualizar el stock actualizado y realizar pedidos directamente ordenaría su flujo de trabajo, evitaría que se traspapelen solicitudes y eliminaría las ventas duplicadas.
       </td>
     </tr>
   </tbody>
