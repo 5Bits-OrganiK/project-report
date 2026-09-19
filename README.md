@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
@@ -270,6 +270,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
 | <img src="./assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="120" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
+| <img src="./assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 ---
 
 ## 1.2. Solution Profile
