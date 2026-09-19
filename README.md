@@ -271,37 +271,6 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | <img src="./assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 
----
-# Capítulo I: Introducción
-
-## 1.1. Startup Profile
-
-### 1.1.1. Descripción de la Startup
-
-5bits es una startup tecnológica enfocada en el desarrollo de soluciones digitales para mejorar la gestión logística, el abastecimiento y la conservación de productos orgánicos. La startup busca contribuir a la transformación digital de los procesos relacionados con la comercialización y distribución de productos orgánicos, promoviendo una gestión más eficiente y sostenible.
-
-Su enfoque se encuentra dirigido principalmente a administradores de minimarkets y proveedores de productos orgánicos, considerando las necesidades y desafíos que ambos segmentos enfrentan dentro de la cadena de abastecimiento. De esta manera, 5bits busca generar valor mediante el uso de tecnologías digitales que faciliten la gestión de información y la coordinación entre los diferentes actores involucrados.
-
-La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el control de inventarios, abastecimiento, trazabilidad, conservación y gestión de productos orgánicos, buscando contribuir a una cadena de suministro más organizada, eficiente y transparente.
-
-**Misión:** Facilitar la transformación digital de la gestión logística, el abastecimiento y la conservación de productos orgánicos, contribuyendo a que minimarkets y proveedores desarrollen operaciones más eficientes, organizadas y sostenibles.
-
-**Visión:** Convertirse en una startup tecnológica de referencia en la transformación digital de la cadena de abastecimiento de productos orgánicos, promoviendo una gestión más eficiente, transparente y sostenible.
-
-**Valores:** Eficiencia, trazabilidad, sostenibilidad, transparencia, innovación y orientación al usuario.
-
-### 1.1.2. Perfiles de integrantes del equipo
-
-| Imagen | Apellidos y nombres | Código | Carrera | Perfil |
-|:---:|:---|:---:|:---|:---|
-| <img src="./assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_2]" alt="Foto de [NOMBRE_INTEGRANTE_2]" width="120" />` | **Andre Sebastian Quispe Almonacid** | U201815005 | Ingeniería de Software | Me considero un estudiante de ingeniería de software responsable, proactivo y que se adapta rápidamente a los retos de cada ciclo. Disfruto trabajar en equipo y siempre estoy dispuesto a ayudar a mis compañeros en lo que necesiten. Combino esta actitud colaborativa con mi pasión por la tecnología y la docencia para construir soluciones prácticas: desde aplicaciones web y bases de datos, hasta plataformas para mis propias tutorías y el negocio familiar. Además, en mi tiempo libre optimizo hardware, estudio inglés y disfruto los videojuegos, siempre buscando aportar valor y llevar mis ideas a la realidad.|
-| `<img src="./assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" />` | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Soy un estudiante de la carrera de Ingeniería de Software. Me considero un estudiante proactivo, me adapto muy bien a los trabajos en equipo. Trabajo muy bien bajo presión y siempre estoy abierto a aprender cosas nuevas cada día. Me apasiona crear soluciones nueva que permitan a la sociedad poder optimizar su estilo de vida, tanto a nivel personal, como a nivel profesional. |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_5]" alt="Foto de [NOMBRE_INTEGRANTE_5]" width="120" />` | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
-
----
-
 ## 1.2. Solution Profile
 
 Nuestra solución OrganiK, es una plataforma web para la gestión de inventarios, abastecimiento y monitoreo de productos orgánicos, que conecta a administradores de minimarkets y proveedores mediante un ecosistema digital centralizado.
