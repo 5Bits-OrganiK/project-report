@@ -633,11 +633,11 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
 
 ### Análisis por segmento objetivo
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de minimarkets (Segmento 1)**
 
 #### 1. Descripción general del segmento
 
-Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las entrevistas registradas, se identificaron patrones comunes en sus características objetivas y subjetivas, los cuales sirven como base para la construcción del arquetipo correspondiente.
+Este segmento agrupa a los administradores y gerentes de minimarkets (enfocados en productos orgánicos o generales) encargados de la gestión operativa, control de inventarios, calidad de almacenamiento y coordinación directa con proveedores. A partir de las entrevistas registradas, se identificaron patrones comunes marcados por una alta carga de trabajo físico, dependencia de dispositivos móviles y procesos de gestión obsoletos o fragmentados.
 
 #### 2. Características objetivas del segmento
 
