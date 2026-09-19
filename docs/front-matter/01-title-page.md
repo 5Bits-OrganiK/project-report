@@ -3,7 +3,7 @@
 <img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
 **Facultad:** Facultad de Ingeniería
 
@@ -19,14 +19,14 @@
 
 **Profesor:** Angel Auguto Velasquez Nuñez
 
-## INFORME DE TRABAJO FINAL — AV1
+ **INFORME DE TRABAJO FINAL — AV1**
 
 **Startup:** 5Bits
 
 **Producto:** OrganiK
 
 
-### INTEGRANTES:
+ **INTEGRANTES:**
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
