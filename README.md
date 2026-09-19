@@ -266,8 +266,8 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 |:---:|:---|:---:|:---|:---|
 | <img src="./assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
 | <img src="./assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional.
-] |
-| `<img src="./assets/chapter-01/[FOTO_INTEGRANTE_4]" alt="Foto de [NOMBRE_INTEGRANTE_4]" width="120" />` | **[APELLIDOS, NOMBRES]** | [CÓDIGO] | Ingeniería de Software | [Describir brevemente su formación, habilidades técnicas, fortalezas personales y aporte al proyecto.] |
+| <img src="./assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
+| <img src="./assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
 | <img src="./assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 ---
 
@@ -888,18 +888,18 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 
 ### 2.2.2. Registro de entrevistas
 
-**Segmento objetivo: [Nombre del segmento objetivo]**
+**Segmento objetivo: Administradores de Minimarkets**
 
-**Nombre del archivo de video consolidado:** `[nombre-del-video].mp4`
+**Nombre del archivo de video consolidado:** `ENTREVISTA ADMIN.mp4`
 
-<table style="width:100%; border-collapse:collapse;">
+<table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
     <tr>
       <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-01.png" alt="Entrevista 1" height="350">
+        <img src="../docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -908,36 +908,37 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Rodrigo Guevara</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Celular (movilidad) y laptop (en caja)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>26 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>No especificado</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador general (3 años de experiencia)</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp Business y correo electrónico</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
-    </tr>
+      <td colspan="2"><strong>Duración</strong>: 05:04</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BuiCkyydM7k" target="_blank">Ver video</a></td>
+</tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar un resumen de los principales aspectos mencionados por el entrevistado, incluyendo su contexto profesional, forma de trabajo, herramientas utilizadas, problemas identificados, procesos actuales, necesidades y percepción de una posible solución.]
+        Rodrigo Guevara es el administrador general de un minimarket en José Leonardo Ortiz, Chiclayo. Gestiona el negocio apoyándose principalmente en su celular y una laptop, utilizando un sistema POS básico integrado con Excel en Drive para el registro de inventario. La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp Business.<br><br>
+        Actualmente, sus procesos de control de calidad son manuales: el registro de lotes y fechas de vencimiento se lleva en una libreta física, y la revisión de stock y condiciones de almacenamiento (temperatura) se hace de manera visual en los anaqueles y congeladoras. Rodrigo identifica que su principal problema es el tiempo excesivo que demanda este control manual, el desorden al coordinar por chats y las pérdidas económicas generadas por productos vencidos o malogrados que no se detectan a tiempo. Concluye que una plataforma centralizada para inventarios, vencimientos y proveedores solucionaría estos puntos críticos al ahorrar tiempo y evitar mermas.
       </td>
     </tr>
   </tbody>
@@ -959,27 +960,27 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Roly Hans Luna</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td>Teléfono celular(Smartphone)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>28 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>iOS / Android (Mobile Browser)</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Administrador de Minimarket Orgánico</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>WhatsApp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>San Isidro, Lima</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [00:00]</td>
@@ -988,7 +989,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
       </td>
     </tr>
   </tbody>
@@ -1163,36 +1164,40 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
+      <td>Anita Gamboa</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
+      <td> celular / laptop </td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
+      <td>32 años</td>
       <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
+      <td>Windows/Chrome</td>
     </tr>
     <tr>
       <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
+      <td>Proveedor de productos orgánicos</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
+      <td>Whatsapp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
+      <td>Cerro Colorado - Arequipa</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
+      <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
+        La entrevista evidencia que la gestión actual depende principalmente de herramientas separadas como Excel, WhatsApp, llamadas y registros internos. Aunque estas permiten administrar productos y pedidos, la actualización manual de la información genera dificultades para mantener sincronizados el catálogo, la disponibilidad, los lotes y el estado de los pedidos.
+
+El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
+
+En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
       </td>
     </tr>
   </tbody>
