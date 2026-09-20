@@ -762,6 +762,30 @@ El User Journey Map de Marco Antonio Ríos representa la experiencia actual del 
 ### 2.3.4. Empathy Mapping
 
 
+El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente. 
+
+A partir de las entrevistas de validación realizadas, se estructuraron dos mapas de empatía bajo el lienzo **Empathy Map Canvas de 7 preguntas**, representando a un personaje ficticio clave para cada segmento objetivo de **OrganiK**:
+
+---
+
+##### **Segmento 1: Administrador de Minimarket Orgánico**
+
+* **Personaje :** Carlos Mendoza
+* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+
+![Mapa de Empatía - Carlos Mendoza](Carlos-Mendoza-Administrador-de-Minimarket.png)
+
+---
+
+##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+
+* **Personaje :** Valeria Ríos
+* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+
+![Mapa de Empatía - Valeria Ríos](Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
+
+
+
 ## 2.4. Big Picture Event Storming
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
