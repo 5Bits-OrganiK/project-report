@@ -468,7 +468,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
  </tr>
 <tr> 
 <td colspan="4" align="center">
- <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 4" height="350"> 
+ <img src="../docs/assets/chapter-02/entrevista-4.png" alt="Entrevista 4" height="350"> 
   </td> 
  </tr> 
 <tr> 
