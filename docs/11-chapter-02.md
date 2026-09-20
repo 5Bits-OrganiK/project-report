@@ -720,6 +720,27 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ### 2.3.2. User Task Matrix
 
+Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma OrganiK se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
+
+**Tasks vs User Personas**
+
+| Tasks | Administradores de Minimarkets (Frecuencia) | Administradores de Minimarkets (Importancia) | Proveedores B2B (Frecuencia) | Proveedores B2B (Importancia) |
+| :--- | :---: | :---: | :---: | :---: |
+| Controlar inventario y niveles de stock | Muy frecuente | Alta | No aplica | No aplica |
+| Gestionar catálogo propio y disponibilidad | No aplica | No aplica | Muy frecuente | Alta |
+| Monitorear temperatura y humedad (IoT) | Muy frecuente | Alta | No aplica | No aplica |
+| Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
+| Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
+| Generar pedidos de abastecimiento | No aplica | No aplica | Muy frecuente | Alta |
+| Evaluar (aceptar/rechazar) pedidos entrantes | Frecuente | Alta | No aplica | No aplica |
+| Actualizar inventario tras operaciones | Frecuente | Alta | No aplica | No aplica |
+| Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
+| Visualizar dashboard de métricas operativas | Muy frecuente | Alta | Muy frecuente | Alta |
+| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
+| Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
+
+La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de OrganiK: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
+
 
 ### 2.3.3. User Journey Mapping
 
