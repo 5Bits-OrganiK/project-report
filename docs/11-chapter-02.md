@@ -730,6 +730,10 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 ## 2.4. Big Picture Event Storming
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
+Con el fin de mantener la consistencia y facilitar la interpretación del modelo, el equipo definió una convención de colores para los post-its utilizados:
+<img src="../docs/assets/chapter-02/leyenda-eventos.png" alt="leyenda eventos"> 
+ 
+
 **Paso 1: Free Exploration**
 
 **Paso 2: Structured organization**
