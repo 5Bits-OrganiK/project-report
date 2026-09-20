@@ -744,6 +744,20 @@ La tabla muestra que ambos segmentos coinciden en considerar de alta importancia
 
 ### 2.3.3. User Journey Mapping
 
+El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de OrganiK, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
+
+**User Journey Map del 1er segmento objetivo – Administradores de Minimarkets**
+
+![User Journey Map - Administrador de Minimarket](assets/chapter-02/user-journey-map-1.png)
+
+El User Journey Map de Russell Estrada ilustra la experiencia actual del segmento de administradores de minimarkets a lo largo de las cinco etapas. En Aware, Russell busca una forma de evitar mermas por pérdida de frío o vencimiento, pero el control visual le demanda mucho tiempo y lo deja expuesto a fallas mecánicas de madrugada, evidenciando la necesidad de un sistema de alertas automatizado. En Join, comienza a coordinar con proveedores a través de WhatsApp y catálogos en PDF desactualizados, lo que refleja la dependencia de canales informales. Durante el Use, experimenta su mayor punto de frustración al recibir propuestas por chat y tener que transcribirlas manualmente a Excel para actualizar su inventario, un proceso propenso a errores humanos que descuadra su stock real. En Develop, sus intentos por formalizar las compras mediante correos electrónicos no prosperan por la urgencia del día a día, recayendo en el desorden de WhatsApp. Finalmente en Leave, el estrés operativo y las pérdidas de capital acumuladas lo motivan a buscar una solución de software centralizada que automatice su control de calidad y abastecimiento, siendo este el punto de entrada directo para OrganiK.
+
+**User Journey Map del 2do segmento objetivo – Proveedores de Productos Orgánicos**
+
+![User Journey Map - Proveedor B2B](assets/chapter-02/user-journey-map-2.png)
+
+El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
+
 
 ### 2.3.4. Empathy Mapping
 
