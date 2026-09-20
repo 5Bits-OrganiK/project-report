@@ -157,3 +157,181 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 *   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
 
 ![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
+
+## 4.6. Domain-Driven Software Architecture
+
+La arquitectura de software de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
+
+En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de OrganiK.
+
+### 4.6.1. Design-Level Event Storming
+
+Para identificar los eventos de dominio y la lógica de negocio de OrganiK, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
+
+A partir de este análisis se identificaron los siguientes bounded contexts:
+
+1. **IAM**
+
+   El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de OrganiK. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
+
+2. **Profiles**
+
+   El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
+
+3. **Dashboard**
+
+   El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
+
+4. **Analytics**
+
+   El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
+
+5. **Inventory**
+
+   El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
+
+6. **Products**
+
+   El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
+
+7. **Requisition**
+
+   El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
+
+8. **Procurements**
+
+   El bounded context Procurements administra las órdenes de envío o abastecimiento asociadas a solicitudes aceptadas. Su responsabilidad es permitir al proveedor registrar los productos que serán enviados y al minimarket confirmar o rechazar la recepción.
+
+9. **Suppliers**
+
+   El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
+
+10. **Conservation**
+
+   El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
+
+11. **Communication**
+
+   El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
+
+12. **Shared Kernel**
+
+   El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
+
+<div style="page-break-after: always;"></div>
+
+### 4.6.2. Software Architecture Context Diagram
+
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema OrganiK como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
+
+El context diagram muestra al **OrganiK Software System** como el sistema central, rodeado por los principales actores y sistemas con los que interactúa:
+
+- **Administrador de minimarket**: usuario encargado de registrar productos, controlar inventario, gestionar lotes, revisar fechas de vencimiento, crear solicitudes de abastecimiento y confirmar la recepción de órdenes de envío.
+- **Proveedor de productos orgánicos**: usuario responsable de registrar productos ofrecidos, revisar solicitudes de abastecimiento, aceptarlas o rechazarlas, y crear órdenes de envío.
+- **Administrador del sistema**: usuario encargado de gestionar cuentas, roles, permisos y configuración general de la plataforma.
+- **Servicio de notificaciones**: sistema externo utilizado para enviar alertas y comunicaciones relacionadas con vencimientos, conservación, solicitudes y abastecimiento.
+- **Servicio de monitoreo de conservación**: fuente externa o módulo de integración encargado de proporcionar información relacionada con temperatura y humedad para evaluar condiciones de conservación.
+
+En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con OrganiK mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
+
+![Software Architecture Context Diagram](../docs/assets/chapter-04/Contexto-dark.png)
+
+---
+
+### 4.6.3. Software Architecture Container Diagrams
+
+En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicaciones y fuentes de datos que colaboran para brindar la experiencia completa de la plataforma.
+
+La arquitectura lógica de OrganiK se estructura en los siguientes contenedores:
+
+- **Landing Page**: aplicación web pública orientada a presentar la propuesta de valor de OrganiK, sus beneficios y funcionalidades principales para minimarkets y proveedores de productos orgánicos.
+- **Single Page Application (SPA)**: aplicación web principal desarrollada en Angular, donde los usuarios interactúan con los módulos de inventario, productos, proveedores, solicitudes, órdenes de envío, conservación, analítica, dashboard, perfiles, comunicación e IAM.
+- **API REST Application**: backend encargado de exponer los servicios de negocio mediante endpoints REST. Centraliza la lógica de aplicación, validaciones, reglas de dominio y coordinación entre bounded contexts.
+- **Database**: base de datos donde se persiste la información del sistema, incluyendo usuarios, perfiles, productos, inventario, lotes, solicitudes, órdenes de abastecimiento, proveedores, alertas, métricas y registros de conservación.
+
+En el diagrama se observa que:
+
+- Los usuarios pueden conocer la solución mediante la **Landing Page** y luego acceder a la **SPA**.
+- La **SPA** se comunica con la **API REST Application** mediante peticiones HTTP/HTTPS y mensajes JSON.
+- La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
+- Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
+
+![Software Architecture Container Diagram](../docs/assets/chapter-04/Contenedor-dark.png)
+
+---
+
+### 4.6.4. Software Architecture Components Diagrams
+
+En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
+
+La API REST organiza sus responsabilidades en componentes especializados:
+
+- **IAM Component**: gestiona autenticación, autorización, usuarios, roles y permisos.
+- **Profiles Component**: administra perfiles de usuarios, minimarkets y proveedores.
+- **Dashboard Component**: consolida información relevante para mostrar vistas generales según el rol del usuario.
+- **Analytics Component**: procesa indicadores, métricas y reportes operativos.
+- **Inventory Component**: gestiona inventario, lotes, cantidades, vencimientos, pérdidas y ofertas.
+- **Products Component**: administra el catálogo de productos orgánicos registrados u ofrecidos.
+- **Requisition Component**: gestiona solicitudes de abastecimiento entre minimarkets y proveedores.
+- **Procurements Component**: administra órdenes de envío, aceptación, rechazo y recepción de productos.
+- **Suppliers Component**: gestiona proveedores y sus productos ofrecidos.
+- **Conservation Component**: monitorea condiciones de conservación y detecta riesgos.
+- **Communication Component**: administra alertas y notificaciones del sistema.
+- **Shared Kernel Component**: agrupa elementos transversales reutilizados por los demás componentes.
+
+#### API REST Component Diagram
+
+![API REST Component Diagram](../docs/assets/chapter-04/APIRestComponentDiagram-dark.png)
+
+#### IAM Component Diagram
+
+![IAM Component Diagram](../docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+
+#### Profiles Component Diagram
+
+![Profiles Component Diagram](../docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+
+#### Dashboard Component Diagram
+
+![Dashboard Component Diagram](../docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+
+#### Analytics Component Diagram
+
+![Analytics Component Diagram](../docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+
+#### Inventory Component Diagram
+
+![Inventory Component Diagram](../docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+
+#### Products Component Diagram
+
+![Products Component Diagram](../docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+
+#### Requisition Component Diagram
+
+![Requisition Component Diagram](../docs/assets/chapter-04/RequisitionBCComponentDiagram-dark.png)
+
+#### Procurements Component Diagram
+
+![Procurements Component Diagram](../docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+
+#### Suppliers Component Diagram
+
+![Suppliers Component Diagram](../docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+
+#### Conservation Component Diagram
+
+![Conservation Component Diagram](../docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+
+#### Communication Component Diagram
+
+![Communication Component Diagram](../docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+
+#### Shared Kernel Component Diagram
+
+![Shared Kernel Component Diagram](../docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+
+De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo OrganiK organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
+
+<div style="page-break-after: always;"></div>
+
