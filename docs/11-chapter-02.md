@@ -644,19 +644,19 @@ Este segmento agrupa a los administradores y gerentes de minimarkets (enfocados 
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **Comportamiento Mobile-First** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo gestiona el negocio principalmente desde su celular; Roly utiliza su teléfono durante el 90% de su jornada laboral. | Define que la interfaz de la solución (OrganiK) para este segmento debe ser estrictamente *responsive* y optimizada para su uso en movimiento. |
-| **Control de calidad físico y manual** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo registra lotes en libretas y revisa anaqueles visualmente; Roly revisa vencimientos visualmente y verifica temperaturas con termómetros físicos. | Justifica la necesidad arquitectónica de integrar módulos IoT de monitoreo de temperatura y un sistema automatizado de lotes. |
-| **Fragmentación de herramientas digitales** | 100% (2/2) | **Entrevistas [1, 2]:** Ambos utilizan sistemas POS básicos combinados con hojas de cálculo de Excel (Google Drive), libretas físicas y WhatsApp Business. | Evidencia la necesidad técnica de unificar bases de datos dispersas en un dashboard centralizado y fácil de operar. |
-| **Dependencia de mensajería para B2B** | 100% (2/2) | **Entrevistas [1, 2]:** La comunicación, consulta de catálogos y seguimiento de pedidos con sus proveedores se realiza de forma casi exclusiva a través de WhatsApp. | Obliga a diseñar un módulo de "Abastecimiento" que reemplace la coordinación informal por chats. |
+| **Comportamiento Mobile-First** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo y Roly gestionan sus negocios principalmente desde el celular durante su jornada. | Define que la interfaz de la solución (OrganiK) debe ser estrictamente *responsive* y optimizada para su uso en movimiento. |
+| **Control de calidad físico y manual** | 100% (2/2) | **Entrevistas [1, 2]:** Registro de lotes en libretas y revisión visual de vencimientos y temperatura en anaqueles. | Justifica la necesidad arquitectónica de integrar módulos IoT de monitoreo de temperatura y alertas de lotes. |
+| **Fragmentación de herramientas digitales** | 100% (2/2) | **Entrevistas [1, 2]:** Uso combinado de sistemas POS básicos, hojas de cálculo de Excel en Drive y libretas físicas. | Evidencia la necesidad técnica de unificar bases de datos dispersas en un dashboard centralizado y fácil de operar. |
+| **Dependencia de mensajería para B2B** | 100% (2/2) | **Entrevistas [1, 2]:** La consulta de catálogos y seguimiento de pedidos se realiza de forma casi exclusiva a través de WhatsApp. | Obliga a diseñar un módulo de "Abastecimiento" que reemplace la coordinación informal por chats. |
 
 #### 3. Características subjetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **Frustración económica por mermas** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo identifica pérdidas por productos malogrados no detectados; Roly señala las mermas de perecibles por falta de control como su principal problema. | El arquetipo debe mostrar a un usuario altamente preocupado por proteger su capital y la rentabilidad del negocio. |
-| **Desgaste por tiempo invertido** | 100% (2/2) | **Entrevistas [1, 2]:** Rodrigo sufre por el tiempo excesivo que demanda el control manual y el desorden al coordinar; Roly experimenta altos niveles de frustración operativa. | Refleja a un usuario saturado que valora las herramientas tecnológicas que le devuelvan horas útiles en su día a día. |
-| **Expectativa de automatización** | 100% (2/2) | **Entrevistas [1, 2]:** Roly es entusiasta ante alertas automáticas (clima/vencimientos); Rodrigo concluye que centralizar inventarios solucionaría sus puntos críticos. | Perfila a un usuario abierto a adoptar nuevas plataformas si el retorno de inversión (ahorro de tiempo) es inmediato. |
-| **Inseguridad operativa fuera de horario** | 100% (2/2) | **Entrevistas [1, 2]:** Roly menciona que el control manual lo deja expuesto a fallas mecánicas durante la madrugada. | Define la motivación del usuario: recuperar la tranquilidad mental delegando el monitoreo preventivo al software. |
+| **Frustración económica por mermas** | 100% (2/2) | **Entrevistas [1, 2]:** Pérdidas económicas directas por productos malogrados o vencidos no detectados a tiempo. | El arquetipo debe mostrar a un usuario altamente preocupado por proteger su capital y la rentabilidad del negocio. |
+| **Desgaste por tiempo invertido** | 100% (2/2) | **Entrevistas [1, 2]:** Frustración operativa por el tiempo excesivo que demanda el control manual y el desorden al coordinar por chat. | Refleja a un usuario saturado que valora las herramientas tecnológicas que le devuelvan horas útiles. |
+| **Expectativa de automatización** | 100% (2/2) | **Entrevistas [1, 2]:** Entusiasmo ante alertas automáticas y la centralización de inventarios para reducir pérdidas a cero. | Perfila a un usuario abierto a adoptar nuevas plataformas si el retorno de inversión (ahorro de tiempo) es inmediato. |
+| **Inseguridad operativa fuera de horario** | 100% (2/2) | **Entrevistas [1, 2]:** Estrés por quedar expuesto a fallas mecánicas de refrigeración durante la madrugada. | Define la motivación del usuario: recuperar la tranquilidad mental delegando el monitoreo preventivo al software. |
 
 #### 4. Hallazgos principales
 
@@ -680,19 +680,19 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **Sistemas de registro desconectados** | 100% (2/2) | **Entrevistas [4, 6]:** Se depende de herramientas separadas como Excel (catálogos), cuadernos de almacén (lotes), sistema de facturación y WhatsApp. | El arquetipo requerirá vistas de escritorio robustas (*Backoffice*) para unificar inventarios complejos y pedidos en una sola pantalla. |
-| **Recepción multiformato de pedidos** | 100% (2/2) | **Entrevistas [4, 6]:** Los pedidos llegan por mensajería en formatos distintos y deben ser transcritos a una hoja de cálculo. | Justifica la creación de un flujo estandarizado de "Carrito B2B" directo desde el minimarket hacia el proveedor. |
-| **Actualización manual del inventario** | 100% (2/2) | **Entrevistas [4, 6]:** La disponibilidad y los lotes se registran de forma manual, lo que dificulta mantener sincronizado el catálogo con el stock real. | Sustenta la necesidad de un sistema que descuente el stock automáticamente al confirmar una orden de abastecimiento. |
-| **Ausencia de trazabilidad para clientes** | 100% (2/2) | **Entrevistas [4, 6]:** El estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar por su cuenta. | Define el requerimiento de implementar estados de orden (ej. "En preparación", "En ruta") visibles para ambas partes. |
+| **Sistemas de registro desconectados** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Dependencia de herramientas separadas (Excel, PDF, cuadernos de almacén y WhatsApp) sin integración. | El arquetipo requerirá vistas de escritorio robustas (*Backoffice*) para unificar inventarios complejos y catálogos. |
+| **Recepción y transcripción manual de pedidos** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Los pedidos llegan por chat y deben ser digitados, generando inconsistencias y ventas de stock agotado. | Justifica la creación de un flujo estandarizado de "Carrito B2B" directo desde el minimarket hacia el proveedor. |
+| **Actualización manual del inventario** | 100% (3/3) | **Entrevistas [4, 5, 6]:** La disponibilidad se anota físicamente antes de pasarse a Excel, impidiendo mantener sincronizado el catálogo. | Sustenta la necesidad de un sistema que descuente el stock automáticamente al confirmar una orden. |
+| **Ausencia de trazabilidad para clientes** | 100% (3/3) | **Entrevistas [4, 5, 6]:** El cliente no puede visualizar el stock real ni el estado de su operación por cuenta propia. | Define el requerimiento de implementar estados de orden (ej. "En preparación", "En ruta") visibles para ambas partes. |
 
 #### 3. Características subjetivas del segmento
 
 | Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:---|:---|:---|:---|
-| **Presión por errores de transcripción** | 100% (2/2) | **Entrevistas [4, 6]:** La transcripción manual ocasiona pedidos omitidos, cantidades mal registradas y quiebres de stock. | Perfila a un usuario abrumado por la logística inversa y las quejas causadas por errores humanos de digitación. |
-| **Sobrecarga por atención al cliente** | 100% (2/2) | **Entrevistas [4, 6]:** La falta de integración genera llamadas constantes y conversaciones dispersas para confirmar despachos o cambios. | Refleja la urgencia de proporcionar transparencia total a sus compradores para liberar el tiempo de su equipo comercial. |
-| **Expectativa de centralización B2B** | 100% (2/2) | **Entrevistas [4, 6]:** Consideran vital una plataforma que centralice productos, disponibilidad, lotes y estados de cada operación. | Define la motivación principal del usuario: optimizar la eficiencia de su almacén y facilitar la coordinación con minimarkets. |
-| **Exigencia de simplicidad tecnológica** | 100% (2/2) | **Entrevistas [4, 6]:** Marco Antonio recalca que la herramienta facilitaría su gestión siempre que sea sencilla de usar y funcione desde el celular. | El arquetipo valorará interfaces limpias (UX/UI minimalista) que no requieran capacitaciones largas para su equipo logístico. |
+| **Presión por errores de transcripción** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Frustración por ventas duplicadas, pedidos omitidos y cantidades mal registradas al transcribir rápido. | Perfila a un usuario abrumado por la logística inversa y las quejas causadas por errores humanos. |
+| **Sobrecarga por coordinación y soporte** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Desgaste por llamadas telefónicas constantes y conversaciones dispersas para confirmar despachos. | Refleja la urgencia de proporcionar transparencia total a sus compradores para liberar su tiempo. |
+| **Expectativa de centralización B2B** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Consideran vital que los clientes visualicen el stock actualizado y hagan pedidos directamente. | Define la motivación principal: optimizar la eficiencia de su almacén y evitar que se traspapelen solicitudes. |
+| **Exigencia de simplicidad en campo** | 100% (3/3) | **Entrevistas [4, 5, 6]:** Necesidad de herramientas sencillas y móviles debido a la movilidad constante en campo y almacén. | El arquetipo valorará interfaces limpias y *mobile-friendly* que no requieran capacitaciones largas. |
 
 #### 4. Hallazgos principales
 
