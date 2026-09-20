@@ -11,7 +11,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 #### Project Management
 
 * **Trello:** Empleado para la organización visual del flujo de trabajo diario, priorización de tareas y seguimiento del avance de las secciones de la landing page.
-  * **Ruta:** `<URL_DEL_TABLERO_TRELLO>`
+  * **Ruta:** `https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik`
 
 #### Product UX/UI Design
 
