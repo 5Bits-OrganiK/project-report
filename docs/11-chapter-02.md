@@ -769,4 +769,27 @@ El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al n
 <img src="../docs/assets/chapter-02/diagram.jpeg">
 
 
-## 2.5. Ubiquitous Language 
+## 2.5. Ubiquitous Language
+
+A partir del Big Picture Event Storming se identificaron los términos y conceptos que forman el lenguaje ubicuo del dominio de OrganiK. Este glosario asegura que el equipo de desarrollo, los stakeholders y la documentación utilicen exactamente el mismo significado para cada concepto de negocio a lo largo de todo el proyecto.
+
+| Término | Definición |
+| :--- | :--- |
+| **Administrador (de minimarket)** | Actor responsable de gestionar el inventario, aprobar solicitudes de abastecimiento y consultar los indicadores de su negocio dentro de OrganiK. |
+| **Proveedor** | Actor B2B que gestiona su catálogo de productos orgánicos, responde solicitudes de abastecimiento y genera órdenes de compra hacia los minimarkets. |
+| **Perfil de negocio** | Conjunto de datos que identifican a un administrador o proveedor dentro de la plataforma (razón social, RUC, cobertura, datos de contacto). |
+| **Rol** | Nivel de acceso asignado a un usuario (administrador o proveedor) que determina las acciones y vistas disponibles para él dentro del sistema. |
+| **Catálogo orgánico** | Read model que consolida todos los productos orgánicos registrados por un proveedor, con su categoría, precio y fecha de expiración validados. |
+| **Lote** | Unidad de stock de un producto orgánico registrada con fecha de ingreso, cantidad y fecha de expiración, utilizada para el control de vencimientos. |
+| **Stock mínimo** | Umbral configurado por producto que, al ser alcanzado, dispara el evento de stock bajo detectado y genera una alerta automática. |
+| **Inventario actual** | Read model que muestra en tiempo real la cantidad disponible de cada producto y lote dentro del almacén del minimarket o proveedor. |
+| **Alerta de stock bajo** | Notificación generada automáticamente cuando el inventario de un producto cae por debajo del stock mínimo configurado. |
+| **Solicitud (Requisition)** | Petición de abastecimiento creada por un administrador o proveedor, que puede ser aceptada o rechazada y cuyo estado es notificado a ambas partes. |
+| **Orden de compra (Procurement)** | Documento generado a partir de una solicitud aceptada, que formaliza la compra de productos entre el proveedor y el minimarket. |
+| **Recepción** | Confirmación de la llegada física de una orden de compra, que actualiza el inventario del minimarket solo si es aceptada. |
+| **Directorio de proveedores** | Read model que agrupa a todos los proveedores registrados y validados (RUC y cobertura) disponibles para un minimarket. |
+| **Dashboard** | Vista consolidada de indicadores operativos, distinta según el rol del usuario (administrador o proveedor), que resume el estado general del negocio. |
+| **Indicador / KPI** | Métrica operativa calculada por el sistema (por ejemplo, mermas, nivel de stock o pedidos pendientes) y mostrada en el dashboard. |
+| **Reporte operativo** | Documento generado por el módulo de Analytics que resume métricas y variaciones de un periodo determinado. |
+| **Conservación (Conservation)** | Contexto vinculado al monitoreo de condiciones ambientales (temperatura y humedad) que afectan la calidad de los productos orgánicos almacenados. |
+| **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
