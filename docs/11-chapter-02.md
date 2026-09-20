@@ -703,3 +703,16 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 #### 5. Conclusión del segmento
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
+
+### 2.2.4. User Personas
+
+A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **OrganiK** se diseñen centradas en sus necesidades reales.
+
+**Segmento 1: Administrador de Minimarket (Arquetipo: Roly Hans Luna)**
+
+![User Persona - Roly Hans Luna](../assets/chapter-02/Russell-Estrada.png)
+
+**Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
+
+![User Persona - Marco Antonio Ríos](../assets/user-persona-proveedor.png)
+
