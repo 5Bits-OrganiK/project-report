@@ -708,9 +708,9 @@ Los proveedores y distribuidores operan en un estado de fragmentación logístic
 
 A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **OrganiK** se diseñen centradas en sus necesidades reales.
 
-**Segmento 1: Administrador de Minimarket (Arquetipo: Roly Hans Luna)**
+**Segmento 1: Administrador de Minimarket (Arquetipo: Russel-Estrada)**
 
-![User Persona - Roly Hans Luna](../assets/chapter-02/Russell-Estrada.png)
+![User Persona - Russel-Estrada](../assets/chapter-02/Russell-Estrada.png)
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
