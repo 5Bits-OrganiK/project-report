@@ -716,7 +716,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
-![User Persona - Marco Antonio Ríos](../docs/assets/chapter-02/User Persona - Marco Antonio Ríos.png)
+![User Persona - Marco Antonio Ríos](../docs/assets/chapter-02/Marco-User.png)
 
 ### 2.3.2. User Task Matrix
 
