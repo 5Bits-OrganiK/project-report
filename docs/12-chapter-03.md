@@ -244,6 +244,6 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 ``` https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik ```
 
 <div align="center">
-  <img src="./assets/chapter-03/spring1" alt="Evidence Product Backlog" width="90%">
+  <img src="./assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
