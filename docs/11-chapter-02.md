@@ -710,7 +710,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 **Segmento 1: Administrador de Minimarket (Arquetipo: Russel-Estrada)**
 
-![User Persona - Russel-Estrada](../assets/chapter-02/Russell-Estrada.png)
+![User Persona - Russel-Estrada](../docs/assets/chapter-02/Russell-Estrada.png)
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
