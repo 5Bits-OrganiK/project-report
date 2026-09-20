@@ -363,3 +363,62 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
+## 4.7. Software Object-Oriented Design
+
+En esta sección se presenta el diseño orientado a objetos de OrganiK, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
+
+### 4.7.7. Class Diagrams
+
+Los diagramas de clases muestran la organización interna de los componentes principales de OrganiK, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
+
+A continuación, se presenta el diagrama general de clases del sistema:
+
+![General Class Diagram](../docs/assets/chapter-04/diagram-class-general.png)
+
+Además, se presentan los diagramas de clases correspondientes a los principales bounded contexts de OrganiK:
+
+#### Profiles Class Diagram
+
+![Profiles Class Diagram](../docs/assets/chapter-04/profilesclass.png)
+
+#### Communication Class Diagram
+
+![Communication Class Diagram](../docs/assets/chapter-04/communicationclass.png)
+
+#### Conservation Class Diagram
+
+![Conservation Class Diagram](../docs/assets/chapter-04/conservationclass.png)
+
+#### Analytics Class Diagram
+
+![Analytics Class Diagram](../docs/assets/chapter-04/analitycsclass.png)
+
+#### Dashboard Class Diagram
+
+![Dashboard Class Diagram](../docs/assets/chapter-04/dashboardclass.png)
+
+#### IAM Class Diagram
+
+![IAM Class Diagram](../docs/assets/chapter-04/iamclass.png)
+
+#### Shared Class Diagram
+
+![Shared Class Diagram](../docs/assets/chapter-04/sharedclass.png)
+
+Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de OrganiK. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre entidades, servicios, componentes de presentación, stores de aplicación e infraestructura.
+
+---
+
+## 4.8. Database Design
+
+El diseño de base de datos de OrganiK define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
+
+La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
+
+# 4.8.1. Database Diagrams
+
+El diagrama de base de datos muestra las entidades principales de OrganiK, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se almacena la información del sistema y cómo se conectan los distintos procesos de negocio a nivel de persistencia.
+
+![Database Diagram](../docs/assets/chapter-04/databasedigram.png)
+
+
