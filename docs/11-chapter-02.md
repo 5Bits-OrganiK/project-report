@@ -1,4 +1,4 @@
-
+# Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 
 Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
@@ -704,7 +704,9 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
 
-### 2.2.4. User Personas
+## Needfinding
+
+### 2.3.1. User Personas
 
 A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **OrganiK** se diseñen centradas en sus necesidades reales.
 
@@ -714,5 +716,23 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
-![User Persona - Marco Antonio Ríos](../assets/user-persona-proveedor.png)
+![User Persona - Marco Antonio Ríos](../docs/assets/user-persona-proveedor.png)
 
+###2.3.2. User Task Matrix
+
+
+###2.3.3. User Journey Mapping
+
+
+###2.3.4. Empathy Mapping
+
+
+##2.4. Big Picture Event Storming
+El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
+
+**Paso 1: Free Exploration**
+
+**Paso 2: Structured organization**
+
+
+##2.5. Ubiquitous Language 
