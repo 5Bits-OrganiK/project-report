@@ -168,43 +168,69 @@ En las siguientes secciones se presenta cada nivel del modelo arquitectónico, e
 
 Para identificar los eventos de dominio y la lógica de negocio de OrganiK, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
+El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [Lucidchart - OrganiK](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
+
+A continuación, se presentan la leyenda utilizada y las relaciones clave entre los bounded contexts identificados:
+
+![Leyenda Bounded Contexts](../docs/assets/chapter-04/leyendabc.png)
+
+![Key Relations Bounded Contexts](../docs/assets/chapter-04/keyrelationsbc.png)
+
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
 1. **IAM**
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de OrganiK. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
+   ![IAM Bounded Context](../docs/assets/chapter-04/bciam.png)
+
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
+
+   ![Profiles Bounded Context](../docs/assets/chapter-04/bcprofiles.png)
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
+   ![Dashboard Bounded Context](../docs/assets/chapter-04/bcdashboard.png)
+
 4. **Analytics**
 
    El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
+
+   ![Analytics Bounded Context](../docs/assets/chapter-04/bcanalytics.png)
 
 5. **Inventory**
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
+   ![Inventory Bounded Context](../docs/assets/chapter-04/bcinventory.png)
+
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
+
+   ![Products Bounded Context](../docs/assets/chapter-04/bcproducts.png)
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
+   ![Requisition Bounded Context](../docs/assets/chapter-04/bcrequisition.png)
+
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío o abastecimiento asociadas a solicitudes aceptadas. Su responsabilidad es permitir al proveedor registrar los productos que serán enviados y al minimarket confirmar o rechazar la recepción.
 
+   ![Procurements Bounded Context](../docs/assets/chapter-04/bcprocurenments.png)
+
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
+
+   ![Suppliers Bounded Context](../docs/assets/chapter-04/bcsuppliers.png)
 
 10. **Conservation**
 
@@ -218,8 +244,9 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
 
-<div style="page-break-after: always;"></div>
+   ![Shared Kernel Bounded Context](../docs/assets/chapter-04/bcshared.png)
 
+<div style="page-break-after: always;"></div>
 ### 4.6.2. Software Architecture Context Diagram
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema OrganiK como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
