@@ -56,8 +56,20 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
   </thead>
   <tbody>
     <tr>
+      <td>Project Report OrganiK</td>
+      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/OrganiK/organik-report</a></td>
+    </tr>
+    <tr>
       <td>Landing Page OrganiK</td>
-      <td><a href="https://github.com/OrganiK/organik-landingpage">https://github.com/OrganiK/organik-landingpage</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/OrganiK/organik-landingpage</a></td>
+    </tr>
+    <tr>
+      <td>Frontend Web Application OrganiK</td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/OrganiK/organik-frontend</a></td>
+    </tr>
+    <tr>
+      <td>Backend Web Services OrganiK</td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/OrganiK/organik-backend</a></td>
     </tr>
   </tbody>
 </table>
