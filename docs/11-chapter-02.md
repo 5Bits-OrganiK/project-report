@@ -735,4 +735,4 @@ El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al n
 **Paso 2: Structured organization**
 
 
-##2.5. Ubiquitous Language 
+## 2.5. Ubiquitous Language 
