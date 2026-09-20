@@ -398,8 +398,8 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: [15:00]</td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
