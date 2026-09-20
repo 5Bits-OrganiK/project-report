@@ -182,14 +182,13 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
   </a>
 </p>
 
-> Nota: reemplazar la URL anterior por la URL real del repositorio si corresponde.
-
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 <p>
-Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo durante el desarrollo de la landing page de <strong>OrganiK</strong>.
+Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo durante el desarrollo de la landing page de <strong>OrganiK</strong>. 
+<strong>Albino Florencio Cáceres Pizarro</strong>, como líder del equipo, supervisa y coordina los principales aspectos del desarrollo, mientras que los demás integrantes participan como colaboradores en las diferentes actividades del sprint.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -206,31 +205,31 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
   <tbody>
     <tr>
       <td>Atencio Cristobal, Cielo Valentina</td>
-      <td>u202424216</td>
+      <td>U202424216</td>
       <td>C</td>
       <td>C</td>
-      <td>L</td>
+      <td>C</td>
       <td>C</td>
     </tr>
     <tr>
       <td>Cáceres Pizarro, Albino Florencio</td>
-      <td>201923820</td>
+      <td>U201923820</td>
       <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td>L</td>
+      <td>L</td>
       <td>L</td>
     </tr>
     <tr>
       <td>Olivares Lao, Gustavo Alonso</td>
       <td>U202216448</td>
       <td>C</td>
-      <td>L</td>
+      <td>C</td>
       <td>C</td>
       <td>C</td>
     </tr>
     <tr>
       <td>Quispe Almonacid, Andre Sebastian</td>
-      <td>u201815005</td>
+      <td>U201815005</td>
       <td>C</td>
       <td>C</td>
       <td>C</td>
