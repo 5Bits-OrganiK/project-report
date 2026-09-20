@@ -735,8 +735,11 @@ Con el fin de mantener la consistencia y facilitar la interpretación del modelo
 <img src="../docs/assets/chapter-02/leyenda-eventos.png" alt="leyenda eventos"> 
  
 **Paso 1: Free Exploration**
+El primer paso consistió en la identificación de los eventos de dominio del sistema. Un evento de dominio representa un hecho relevante que ya ocurrió dentro del negocio y se expresa en tiempo pasado. 
+
 
 **Paso 2: Structured organization**
+El segundo paso consistió en organizar los eventos de dominio dentro de líneas de tiempo por cada bounded context del sistema. 
 
 
 ## 2.5. Ubiquitous Language 
