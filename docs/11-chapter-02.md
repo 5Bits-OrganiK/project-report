@@ -30,12 +30,12 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     <th>
       OrganiK
       <br>
-      <img src="../assets/img/chapter-2/organiklogo.png" alt="OrganiK" width="100">
+      <img src="../assets/img/chapter-2/organiklogo.png" alt="OrganiK" width="349">
     </th>
     <th>
       CasaMarket
       <br>
-      <img src="../assets/img/chapter-2/casamarket-logo.png" alt="CasaMarket" width="100">
+      <img src="../assets/img/chapter-2/casamarket-logo.png" alt="CasaMarket" width="316">
     </th>
     <th>
       limaPOS
