@@ -130,3 +130,30 @@ El sistema de navegación está estructurado para que los usuarios interactúen 
 *   **Navegación Global (Web App):** *Sidebar* lateral izquierda colapsable en escritorio, y menú *Hamburguesa* en móviles para facilitar el uso en pantallas pequeñas.
 *   **Navegación Local:** Pestañas (Tabs) dentro de un mismo módulo para separar sub-vistas (ej. Dentro del módulo "Inventario", pestañas separadas para *Stock Activo*, *Lotes* y *Mermas*).
 *   **Navegación Suplementaria:** Ruta de migas de pan (Breadcrumbs) en la cabecera (ej. `OrganiK > Abastecimiento > Detalle Pedido ORD-0012`) que orienta al usuario y le permite retroceder niveles sin perder contexto.
+
+### 4.3. Landing Page UI Design
+
+En esta sección se presenta la propuesta de Interfaz de Usuario (UI) para la Landing Page de **OrganiK**. El diseño visual traduce las decisiones tomadas en la Arquitectura de la Información y las Guías de Estilo en una interfaz tangible orientada a la conversión. El objetivo principal de esta página pública es comunicar claramente la propuesta de valor integrada (gestión de inventarios, monitoreo IoT y abastecimiento B2B) y dirigir a los administradores de minimarkets y proveedores hacia el registro o inicio de sesión.
+
+#### 4.3.1. Landing Page Wireframe
+
+Los wireframes representan el esqueleto estructural de la página en baja fidelidad, desprovistos de color y tipografía final, para centrar el análisis en la usabilidad y la distribución del contenido.
+
+**Explicación del Diseño y Arquitectura:**
+*   **Estructura Visual:** Se ha optado por un diseño de bloque único (*Single-page layout*) que guía al usuario a través de un viaje lógico: Problema $\rightarrow$ Solución (Características de OrganiK) $\rightarrow$ Planes $\rightarrow$ Call to Action (CTA).
+*   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas IoT.
+*   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Se ha proyectado que las áreas de interacción (botones de "Empezar" o "Conoce los planes") tengan un área táctil amplia (mínimo 44x44px) para evitar frustración motriz en dispositivos móviles.
+
+![Landing Page Wireframe - Plataforma OrganiK](assets/chapter-04/landing-page-mockup.png)
+
+#### 4.3.2. Landing Page Mock-up
+
+Los mock-ups representan el diseño final en alta fidelidad, integrando el *Design System* establecido para los productos digitales de OrganiK.
+
+**Explicación de la Aplicación Visual y UI:**
+*   **Aplicación de Style Guidelines:** El diseño final hace un uso extenso del espacio en blanco (White y Alice Blue) para transmitir una sensación de modernidad y limpieza, esencial en un software B2B. Los colores primarios (*Azure Radiance* y *Dodger Blue*) se reservan estratégicamente para los componentes interactivos principales (botones de Login/Registro y enlaces), atrayendo naturalmente la vista del usuario.
+*   **Tipografía y Legibilidad:** Se aplica la fuente *Arimo* en su variante Bold para los encabezados principales (H1, H2), logrando un impacto rápido; mientras que los párrafos explicativos utilizan *Inter*, garantizando una legibilidad óptima incluso en las tarjetas descriptivas de los planes de suscripción.
+*   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo que el usuario pueda acceder al botón de "Iniciar Sesión" en cualquier momento de su lectura, maximizando las oportunidades de conversión.
+*   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
+
+![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
