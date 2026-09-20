@@ -773,7 +773,7 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 * **Personaje :** Carlos Mendoza
 * **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
 
-![Mapa de Empatía - Carlos Mendoza](Carlos-Mendoza-Administrador-de-Minimarket.png)
+![Mapa de Empatía - Carlos Mendoza] <img src="../docs/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png">
 
 ---
 
@@ -782,7 +782,7 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 * **Personaje :** Valeria Ríos
 * **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
 
-![Mapa de Empatía - Valeria Ríos](Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
+![Mapa de Empatía - Valeria Ríos] <img src="../docs/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png">
 
 
 
