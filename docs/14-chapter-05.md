@@ -62,8 +62,6 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
   </tbody>
 </table>
 
-> Nota: reemplazar la URL anterior por la URL real del repositorio si la organización o el nombre del repositorio difieren.
-
 #### GitFlow Workflow and Collaboration Strategy
 
 Para asegurar una colaboración organizada, evitar conflictos en el código y mantener una integración continua clara, el equipo de **OrganiK** aplica una estrategia basada en ramas para el desarrollo de la landing page.
