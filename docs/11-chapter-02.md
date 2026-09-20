@@ -718,16 +718,16 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ![User Persona - Marco Antonio Ríos](../docs/assets/user-persona-proveedor.png)
 
-###2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
 
 
-###2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping
 
 
-###2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 
-##2.4. Big Picture Event Storming
+## 2.4. Big Picture Event Storming
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
 **Paso 1: Free Exploration**
