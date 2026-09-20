@@ -174,7 +174,6 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 
 <img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
-## 3.3. Product Backlog
 
 ## 3.3. Product Backlog
 
