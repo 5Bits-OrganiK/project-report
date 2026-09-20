@@ -26,11 +26,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       <strong>TB1:</strong> .<br>
       <strong>AV2:</strong> <br>
       <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
+      <strong>Atencio Cristobal, Cielo Valentina</strong><br> 
+      <strong>AV1:</strong> Elaboración del guion de entrevista para el segmento de proveedores, ejecución de la entrevista y sistematización de los hallazgos en la persona del proveedor.<br> 
+      <strong>TB1:</strong> <br> 
+      <strong>AV2:</strong> Elaboración del Big Picture Event Storming (identificación de eventos, actores, comandos, policies y read models por bounded context) y definición del Ubiquitous Language del proyecto.<br>
+      <strong>TF:</strong> <br><br>
       <strong>integrante 3</strong><br> 
       <strong>AV1:</strong> que hizo<br> 
       <strong>TB1:</strong> que hizo<br> 
@@ -64,11 +64,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       <strong>TB1:</strong> .<br>
       <strong>AV2:</strong> <br>
       <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
+      <strong>Atencio Cristobal, Cielo Valentina</strong><br> 
+      <strong>AV1:</strong> Coordinó la logística de la entrevista al proveedor (guion, grabación y registro en la ficha de entrevistados) como parte del cumplimiento del artefacto de Needfinding asignado al equipo.<br> 
+      <strong>TB1:</strong> <br> 
+      <strong>AV2:</strong> Estructuró la documentación del Big Picture Event Storming y el Ubiquitous Language siguiendo el cronograma del equipo, dejando ambos artefactos listos para la revisión del curso.<br>
+      <strong>TF:</strong> <br><br>
       <strong>integrante 3</strong><br> 
       <strong>AV1:</strong> que hizo<br> 
       <strong>TB1:</strong> que hizo<br> 
