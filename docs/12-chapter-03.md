@@ -240,9 +240,10 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 | 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar el historial de pedidos, órdenes de envío y otras acciones realizadas en OrganiK. | 3 |
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de negocio relacionadas con roles, permisos, pedidos, órdenes de envío y actualización automática del inventario al aceptar una orden para garantizar el funcionamiento correcto de OrganiK. | 3 |
 
-**Enlace directo al tablero:** [Tablero Jira - Proyecto OrganiK](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog)
+**Enlace directo al tablero:** [Tablero Trello - Proyecto OrganiK](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik)
+``` https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik ```
 
 <div align="center">
-  <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="./assets/chapter-03/spring1" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
