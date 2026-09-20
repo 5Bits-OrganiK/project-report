@@ -1,6 +1,9 @@
-![UPC_LOGO.png](assets/img/caratula/UPC_LOGO.png)
+<div align="center">
+<br>
+<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
 **Facultad:** Facultad de Ingeniería
 
@@ -16,26 +19,24 @@
 
 **Profesor:** Angel Auguto Velasquez Nuñez
 
----
+ **INFORME DE TRABAJO FINAL — AV1**
 
-## INFORME DE TRABAJO FINAL — AV1
-
-**Startup:** 5Bits.ai
+**Startup:** 5Bits
 
 **Producto:** OrganiK
 
----
 
-### INTEGRANTES:
+ **INTEGRANTES:**
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
+| Atencio Cristobal,Cielo Valentina      | u202424216       |
 | Cáceres Pizarro, Albino Florencio      | 201923820        |
-| [Apellidos y Nombres del Integrante 2] | [Código]         |
-| [Apellidos y Nombres del Integrante 3] | [Código]         |
-| [Apellidos y Nombres del Integrante 4] | [Código]         |
-| [Apellidos y Nombres del Integrante 5] | [Código]         |
+| Olivares Lao, Gustavo Alonso           | U202216448       |
+| Quispe Almonacid, Andre Sebastian      | u201815005       |
+| Torres Huaman, Alexis Calin            | U20241G152       |
 
 **Lima, agosto de 2026**
+</div>
 
----
+

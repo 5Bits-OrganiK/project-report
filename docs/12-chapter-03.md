@@ -1,4 +1,3 @@
-# Capítulo III: Requirements Specification
 
 ## TO-BE Scenario Mapping
 
