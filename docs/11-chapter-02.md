@@ -766,7 +766,7 @@ El User Journey Map de Marco Antonio Ríos representa la experiencia actual del 
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
  
-<img src="../docs/assets/chapter-02/diagram.png">
+<img src="../docs/assets/chapter-02/diagram.jpeg">
 
 
 ## 2.5. Ubiquitous Language 
