@@ -247,6 +247,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
    ![Shared Kernel Bounded Context](../docs/assets/chapter-04/bcshared.png)
 
 <div style="page-break-after: always;"></div>
+
 ### 4.6.2. Software Architecture Context Diagram
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema OrganiK como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
