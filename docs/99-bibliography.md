@@ -1,8 +1,10 @@
 ## Bibliografía
 
-- Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
+- Bedoya-Perales, N. S., & Dal’ Magro, G. P. (2021). Quantification of food losses and waste in Peru: A mass flow analysis along the food supply chain. *Sustainability, 13*(5), 2807. https://doi.org/10.3390/su13052807
 
-- Teller, C., Holweg, C., Reiner, G., & Kotzab, H. (2018). Waste not, want not: Managing perishables in small and medium retail enterprises. *International Journal of Retail & Distribution Management*. https://pure.qub.ac.uk/en/publications/waste-not-want-not-managing-perishables-in-small-and-medium-retai/
+- Organisation for Economic Co-operation and Development. (2025). *Políticas para el futuro del sector de la agricultura y la alimentación en Perú*. OECD Publishing. https://www.oecd.org/es/publications/politicas-para-el-futuro-del-sector-de-la-agricultura-y-la-alimentacion-en-peru_c67ee355-es.html
+
+- Zavaleta-Zarate, K., Escobal-Vera, J., & Zarate-Perez, E. (2026). Optimizing inventory in convenience stores to maximize ROI using Random Forest and Genetic Algorithms. *Logistics, 10*(3), 64. https://doi.org/10.3390/logistics10030064
 
 - Angular. (2026). *Angular Style Guide*. Angular Documentation. https://angular.dev/style-guide
 
