@@ -46,9 +46,9 @@
 # Registro de versiones del informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
-| 1.0.0 | DD/MM/AAAA | Nombres completos de los integrantes, Albino Florencio Cáceres Pizarro, Atencio Cristobal ,Cielo Valentina | [Descripción de los cambios realizados en esta versión] |
-| 2.0.0 | DD/MM/AAAA | Nombres completos de los integrantes, Albino Florencio Cáceres Pizarro Atencio Cristobal ,Cielo Valentina | [Descripción de los cambios realizados en esta versión] |
-| 3.0.0 | DD/MM/AAAA | Albino Florencio Cáceres Pizarro | [Descripción de los cambios realizados en esta versión] |
+| 1.0.0 |20/19/2026 | Atencio Cristobal,Cielo Valentina<br>Cáceres Pizarro,Albino Florencio <br>Olivares Lao, Gustavo Alonso<br> Quispe Almonacid, Andre Sebastian <br> Torres Huaman, Alexis Calin | Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
+| 2.0.0 | DD/MM/AAAA | Atencio Cristobal,Cielo Valentina<br>Cáceres Pizarro,Albino Florencio <br> Quispe Almonacid, Andre Sebastian <br> Torres Huaman, Alexis Calin | [Descripción de los cambios realizados en esta versión] |
+| 3.0.0 | DD/MM/AAAA | Atencio Cristobal,Cielo Valentina<br>Cáceres Pizarro,Albino Florencio <br> Quispe Almonacid, Andre Sebastian <br> Torres Huaman, Alexis Calin| [Descripción de los cambios realizados en esta versión] |
 
 ---
 
@@ -62,14 +62,34 @@ A partir de este repositorio, se analiza la participación de los integrantes de
 En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## AV1
-[pending content]
 
-## TB1
-[pending content]
+La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
 
-## AV2
+<img src="../assets/common/insights.png" alt="Insights del repositorio">
 
-[pending content]
+**Figura 1.** Estadísticas generales del repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
+La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
+
+<img src="../assets/common/traficgit.png" alt="Tráfico del repositorio">
+
+**Figura 2.** Tráfico registrado en el repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
+La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
+
+<img src="../assets/common/contributors.png" alt="Contribuidores del repositorio">
+
+**Figura 3.** Contribuidores del repositorio del proyecto.  
+**Fuente:** GitHub Insights.
+
+La siguiente figura muestra el historial de commits realizados por los integrantes del equipo durante el desarrollo del proyecto.
+
+<img src="../assets/common/commits.png" alt="Commits del repositorio">
+
+**Figura 4.** Registro de commits realizados por los integrantes del equipo.  
+**Fuente:** GitHub.
 
 ---
 
@@ -156,89 +176,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 ---
 
 ## Tabla de Student Outcome
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <th style="width:25%;">Criterio específico</th>
-    <th style="width:45%;">Acciones realizadas</th>
-    <th style="width:30%;">Conclusiones</th>
-  </tr>
 
-  <tr>
-    <td>
-      Trabaja en equipo para proporcionar liderazgo en forma conjunta
-    </td>
-    <td>
-      <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      <strong>AV1:</strong> Creación del repositorio, establecimiento de la idea de negocio<br>
-      <strong>TB1:</strong> .<br>
-      <strong>AV2:</strong> <br>
-      <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 3</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 4</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 5</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-    </td>
-    <td>
-      <strong>AV1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
-      <strong>TB1:</strong>contenido <br>
-      <strong>AV2:</strong> contenido<br>
-      <strong>TF:</strong> contenido<br>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos
-    </td>
-    <td>
-       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
-      <strong>AV1:</strong> Creación del repositorio, establecimiento de la idea de negocio<br>
-      <strong>TB1:</strong> .<br>
-      <strong>AV2:</strong> <br>
-      <strong>TF:</strong><br>
-      <strong>integrante 2</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 3</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 4</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-      <strong>integrante 5</strong><br> 
-      <strong>AV1:</strong> que hizo<br> 
-      <strong>TB1:</strong> que hizo<br> 
-      <strong>AV2:</strong> que hizo<br>
-      <strong>TF:</strong> que hizo<br><br>
-    </td>
-    <td>
-      <strong>AV1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
-      <strong>TB1:</strong> CONTENIDO<br>
-      <strong>AV2:</strong> CONTENIDO<br>
-    </td>
-  </tr>
-</table>
+| Criterio específico | Acciones realizadas | Conclusiones |
+|:---|:---|:---|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
 
 ---
 
@@ -621,7 +563,7 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     <th>
       CasaMarket
       <br>
-      <img src="../assets/img/chapter-2/casamarket-logo.png" alt="CasaMarket" height="350>
+      <img src="../assets/img/chapter-2/casamarket.png" alt="CasaMarket" width="387" height="350">
     </th>
     <th>
       limaPOS
@@ -1345,6 +1287,30 @@ El User Journey Map de Marco Antonio Ríos representa la experiencia actual del 
 
 
 ### 2.3.4. Empathy Mapping
+
+
+El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente. 
+
+A partir de las entrevistas de validación realizadas, se estructuraron dos mapas de empatía bajo el lienzo **Empathy Map Canvas de 7 preguntas**, representando a un personaje ficticio clave para cada segmento objetivo de **OrganiK**:
+
+---
+
+##### **Segmento 1: Administrador de Minimarket Orgánico**
+
+* **Personaje :** Carlos Mendoza
+* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+
+Mapa de Empatía - Carlos Mendoza <img src="../docs/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png">
+
+---
+
+##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+
+* **Personaje :** Valeria Ríos
+* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+
+Mapa de Empatía - Valeria Ríos <img src="../docs/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png">
+
 
 
 ## 2.4. Big Picture Event Storming
