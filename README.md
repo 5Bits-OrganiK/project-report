@@ -2450,4 +2450,66 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo OrganiK.</em></p>
 </div>
 
+---
+
+# Conclusiones y Recomendaciones 
+
+### Conclusiones
+
+1. El desarrollo de **OrganiK** permitió identificar una problemática real en la gestión de productos orgánicos: la fragmentación de información, el control manual de inventarios, la poca trazabilidad de lotes y la dependencia de canales informales como WhatsApp para coordinar pedidos entre minimarkets y proveedores.
+
+2. Las entrevistas realizadas evidenciaron que tanto administradores de minimarkets como proveedores necesitan una solución centralizada, sencilla y accesible que les permita reducir errores operativos, anticipar vencimientos, controlar stock y mejorar la coordinación del abastecimiento.
+
+3. La propuesta de **OrganiK** se diferencia de soluciones generales de inventario al enfocarse específicamente en productos orgánicos, integrando inventario, lotes, vencimientos, abastecimiento, proveedores y monitoreo de condiciones de conservación como temperatura y humedad.
+
+4. La implementación de la landing page permitió comunicar de manera clara la propuesta de valor del producto, sus funcionalidades principales, planes comerciales y canales de contacto, funcionando como una primera aproximación para validar el interés del mercado.
+
+5. El uso de Angular, componentes organizados por features, internacionalización y control de versiones mediante Git permitió construir una base técnica ordenada, escalable y alineada con buenas prácticas de desarrollo frontend.
+
+6. El trabajo colaborativo del equipo permitió avanzar en investigación, diseño, documentación e implementación, fortaleciendo la planificación, asignación de responsabilidades y seguimiento del proyecto mediante herramientas digitales.
+
+### Recomendaciones
+
+1. Continuar con el desarrollo de la plataforma web principal, priorizando los módulos de inventario, proveedores, requisiciones, pedidos, alertas y dashboard, ya que son los flujos de mayor valor para los usuarios entrevistados.
+
+2. Realizar nuevas validaciones con administradores de minimarkets y proveedores usando prototipos funcionales, no solo mockups, para medir si los usuarios pueden completar tareas clave sin dificultad.
+
+3. Implementar progresivamente un backend con autenticación, roles diferenciados y persistencia de datos, asegurando que los proveedores puedan generar pedidos y que solo los administradores puedan aprobarlos y modificar inventario.
+
+4. Mantener una interfaz responsive y simple, especialmente para dispositivos móviles, debido a que los usuarios gestionan muchas operaciones desde celular durante su jornada laboral.
+
+5. Incorporar métricas operativas en el dashboard, como productos próximos a vencer, stock bajo, pedidos pendientes, productos en riesgo por temperatura/humedad y mermas registradas.
+
+---
+
+## Bibliografía
+
+- Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
+
+- Teller, C., Holweg, C., Reiner, G., & Kotzab, H. (2018). Waste not, want not: Managing perishables in small and medium retail enterprises. *International Journal of Retail & Distribution Management*. https://pure.qub.ac.uk/en/publications/waste-not-want-not-managing-perishables-in-small-and-medium-retai/
+
+- Angular. (2026). *Angular Style Guide*. Angular Documentation. https://angular.dev/style-guide
+
+- Conventional Commits. (2026). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/en/v1.0.0/
+
+- Food and Agriculture Organization of the United Nations. (2019). *The State of Food and Agriculture 2019: Moving forward on food loss and waste reduction*. FAO. https://www.fao.org/agrifood-economics/publications/detail/en/c/1238574/
+
+- Food and Agriculture Organization of the United Nations. (2026). *SDG Indicator 12.3.1: Global Food Loss and Waste*. FAO. https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/1231-global-food-losses
+
+- Food and Agriculture Organization of the United Nations. (s.f.). *Food loss and food waste*. FAO Policy Support and Governance Gateway. https://www.fao.org/policy-support/policy-themes/food-loss-and-food-waste/
+
+- Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O’Reilly Media.
+
+- Google. (s.f.). *Google HTML/CSS Style Guide*. Google Style Guides. https://google.github.io/styleguide/htmlcssguide.html
+
+- Google. (s.f.). *Google TypeScript Style Guide*. Google Style Guides. https://google.github.io/styleguide/tsguide.html
+
+- Organisation for Economic Co-operation and Development. (2025). *The potential effects of reducing food loss and waste*. OECD Publishing. https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-potential-effects-of-reducing-food-loss-and-waste_ee750206/bd2aedc6-en.pdf
+
+- Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). *Value Proposition Design: How to create products and services customers want*. Wiley.
+
+- Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley Professional.
+
+- World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. W3C. https://www.w3.org/TR/WCAG22/
+
 <!-- AUTO-DOCS:END -->
