@@ -1,5 +1,4 @@
 # Conclusiones y Recomendaciones 
-## 6.1. Conclusiones y recomendaciones
 
 ### Conclusiones
 
@@ -27,8 +26,3 @@
 
 5. Incorporar métricas operativas en el dashboard, como productos próximos a vencer, stock bajo, pedidos pendientes, productos en riesgo por temperatura/humedad y mermas registradas.
 
-6. En futuras etapas, reemplazar los datos simulados de conservación por integración con sensores IoT reales, permitiendo validar con mayor precisión las alertas de temperatura y humedad.
-
-7. Fortalecer la documentación técnica y funcional del proyecto, incluyendo endpoints, flujos de usuario, criterios de aceptación, pruebas y evidencias de despliegue.
-
-8. Realizar pruebas de usabilidad, rendimiento y seguridad antes de escalar la solución, especialmente porque **OrganiK** manejará información sensible sobre inventario, proveedores y operaciones comerciales.
