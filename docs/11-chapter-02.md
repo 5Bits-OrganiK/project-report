@@ -35,7 +35,7 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     <th>
       CasaMarket
       <br>
-      <img src="../assets/img/chapter-2/casamarket-logo.png" alt="CasaMarket" height="350>
+      <img src="../assets/img/chapter-2/casamarket.png" alt="CasaMarket" width="387" height="350">
     </th>
     <th>
       limaPOS
@@ -759,6 +759,30 @@ El User Journey Map de Marco Antonio Ríos representa la experiencia actual del 
 
 
 ### 2.3.4. Empathy Mapping
+
+
+El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente. 
+
+A partir de las entrevistas de validación realizadas, se estructuraron dos mapas de empatía bajo el lienzo **Empathy Map Canvas de 7 preguntas**, representando a un personaje ficticio clave para cada segmento objetivo de **OrganiK**:
+
+---
+
+##### **Segmento 1: Administrador de Minimarket Orgánico**
+
+* **Personaje :** Carlos Mendoza
+* **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
+
+Mapa de Empatía - Carlos Mendoza <img src="../docs/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png">
+
+---
+
+##### **Segmento 2: Proveedora y Distribuidora Mayorista**
+
+* **Personaje :** Valeria Ríos
+* **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
+
+Mapa de Empatía - Valeria Ríos <img src="../docs/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png">
+
 
 
 ## 2.4. Big Picture Event Storming
