@@ -172,9 +172,9 @@ El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [ht
 
 A continuación, se presentan la leyenda utilizada y las relaciones clave entre los bounded contexts identificados:
 
-![Leyenda Bounded Contexts](../docs/assets/chapter-04/leyendabc.png)
+![Leyenda Bounded Contexts](assets/chapter-04/leyendabc.png)
 
-![Key Relations Bounded Contexts](../docs/assets/chapter-04/keyrelationsbc.png)
+![Key Relations Bounded Contexts](assets/chapter-04/keyrelationsbc.png)
 
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
@@ -182,55 +182,55 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de OrganiK. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
-   ![IAM Bounded Context](../docs/assets/chapter-04/bciam.png)
+   ![IAM Bounded Context](assets/chapter-04/bciam.png)
 
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
 
-   ![Profiles Bounded Context](../docs/assets/chapter-04/bcprofiles.png)
+   ![Profiles Bounded Context](assets/chapter-04/bcprofiles.png)
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
-   ![Dashboard Bounded Context](../docs/assets/chapter-04/bcdashboard.png)
+   ![Dashboard Bounded Context](assets/chapter-04/bcdashboard.png)
 
 4. **Analytics**
 
    El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
 
-   ![Analytics Bounded Context](../docs/assets/chapter-04/bcanalytics.png)
+   ![Analytics Bounded Context](assets/chapter-04/bcanalytics.png)
 
 5. **Inventory**
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
-   ![Inventory Bounded Context](../docs/assets/chapter-04/bcinventory.png)
+   ![Inventory Bounded Context](assets/chapter-04/bcinventory.png)
 
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
 
-   ![Products Bounded Context](../docs/assets/chapter-04/bcproducts.png)
+   ![Products Bounded Context](assets/chapter-04/bcproducts.png)
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
-   ![Requisition Bounded Context](../docs/assets/chapter-04/bcrequisition.png)
+   ![Requisition Bounded Context](assets/chapter-04/bcrequisition.png)
 
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío o abastecimiento asociadas a solicitudes aceptadas. Su responsabilidad es permitir al proveedor registrar los productos que serán enviados y al minimarket confirmar o rechazar la recepción.
 
-   ![Procurements Bounded Context](../docs/assets/chapter-04/bcprocurenments.png)
+   ![Procurements Bounded Context](assets/chapter-04/bcprocurenments.png)
 
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
 
-   ![Suppliers Bounded Context](../docs/assets/chapter-04/bcsuppliers.png)
+   ![Suppliers Bounded Context](assets/chapter-04/bcsuppliers.png)
 
 10. **Conservation**
 
@@ -244,7 +244,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
 
-   ![Shared Kernel Bounded Context](../docs/assets/chapter-04/bcshared.png)
+   ![Shared Kernel Bounded Context](assets/chapter-04/bcshared.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -262,7 +262,7 @@ El context diagram muestra al **OrganiK Software System** como el sistema centra
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con OrganiK mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
-![Software Architecture Context Diagram](../docs/assets/chapter-04/Contexto-dark.png)
+![Software Architecture Context Diagram](assets/chapter-04/Contexto-dark.png)
 
 ---
 
@@ -284,7 +284,7 @@ En el diagrama se observa que:
 - La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
 - Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
 
-![Software Architecture Container Diagram](../docs/assets/chapter-04/Contenedor-dark.png)
+![Software Architecture Container Diagram](assets/chapter-04/Contenedor-dark.png)
 
 ---
 
@@ -309,55 +309,55 @@ La API REST organiza sus responsabilidades en componentes especializados:
 
 #### API REST Component Diagram
 
-![API REST Component Diagram](../docs/assets/chapter-04/APIRestComponentDiagram-dark.png)
+![API REST Component Diagram](assets/chapter-04/APIRestComponentDiagram-dark.png)
 
 #### IAM Component Diagram
 
-![IAM Component Diagram](../docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+![IAM Component Diagram](assets/chapter-04/IAMBCComponentDiagram-dark.png)
 
 #### Profiles Component Diagram
 
-![Profiles Component Diagram](../docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+![Profiles Component Diagram](assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
 
 #### Dashboard Component Diagram
 
-![Dashboard Component Diagram](../docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+![Dashboard Component Diagram](assets/chapter-04/DashboardBCComponentDiagram-dark.png)
 
 #### Analytics Component Diagram
 
-![Analytics Component Diagram](../docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+![Analytics Component Diagram](assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
 
 #### Inventory Component Diagram
 
-![Inventory Component Diagram](../docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+![Inventory Component Diagram](assets/chapter-04/InventoryBCComponentDiagram-dark.png)
 
 #### Products Component Diagram
 
-![Products Component Diagram](../docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+![Products Component Diagram](assets/chapter-04/ProductsBCComponentDiagram-dark.png)
 
 #### Requisition Component Diagram
 
-![Requisition Component Diagram](../docs/assets/chapter-04/RequisitionBCComponentDiagram-dark.png)
+![Requisition Component Diagram](assets/chapter-04/RequisitionBCComponentDiagram-dark.png)
 
 #### Procurements Component Diagram
 
-![Procurements Component Diagram](../docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+![Procurements Component Diagram](assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
 
 #### Suppliers Component Diagram
 
-![Suppliers Component Diagram](../docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+![Suppliers Component Diagram](assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
 
 #### Conservation Component Diagram
 
-![Conservation Component Diagram](../docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+![Conservation Component Diagram](assets/chapter-04/ConservationBCComponentDiagram-dark.png)
 
 #### Communication Component Diagram
 
-![Communication Component Diagram](../docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+![Communication Component Diagram](assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
 
 #### Shared Kernel Component Diagram
 
-![Shared Kernel Component Diagram](../docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+![Shared Kernel Component Diagram](assets/chapter-04/SharedKernelComponentDiagram-dark.png)
 
 De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo OrganiK organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
 
@@ -373,37 +373,37 @@ Los diagramas de clases muestran la organización interna de los componentes pri
 
 A continuación, se presenta el diagrama general de clases del sistema:
 
-![General Class Diagram](../docs/assets/chapter-04/diagram-class-general.png)
+![General Class Diagram](assets/chapter-04/diagram-class-general.png)
 
 Además, se presentan los diagramas de clases correspondientes a los principales bounded contexts de OrganiK:
 
 #### Profiles Class Diagram
 
-![Profiles Class Diagram](../docs/assets/chapter-04/profilesclass.png)
+![Profiles Class Diagram](assets/chapter-04/profilesclass.png)
 
 #### Communication Class Diagram
 
-![Communication Class Diagram](../docs/assets/chapter-04/communicationclass.png)
+![Communication Class Diagram](assets/chapter-04/communicationclass.png)
 
 #### Conservation Class Diagram
 
-![Conservation Class Diagram](../docs/assets/chapter-04/conservationclass.png)
+![Conservation Class Diagram](assets/chapter-04/conservationclass.png)
 
 #### Analytics Class Diagram
 
-![Analytics Class Diagram](../docs/assets/chapter-04/analitycsclass.png)
+![Analytics Class Diagram](assets/chapter-04/analitycsclass.png)
 
 #### Dashboard Class Diagram
 
-![Dashboard Class Diagram](../docs/assets/chapter-04/dashboardclass.png)
+![Dashboard Class Diagram](assets/chapter-04/dashboardclass.png)
 
 #### IAM Class Diagram
 
-![IAM Class Diagram](../docs/assets/chapter-04/iamclass.png)
+![IAM Class Diagram](assets/chapter-04/iamclass.png)
 
 #### Shared Class Diagram
 
-![Shared Class Diagram](../docs/assets/chapter-04/sharedclass.png)
+![Shared Class Diagram](assets/chapter-04/sharedclass.png)
 
 Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de OrganiK. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre entidades, servicios, componentes de presentación, stores de aplicación e infraestructura.
 
@@ -419,6 +419,6 @@ La base de datos se encuentra organizada de acuerdo con los bounded contexts def
 
 El diagrama de base de datos muestra las entidades principales de OrganiK, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se almacena la información del sistema y cómo se conectan los distintos procesos de negocio a nivel de persistencia.
 
-![Database Diagram](../docs/assets/chapter-04/databasedigram.png)
+![Database Diagram](assets/chapter-04/databasedigram.png)
 
 
