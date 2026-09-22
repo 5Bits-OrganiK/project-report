@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="report/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
@@ -65,28 +65,28 @@ En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de 
 
 La siguiente figura presenta las estadísticas generales de actividad y contribución registradas en el repositorio.
 
-<img src="../assets/common/insights.png" alt="Insights del repositorio">
+<img src="report/assets/common/insights.png" alt="Insights del repositorio">
 
 **Figura 1.** Estadísticas generales del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura muestra el tráfico registrado en el repositorio del proyecto durante el periodo de desarrollo.
 
-<img src="../assets/common/traficgit.png" alt="Tráfico del repositorio">
+<img src="report/assets/common/traficgit.png" alt="Tráfico del repositorio">
 
 **Figura 2.** Tráfico registrado en el repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura presenta la participación de los integrantes del equipo como contribuidores del repositorio.
 
-<img src="../assets/common/contributors.png" alt="Contribuidores del repositorio">
+<img src="report/assets/common/contributors.png" alt="Contribuidores del repositorio">
 
 **Figura 3.** Contribuidores del repositorio del proyecto.  
 **Fuente:** GitHub Insights.
 
 La siguiente figura muestra el historial de commits realizados por los integrantes del equipo durante el desarrollo del proyecto.
 
-<img src="../assets/common/commits.png" alt="Commits del repositorio">
+<img src="report/assets/common/commits.png" alt="Commits del repositorio">
 
 **Figura 4.** Registro de commits realizados por los integrantes del equipo.  
 **Fuente:** GitHub.
@@ -99,69 +99,68 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 ### Front Matter
 
-- [Carátula](./front-matter/01-title-page.md)
-- [Registro de Versiones del Informe](./front-matter/02-version-control-log.md)
-- [Student Outcome](./front-matter/05-student-outcomes.md)
+- [Carátula](report/front-matter/01-title-page.md)
+- [Registro de Versiones del Informe](report/front-matter/02-version-control-log.md)
+- [Student Outcome](report/front-matter/05-student-outcomes.md)
 
 ### Contenido del Informe
 
-- [Abstract](./10-chapter-01.md#abstract)
-- [Resumen](./10-chapter-01.md#resumen)
+- [Abstract](report/10-chapter-01.md#abstract)
+- [Resumen](report/10-chapter-01.md#resumen)
 
-- [Capítulo I: Introducción](./10-chapter-01.md)
-    - [1.1. Startup Profile](./10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](./10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](./10-chapter-01.md#13-segmentos-objetivo)
+- [Capítulo I: Introducción](report/10-chapter-01.md)
+    - [1.1. Startup Profile](report/10-chapter-01.md#11-startup-profile)
+    - [1.2. Solution Profile](report/10-chapter-01.md#12-solution-profile)
+    - [1.3. Segmentos objetivo](report/10-chapter-01.md#13-segmentos-objetivo)
 
-- [Capítulo II: Requirements Elicitation & Analysis](./11-chapter-02.md)
-    - [2.1. Competidores](./11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](./11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](./11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](./11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](./11-chapter-02.md#25-ubiquitous-language)
+- [Capítulo II: Requirements Elicitation & Analysis](report/11-chapter-02.md)
+    - [2.1. Competidores](report/11-chapter-02.md#21-competidores)
+    - [2.2. Entrevistas](report/11-chapter-02.md#22-entrevistas)
+    - [2.3. Needfinding](report/11-chapter-02.md#23-needfinding)
+    - [2.4. Big Picture EventStorming](report/11-chapter-02.md#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](report/11-chapter-02.md#25-ubiquitous-language)
 
-- [Capítulo III: Requirements Specification](./12-chapter-03.md)
-    - [3.1. User Stories](./12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](./12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](./12-chapter-03.md#33-product-backlog)
+- [Capítulo III: Requirements Specification](report/12-chapter-03.md)
+    - [3.1. User Stories](report/12-chapter-03.md#31-user-stories)
+    - [3.2. Impact Mapping](report/12-chapter-03.md#32-impact-mapping)
+    - [3.3. Product Backlog](report/12-chapter-03.md#33-product-backlog)
 
-- [Capítulo IV: Product Design](./13-chapter-04.md)
-    - [4.1. Style Guidelines](./13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](./13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](./13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](./13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](./13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](./13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](./13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](./13-chapter-04.md#48-database-design)
+- [Capítulo IV: Product Design](report/13-chapter-04.md)
+    - [4.1. Style Guidelines](report/13-chapter-04.md#41-style-guidelines)
+    - [4.2. Information Architecture](report/13-chapter-04.md#42-information-architecture)
+    - [4.3. Landing Page UI Design](report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.4. Web Applications UX/UI Design](report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.5. Web Applications Prototyping](report/13-chapter-04.md#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.7. Software Object-Oriented Design](report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.8. Database Design](report/13-chapter-04.md#48-database-design)
 
-- [Capítulo V: Product Implementation, Validation & Deployment](./14-chapter-05.md)
-    - [5.1. Software Configuration Management](./14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](./14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](./14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](./14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](./14-chapter-05.md#514-software-deployment-configuration)
+- [Capítulo V: Product Implementation, Validation & Deployment](report/14-chapter-05.md)
+    - [5.1. Software Configuration Management](report/14-chapter-05.md#51-software-configuration-management)
+        - [5.1.1. Software Development Environment Configuration](report/14-chapter-05.md#511-software-development-environment-configuration)
+        - [5.1.2. Source Code Management](report/14-chapter-05.md#512-source-code-management)
+        - [5.1.3. Source Code Style Guide & Conventions](report/14-chapter-05.md#513-source-code-style-guide--conventions)
+        - [5.1.4. Software Deployment Configuration](report/14-chapter-05.md#514-software-deployment-configuration)
 
-    - [5.2. Landing Page, Services & Applications Implementation](./14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](./14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](./14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](./14-chapter-05.md#523-sprint-3)
+    - [5.2. Landing Page, Services & Applications Implementation](report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+        - [5.2.1. Sprint 1](report/14-chapter-05.md#521-sprint-1)
+        - [5.2.2. Sprint 2](report/14-chapter-05.md#522-sprint-2)
+        - [5.2.3. Sprint 3](report/14-chapter-05.md#523-sprint-3)
 
-    - [5.3. Validation Interviews](./14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](./14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](./14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](./14-chapter-05.md#533-evaluaciones-según-heurísticas)
+    - [5.3. Validation Interviews](report/14-chapter-05.md#53-validation-interviews)
+        - [5.3.1. Diseño de Entrevistas](report/14-chapter-05.md#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](report/14-chapter-05.md#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según heurísticas](report/14-chapter-05.md#533-evaluaciones-según-heurísticas)
 
-    - [5.4. Video About-the-Product](./14-chapter-05.md#54-video-about-the-product)
+    - [5.4. Video About-the-Product](report/14-chapter-05.md#54-video-about-the-product)
 
-- [Capítulo VI: Conclusions](./15-chapter-06.md)
-    - [6.1. Conclusiones y recomendaciones](./15-chapter-06.md#61-conclusiones-y-recomendaciones)
-    - [6.2. Video About-the-Team](./15-chapter-06.md#62-video-about-the-team)
+- [Capítulo VI: Conclusions](report/98-conclusions.md)
+    - [Conclusiones y recomendaciones](report/98-conclusions.md#conclusiones-y-recomendaciones)
 
-- [Bibliografía](./99-bibliography.md)
+- [Bibliografía](report/99-bibliography.md)
 
-- [Anexos](./16-annexes.md)
-    - [Anexo A: Videos de Exposiciones](./16-annexes.md#anexo-a-videos-de-exposiciones)
+- [Anexos](report/annexes/90-annex-a-raw-data.md)
+    - [Anexo A: Videos de Exposiciones](report/annexes/90-annex-a-raw-data.md)
 
 ---
 
@@ -206,11 +205,11 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
-| <img src="./assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| <img src="./assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional.
-| <img src="./assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
-| <img src="./assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
-| <img src="./assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
+| <img src="report/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
+| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional.
+| <img src="report/assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
+| <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
+| <img src="report/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 
 ## 1.2. Solution Profile
@@ -229,9 +228,9 @@ De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos 
 
 ### 1.2.1. Antecedentes y problemática
 
-El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, alrededor del 44% corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Dávila et al., 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
+El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, una proporción importante corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
-En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento.
+En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento. Además, estudios aplicados a tiendas de conveniencia en Lima evidencian que la optimización del inventario puede mejorar indicadores operativos como la reposición, el nivel de servicio, la reducción de quiebres de stock y la rentabilidad del negocio (Zavaleta-Zarate et al., 2026).
 
 Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos y generar pedidos dirigidos a los establecimientos. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **OrganiK** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los proveedores generen pedidos y que los administradores mantengan el control sobre su aceptación y actualización del inventario.
 
@@ -558,22 +557,22 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     <th>
       OrganiK
       <br>
-      <img src="../assets/img/chapter-2/organiklogo.png" alt="OrganiK" width="100">
+      <img src="report/assets/chapter-02/organiklogo.png" alt="OrganiK" width="100">
     </th>
     <th>
       CasaMarket
       <br>
-      <img src="../assets/img/chapter-2/casamarket.png" alt="CasaMarket" width="387" height="350">
+      <img src="report/assets/chapter-02/casamarket.png" alt="CasaMarket" width="387" height="350">
     </th>
     <th>
       limaPOS
       <br>
-      <img src="../assets/img/chapter-2/limapos.png" alt="limaPOS" width="100">
+      <img src="report/assets/chapter-02/limapos.png" alt="limaPOS" width="100">
     </th>
     <th>
       Spry Sales
       <br>
-      <img src="../assets/img/chapter-2/sprysales.png" alt="Spry Sales" width="100">
+      <img src="report/assets/chapter-02/sprysales.png" alt="Spry Sales" width="100">
     </th>
   </tr>
 
@@ -842,7 +841,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
+        <img src="report/assets/chapter-02/interview-01.png" alt="Entrevista 1" height="350">
       </td>
     </tr>
     <tr>
@@ -894,7 +893,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
+        <img src="report/assets/chapter-02/entrevista.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -945,7 +944,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
+        <img src="report/assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
       </td>
     </tr>
     <tr>
@@ -996,7 +995,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
  </tr>
 <tr> 
 <td colspan="4" align="center">
- <img src="../docs/assets/chapter-02/entrevista-4.png" alt="Entrevista 4" height="350"> 
+ <img src="report/assets/chapter-02/entrevista-4.png" alt="Entrevista 4" height="350"> 
   </td> 
  </tr> 
 <tr> 
@@ -1058,7 +1057,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/interview-05.png" alt="Entrevista 5" height="350">
+        <img src="report/assets/chapter-02/interview-05.png" alt="Entrevista 5" height="350">
       </td>
     </tr>
     <tr>
@@ -1110,7 +1109,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
+        <img src="report/assets/chapter-02/entrevista-06.png" alt="Entrevista 6" height="350">
       </td>
     </tr>
     <tr>
@@ -1239,11 +1238,11 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 **Segmento 1: Administrador de Minimarket (Arquetipo: Russel-Estrada)**
 
-![User Persona - Russel-Estrada](../docs/assets/chapter-02/Russell-Estrada.png)
+![User Persona - Russel-Estrada](report/assets/chapter-02/Russell-Estrada.png)
 
 **Segmento 2: Proveedor y Distribuidor B2B (Arquetipo: Marco Antonio Ríos)**
 
-![User Persona - Marco Antonio Ríos](../docs/assets/chapter-02/Marco-User.png)
+![User Persona - Marco Antonio Ríos](report/assets/chapter-02/Marco-User.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1275,13 +1274,13 @@ El User Journey Mapping es una herramienta que permite visualizar de forma estru
 
 **User Journey Map del 1er segmento objetivo – Administradores de Minimarkets**
 
-![User Journey Map - Administrador de Minimarket](assets/chapter-02/user-journey-map-1.png)
+![User Journey Map - Administrador de Minimarket](report/assets/chapter-02/user-journey-map-1.png)
 
 El User Journey Map de Russell Estrada ilustra la experiencia actual del segmento de administradores de minimarkets a lo largo de las cinco etapas. En Aware, Russell busca una forma de evitar mermas por pérdida de frío o vencimiento, pero el control visual le demanda mucho tiempo y lo deja expuesto a fallas mecánicas de madrugada, evidenciando la necesidad de un sistema de alertas automatizado. En Join, comienza a coordinar con proveedores a través de WhatsApp y catálogos en PDF desactualizados, lo que refleja la dependencia de canales informales. Durante el Use, experimenta su mayor punto de frustración al recibir propuestas por chat y tener que transcribirlas manualmente a Excel para actualizar su inventario, un proceso propenso a errores humanos que descuadra su stock real. En Develop, sus intentos por formalizar las compras mediante correos electrónicos no prosperan por la urgencia del día a día, recayendo en el desorden de WhatsApp. Finalmente en Leave, el estrés operativo y las pérdidas de capital acumuladas lo motivan a buscar una solución de software centralizada que automatice su control de calidad y abastecimiento, siendo este el punto de entrada directo para OrganiK.
 
 **User Journey Map del 2do segmento objetivo – Proveedores de Productos Orgánicos**
 
-![User Journey Map - Proveedor B2B](assets/chapter-02/user-journey-map-2.png)
+![User Journey Map - Proveedor B2B](report/assets/chapter-02/user-journey-map-2.png)
 
 El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
 
@@ -1300,7 +1299,7 @@ A partir de las entrevistas de validación realizadas, se estructuraron dos mapa
 * **Personaje :** Carlos Mendoza
 * **Edad / Rol:** 38 años, Administrador General y Co-propietario de *EcoVerde Minimarket* (Miraflores, Lima).
 
-Mapa de Empatía - Carlos Mendoza <img src="../docs/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png">
+Mapa de Empatía - Carlos Mendoza <img src="report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png">
 
 ---
 
@@ -1309,7 +1308,7 @@ Mapa de Empatía - Carlos Mendoza <img src="../docs/assets/chapter-02/Carlos-Men
 * **Personaje :** Valeria Ríos
 * **Edad / Rol:** 34 años, proveedora y distribuidora mayorista encargada del abastecimiento de alimentos orgánicos a diversos minimarkets.
 
-Mapa de Empatía - Valeria Ríos <img src="../docs/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png">
+Mapa de Empatía - Valeria Ríos <img src="report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png">
 
 
 
@@ -1317,7 +1316,7 @@ Mapa de Empatía - Valeria Ríos <img src="../docs/assets/chapter-02/Valeria-Rí
 El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
  
-<img src="../docs/assets/chapter-02/events.png">
+<img src="report/assets/chapter-02/events.png">
 
 
 ## 2.5. Ubiquitous Language
@@ -1520,7 +1519,7 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 
 ## 3.2. Impact Mapping
 
-<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 
 ## 3.3. Product Backlog
@@ -1590,7 +1589,7 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 ``` https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik ```
 
 <div align="center">
-  <img src="./assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="report/assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
@@ -1615,18 +1614,18 @@ La paleta cromática ha sido seleccionada cuidadosamente para generar confianza 
 *   **Colores de Acento y Alerta (Dinamismo):** Se integran tonos anaranjados como *Pumpkin* y *Orange*. Utilizados exclusivamente para llamados a la acción (CTAs) y notificaciones críticas (alertas IoT de temperatura o fechas de vencimiento próximas).
 *   **Colores Neutros (Estructura y Legibilidad):** Se emplean variantes de grises (como *Slate Gray* y *Boulder*) y blancos (*Alice Blue*, *White*) para los fondos de los dashboards, reduciendo la fatiga visual.
 
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-1.png)
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-2.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-1.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-2.png)
 
 **Tipografía**
 Se seleccionaron dos familias Sans-Serif priorizando la legibilidad en pantallas de múltiples resoluciones:
 *   **Arimo:** Utilizada en encabezados, títulos de módulos y cifras destacadas en los dashboards. Su estructura robusta permite una rápida lectura de los KPIs.
 *   **Inter:** Asignada a los cuerpos de texto y tablas de datos. Diseñada específicamente para interfaces, garantiza que los datos densos sean legibles en tamaños pequeños.
 
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-3.png)
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-4.png)
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-5.png)
-![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-6.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-3.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-4.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-5.png)
+![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-6.png)
 
 #### 4.1.2. Web Style Guidelines
 
@@ -1684,7 +1683,7 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
 *   **3.4. Red de Clientes:** Directorio de minimarkets asociados.
 *   **3.5. Configuración:** Perfil de la empresa y detalles logísticos.
 
-![Site Map - Plataforma OrganiK](assets/chapter-04/site-map.png)
+![Site Map - Plataforma OrganiK](report/assets/chapter-04/site-map.png)
 
 #### 4.2.1. Organization Systems
 
@@ -1742,7 +1741,7 @@ Los wireframes representan el esqueleto estructural de la página en baja fideli
 *   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas IoT.
 *   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Se ha proyectado que las áreas de interacción (botones de "Empezar" o "Conoce los planes") tengan un área táctil amplia (mínimo 44x44px) para evitar frustración motriz en dispositivos móviles.
 
-![Landing Page Wireframe - Plataforma OrganiK](assets/chapter-04/landing-page-mockup.png)
+![Landing Page Wireframe - Plataforma OrganiK](report/assets/chapter-04/landing-page-mockup.png)
 
 #### 4.3.2. Landing Page Mock-up
 
@@ -1754,7 +1753,7 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 *   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo que el usuario pueda acceder al botón de "Iniciar Sesión" en cualquier momento de su lectura, maximizando las oportunidades de conversión.
 *   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
 
-![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
+![Landing Page Mockup - Plataforma OrganiK](report/assets/chapter-04/landing-page-wireframe.png)
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1770,9 +1769,9 @@ El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [ht
 
 A continuación, se presentan la leyenda utilizada y las relaciones clave entre los bounded contexts identificados:
 
-![Leyenda Bounded Contexts](../docs/assets/chapter-04/leyendabc.png)
+![Leyenda Bounded Contexts](report/assets/chapter-04/leyendabc.png)
 
-![Key Relations Bounded Contexts](../docs/assets/chapter-04/keyrelationsbc.png)
+![Key Relations Bounded Contexts](report/assets/chapter-04/keyrelationsbc.png)
 
 A partir de este análisis se identificaron los siguientes bounded contexts:
 
@@ -1780,55 +1779,55 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context IAM se encarga de la autenticación, autorización y control de acceso dentro de OrganiK. Gestiona usuarios, roles y permisos, asegurando que cada actor, como el administrador de minimarket o el proveedor, acceda únicamente a las funcionalidades correspondientes a su perfil.
 
-   ![IAM Bounded Context](../docs/assets/chapter-04/bciam.png)
+   ![IAM Bounded Context](report/assets/chapter-04/bciam.png)
 
 2. **Profiles**
 
    El bounded context Profiles administra la información de los usuarios, minimarkets y proveedores registrados en la plataforma. Su propósito es centralizar los datos de perfil necesarios para personalizar la experiencia, controlar responsabilidades y asociar operaciones con el actor correspondiente.
 
-   ![Profiles Bounded Context](../docs/assets/chapter-04/bcprofiles.png)
+   ![Profiles Bounded Context](report/assets/chapter-04/bcprofiles.png)
 
 3. **Dashboard**
 
    El bounded context Dashboard presenta una vista general del estado operativo de la plataforma según el rol del usuario. Permite visualizar indicadores relevantes sobre inventario, abastecimiento, conservación, alertas y actividad reciente.
 
-   ![Dashboard Bounded Context](../docs/assets/chapter-04/bcdashboard.png)
+   ![Dashboard Bounded Context](report/assets/chapter-04/bcdashboard.png)
 
 4. **Analytics**
 
    El bounded context Analytics procesa información operativa para generar indicadores, métricas y resúmenes que apoyan la toma de decisiones. Permite analizar el estado del inventario, productos próximos a vencer, alertas de conservación, desempeño de proveedores y movimientos de abastecimiento.
 
-   ![Analytics Bounded Context](../docs/assets/chapter-04/bcanalytics.png)
+   ![Analytics Bounded Context](report/assets/chapter-04/bcanalytics.png)
 
 5. **Inventory**
 
    El bounded context Inventory gestiona los productos registrados en el minimarket, sus cantidades, lotes, fechas de vencimiento, estados y movimientos asociados. Su propósito es mantener trazabilidad sobre las existencias y facilitar el control de productos disponibles, en riesgo o con pérdidas.
 
-   ![Inventory Bounded Context](../docs/assets/chapter-04/bcinventory.png)
+   ![Inventory Bounded Context](report/assets/chapter-04/bcinventory.png)
 
 6. **Products**
 
    El bounded context Products administra el catálogo de productos orgánicos ofrecidos por proveedores o registrados por minimarkets. Centraliza información como nombre, categoría, descripción, unidad de medida, disponibilidad y datos relevantes para su comercialización o abastecimiento.
 
-   ![Products Bounded Context](../docs/assets/chapter-04/bcproducts.png)
+   ![Products Bounded Context](report/assets/chapter-04/bcproducts.png)
 
 7. **Requisition**
 
    El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
 
-   ![Requisition Bounded Context](../docs/assets/chapter-04/bcrequisition.png)
+   ![Requisition Bounded Context](report/assets/chapter-04/bcrequisition.png)
 
 8. **Procurements**
 
    El bounded context Procurements administra las órdenes de envío o abastecimiento asociadas a solicitudes aceptadas. Su responsabilidad es permitir al proveedor registrar los productos que serán enviados y al minimarket confirmar o rechazar la recepción.
 
-   ![Procurements Bounded Context](../docs/assets/chapter-04/bcprocurenments.png)
+   ![Procurements Bounded Context](report/assets/chapter-04/bcprocurenments.png)
 
 9. **Suppliers**
 
    El bounded context Suppliers gestiona el directorio de proveedores de productos orgánicos, así como los productos que ofrecen y su participación dentro de los procesos de abastecimiento.
 
-   ![Suppliers Bounded Context](../docs/assets/chapter-04/bcsuppliers.png)
+   ![Suppliers Bounded Context](report/assets/chapter-04/bcsuppliers.png)
 
 10. **Conservation**
 
@@ -1842,7 +1841,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Shared Kernel contiene elementos comunes utilizados por los demás contextos, como utilidades compartidas, contratos base, configuraciones, validaciones comunes y estructuras transversales del sistema.
 
-   ![Shared Kernel Bounded Context](../docs/assets/chapter-04/bcshared.png)
+   ![Shared Kernel Bounded Context](report/assets/chapter-04/bcshared.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -1860,7 +1859,7 @@ El context diagram muestra al **OrganiK Software System** como el sistema centra
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con OrganiK mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
-![Software Architecture Context Diagram](../docs/assets/chapter-04/Contexto-dark.png)
+![Software Architecture Context Diagram](report/assets/chapter-04/Contexto-dark.png)
 
 ---
 
@@ -1882,7 +1881,7 @@ En el diagrama se observa que:
 - La **API REST Application** procesa la lógica del dominio y persiste la información en la **Database**.
 - Los módulos de comunicación y conservación pueden integrarse con servicios externos para notificaciones y monitoreo de condiciones ambientales.
 
-![Software Architecture Container Diagram](../docs/assets/chapter-04/Contenedor-dark.png)
+![Software Architecture Container Diagram](report/assets/chapter-04/Contenedor-dark.png)
 
 ---
 
@@ -1907,55 +1906,55 @@ La API REST organiza sus responsabilidades en componentes especializados:
 
 #### API REST Component Diagram
 
-![API REST Component Diagram](../docs/assets/chapter-04/APIRestComponentDiagram-dark.png)
+![API REST Component Diagram](report/assets/chapter-04/APIRestComponentDiagram-dark.png)
 
 #### IAM Component Diagram
 
-![IAM Component Diagram](../docs/assets/chapter-04/IAMBCComponentDiagram-dark.png)
+![IAM Component Diagram](report/assets/chapter-04/IAMBCComponentDiagram-dark.png)
 
 #### Profiles Component Diagram
 
-![Profiles Component Diagram](../docs/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
+![Profiles Component Diagram](report/assets/chapter-04/ProfilesBCComponentDiagram-dark.png)
 
 #### Dashboard Component Diagram
 
-![Dashboard Component Diagram](../docs/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
+![Dashboard Component Diagram](report/assets/chapter-04/DashboardBCComponentDiagram-dark.png)
 
 #### Analytics Component Diagram
 
-![Analytics Component Diagram](../docs/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
+![Analytics Component Diagram](report/assets/chapter-04/AnalyticsBCComponentDiagram-dark.png)
 
 #### Inventory Component Diagram
 
-![Inventory Component Diagram](../docs/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
+![Inventory Component Diagram](report/assets/chapter-04/InventoryBCComponentDiagram-dark.png)
 
 #### Products Component Diagram
 
-![Products Component Diagram](../docs/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
+![Products Component Diagram](report/assets/chapter-04/ProductsBCComponentDiagram-dark.png)
 
 #### Requisition Component Diagram
 
-![Requisition Component Diagram](../docs/assets/chapter-04/RequisitionBCComponentDiagram-dark.png)
+![Requisition Component Diagram](report/assets/chapter-04/RequisitionBCComponentDiagram-dark.png)
 
 #### Procurements Component Diagram
 
-![Procurements Component Diagram](../docs/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
+![Procurements Component Diagram](report/assets/chapter-04/ProcurementsBCComponentDiagram-dark.png)
 
 #### Suppliers Component Diagram
 
-![Suppliers Component Diagram](../docs/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
+![Suppliers Component Diagram](report/assets/chapter-04/SuppliersBCComponentDiagram-dark.png)
 
 #### Conservation Component Diagram
 
-![Conservation Component Diagram](../docs/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
+![Conservation Component Diagram](report/assets/chapter-04/ConservationBCComponentDiagram-dark.png)
 
 #### Communication Component Diagram
 
-![Communication Component Diagram](../docs/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
+![Communication Component Diagram](report/assets/chapter-04/CommunicationBCComponentDiagram-dark.png)
 
 #### Shared Kernel Component Diagram
 
-![Shared Kernel Component Diagram](../docs/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
+![Shared Kernel Component Diagram](report/assets/chapter-04/SharedKernelComponentDiagram-dark.png)
 
 De esta forma, los component diagrams complementan la visión general de la arquitectura, mostrando cómo OrganiK organiza sus responsabilidades internas en componentes coherentes con el dominio y cómo estos colaboran para implementar la gestión de productos orgánicos, inventario, conservación, abastecimiento, proveedores, comunicación y analítica.
 
@@ -1971,37 +1970,37 @@ Los diagramas de clases muestran la organización interna de los componentes pri
 
 A continuación, se presenta el diagrama general de clases del sistema:
 
-![General Class Diagram](../docs/assets/chapter-04/diagram-class-general.png)
+![General Class Diagram](report/assets/chapter-04/diagram-class-general.png)
 
 Además, se presentan los diagramas de clases correspondientes a los principales bounded contexts de OrganiK:
 
 #### Profiles Class Diagram
 
-![Profiles Class Diagram](../docs/assets/chapter-04/profilesclass.png)
+![Profiles Class Diagram](report/assets/chapter-04/profilesclass.png)
 
 #### Communication Class Diagram
 
-![Communication Class Diagram](../docs/assets/chapter-04/communicationclass.png)
+![Communication Class Diagram](report/assets/chapter-04/communicationclass.png)
 
 #### Conservation Class Diagram
 
-![Conservation Class Diagram](../docs/assets/chapter-04/conservationclass.png)
+![Conservation Class Diagram](report/assets/chapter-04/conservationclass.png)
 
 #### Analytics Class Diagram
 
-![Analytics Class Diagram](../docs/assets/chapter-04/analitycsclass.png)
+![Analytics Class Diagram](report/assets/chapter-04/analitycsclass.png)
 
 #### Dashboard Class Diagram
 
-![Dashboard Class Diagram](../docs/assets/chapter-04/dashboardclass.png)
+![Dashboard Class Diagram](report/assets/chapter-04/dashboardclass.png)
 
 #### IAM Class Diagram
 
-![IAM Class Diagram](../docs/assets/chapter-04/iamclass.png)
+![IAM Class Diagram](report/assets/chapter-04/iamclass.png)
 
 #### Shared Class Diagram
 
-![Shared Class Diagram](../docs/assets/chapter-04/sharedclass.png)
+![Shared Class Diagram](report/assets/chapter-04/sharedclass.png)
 
 Estos diagramas permiten complementar la arquitectura de software, mostrando una vista más detallada del diseño orientado a objetos de OrganiK. A través de ellos se puede identificar cómo se distribuyen las responsabilidades entre entidades, servicios, componentes de presentación, stores de aplicación e infraestructura.
 
@@ -2017,7 +2016,7 @@ La base de datos se encuentra organizada de acuerdo con los bounded contexts def
 
 El diagrama de base de datos muestra las entidades principales de OrganiK, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se almacena la información del sistema y cómo se conectan los distintos procesos de negocio a nivel de persistencia.
 
-![Database Diagram](../docs/assets/chapter-04/databasedigram.png)
+![Database Diagram](report/assets/chapter-04/databasedigram.png)
 
 ---
 
@@ -2276,7 +2275,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
 <div align="center">
-  <img src="./assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
+  <img src="report/assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software o herramienta de gestión del proyecto OrganiK.</em></p>
 </div>
 
@@ -2358,7 +2357,7 @@ Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maqueta
 Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de **OrganiK**: controlar el inventario antes de que sea tarde mediante alertas de vencimiento, condiciones de conservación y pedidos de abastecimiento para minimarkets orgánicos. La navegación superior permite acceder a las secciones principales de la landing page y el diseño respeta los lineamientos responsive para dispositivos móviles.
 
 <div align="center">
-  <img src="./assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
   <p><em>Figura: Vista principal de OrganiK desplegada en la Landing Page.</em></p>
 </div>
 
@@ -2367,7 +2366,7 @@ Se desarrolló la pantalla de inicio principal destacando la propuesta de valor 
 Se maquetó la sección informativa donde se presentan las principales capacidades de **OrganiK**, incluyendo inventario centralizado, control de lotes, alertas inteligentes, pedidos de abastecimiento y accesos por rol. Esta sección permite comunicar de forma clara cómo la plataforma ayuda a centralizar la operación diaria de un minimarket orgánico.
 
 <div align="center">
-  <img src="./assets/chapter-05/execution-product-information.png" alt="Product Information Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-product-information.png" alt="Product Information Section Evidence" width="90%">
   <p><em>Figura: Sección de descripción del producto y funcionalidades principales.</em></p>
 </div>
 
@@ -2376,7 +2375,7 @@ Se maquetó la sección informativa donde se presentan las principales capacidad
 Se implementó una sección dedicada a presentar al equipo y mostrar el funcionamiento general de **OrganiK** mediante contenido audiovisual. La sección incluye videos embebidos con previsualización, reforzando la confianza del usuario y explicando visualmente el propósito de la solución.
 
 <div align="center">
-  <img src="./assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
   <p><em>Figura: Sección de videos para presentación del equipo y demostración del producto.</em></p>
 </div>
 
@@ -2385,7 +2384,7 @@ Se implementó una sección dedicada a presentar al equipo y mostrar el funciona
 Se desarrolló la sección de planes comerciales, presentando las alternativas **Básico**, **Profesional** y **Empresarial**. Cada plan comunica de manera ordenada sus beneficios principales, permitiendo que los minimarkets identifiquen la opción más adecuada según su tamaño y necesidades operativas.
 
 <div align="center">
-  <img src="./assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
   <p><em>Figura: Sección de planes disponibles para los usuarios de OrganiK.</em></p>
 </div>
 
@@ -2394,7 +2393,7 @@ Se desarrolló la sección de planes comerciales, presentando las alternativas *
 Se implementó la sección **Starter**, incluyendo información de correo, periodo de prueba, horario de atención y un formulario para que los minimarkets interesados puedan suscribirse o solicitar más información sobre la plataforma. Esta sección reemplaza la sección tradicional de contacto y cumple el objetivo de facilitar el inicio del proceso de adopción de **OrganiK**.
 
 <div align="center">
-  <img src="./assets/chapter-05/execution-starter.png" alt="Starter Section Evidence" width="90%">
+  <img src="report/assets/chapter-05/execution-starter.png" alt="Starter Section Evidence" width="90%">
   <p><em>Figura: Sección Starter para suscripción e inicio de adopción de OrganiK.</em></p>
 </div>
 
@@ -2437,7 +2436,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="report/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de OrganiK.</em></p>
 </div>
 
@@ -2446,7 +2445,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
+  <img src="report/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo OrganiK.</em></p>
 </div>
 

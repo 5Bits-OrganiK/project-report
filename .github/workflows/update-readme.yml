@@ -6,8 +6,8 @@
       branches:
         - main
       paths:
-        - "docs/**/*.md"
-        - "docs/*.md"
+        - "report/**/*.md"
+        - "report/*.md"
 
     workflow_dispatch:
 
@@ -28,9 +28,11 @@
           run: |
             python3 <<'PY'
             from pathlib import Path
+            import posixpath
+            import re
             
             README = Path("README.md")
-            DOCS = Path("docs")
+            REPORT = Path("report")
             
             START = "<!-- AUTO-DOCS:START -->"
             END = "<!-- AUTO-DOCS:END -->"
@@ -41,7 +43,7 @@
             # FRONT MATTER
             # =========================
             
-            front_matter = DOCS / "front-matter"
+            front_matter = REPORT / "front-matter"
             
             if front_matter.exists():
                 documents.extend(
@@ -56,9 +58,89 @@
             
             documents.extend(
                 sorted(
-                    DOCS.glob("*.md")
+                    REPORT.glob("*.md")
                 )
             )
+
+            # =========================
+            # RUTAS RELATIVAS PARA README
+            # =========================
+
+            def should_rewrite(target):
+                target = target.strip()
+                if not target or target.startswith("#"):
+                    return False
+
+                lowered = target.lower()
+                external_prefixes = (
+                    "http://",
+                    "https://",
+                    "mailto:",
+                    "tel:",
+                    "data:",
+                    "javascript:",
+                )
+
+                return not (
+                    lowered.startswith(external_prefixes)
+                    or target.startswith("/")
+                )
+
+            def rewrite_target(target, source_file):
+                if not should_rewrite(target):
+                    return target
+
+                path = target
+                suffix = ""
+
+                for separator in ("#", "?"):
+                    if separator in path:
+                        path, tail = path.split(separator, 1)
+                        suffix = separator + tail
+                        break
+
+                if not path:
+                    return target
+
+                source_dir = source_file.parent.as_posix()
+                normalized = posixpath.normpath(
+                    posixpath.join(source_dir, path)
+                )
+
+                if normalized == ".":
+                    normalized = ""
+
+                return normalized + suffix
+
+            def rewrite_content_paths(content, source_file):
+                def markdown_link(match):
+                    return (
+                        match.group(1)
+                        + rewrite_target(match.group(2), source_file)
+                        + match.group(3)
+                    )
+
+                def html_src(match):
+                    return (
+                        match.group(1)
+                        + rewrite_target(match.group(2), source_file)
+                        + match.group(3)
+                    )
+
+                content = re.sub(
+                    r"(!?\[[^\]]*\]\()([^)]+)(\))",
+                    markdown_link,
+                    content,
+                )
+
+                content = re.sub(
+                    r"(\bsrc=[\"'])([^\"']+)([\"'])",
+                    html_src,
+                    content,
+                    flags=re.IGNORECASE,
+                )
+
+                return content
             
             # =========================
             # GENERAR CONTENIDO
@@ -74,7 +156,12 @@
                 ).strip()
             
                 if content:
-                    sections.append(content)
+                    sections.append(
+                        rewrite_content_paths(
+                            content,
+                            file
+                        )
+                    )
             
             generated_content = "\n\n---\n\n".join(
                 sections
