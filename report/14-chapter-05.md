@@ -1,10 +1,10 @@
-# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment.
 
-## 5.1. Software Configuration Management
+## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **OrganiK** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **OrganiK**. Se establecen los lineamientos para la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y la configuración de despliegue de la landing page.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 
 Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de **OrganiK**.
 
@@ -41,7 +41,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 ---
 
-### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución **OrganiK** para garantizar la integridad del código fuente.
 
@@ -110,7 +110,7 @@ Ejemplos:
 
 ---
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto **OrganiK**: HTML, CSS, TypeScript y Angular. Se aplica nomenclatura en inglés para los elementos del código, manteniendo coherencia con el dominio de la landing page y la plataforma.
 
@@ -146,7 +146,7 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ---
 
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para la landing page de **OrganiK**, garantizando disponibilidad para usuarios interesados en conocer la propuesta de valor del producto.
 
@@ -159,7 +159,7 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
 
@@ -184,7 +184,9 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.1. Sprint Planning 1.
+
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo durante el desarrollo de la landing page de <strong>OrganiK</strong>. 
@@ -248,7 +250,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 
 ---
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
@@ -269,7 +271,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>OrganiK</strong>.
@@ -326,7 +328,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y ejecución local de la Landing Page estática de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas.
 
@@ -377,7 +379,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
   Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>OrganiK</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
@@ -385,7 +387,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.7. Software Deployment Evidence
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
   <strong>URL de entorno local:</strong>
@@ -403,7 +405,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante este primer sprint, el esfuerzo principal del equipo de <strong>OrganiK</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de commits mediante Conventional Commits y la documentación inicial del producto <strong>OrganiK</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
