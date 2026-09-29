@@ -19,7 +19,7 @@
       - [1.2.2.2. Lean UX Assumptions.](../10-chapter-01.md#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements.](../10-chapter-01.md#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas.](../10-chapter-01.md#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo.](../10-chapter-01.md#13-segmentos-objetivos)
+  - [1.3. Segmentos objetivo.](../10-chapter-01.md#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](../11-chapter-02.md)
   - [2.1. Competidores.](../11-chapter-02.md#21-competidores)
