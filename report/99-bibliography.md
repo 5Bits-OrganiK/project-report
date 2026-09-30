@@ -1,4 +1,4 @@
-## Bibliografía
+# Bibliografía
 
 - Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
 
