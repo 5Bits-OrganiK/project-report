@@ -1,5 +1,5 @@
-# Capítulo II: Requirements Elicitation & Analysis.
-## 2.1. Competidores
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores.
 
 Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
 
@@ -11,7 +11,7 @@ Estas soluciones presentan funcionalidades relacionadas con diferentes component
 
 Sin embargo, **OrganiK busca diferenciarse mediante la especialización en productos orgánicos y la integración de inventario, abastecimiento, trazabilidad por lotes y monitoreo de las condiciones de almacenamiento mediante IoT**, además de conectar directamente las operaciones de minimarkets y proveedores mediante un flujo controlado de pedidos.
 
-### 2.1.1. Análisis competitivo
+### 2.1.1. Análisis competitivo.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
@@ -230,7 +230,7 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
   </tr>
 </table>
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
 Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket, limaPOS y Spry Sales**, nuestro equipo plantea estrategias y tácticas que permitan a **OrganiK** diferenciarse y generar mayor valor para sus segmentos objetivo.
 
@@ -241,9 +241,9 @@ Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket,
 | **Fortalezas (F)**<br>1. Especialización en productos orgánicos.<br>2. Integración de inventario, abastecimiento y monitoreo.<br>3. Trazabilidad de productos, lotes y vencimientos.<br>4. Dashboards diferenciados para minimarkets y proveedores. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Destacar la reducción de pérdidas mediante el control de inventarios, vencimientos y condiciones de almacenamiento.<br>3. Promover la integración entre minimarkets y proveedores como elemento diferenciador.<br>4. Incorporar progresivamente sensores IoT reales y capacidades analíticas.<br>5. Validar la solución mediante pilotos con minimarkets y proveedores. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades de productos orgánicos.<br>3. Priorizar la especialización frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información.<br>5. Utilizar resultados de pilotos para demostrar el valor de la solución. |
 | **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar entrevistas con administradores y proveedores.<br>2. Implementar pilotos con usuarios reales.<br>3. Priorizar las funcionalidades de mayor valor.<br>4. Desarrollar contenido demostrativo sobre reducción de pérdidas y mejora del abastecimiento.<br>5. Evolucionar progresivamente hacia sensores IoT reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar funcionalidades de mayor valor para evitar competir por cantidad de funcionalidades.<br>2. Mantener costos accesibles para pequeñas y medianas empresas.<br>3. Implementar mecanismos de respaldo y seguridad.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets. |
 
-## 2.2. Entrevistas
+## 2.2. Entrevistas.
 
-### 2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas.
 
 Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
 
@@ -301,7 +301,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
 16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
-### 2.2.2. Registro de entrevistas
+### 2.2.2. Registro de entrevistas.
 
 **Segmento objetivo: Administradores de Minimarkets**
 
@@ -399,63 +399,12 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: [15:00]</td>
-      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: https://youtu.be/NzzEsy9Kx7Y </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. Muestra una personalidad proactiva, pero con altos niveles de frustración operativa y estrés debido a la carga de trabajo manual. A nivel tecnológico, su comportamiento es puramente <em>mobile-first</em>; utiliza su teléfono celular durante el 90% de su jornada laboral debido al constante dinamismo en los pasillos, relegando el uso de la laptop únicamente para cierres administrativos.<br><br>Sus canales de interacción digital son limitados y fragmentados: utiliza hojas de cálculo de Google Drive (Excel) combinadas con cuadernos de apuntes para el inventario, y depende 100% de WhatsApp como canal de comunicación oficial para cotizar y solicitar pedidos a sus proveedores.<br><br>Durante la entrevista, expresó que sus principales problemas (<em>Pains</em>) son las mermas de productos perecibles (hortalizas y lácteos) por falta de control. Actualmente, monitorea las fechas de vencimiento mediante revisiones visuales semanales y verifica la temperatura de las vitrinas con termómetros físicos, lo cual lo deja expuesto a fallas mecánicas durante la madrugada. Se mostró altamente entusiasta (<em>Gains</em>) ante la propuesta de una solución tecnológica centralizada, indicando que un sistema que le envíe alertas al celular sobre el clima o los vencimientos, y que actualice su stock automáticamente al aprobar un pedido, le ahorraría tiempo y reduciría sus pérdidas económicas a cero.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;">
-  <tbody>
-    <tr>
-      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4" align="center">
-        <img src="assets/chapter-02/entrevista-03.png" alt="Entrevista 3" height="350">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
-      <td colspan="2" align="center"><strong>Contexto tecnológico</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Nombre completo</strong></td>
-      <td>[Nombre del entrevistado]</td>
-      <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>[Dispositivo utilizado con mayor frecuencia]</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>[Edad]</td>
-      <td><strong>Sistema operativo/browser</strong></td>
-      <td>[Sistema operativo y navegador]</td>
-    </tr>
-    <tr>
-      <td><strong>Definición profesional / cargo</strong></td>
-      <td>[Profesión y cargo]</td>
-      <td><strong>Canales digitales de comunicación</strong></td>
-      <td>[Canales digitales utilizados]</td>
-    </tr>
-    <tr>
-      <td><strong>Residencia / ubicación</strong></td>
-      <td>[Lugar de residencia y/o ubicación del negocio]</td>
-      <td><strong>Software especializado utilizado</strong></td>
-      <td>[Software utilizado]</td>
-    </tr>
-    <tr>
-      <td colspan="2"><strong>Duración</strong>: [00:00]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="[URL del video]" target="_blank">Ver video</a></td>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <strong>Resumen de la entrevista</strong><br><br>
-        [Redactar resumen de la entrevista.]
       </td>
     </tr>
   </tbody>
@@ -518,7 +467,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
    </tr> 
    <tr> 
      <td colspan="2">
-       <strong>Duración</strong>: [03:45]</td> <td colspan="2"><strong>URL de grabación: https://youtu.be/BnLUW6J2jmk </strong><a href="[URL del video]" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td> 
+        <strong>Duración</strong>: [03:45]</td> <td colspan="2"><strong>URL de grabación: https://youtu.be/BnLUW6J2jmk </strong><a href="https://youtu.be/BnLUW6J2jmk" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td> 
        </tr> 
  </tbody> 
 </table>
@@ -629,7 +578,7 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
     </tr>
   </tbody>
 </table>
-### 2.2.3. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas.
 
 ### Análisis por segmento objetivo
 
@@ -703,9 +652,9 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
 
-## 2.3. Needfinding
+## 2.3. Needfinding.
 
-### 2.3.1. User Personas
+### 2.3.1. User Personas.
 
 A partir de los hallazgos obtenidos en las entrevistas de validación, se construyeron los arquetipos representativos de nuestros segmentos objetivos utilizando la plataforma UXPressia. Estos perfiles estructuran la información demográfica, las motivaciones principales (Gains), los puntos de dolor operativos (Pains) y el nivel de dominio tecnológico de cada usuario, garantizando que la arquitectura y experiencia de la plataforma **OrganiK** se diseñen centradas en sus necesidades reales.
 
@@ -717,7 +666,7 @@ A partir de los hallazgos obtenidos en las entrevistas de validación, se constr
 
 ![User Persona - Marco Antonio Ríos](assets/chapter-02/Marco-User.png)
 
-### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix.
 
 Para diseñar una solución que optimice la gestión logística, el abastecimiento y la conservación de productos orgánicos, se identificaron dos tipos de usuarios clave: los administradores de minimarkets, responsables del control de inventarios, prevención de mermas y aprobación de compras; y los proveedores, encargados de gestionar su catálogo comercial, actualizar disponibilidad y enviar propuestas de abastecimiento. El diseño de la plataforma OrganiK se enfoca en facilitar la interacción entre estos dos actores mediante un flujo controlado, asegurando que la coordinación comercial fluya de manera eficiente mientras el minimarket mantiene autoridad exclusiva sobre las modificaciones de sus existencias.
 
@@ -741,7 +690,7 @@ Para diseñar una solución que optimice la gestión logística, el abastecimien
 La tabla muestra que ambos segmentos coinciden en considerar de alta importancia las tareas relacionadas con el seguimiento de los pedidos, el control de lotes y la visualización de métricas en sus respectivos dashboards. Sin embargo, las responsabilidades operativas están claramente delimitadas por sus roles de negocio. Las tareas más relevantes para los administradores de minimarkets se centran en el control interno del establecimiento, destacando el monitoreo de factores ambientales (temperatura y humedad), la prevención de vencimientos y la decisión final sobre la recepción de mercadería. Por su parte, los proveedores concentran su actividad en la gestión de su oferta y en la generación proactiva de pedidos. Estas diferencias reflejan el flujo central de OrganiK: el proveedor propone y documenta el abastecimiento para agilizar el proceso, pero el administrador del minimarket es el único actor con la capacidad de aprobar la transacción y alterar su inventario.
 
 
-### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping.
 
 El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de OrganiK, realizamos los User Journey Maps en su versión As-Is para los dos segmentos objetivos, identificando los puntos de dolor actuales causados por la dependencia de procesos manuales y canales informales.
 
@@ -758,7 +707,7 @@ El User Journey Map de Russell Estrada ilustra la experiencia actual del segment
 El User Journey Map de Marco Antonio Ríos representa la experiencia actual del segmento de proveedores B2B a lo largo de sus cinco etapas. En la etapa Aware, Marco recibe múltiples solicitudes de abastecimiento desordenadas mediante WhatsApp, sintiéndose abrumado por la presión operativa de responder en simultáneo. En la etapa Join, experimenta tensión al tener que verificar el stock en cuadernos físicos, existiendo una desconexión riesgosa entre lo que ofrece por chat y su disponibilidad real. Durante el Use, alcanza su punto más bajo de experiencia al transcribir los pedidos confirmados de WhatsApp a su Excel de ventas; este salto manual es el causante de errores en cantidades y lotes que derivan en despachos incorrectos. En Develop, la falta de trazabilidad genera que pierda tiempo valioso atendiendo llamadas de clientes que buscan conocer el estado de su entrega. Finalmente en Leave, la logística inversa (devoluciones) generada por errores de transcripción y la necesidad de proyectar mayor profesionalismo comercial lo motivan a buscar una plataforma B2B especializada que estandarice la generación de pedidos y brinde seguimiento en tiempo real.
 
 
-### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping.
 
 
 El **Empathy Mapping (Mapa de Empatía)**, desarrollado originalmente por Dave Gray, es una herramienta colaborativa de *Needfinding* que permite profundizar en los aspectos emocionales, cognitivos y de comportamiento de los usuarios. A diferencia del perfil demográfico de un *User Persona*, el mapa de empatía sintetiza los hallazgos cualitativos obteniendo una perspectiva desde "dentro de la cabeza" del cliente. 
@@ -785,14 +734,14 @@ Mapa de Empatía - Valeria Ríos <img src="assets/chapter-02/Valeria-Ríos-Distr
 
 
 
-## 2.4. Big Picture Event Storming
-El Big Picture Event Storming nos ayuda a explorar los eventos relacionados al negocio de los restaurantes y de las tiendas retail. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
+## 2.4. Big Picture Event Storming.
+El Big Picture Event Storming nos ayuda a explorar los eventos relacionados con la gestión de inventarios, lotes, vencimientos, conservación y abastecimiento de productos orgánicos entre minimarkets y proveedores. Se empezó colocando eventos de dominio relacionados sin importar el orden. Luego, se formaron líneas de tiempo que ayuden a denotar una secuencia de eventos de dominio que posea coherencia con el negocio y sus relaciones con otros eventos. Finalmente, se identificaron los actores que interactúan en el negocio y los puntos de dolor. A continuación, se adjuntan las capturas de pantalla de cada paso realizado para diagramar el Big Picture Event Storming del proyecto:
 
  
 <img src="assets/chapter-02/events.png">
 
 
-## 2.5. Ubiquitous Language
+## 2.5. Ubiquitous Language.
 
 A partir del Big Picture Event Storming se identificaron los términos y conceptos que forman el lenguaje ubicuo del dominio de OrganiK. Este glosario asegura que el equipo de desarrollo, los stakeholders y la documentación utilicen exactamente el mismo significado para cada concepto de negocio a lo largo de todo el proyecto.
 
