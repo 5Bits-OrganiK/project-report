@@ -2076,7 +2076,7 @@ El diagrama de base de datos muestra las entidades principales de OrganiK, sus a
 
 ---
 
-# Capítulo V: Product Implementation, Validation & Deployment.
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
 
@@ -2135,19 +2135,19 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
   <tbody>
     <tr>
       <td>Project Report OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/OrganiK/organik-report</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/5Bits-OrganiK/project-report.git</a></td>
     </tr>
     <tr>
       <td>Landing Page OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/OrganiK/organik-landingpage</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/OrganiK/organik-frontend</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/5Bits-OrganiK/organik-frontend.git</a></td>
     </tr>
     <tr>
       <td>Backend Web Services OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/OrganiK/organik-backend</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/5Bits-OrganiK/organik-backend.git</a></td>
     </tr>
   </tbody>
 </table>
@@ -2241,6 +2241,10 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ### 5.2.1. Sprint 1
 
+---
+
+#### 5.2.1.1. Sprint Planning 1.
+
 | **Sprint Planning Sprint 1** |  |
 |---|---|
 | **Sprint Planning Background** |  |
@@ -2261,8 +2265,6 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 </p>
 
 ---
-
-#### 5.2.1.1. Sprint Planning 1.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -2334,7 +2336,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 <div align="center">
   <img src="report/assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
-  <p><em>Figura: Tablero del Sprint 1 en Jira Software o herramienta de gestión del proyecto OrganiK.</em></p>
+  <p><em>Figura: Tablero del Sprint 1 en Trello, herramienta de gestión del proyecto OrganiK.</em></p>
 </div>
 
 | User Story Id | Title | Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
