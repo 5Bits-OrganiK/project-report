@@ -1,4 +1,4 @@
-# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis.
 ## 2.1. Competidores
 
 Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
@@ -703,7 +703,7 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
 
-## Needfinding
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
