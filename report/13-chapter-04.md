@@ -1,10 +1,10 @@
-# Capítulo IV: Product Design.
+# Capítulo IV: Product Design
 
-### 4.1. Style Guidelines
+## 4.1. Style Guidelines.
 
 Esta sección establece las bases visuales y de comunicación para mantener la consistencia en todos los productos digitales de **OrganiK** (Landing Page y Dashboards). El objetivo es contar con un repositorio centralizado que facilite la escalabilidad del diseño y garantice una experiencia de usuario coherente tanto para administradores de minimarkets como para proveedores.
 
-#### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines.
 
 **Tono de Comunicación y Lenguaje**
 La comunicación de OrganiK se rige bajo cuatro dimensiones principales para establecer confianza en un entorno B2B:
@@ -32,7 +32,7 @@ Se seleccionaron dos familias Sans-Serif priorizando la legibilidad en pantallas
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-5.png)
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-6.png)
 
-#### 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines.
 
 Para garantizar que la experiencia sea fluida y adaptable (Responsive Web Design), se establecen los siguientes estándares visuales y de interacción:
 
@@ -43,7 +43,7 @@ Para garantizar que la experiencia sea fluida y adaptable (Responsive Web Design
     *   *Disabled:* Los botones de acciones incompletas (ej. "Aceptar Pedido" sin haber revisado el lote) se desaturan a *Slate Gray* al 50% de opacidad.
 *   **Accesibilidad (A11y):** Los botones principales y enlaces en la versión móvil tienen un área mínima de toque de 44x44px para evitar errores al interactuar en movimiento. Se garantiza un ratio de contraste mínimo de 4.5:1 entre el texto y su fondo.
 
-### 4.2. Information Architecture
+## 4.2. Information Architecture.
 
 La Arquitectura de la Información (IA) de **OrganiK** ha sido diseñada con el objetivo de estructurar, organizar y etiquetar el contenido de la plataforma de manera que los usuarios puedan encontrar la información y completar sus tareas de forma intuitiva.
 
@@ -90,7 +90,7 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
 
 ![Site Map - Plataforma OrganiK](assets/chapter-04/site-map.png)
 
-#### 4.2.1. Organization Systems
+### 4.2.1. Organization Systems.
 
 El sistema de organización de **OrganiK** define cómo se estructura y clasifica la información para que los usuarios interactúen con la plataforma sin fricciones. Se han aplicado los siguientes esquemas organizativos:
 *   **Organización Visual y Estructural:**
@@ -101,7 +101,7 @@ El sistema de organización de **OrganiK** define cómo se estructura y clasific
     *   *Cronológico:* Aplicado en los historiales de pedidos, registro de mermas y el log de alertas ambientales, ordenando los datos desde el evento más reciente al más antiguo.
     *   *Por Tópicos:* Utilizado para estructurar el catálogo y el inventario físico, facilitando la agrupación de lotes y productos.
 
-#### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
 
 Para garantizar la comprensión inmediata en entornos operativos rápidos, el sistema de etiquetado se basa en el *Ubiquitous Language* del sector logístico:
 *   **Etiquetas de Navegación:** Términos precisos de 1 a 2 palabras (Ej: *Inventario*, *Abastecimiento*, *Mi Catálogo*, *Mermas*).
@@ -109,7 +109,7 @@ Para garantizar la comprensión inmediata en entornos operativos rápidos, el si
 *   **Etiquetas de Estado:** Emplean un código de color universal respaldado por texto claro para el seguimiento (Ej: *Pendiente* [Amarillo], *Aprobado* [Verde], *Rechazado* [Rojo], *En Ruta* [Azul]).
 *   **Apoyo Iconográfico:** Las etiquetas de navegación principal siempre están acompañadas de iconos estandarizados para acelerar el reconocimiento visual.
 
-#### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar el posicionamiento en motores de búsqueda y la correcta previsualización al compartir enlaces, se han configurado los siguientes metadatos:
 *   **Landing Page (Pública):**
@@ -118,14 +118,14 @@ Para asegurar el posicionamiento en motores de búsqueda y la correcta previsual
     *   `Meta Keywords:` `<meta name="keywords" content="minimarkets, productos orgánicos, abastecimiento B2B, control de inventario, monitoreo IoT, reducir mermas">`
 *   **Web Application (Privada):** Dado que requiere autenticación, los motores de búsqueda no indexarán el contenido interno (`<meta name="robots" content="noindex, nofollow">`), protegiendo la privacidad operativa de los clientes. Se usan títulos dinámicos en la pestaña (Ej. `<title>Inventario - OrganiK</title>`).
 
-#### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 Debido al alto volumen transaccional, OrganiK implementa un sistema de búsqueda robusto para reducir el tiempo de localización de datos:
 *   **Búsqueda Global:** Ubicada en la cabecera del dashboard, permite realizar consultas mediante coincidencia de cadenas (ej. buscar por producto "Manzana" o ID de pedido "ORD-0012").
 *   **Filtros Contextuales:** Menús desplegables en las tablas de datos para refinar resultados (ej. filtrar inventario por estado "Próximo a Vencer", o filtrar pedidos por "Proveedor").
 *   **Presentación de Resultados:** Los datos se presentan en *Data Tables* ordenables y paginadas para no sobrecargar la vista.
 
-#### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 El sistema de navegación está estructurado para que los usuarios interactúen con la menor cantidad de clics posibles, adaptándose al comportamiento *Mobile-First*:
 *   **Navegación Global (Landing Page):** *Sticky Top Navbar* con anclas (anchor links) a secciones clave y un botón *Call-to-Action* destacado ("Iniciar Sesión").
@@ -133,11 +133,11 @@ El sistema de navegación está estructurado para que los usuarios interactúen 
 *   **Navegación Local:** Pestañas (Tabs) dentro de un mismo módulo para separar sub-vistas (ej. Dentro del módulo "Inventario", pestañas separadas para *Stock Activo*, *Lotes* y *Mermas*).
 *   **Navegación Suplementaria:** Ruta de migas de pan (Breadcrumbs) en la cabecera (ej. `OrganiK > Abastecimiento > Detalle Pedido ORD-0012`) que orienta al usuario y le permite retroceder niveles sin perder contexto.
 
-### 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 
 En esta sección se presenta la propuesta de Interfaz de Usuario (UI) para la Landing Page de **OrganiK**. El diseño visual traduce las decisiones tomadas en la Arquitectura de la Información y las Guías de Estilo en una interfaz tangible orientada a la conversión. El objetivo principal de esta página pública es comunicar claramente la propuesta de valor integrada (gestión de inventarios, monitoreo IoT y abastecimiento B2B) y dirigir a los administradores de minimarkets y proveedores hacia el registro o inicio de sesión.
 
-#### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 
 Los wireframes representan el esqueleto estructural de la página en baja fidelidad, desprovistos de color y tipografía final, para centrar el análisis en la usabilidad y la distribución del contenido.
 
@@ -146,9 +146,9 @@ Los wireframes representan el esqueleto estructural de la página en baja fideli
 *   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas IoT.
 *   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Se ha proyectado que las áreas de interacción (botones de "Empezar" o "Conoce los planes") tengan un área táctil amplia (mínimo 44x44px) para evitar frustración motriz en dispositivos móviles.
 
-![Landing Page Wireframe - Plataforma OrganiK](assets/chapter-04/landing-page-mockup.png)
+![Landing Page Wireframe - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
 
-#### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up.
 
 Los mock-ups representan el diseño final en alta fidelidad, integrando el *Design System* establecido para los productos digitales de OrganiK.
 
@@ -158,15 +158,27 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 *   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo que el usuario pueda acceder al botón de "Iniciar Sesión" en cualquier momento de su lectura, maximizando las oportunidades de conversión.
 *   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
 
-![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
+![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-mockup.png)
 
-## 4.6. Domain-Driven Software Architecture
+## 4.4. Web Applications UX/UI Design.
+
+### 4.4.1. Web Applications Wireframes.
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+
+### 4.4.2. Web Applications Mock-ups.
+
+### 4.4.3. Web Applications User Flow Diagrams.
+
+## 4.5. Web Applications Prototyping.
+
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
 
 En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de OrganiK.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level Event Storming.
 
 Para identificar los eventos de dominio y la lógica de negocio de OrganiK, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
@@ -250,7 +262,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
 <div style="page-break-after: always;"></div>
 
-### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram.
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema OrganiK como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
 
@@ -268,7 +280,7 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 
 ---
 
-### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams.
 
 En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicaciones y fuentes de datos que colaboran para brindar la experiencia completa de la plataforma.
 
@@ -290,7 +302,7 @@ En el diagrama se observa que:
 
 ---
 
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams.
 
 En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
 
@@ -365,11 +377,11 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección se presenta el diseño orientado a objetos de OrganiK, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.1. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de OrganiK, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 
@@ -411,13 +423,13 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ---
 
-## 4.8. Database Design
+## 4.8. Database Design.
 
 El diseño de base de datos de OrganiK define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
-# 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 El diagrama de base de datos muestra las entidades principales de OrganiK, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se almacena la información del sistema y cómo se conectan los distintos procesos de negocio a nivel de persistencia.
 
