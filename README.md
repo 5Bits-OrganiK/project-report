@@ -1,5 +1,7 @@
 <!-- AUTO-DOCS:START -->
 
+# Carátula
+
 <div align="center">
 <br>
 <img src="report/assets/common/logo-upc.png" width="180" alt="Logo UPC">
@@ -43,7 +45,7 @@
 
 ---
 
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 |20/19/2026 | Atencio Cristobal,Cielo Valentina<br>Cáceres Pizarro,Albino Florencio <br>Olivares Lao, Gustavo Alonso<br> Quispe Almonacid, Andre Sebastian <br> Torres Huaman, Alexis Calin | Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
@@ -97,80 +99,104 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 ## Tabla de contenidos
 
-### Front Matter
-
 - [Carátula](report/front-matter/01-title-page.md)
 - [Registro de Versiones del Informe](report/front-matter/02-version-control-log.md)
+- [Project Report Collaboration Insights](report/front-matter/03-collaboration-insights.md)
+- [Contenido](report/front-matter/04-table-of-contents.md)
 - [Student Outcome](report/front-matter/05-student-outcomes.md)
 
-### Contenido del Informe
-
-- [Abstract](report/10-chapter-01.md#abstract)
-- [Resumen](report/10-chapter-01.md#resumen)
-
 - [Capítulo I: Introducción](report/10-chapter-01.md)
-    - [1.1. Startup Profile](report/10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](report/10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](report/10-chapter-01.md#13-segmentos-objetivo)
+  - [1.1. Startup Profile](report/10-chapter-01.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](report/10-chapter-01.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](report/10-chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](report/10-chapter-01.md#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](report/10-chapter-01.md#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process.](report/10-chapter-01.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](report/10-chapter-01.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](report/10-chapter-01.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](report/10-chapter-01.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](report/10-chapter-01.md#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](report/11-chapter-02.md)
-    - [2.1. Competidores](report/11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](report/11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](report/11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](report/11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](report/11-chapter-02.md#25-ubiquitous-language)
+  - [2.1. Competidores.](report/11-chapter-02.md#21-competidores)
+    - [2.1.1. Análisis competitivo.](report/11-chapter-02.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](report/11-chapter-02.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](report/11-chapter-02.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](report/11-chapter-02.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](report/11-chapter-02.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](report/11-chapter-02.md#223-análisis-de-entrevistas)
+  - [2.3. Needfinding.](report/11-chapter-02.md#23-needfinding)
+    - [2.3.1. User Personas.](report/11-chapter-02.md#231-user-personas)
+    - [2.3.2. User Task Matrix.](report/11-chapter-02.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](report/11-chapter-02.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](report/11-chapter-02.md#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming.](report/11-chapter-02.md#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language.](report/11-chapter-02.md#25-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](report/12-chapter-03.md)
-    - [3.1. User Stories](report/12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](report/12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](report/12-chapter-03.md#33-product-backlog)
+  - [3.1. User Stories.](report/12-chapter-03.md#31-user-stories)
+  - [3.2. Impact Mapping.](report/12-chapter-03.md#32-impact-mapping)
+  - [3.3. Product Backlog.](report/12-chapter-03.md#33-product-backlog)
 
 - [Capítulo IV: Product Design](report/13-chapter-04.md)
-    - [4.1. Style Guidelines](report/13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](report/13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](report/13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](report/13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](report/13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](report/13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](report/13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](report/13-chapter-04.md#48-database-design)
+  - [4.1. Style Guidelines.](report/13-chapter-04.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](report/13-chapter-04.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](report/13-chapter-04.md#412-web-style-guidelines)
+  - [4.2. Information Architecture.](report/13-chapter-04.md#42-information-architecture)
+    - [4.2.1. Organization Systems.](report/13-chapter-04.md#421-organization-systems)
+    - [4.2.2. Labeling Systems.](report/13-chapter-04.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](report/13-chapter-04.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](report/13-chapter-04.md#424-searching-systems)
+    - [4.2.5. Navigation Systems.](report/13-chapter-04.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](report/13-chapter-04.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](report/13-chapter-04.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](report/13-chapter-04.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](report/13-chapter-04.md#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](report/13-chapter-04.md#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](report/13-chapter-04.md#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](report/13-chapter-04.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming.](report/13-chapter-04.md#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram.](report/13-chapter-04.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams.](report/13-chapter-04.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams.](report/13-chapter-04.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](report/13-chapter-04.md#471-class-diagrams)
+  - [4.8. Database Design.](report/13-chapter-04.md#48-database-design)
+    - [4.8.1. Database Diagrams.](report/13-chapter-04.md#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](report/14-chapter-05.md)
-    - [5.1. Software Configuration Management](report/14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](report/14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](report/14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](report/14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](report/14-chapter-05.md#514-software-deployment-configuration)
-
-    - [5.2. Landing Page, Services & Applications Implementation](report/14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](report/14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](report/14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](report/14-chapter-05.md#523-sprint-3)
-
-    - [5.3. Validation Interviews](report/14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](report/14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](report/14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](report/14-chapter-05.md#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](report/14-chapter-05.md#54-video-about-the-product)
-
-- [Capítulo VI: Conclusions](report/98-conclusions.md)
-    - [Conclusiones y recomendaciones](report/98-conclusions.md#conclusiones-y-recomendaciones)
-
+  - [5.1. Software Configuration Management.](report/14-chapter-05.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](report/14-chapter-05.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](report/14-chapter-05.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](report/14-chapter-05.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](report/14-chapter-05.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](report/14-chapter-05.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](report/14-chapter-05.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](report/14-chapter-05.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](report/14-chapter-05.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](report/14-chapter-05.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](report/14-chapter-05.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
+- [Conclusiones](report/98-conclusions.md)
 - [Bibliografía](report/99-bibliography.md)
-
 - [Anexos](report/annexes/90-annex-a-raw-data.md)
-    - [Anexo A: Videos de Exposiciones](report/annexes/90-annex-a-raw-data.md)
 
 ---
 
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**  
-**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+**ABET – EAC - Student Outcome 3**  
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
-En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 3.
 
 ---
 
@@ -178,8 +204,8 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo comunicó oralmente el avance del proyecto al organizar y sustentar los artefactos desarrollados para el Sprint 1, explicando el problema, la propuesta de solución, los segmentos objetivo, los requisitos, el diseño del producto y las evidencias de implementación de la landing page ante una audiencia académica. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** El equipo comunicó por escrito el proceso de ingeniería desarrollado mediante el Project Report, documentando en Markdown la carátula, el registro de versiones, los capítulos I al V, los artefactos de análisis, requisitos, diseño, configuración, evidencias del Sprint 1, conclusiones, bibliografía y anexos de manera organizada para docentes, compañeros y lectores técnicos. |
 
 ---
 
@@ -206,7 +232,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="report/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional.
+| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional. |
 | <img src="report/assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
 | <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
 | <img src="report/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
@@ -224,15 +250,29 @@ Los pedidos generados por los proveedores son revisados por el administrador, qu
 
 La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
 
-De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados**, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario.
+De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario**.
 
-### 1.2.1. Antecedentes y problemática
+### 1.2.1 Antecedentes y problemática
 
 El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, una proporción importante corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
 En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento. Además, estudios aplicados a tiendas de conveniencia en Lima evidencian que la optimización del inventario puede mejorar indicadores operativos como la reposición, el nivel de servicio, la reducción de quiebres de stock y la rentabilidad del negocio (Zavaleta-Zarate et al., 2026).
 
 Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos y generar pedidos dirigidos a los establecimientos. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **OrganiK** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los proveedores generen pedidos y que los administradores mantengan el control sobre su aceptación y actualización del inventario.
+
+**Objetivos de la solución:**
+
+- Centralizar la gestión de productos, inventario, lotes, vencimientos y condiciones de almacenamiento de productos orgánicos.
+- Facilitar la coordinación de abastecimiento entre administradores de minimarkets y proveedores mediante un flujo de pedidos controlado.
+- Anticipar riesgos operativos asociados a stock bajo, vencimientos próximos y condiciones ambientales inadecuadas.
+- Mejorar la trazabilidad de las operaciones de inventario y abastecimiento.
+
+**Restricciones y alcance del proyecto:**
+
+- La solución se enfoca inicialmente en administradores de minimarkets y proveedores de productos orgánicos.
+- El alcance del AV1 considera la definición del problema, análisis, requisitos, diseño y desarrollo inicial de la landing page.
+- El monitoreo de temperatura y humedad puede validarse inicialmente con datos simulados, sin depender de sensores físicos reales.
+- Los proveedores pueden generar pedidos de abastecimiento, pero la modificación del inventario queda bajo control del administrador del minimarket.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -248,9 +288,9 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 
 ---
 
-### 1.2.2. Lean UX Process
+### 1.2.2 Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements.
 
 Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer, niveles de inventario bajos o condiciones ambientales que puedan afectar su conservación.
 
@@ -274,7 +314,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions.
 
 **Business Assumptions:**
 
@@ -352,7 +392,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hypothesis 1**
 
@@ -376,7 +416,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas.
 
 <table>
   <tr>
@@ -495,7 +535,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 ---
 
-## 1.3. Segmentos Objetivos
+## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
@@ -525,7 +565,7 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 ---
 
-# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis.
 ## 2.1. Competidores
 
 Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
@@ -1230,7 +1270,7 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
 
-## Needfinding
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
@@ -1346,9 +1386,11 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 ---
 
-## TO-BE Scenario Mapping
+# Capítulo III: Requirements Specification
 
-### Administradores de Minimarkets
+### TO-BE Scenario Mapping
+
+#### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1357,7 +1399,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
-### Proveedores de Productos Orgánicos
+#### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1367,9 +1409,9 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
 
-## 3.1. User Stories
+## 3.1. User Stories.
 
-## Epics
+### Epics
 
 | EPIC ID | Título | Descripción |
 |---|---|---|
@@ -1381,7 +1423,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar el seguimiento de las operaciones. |
 
-## User Stories
+### User Stories
 
 | US ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1416,7 +1458,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de OrganiK,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de OrganiK,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
 
-## Technical Stories
+### Technical Stories
 
 | TS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1446,7 +1488,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | TS-DASH-002 | Alerts and notifications API | **Como** frontend developer, **Quiero** consultar las alertas y notificaciones del usuario, **Para** informar oportunamente sobre eventos relevantes. | EP-03 / EP-07 |
 | TS-AUD-001 | Activity history API | **Como** frontend developer, **Quiero** consultar el historial de operaciones, **Para** mantener trazabilidad de las acciones realizadas en OrganiK. | EP-06 / EP-07 |
 
-### Functional Stories
+#### Functional Stories
 
 | FS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1454,7 +1496,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema, **Quiero** aplicar permisos diferenciados sobre las órdenes de envío, **Para** que el proveedor pueda gestionar sus órdenes mientras el administrador pueda consultar y aceptar o rechazar su recepción. | EP-04 / EP-06 |
 
 
-### Flujo principal de abastecimiento
+#### Flujo principal de abastecimiento
 
 El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 
@@ -1468,7 +1510,7 @@ El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 8. Si la orden es aceptada, los productos y cantidades recibidos se incorporan al **inventario del minimarket**.
 9. El sistema conserva el historial de pedidos y órdenes para mantener la **trazabilidad del abastecimiento**.
 
-### API Endpoint Coverage for Backend Web Services
+#### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz presenta la cobertura de endpoints REST definida para los Web Services de **OrganiK**. Estos endpoints permiten la comunicación entre el frontend y el backend, y se encuentran organizados de acuerdo con los módulos funcionales, Technical Stories y User Stories establecidas para la plataforma.
 
@@ -1517,12 +1559,12 @@ Por otro lado, **Suppliers y Orders** soportan el proceso de abastecimiento entr
 
 Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Activity History** complementan la operación de la plataforma mediante el registro de mermas y donaciones, la visualización de información resumida, la consulta de alertas y notificaciones, y el seguimiento de las actividades realizadas dentro del sistema.
 
-## 3.2. Impact Mapping
+## 3.2. Impact Mapping.
 
 <img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 
-## 3.3. Product Backlog
+## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
@@ -1595,11 +1637,13 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 
 ---
 
-### 4.1. Style Guidelines
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines.
 
 Esta sección establece las bases visuales y de comunicación para mantener la consistencia en todos los productos digitales de **OrganiK** (Landing Page y Dashboards). El objetivo es contar con un repositorio centralizado que facilite la escalabilidad del diseño y garantice una experiencia de usuario coherente tanto para administradores de minimarkets como para proveedores.
 
-#### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines.
 
 **Tono de Comunicación y Lenguaje**
 La comunicación de OrganiK se rige bajo cuatro dimensiones principales para establecer confianza en un entorno B2B:
@@ -1627,7 +1671,7 @@ Se seleccionaron dos familias Sans-Serif priorizando la legibilidad en pantallas
 ![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-5.png)
 ![General Style Guide - Colores y Tipografía](report/assets/chapter-04/style-guideline-6.png)
 
-#### 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines.
 
 Para garantizar que la experiencia sea fluida y adaptable (Responsive Web Design), se establecen los siguientes estándares visuales y de interacción:
 
@@ -1638,7 +1682,7 @@ Para garantizar que la experiencia sea fluida y adaptable (Responsive Web Design
     *   *Disabled:* Los botones de acciones incompletas (ej. "Aceptar Pedido" sin haber revisado el lote) se desaturan a *Slate Gray* al 50% de opacidad.
 *   **Accesibilidad (A11y):** Los botones principales y enlaces en la versión móvil tienen un área mínima de toque de 44x44px para evitar errores al interactuar en movimiento. Se garantiza un ratio de contraste mínimo de 4.5:1 entre el texto y su fondo.
 
-### 4.2. Information Architecture
+## 4.2. Information Architecture.
 
 La Arquitectura de la Información (IA) de **OrganiK** ha sido diseñada con el objetivo de estructurar, organizar y etiquetar el contenido de la plataforma de manera que los usuarios puedan encontrar la información y completar sus tareas de forma intuitiva.
 
@@ -1685,7 +1729,7 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
 
 ![Site Map - Plataforma OrganiK](report/assets/chapter-04/site-map.png)
 
-#### 4.2.1. Organization Systems
+### 4.2.1. Organization Systems.
 
 El sistema de organización de **OrganiK** define cómo se estructura y clasifica la información para que los usuarios interactúen con la plataforma sin fricciones. Se han aplicado los siguientes esquemas organizativos:
 *   **Organización Visual y Estructural:**
@@ -1696,7 +1740,7 @@ El sistema de organización de **OrganiK** define cómo se estructura y clasific
     *   *Cronológico:* Aplicado en los historiales de pedidos, registro de mermas y el log de alertas ambientales, ordenando los datos desde el evento más reciente al más antiguo.
     *   *Por Tópicos:* Utilizado para estructurar el catálogo y el inventario físico, facilitando la agrupación de lotes y productos.
 
-#### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
 
 Para garantizar la comprensión inmediata en entornos operativos rápidos, el sistema de etiquetado se basa en el *Ubiquitous Language* del sector logístico:
 *   **Etiquetas de Navegación:** Términos precisos de 1 a 2 palabras (Ej: *Inventario*, *Abastecimiento*, *Mi Catálogo*, *Mermas*).
@@ -1704,7 +1748,7 @@ Para garantizar la comprensión inmediata en entornos operativos rápidos, el si
 *   **Etiquetas de Estado:** Emplean un código de color universal respaldado por texto claro para el seguimiento (Ej: *Pendiente* [Amarillo], *Aprobado* [Verde], *Rechazado* [Rojo], *En Ruta* [Azul]).
 *   **Apoyo Iconográfico:** Las etiquetas de navegación principal siempre están acompañadas de iconos estandarizados para acelerar el reconocimiento visual.
 
-#### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar el posicionamiento en motores de búsqueda y la correcta previsualización al compartir enlaces, se han configurado los siguientes metadatos:
 *   **Landing Page (Pública):**
@@ -1713,14 +1757,14 @@ Para asegurar el posicionamiento en motores de búsqueda y la correcta previsual
     *   `Meta Keywords:` `<meta name="keywords" content="minimarkets, productos orgánicos, abastecimiento B2B, control de inventario, monitoreo IoT, reducir mermas">`
 *   **Web Application (Privada):** Dado que requiere autenticación, los motores de búsqueda no indexarán el contenido interno (`<meta name="robots" content="noindex, nofollow">`), protegiendo la privacidad operativa de los clientes. Se usan títulos dinámicos en la pestaña (Ej. `<title>Inventario - OrganiK</title>`).
 
-#### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 Debido al alto volumen transaccional, OrganiK implementa un sistema de búsqueda robusto para reducir el tiempo de localización de datos:
 *   **Búsqueda Global:** Ubicada en la cabecera del dashboard, permite realizar consultas mediante coincidencia de cadenas (ej. buscar por producto "Manzana" o ID de pedido "ORD-0012").
 *   **Filtros Contextuales:** Menús desplegables en las tablas de datos para refinar resultados (ej. filtrar inventario por estado "Próximo a Vencer", o filtrar pedidos por "Proveedor").
 *   **Presentación de Resultados:** Los datos se presentan en *Data Tables* ordenables y paginadas para no sobrecargar la vista.
 
-#### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 El sistema de navegación está estructurado para que los usuarios interactúen con la menor cantidad de clics posibles, adaptándose al comportamiento *Mobile-First*:
 *   **Navegación Global (Landing Page):** *Sticky Top Navbar* con anclas (anchor links) a secciones clave y un botón *Call-to-Action* destacado ("Iniciar Sesión").
@@ -1728,11 +1772,11 @@ El sistema de navegación está estructurado para que los usuarios interactúen 
 *   **Navegación Local:** Pestañas (Tabs) dentro de un mismo módulo para separar sub-vistas (ej. Dentro del módulo "Inventario", pestañas separadas para *Stock Activo*, *Lotes* y *Mermas*).
 *   **Navegación Suplementaria:** Ruta de migas de pan (Breadcrumbs) en la cabecera (ej. `OrganiK > Abastecimiento > Detalle Pedido ORD-0012`) que orienta al usuario y le permite retroceder niveles sin perder contexto.
 
-### 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 
 En esta sección se presenta la propuesta de Interfaz de Usuario (UI) para la Landing Page de **OrganiK**. El diseño visual traduce las decisiones tomadas en la Arquitectura de la Información y las Guías de Estilo en una interfaz tangible orientada a la conversión. El objetivo principal de esta página pública es comunicar claramente la propuesta de valor integrada (gestión de inventarios, monitoreo IoT y abastecimiento B2B) y dirigir a los administradores de minimarkets y proveedores hacia el registro o inicio de sesión.
 
-#### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 
 Los wireframes representan el esqueleto estructural de la página en baja fidelidad, desprovistos de color y tipografía final, para centrar el análisis en la usabilidad y la distribución del contenido.
 
@@ -1741,9 +1785,9 @@ Los wireframes representan el esqueleto estructural de la página en baja fideli
 *   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas IoT.
 *   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Se ha proyectado que las áreas de interacción (botones de "Empezar" o "Conoce los planes") tengan un área táctil amplia (mínimo 44x44px) para evitar frustración motriz en dispositivos móviles.
 
-![Landing Page Wireframe - Plataforma OrganiK](report/assets/chapter-04/landing-page-mockup.png)
+![Landing Page Wireframe - Plataforma OrganiK](report/assets/chapter-04/landing-page-wireframe.png)
 
-#### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up.
 
 Los mock-ups representan el diseño final en alta fidelidad, integrando el *Design System* establecido para los productos digitales de OrganiK.
 
@@ -1753,15 +1797,27 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 *   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo que el usuario pueda acceder al botón de "Iniciar Sesión" en cualquier momento de su lectura, maximizando las oportunidades de conversión.
 *   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
 
-![Landing Page Mockup - Plataforma OrganiK](report/assets/chapter-04/landing-page-wireframe.png)
+![Landing Page Mockup - Plataforma OrganiK](report/assets/chapter-04/landing-page-mockup.png)
 
-## 4.6. Domain-Driven Software Architecture
+## 4.4. Web Applications UX/UI Design.
+
+### 4.4.1. Web Applications Wireframes.
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+
+### 4.4.2. Web Applications Mock-ups.
+
+### 4.4.3. Web Applications User Flow Diagrams.
+
+## 4.5. Web Applications Prototyping.
+
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
 
 En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de OrganiK.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level Event Storming.
 
 Para identificar los eventos de dominio y la lógica de negocio de OrganiK, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
 
@@ -1845,7 +1901,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
 <div style="page-break-after: always;"></div>
 
-### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram.
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema OrganiK como una caja negra y en las interacciones que mantiene con sus usuarios y servicios externos.
 
@@ -1863,7 +1919,7 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 
 ---
 
-### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams.
 
 En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicaciones y fuentes de datos que colaboran para brindar la experiencia completa de la plataforma.
 
@@ -1885,7 +1941,7 @@ En el diagrama se observa que:
 
 ---
 
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams.
 
 En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
 
@@ -1960,11 +2016,11 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 <div style="page-break-after: always;"></div>
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección se presenta el diseño orientado a objetos de OrganiK, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.7. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases muestran la organización interna de los componentes principales de OrganiK, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 
@@ -2006,13 +2062,13 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ---
 
-## 4.8. Database Design
+## 4.8. Database Design.
 
 El diseño de base de datos de OrganiK define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
-# 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 El diagrama de base de datos muestra las entidades principales de OrganiK, sus atributos, claves primarias, claves foráneas y relaciones. Esta vista permite comprender cómo se almacena la información del sistema y cómo se conectan los distintos procesos de negocio a nivel de persistencia.
 
@@ -2022,11 +2078,11 @@ El diagrama de base de datos muestra las entidades principales de OrganiK, sus a
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
+## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **OrganiK** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **OrganiK**. Se establecen los lineamientos para la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y la configuración de despliegue de la landing page.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 
 Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de **OrganiK**.
 
@@ -2063,7 +2119,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 ---
 
-### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución **OrganiK** para garantizar la integridad del código fuente.
 
@@ -2079,19 +2135,19 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
   <tbody>
     <tr>
       <td>Project Report OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/OrganiK/organik-report</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/5Bits-OrganiK/project-report.git</a></td>
     </tr>
     <tr>
       <td>Landing Page OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/OrganiK/organik-landingpage</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/OrganiK/organik-frontend</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/5Bits-OrganiK/organik-frontend.git</a></td>
     </tr>
     <tr>
       <td>Backend Web Services OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/OrganiK/organik-backend</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/5Bits-OrganiK/organik-backend.git</a></td>
     </tr>
   </tbody>
 </table>
@@ -2132,7 +2188,7 @@ Ejemplos:
 
 ---
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto **OrganiK**: HTML, CSS, TypeScript y Angular. Se aplica nomenclatura en inglés para los elementos del código, manteniendo coherencia con el dominio de la landing page y la plataforma.
 
@@ -2168,7 +2224,7 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ---
 
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para la landing page de **OrganiK**, garantizando disponibilidad para usuarios interesados en conocer la propuesta de valor del producto.
 
@@ -2181,9 +2237,13 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
+
+---
+
+#### 5.2.1.1. Sprint Planning 1.
 
 | **Sprint Planning Sprint 1** |  |
 |---|---|
@@ -2206,7 +2266,7 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo durante el desarrollo de la landing page de <strong>OrganiK</strong>. 
@@ -2270,13 +2330,13 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 
 ---
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
 <div align="center">
   <img src="report/assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
-  <p><em>Figura: Tablero del Sprint 1 en Jira Software o herramienta de gestión del proyecto OrganiK.</em></p>
+  <p><em>Figura: Tablero del Sprint 1 en Trello, herramienta de gestión del proyecto OrganiK.</em></p>
 </div>
 
 | User Story Id | Title | Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
@@ -2291,7 +2351,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>OrganiK</strong>.
@@ -2348,7 +2408,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y ejecución local de la Landing Page estática de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas.
 
@@ -2399,7 +2459,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
   Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>OrganiK</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
@@ -2407,7 +2467,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.7. Software Deployment Evidence
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
   <strong>URL de entorno local:</strong>
@@ -2425,7 +2485,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante este primer sprint, el esfuerzo principal del equipo de <strong>OrganiK</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de commits mediante Conventional Commits y la documentación inicial del producto <strong>OrganiK</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
@@ -2451,7 +2511,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-# Conclusiones y Recomendaciones 
+# Conclusiones
 
 ### Conclusiones
 
@@ -2481,7 +2541,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-## Bibliografía
+# Bibliografía
 
 - Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
 
