@@ -116,7 +116,7 @@ La siguiente figura muestra el historial de commits realizados por los integrant
       - [1.2.2.2. Lean UX Assumptions.](report/10-chapter-01.md#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements.](report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas.](report/10-chapter-01.md#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo.](report/10-chapter-01.md#13-segmentos-objetivos)
+  - [1.3. Segmentos objetivo.](report/10-chapter-01.md#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](report/11-chapter-02.md)
   - [2.1. Competidores.](report/11-chapter-02.md#21-competidores)
@@ -232,7 +232,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="report/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional.
+| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional. |
 | <img src="report/assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
 | <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
 | <img src="report/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
@@ -250,15 +250,29 @@ Los pedidos generados por los proveedores son revisados por el administrador, qu
 
 La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. Durante la implementación, los datos de los sensores podrán ser simulados para validar los flujos de monitoreo y alertas sin depender de dispositivos físicos.
 
-De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados**, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario.
+De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario**.
 
-### 1.2.1. Antecedentes y problemática
+### 1.2.1 Antecedentes y problemática
 
 El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, una proporción importante corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
 
 En los minimarkets, esta problemática se relaciona con las dificultades para mantener un control adecuado sobre el inventario, lotes, fechas de vencimiento y condiciones de almacenamiento. La utilización de registros manuales, hojas de cálculo y herramientas independientes puede dificultar la identificación oportuna de productos próximos a vencer, niveles bajos de stock o condiciones ambientales inadecuadas, incrementando el riesgo de deterioro, desperdicio y desabastecimiento. Además, estudios aplicados a tiendas de conveniencia en Lima evidencian que la optimización del inventario puede mejorar indicadores operativos como la reposición, el nivel de servicio, la reducción de quiebres de stock y la rentabilidad del negocio (Zavaleta-Zarate et al., 2026).
 
 Asimismo, el abastecimiento requiere una coordinación constante entre los administradores de minimarkets y los proveedores. Mientras los administradores necesitan gestionar sus necesidades de reposición, los proveedores requieren controlar la disponibilidad de sus productos y generar pedidos dirigidos a los establecimientos. La ausencia de un flujo centralizado puede generar errores, retrasos y poca trazabilidad de las operaciones. En este contexto, **OrganiK** propone una plataforma especializada que integra la gestión de inventarios, lotes, vencimientos, abastecimiento y monitoreo de condiciones de almacenamiento, permitiendo que los proveedores generen pedidos y que los administradores mantengan el control sobre su aceptación y actualización del inventario.
+
+**Objetivos de la solución:**
+
+- Centralizar la gestión de productos, inventario, lotes, vencimientos y condiciones de almacenamiento de productos orgánicos.
+- Facilitar la coordinación de abastecimiento entre administradores de minimarkets y proveedores mediante un flujo de pedidos controlado.
+- Anticipar riesgos operativos asociados a stock bajo, vencimientos próximos y condiciones ambientales inadecuadas.
+- Mejorar la trazabilidad de las operaciones de inventario y abastecimiento.
+
+**Restricciones y alcance del proyecto:**
+
+- La solución se enfoca inicialmente en administradores de minimarkets y proveedores de productos orgánicos.
+- El alcance del AV1 considera la definición del problema, análisis, requisitos, diseño y desarrollo inicial de la landing page.
+- El monitoreo de temperatura y humedad puede validarse inicialmente con datos simulados, sin depender de sensores físicos reales.
+- Los proveedores pueden generar pedidos de abastecimiento, pero la modificación del inventario queda bajo control del administrador del minimarket.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -274,9 +288,9 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 
 ---
 
-### 1.2.2. Lean UX Process
+### 1.2.2 Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements.
 
 Los administradores de minimarkets que comercializan productos orgánicos necesitan mantener un control constante sobre sus inventarios, niveles de stock, lotes, fechas de vencimiento y condiciones de almacenamiento. Sin embargo, la información puede encontrarse fragmentada entre diferentes registros y herramientas, dificultando la identificación temprana de productos próximos a vencer, niveles de inventario bajos o condiciones ambientales que puedan afectar su conservación.
 
@@ -300,7 +314,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions.
 
 **Business Assumptions:**
 
@@ -378,7 +392,7 @@ Ante esto nos surge la siguiente pregunta:
 
 ---
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hypothesis 1**
 
@@ -402,7 +416,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 ---
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas.
 
 <table>
   <tr>
@@ -521,7 +535,7 @@ Creemos que al proporcionar dashboards diferenciados para administradores de min
 
 ---
 
-## 1.3. Segmentos Objetivos
+## 1.3. Segmentos objetivo.
 
 La solución está dirigida a **dos segmentos objetivos principales** que participan directamente en la cadena de abastecimiento de productos orgánicos: **administradores de minimarkets y proveedores**.
 
@@ -1372,11 +1386,11 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 ---
 
-# Capítulo III: Requirements Specification.
+# Capítulo III: Requirements Specification
 
-## TO-BE Scenario Mapping
+### TO-BE Scenario Mapping
 
-### Administradores de Minimarkets
+#### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1385,7 +1399,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
-### Proveedores de Productos Orgánicos
+#### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -1395,9 +1409,9 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
 
-## 3.1. User Stories
+## 3.1. User Stories.
 
-## Epics
+### Epics
 
 | EPIC ID | Título | Descripción |
 |---|---|---|
@@ -1409,7 +1423,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar el seguimiento de las operaciones. |
 
-## User Stories
+### User Stories
 
 | US ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1444,7 +1458,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | US 029 | Controlar acceso según operación | **Como** usuario de OrganiK,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de OrganiK,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
 
-## Technical Stories
+### Technical Stories
 
 | TS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1474,7 +1488,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | TS-DASH-002 | Alerts and notifications API | **Como** frontend developer, **Quiero** consultar las alertas y notificaciones del usuario, **Para** informar oportunamente sobre eventos relevantes. | EP-03 / EP-07 |
 | TS-AUD-001 | Activity history API | **Como** frontend developer, **Quiero** consultar el historial de operaciones, **Para** mantener trazabilidad de las acciones realizadas en OrganiK. | EP-06 / EP-07 |
 
-### Functional Stories
+#### Functional Stories
 
 | FS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -1482,7 +1496,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema, **Quiero** aplicar permisos diferenciados sobre las órdenes de envío, **Para** que el proveedor pueda gestionar sus órdenes mientras el administrador pueda consultar y aceptar o rechazar su recepción. | EP-04 / EP-06 |
 
 
-### Flujo principal de abastecimiento
+#### Flujo principal de abastecimiento
 
 El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 
@@ -1496,7 +1510,7 @@ El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 8. Si la orden es aceptada, los productos y cantidades recibidos se incorporan al **inventario del minimarket**.
 9. El sistema conserva el historial de pedidos y órdenes para mantener la **trazabilidad del abastecimiento**.
 
-### API Endpoint Coverage for Backend Web Services
+#### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz presenta la cobertura de endpoints REST definida para los Web Services de **OrganiK**. Estos endpoints permiten la comunicación entre el frontend y el backend, y se encuentran organizados de acuerdo con los módulos funcionales, Technical Stories y User Stories establecidas para la plataforma.
 
@@ -1545,12 +1559,12 @@ Por otro lado, **Suppliers y Orders** soportan el proceso de abastecimiento entr
 
 Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Activity History** complementan la operación de la plataforma mediante el registro de mermas y donaciones, la visualización de información resumida, la consulta de alertas y notificaciones, y el seguimiento de las actividades realizadas dentro del sistema.
 
-## 3.2. Impact Mapping
+## 3.2. Impact Mapping.
 
 <img src="report/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 
-## 3.3. Product Backlog
+## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
