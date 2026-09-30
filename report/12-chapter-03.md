@@ -1,8 +1,8 @@
-# Capítulo III: Requirements Specification.
+# Capítulo III: Requirements Specification
 
-## TO-BE Scenario Mapping
+### TO-BE Scenario Mapping
 
-### Administradores de Minimarkets
+#### Administradores de Minimarkets
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -11,7 +11,7 @@
 | Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
 | Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
-### Proveedores de Productos Orgánicos
+#### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
@@ -21,9 +21,9 @@
 | Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
 
-## 3.1. User Stories
+## 3.1. User Stories.
 
-## Epics
+### Epics
 
 | EPIC ID | Título | Descripción |
 |---|---|---|
@@ -35,7 +35,7 @@
 | EP-06 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar el acceso a las funcionalidades mediante permisos según el segmento. |
 | EP-07 | Análisis y control de gestión | Permite visualizar indicadores, historial de operaciones, alertas e información consolidada para facilitar el seguimiento de las operaciones. |
 
-## User Stories
+### User Stories
 
 | US ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -70,7 +70,7 @@
 | US 029 | Controlar acceso según operación | **Como** usuario de OrganiK,<br>**Quiero** que las acciones disponibles en pedidos, órdenes de envío e inventario dependan de mi rol,<br>**Para** evitar modificaciones no autorizadas. | EP-01 / EP-04 / EP-06 |
 | US 030 | Dashboard general | **Como** usuario de OrganiK,<br>**Quiero** visualizar un dashboard común con información relevante según mi rol,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
 
-## Technical Stories
+### Technical Stories
 
 | TS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -100,7 +100,7 @@
 | TS-DASH-002 | Alerts and notifications API | **Como** frontend developer, **Quiero** consultar las alertas y notificaciones del usuario, **Para** informar oportunamente sobre eventos relevantes. | EP-03 / EP-07 |
 | TS-AUD-001 | Activity history API | **Como** frontend developer, **Quiero** consultar el historial de operaciones, **Para** mantener trazabilidad de las acciones realizadas en OrganiK. | EP-06 / EP-07 |
 
-### Functional Stories
+#### Functional Stories
 
 | FS ID | Título | Descripción | Relacionado con (EPIC ID) |
 |---|---|---|---|
@@ -108,7 +108,7 @@
 | FS-002 | Permisos de órdenes de envío según rol | **Como** sistema, **Quiero** aplicar permisos diferenciados sobre las órdenes de envío, **Para** que el proveedor pueda gestionar sus órdenes mientras el administrador pueda consultar y aceptar o rechazar su recepción. | EP-04 / EP-06 |
 
 
-### Flujo principal de abastecimiento
+#### Flujo principal de abastecimiento
 
 El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 
@@ -122,7 +122,7 @@ El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 8. Si la orden es aceptada, los productos y cantidades recibidos se incorporan al **inventario del minimarket**.
 9. El sistema conserva el historial de pedidos y órdenes para mantener la **trazabilidad del abastecimiento**.
 
-### API Endpoint Coverage for Backend Web Services
+#### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz presenta la cobertura de endpoints REST definida para los Web Services de **OrganiK**. Estos endpoints permiten la comunicación entre el frontend y el backend, y se encuentran organizados de acuerdo con los módulos funcionales, Technical Stories y User Stories establecidas para la plataforma.
 
@@ -171,12 +171,12 @@ Por otro lado, **Suppliers y Orders** soportan el proceso de abastecimiento entr
 
 Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Activity History** complementan la operación de la plataforma mediante el registro de mermas y donaciones, la visualización de información resumida, la consulta de alertas y notificaciones, y el seguimiento de las actividades realizadas dentro del sistema.
 
-## 3.2. Impact Mapping
+## 3.2. Impact Mapping.
 
 <img src="assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 
 
-## 3.3. Product Backlog
+## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
