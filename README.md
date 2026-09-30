@@ -2513,7 +2513,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 # Conclusiones
 
-### Conclusiones
+## Conclusiones y recomendaciones.
 
 1. El desarrollo de **OrganiK** permitió identificar una problemática real en la gestión de productos orgánicos: la fragmentación de información, el control manual de inventarios, la poca trazabilidad de lotes y la dependencia de canales informales como WhatsApp para coordinar pedidos entre minimarkets y proveedores.
 
@@ -2526,8 +2526,6 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 5. El uso de Angular, componentes organizados por features, internacionalización y control de versiones mediante Git permitió construir una base técnica ordenada, escalable y alineada con buenas prácticas de desarrollo frontend.
 
 6. El trabajo colaborativo del equipo permitió avanzar en investigación, diseño, documentación e implementación, fortaleciendo la planificación, asignación de responsabilidades y seguimiento del proyecto mediante herramientas digitales.
-
-### Recomendaciones
 
 1. Continuar con el desarrollo de la plataforma web principal, priorizando los módulos de inventario, proveedores, requisiciones, pedidos, alertas y dashboard, ya que son los flujos de mayor valor para los usuarios entrevistados.
 
