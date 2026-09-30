@@ -1,5 +1,7 @@
 <!-- AUTO-DOCS:START -->
 
+# Carátula
+
 <div align="center">
 <br>
 <img src="report/assets/common/logo-upc.png" width="180" alt="Logo UPC">
@@ -43,7 +45,7 @@
 
 ---
 
-# Registro de versiones del informe
+# Registro de Versiones del Informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 |20/19/2026 | Atencio Cristobal,Cielo Valentina<br>Cáceres Pizarro,Albino Florencio <br>Olivares Lao, Gustavo Alonso<br> Quispe Almonacid, Andre Sebastian <br> Torres Huaman, Alexis Calin | Carátula<br>Registro de Versiones del Informe<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification.<br>Capítulo IV: Product Design.<br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>Conclusiones<br>Bibliografía<br>Anexos. |
@@ -97,80 +99,104 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 
 ## Tabla de contenidos
 
-### Front Matter
-
 - [Carátula](report/front-matter/01-title-page.md)
 - [Registro de Versiones del Informe](report/front-matter/02-version-control-log.md)
+- [Project Report Collaboration Insights](report/front-matter/03-collaboration-insights.md)
+- [Contenido](report/front-matter/04-table-of-contents.md)
 - [Student Outcome](report/front-matter/05-student-outcomes.md)
 
-### Contenido del Informe
-
-- [Abstract](report/10-chapter-01.md#abstract)
-- [Resumen](report/10-chapter-01.md#resumen)
-
 - [Capítulo I: Introducción](report/10-chapter-01.md)
-    - [1.1. Startup Profile](report/10-chapter-01.md#11-startup-profile)
-    - [1.2. Solution Profile](report/10-chapter-01.md#12-solution-profile)
-    - [1.3. Segmentos objetivo](report/10-chapter-01.md#13-segmentos-objetivo)
+  - [1.1. Startup Profile](report/10-chapter-01.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](report/10-chapter-01.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](report/10-chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](report/10-chapter-01.md#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](report/10-chapter-01.md#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process.](report/10-chapter-01.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](report/10-chapter-01.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](report/10-chapter-01.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](report/10-chapter-01.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](report/10-chapter-01.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](report/10-chapter-01.md#13-segmentos-objetivos)
 
 - [Capítulo II: Requirements Elicitation & Analysis](report/11-chapter-02.md)
-    - [2.1. Competidores](report/11-chapter-02.md#21-competidores)
-    - [2.2. Entrevistas](report/11-chapter-02.md#22-entrevistas)
-    - [2.3. Needfinding](report/11-chapter-02.md#23-needfinding)
-    - [2.4. Big Picture EventStorming](report/11-chapter-02.md#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](report/11-chapter-02.md#25-ubiquitous-language)
+  - [2.1. Competidores.](report/11-chapter-02.md#21-competidores)
+    - [2.1.1. Análisis competitivo.](report/11-chapter-02.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](report/11-chapter-02.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](report/11-chapter-02.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](report/11-chapter-02.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](report/11-chapter-02.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](report/11-chapter-02.md#223-análisis-de-entrevistas)
+  - [2.3. Needfinding.](report/11-chapter-02.md#23-needfinding)
+    - [2.3.1. User Personas.](report/11-chapter-02.md#231-user-personas)
+    - [2.3.2. User Task Matrix.](report/11-chapter-02.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](report/11-chapter-02.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](report/11-chapter-02.md#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming.](report/11-chapter-02.md#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language.](report/11-chapter-02.md#25-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](report/12-chapter-03.md)
-    - [3.1. User Stories](report/12-chapter-03.md#31-user-stories)
-    - [3.2. Impact Mapping](report/12-chapter-03.md#32-impact-mapping)
-    - [3.3. Product Backlog](report/12-chapter-03.md#33-product-backlog)
+  - [3.1. User Stories.](report/12-chapter-03.md#31-user-stories)
+  - [3.2. Impact Mapping.](report/12-chapter-03.md#32-impact-mapping)
+  - [3.3. Product Backlog.](report/12-chapter-03.md#33-product-backlog)
 
 - [Capítulo IV: Product Design](report/13-chapter-04.md)
-    - [4.1. Style Guidelines](report/13-chapter-04.md#41-style-guidelines)
-    - [4.2. Information Architecture](report/13-chapter-04.md#42-information-architecture)
-    - [4.3. Landing Page UI Design](report/13-chapter-04.md#43-landing-page-ui-design)
-    - [4.4. Web Applications UX/UI Design](report/13-chapter-04.md#44-web-applications-uxui-design)
-    - [4.5. Web Applications Prototyping](report/13-chapter-04.md#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](report/13-chapter-04.md#46-domain-driven-software-architecture)
-    - [4.7. Software Object-Oriented Design](report/13-chapter-04.md#47-software-object-oriented-design)
-    - [4.8. Database Design](report/13-chapter-04.md#48-database-design)
+  - [4.1. Style Guidelines.](report/13-chapter-04.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](report/13-chapter-04.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](report/13-chapter-04.md#412-web-style-guidelines)
+  - [4.2. Information Architecture.](report/13-chapter-04.md#42-information-architecture)
+    - [4.2.1. Organization Systems.](report/13-chapter-04.md#421-organization-systems)
+    - [4.2.2. Labeling Systems.](report/13-chapter-04.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](report/13-chapter-04.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](report/13-chapter-04.md#424-searching-systems)
+    - [4.2.5. Navigation Systems.](report/13-chapter-04.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](report/13-chapter-04.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](report/13-chapter-04.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](report/13-chapter-04.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](report/13-chapter-04.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](report/13-chapter-04.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](report/13-chapter-04.md#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](report/13-chapter-04.md#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](report/13-chapter-04.md#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](report/13-chapter-04.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](report/13-chapter-04.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming.](report/13-chapter-04.md#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram.](report/13-chapter-04.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams.](report/13-chapter-04.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams.](report/13-chapter-04.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](report/13-chapter-04.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](report/13-chapter-04.md#471-class-diagrams)
+  - [4.8. Database Design.](report/13-chapter-04.md#48-database-design)
+    - [4.8.1. Database Diagrams.](report/13-chapter-04.md#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](report/14-chapter-05.md)
-    - [5.1. Software Configuration Management](report/14-chapter-05.md#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](report/14-chapter-05.md#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](report/14-chapter-05.md#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](report/14-chapter-05.md#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](report/14-chapter-05.md#514-software-deployment-configuration)
-
-    - [5.2. Landing Page, Services & Applications Implementation](report/14-chapter-05.md#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](report/14-chapter-05.md#521-sprint-1)
-        - [5.2.2. Sprint 2](report/14-chapter-05.md#522-sprint-2)
-        - [5.2.3. Sprint 3](report/14-chapter-05.md#523-sprint-3)
-
-    - [5.3. Validation Interviews](report/14-chapter-05.md#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](report/14-chapter-05.md#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](report/14-chapter-05.md#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](report/14-chapter-05.md#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](report/14-chapter-05.md#54-video-about-the-product)
-
-- [Capítulo VI: Conclusions](report/98-conclusions.md)
-    - [Conclusiones y recomendaciones](report/98-conclusions.md#conclusiones-y-recomendaciones)
-
+  - [5.1. Software Configuration Management.](report/14-chapter-05.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](report/14-chapter-05.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](report/14-chapter-05.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](report/14-chapter-05.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](report/14-chapter-05.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](report/14-chapter-05.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](report/14-chapter-05.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](report/14-chapter-05.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](report/14-chapter-05.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](report/14-chapter-05.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](report/14-chapter-05.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](report/14-chapter-05.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
+- [Conclusiones](report/98-conclusions.md)
 - [Bibliografía](report/99-bibliography.md)
-
 - [Anexos](report/annexes/90-annex-a-raw-data.md)
-    - [Anexo A: Videos de Exposiciones](report/annexes/90-annex-a-raw-data.md)
 
 ---
 
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**  
-**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+**ABET – EAC - Student Outcome 3**  
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
-En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describen las acciones realizadas y las conclusiones del equipo, que permiten sustentar el logro del ABET – EAC - Student Outcome 3.
 
 ---
 
@@ -178,8 +204,8 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo demostró liderazgo compartido mediante la distribución de responsabilidades para desarrollar los capítulos I, II, III, IV y V del Project Report. Asimismo, la planificación del Sprint 1 permitió coordinar las tareas mediante el Sprint Planning, Aspect Leaders and Collaborators y Sprint Backlog. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** La planificación y distribución de tareas permitió al equipo avanzar de manera organizada en los capítulos del Project Report y las actividades del Sprint 1. El Sprint Planning, Sprint Backlog y la asignación de líderes y colaboradores facilitaron la organización del trabajo y el cumplimiento de los objetivos establecidos. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1. | **AV1:** El equipo comunicó oralmente el avance del proyecto al organizar y sustentar los artefactos desarrollados para el Sprint 1, explicando el problema, la propuesta de solución, los segmentos objetivo, los requisitos, el diseño del producto y las evidencias de implementación de la landing page ante una audiencia académica. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1. | **AV1:** El equipo comunicó por escrito el proceso de ingeniería desarrollado mediante el Project Report, documentando en Markdown la carátula, el registro de versiones, los capítulos I al V, los artefactos de análisis, requisitos, diseño, configuración, evidencias del Sprint 1, conclusiones, bibliografía y anexos de manera organizada para docentes, compañeros y lectores técnicos. |
 
 ---
 
@@ -525,7 +551,7 @@ Los roles operativos que puedan existir dentro de cada empresa forman parte de l
 
 ---
 
-# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis.
 ## 2.1. Competidores
 
 Para **OrganiK**, hemos identificado tres aplicaciones que representan competidores directos debido a que ofrecen funcionalidades relacionadas con la gestión de inventarios, compras, proveedores, abastecimiento y operaciones comerciales para minimarkets y otros negocios:
@@ -1230,7 +1256,7 @@ Este segmento agrupa a coordinadores comerciales y distribuidores B2B encargados
 
 Los proveedores y distribuidores operan en un estado de fragmentación logística crítica. La dependencia de herramientas separadas provoca errores severos de sincronización entre el catálogo ofrecido y el inventario real en almacén. Las transcripciones manuales de pedidos que llegan por WhatsApp son la raíz de los quiebres de stock, pedidos omitidos y constantes reclamos. El arquetipo demandará una plataforma sencilla que unifique su catálogo, automatice la deducción de lotes al recibir órdenes y proporcione seguimiento en tiempo real a sus clientes para eliminar las llamadas de soporte operativo.
 
-## Needfinding
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
@@ -1345,6 +1371,8 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 | **Comunicación (Communication)** | Contexto encargado de las notificaciones entre actores (por ejemplo, cambios de estado de una solicitud o una alerta de inventario). |
 
 ---
+
+# Capítulo III: Requirements Specification.
 
 ## TO-BE Scenario Mapping
 
@@ -1594,6 +1622,8 @@ Finalmente, los servicios de **Waste, Donations, Dashboard, Notifications y Acti
 </div>
 
 ---
+
+# Capítulo IV: Product Design.
 
 ### 4.1. Style Guidelines
 
@@ -1964,7 +1994,7 @@ De esta forma, los component diagrams complementan la visión general de la arqu
 
 En esta sección se presenta el diseño orientado a objetos de OrganiK, representando la estructura de clases principales del sistema y su organización por bounded contexts. Estos diagramas permiten visualizar las responsabilidades de cada clase, sus atributos, métodos y relaciones dentro de la arquitectura de la aplicación.
 
-### 4.7.7. Class Diagrams
+### 4.7.1. Class Diagrams
 
 Los diagramas de clases muestran la organización interna de los componentes principales de OrganiK, siguiendo una estructura alineada con los bounded contexts definidos previamente. Cada diagrama representa las clases más relevantes dentro de un módulo específico, permitiendo comprender cómo se modelan los conceptos del dominio y cómo se relacionan con la lógica de aplicación.
 
@@ -2020,13 +2050,13 @@ El diagrama de base de datos muestra las entidades principales de OrganiK, sus a
 
 ---
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment.
 
-## 5.1. Software Configuration Management
+## 5.1. Software Configuration Management.
 
 En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo de **OrganiK** para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución **OrganiK**. Se establecen los lineamientos para la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y la configuración de despliegue de la landing page.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 
 Se especifican los productos de software utilizados durante el ciclo de vida del proyecto, organizados por disciplinas técnicas para asegurar la estandarización del entorno entre los desarrolladores de **OrganiK**.
 
@@ -2063,7 +2093,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 ---
 
-### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management.
 
 Se establecen los repositorios oficiales de la solución **OrganiK** para garantizar la integridad del código fuente.
 
@@ -2132,7 +2162,7 @@ Ejemplos:
 
 ---
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto **OrganiK**: HTML, CSS, TypeScript y Angular. Se aplica nomenclatura en inglés para los elementos del código, manteniendo coherencia con el dominio de la landing page y la plataforma.
 
@@ -2168,7 +2198,7 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ---
 
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
 Se especifica la configuración de despliegue para la landing page de **OrganiK**, garantizando disponibilidad para usuarios interesados en conocer la propuesta de valor del producto.
 
@@ -2181,7 +2211,7 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
 
@@ -2206,7 +2236,9 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 
 ---
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.1. Sprint Planning 1.
+
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <p>
 Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint y asigna responsabilidades de Líder (L) y Colaborador (C) para organizar al equipo durante el desarrollo de la landing page de <strong>OrganiK</strong>. 
@@ -2270,7 +2302,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 
 ---
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
@@ -2291,7 +2323,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
   Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>OrganiK</strong>.
@@ -2348,7 +2380,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desar
 
 ---
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y ejecución local de la Landing Page estática de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas.
 
@@ -2399,7 +2431,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 <p>
   Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>OrganiK</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
@@ -2407,7 +2439,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.7. Software Deployment Evidence
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
   <strong>URL de entorno local:</strong>
@@ -2425,7 +2457,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 <p>
   Durante este primer sprint, el esfuerzo principal del equipo de <strong>OrganiK</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de commits mediante Conventional Commits y la documentación inicial del producto <strong>OrganiK</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
@@ -2451,7 +2483,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-# Conclusiones y Recomendaciones 
+# Conclusiones
 
 ### Conclusiones
 
@@ -2481,7 +2513,7 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 
 ---
 
-## Bibliografía
+# Bibliografía
 
 - Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
 
