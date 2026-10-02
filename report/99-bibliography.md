@@ -1,5 +1,7 @@
 # Bibliografía
 
+- Bedoya-Perales, N. S., & Dal’ Magro, G. P. (2021). Quantification of food losses and waste in Peru: A mass flow analysis along the food supply chain. *Sustainability, 13*(5), 2807. https://doi.org/10.3390/su13052807
+
 - Hansen, E. B., & Bøgh, S. (2021). Internet of things for perishable inventory management systems: An application and managerial insights for micro, small and medium enterprises. *Annals of Operations Research*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8494460/
 
 - Teller, C., Holweg, C., Reiner, G., & Kotzab, H. (2018). Waste not, want not: Managing perishables in small and medium retail enterprises. *International Journal of Retail & Distribution Management*. https://pure.qub.ac.uk/en/publications/waste-not-want-not-managing-perishables-in-small-and-medium-retai/
@@ -27,3 +29,5 @@
 - Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley Professional.
 
 - World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. W3C. https://www.w3.org/TR/WCAG22/
+
+- Zavaleta-Zarate, K., Escobal-Vera, J., & Zarate-Perez, E. (2026). Optimizing inventory in convenience stores to maximize ROI using Random Forest and genetic algorithms. *Logistics, 10*(3), 64. https://doi.org/10.3390/logistics10030064
