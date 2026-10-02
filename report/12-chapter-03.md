@@ -23,7 +23,7 @@
 
 ## 3.1. User Stories.
 
-Las historias del producto se derivan de las entrevistas y personas compuestas del capítulo II; H1-H7 remiten al Lean UX Canvas del capítulo I. El flujo de abastecimiento es **proveedor crea pedido -> administrador acepta o rechaza -> solo la aceptación actualiza el inventario**.
+Las historias del producto se derivan de las entrevistas y personas compuestas por los segmentos objetivos
 
 ### Epics
 
@@ -180,16 +180,12 @@ Las historias del producto se derivan de las entrevistas y personas compuestas d
 | TS-DASH-002 | US 009, 012 | Notificaciones incluyen tipo, origen y estado; no incluyen alertas de otro negocio. |
 | TS-AUD-001 | US 025, 028, 029 | Historial conserva actor, acción y fecha y se consulta solo con permiso. |
 
-Las historias de implementación del Product Backlog también tienen una condición de cierre: **IMP-BE-001** exige que el servicio arranque, responda a health check y publique documentación de API sin exponer secretos; **IMP-BE-002** exige migraciones reproducibles y datos iniciales de prueba aislados por negocio; **IMP-BE-003** exige pruebas de autorización y de transición pendiente-aceptado/rechazado, incluida la aceptación repetida sin duplicar stock. Se vinculan respectivamente con TS-IAM-001/TS-DASH-001, TS-INV-001/TS-PROD-001 y TS-ORD-002/TS-ORD-003.
-
 #### Functional Stories
 
-| FS ID | Título | Descripción | Relacionado con (EPIC ID) |
-|---|---|---|---|
-| FS-001 | Permisos de creación de pedidos | **Como** sistema, **Quiero** permitir la creación de pedidos únicamente a proveedores autorizados, **Para** impedir que otros roles propongan abastecimiento en su nombre. | EP-04 / EP-06 |
-| FS-002 | Permisos de decisión e inventario | **Como** sistema, **Quiero** reservar la aceptación o rechazo al administrador destinatario, **Para** actualizar inventario solo tras su aceptación y conservar el estado anterior si rechaza. | EP-01 / EP-04 / EP-06 |
-
-**Criterios de aceptación de Functional Stories:** FS-001 se cumple si solo un proveedor vinculado puede crear un pedido pendiente para el minimarket destinatario y ningún usuario puede crear pedidos en nombre de otro proveedor. FS-002 se cumple si únicamente el administrador destinatario decide un pedido pendiente; aceptar registra la decisión y añade cantidades al inventario una sola vez, mientras rechazar registra la decisión sin alterar existencias.
+| FS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
+|---|---|---|---|---|
+| FS-001 | Permisos de creación de pedidos | **Como** sistema, **Quiero** permitir la creación de pedidos únicamente a proveedores autorizados, **Para** impedir que otros roles propongan abastecimiento en su nombre. | Solo un proveedor vinculado puede crear un pedido pendiente para el minimarket destinatario; ningún usuario puede crear pedidos en nombre de otro proveedor. | EP-04 / EP-06 |
+| FS-002 | Permisos de decisión e inventario | **Como** sistema, **Quiero** reservar la aceptación o rechazo al administrador destinatario, **Para** actualizar inventario solo tras su aceptación y conservar el estado anterior si rechaza. | Únicamente el administrador destinatario puede decidir sobre un pedido pendiente; aceptar registra la decisión y añade las cantidades al inventario una sola vez, mientras que rechazar registra la decisión sin alterar las existencias. | EP-01 / EP-04 / EP-06 |
 
 
 #### Flujo principal de abastecimiento
@@ -251,7 +247,7 @@ Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notificat
 
 ## 3.2. Impact Mapping.
 
-El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
+El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento.
 
 | Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
 |---|---|---|---|---|
