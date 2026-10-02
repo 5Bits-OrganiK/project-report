@@ -1191,47 +1191,9 @@ Las fichas describen arquetipos ficticios construidos a partir de los patrones c
 
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
-| Atributo | Perfil |
-|:---|:---|
-| Name | Camila Salazar. |
-| Market Size | No cuantificado; seis entrevistas exploratorias no permiten estimar el tamaño del segmento. |
-| Type | Gestora operativa de minimarket. |
-| Demographic | Aproximadamente 30-40 años; trabaja en un minimarket urbano peruano y tiene experiencia en operación y compras. |
-| Base empírica | Síntesis de Rodrigo, Roly y Carlos (entrevistas 1-3); el nombre y los datos demográficos no identifican a ninguno de ellos. |
-| Background | Supervisa el minimarket entre mostrador, almacén y refrigeración. Contrasta stock físico con POS o sistema de ventas, Excel y libretas; revisa lotes y vencimientos manualmente. Coordina disponibilidad por WhatsApp, consulta desde el celular y reserva la computadora para registros extensos. |
-| Goals | Localizar productos con stock bajo o próximos a vencer; detectar condiciones de conservación riesgosas; comparar necesidades de reposición con la oferta; revisar productos y cantidades antes de decidir qué pedido ingresa al inventario. |
-| Needs | Vista móvil de stock, lote, vencimiento y conservación; alertas vinculadas al producto o área afectada; detalle de pedido antes de aceptar o rechazar; historial de decisiones y cambios de existencias. |
-| Challenges | Mantener registros al día mientras atiende el local; conciliar inventario físico, POS, Excel y anotaciones; reponer con datos incompletos; adoptar un flujo más simple que los chats y hojas de cálculo actuales. |
-| Quote | “Necesito saber qué producto requiere atención y qué pedido voy a aceptar, sin cotejar la libreta, el sistema y varios chats.” Frase sintética, no cita literal. |
-| Motivations | Evitar pérdidas por vencimiento o conservación inadecuada; reducir el tiempo de conciliación; anticipar faltantes; conservar el control sobre qué pedido modifica las existencias. |
-| Frustrations | Diferencias entre stock físico y registrado; fechas de vencimiento parciales; fallas de refrigeración entre inspecciones; cambios y confirmaciones perdidos en chats. |
-| Skills | Control de inventario: 75/100; revisión de perecibles: 80/100; hojas de cálculo: 65/100; coordinación con proveedores: 80/100; herramientas móviles: 75/100. Puntuaciones estimadas. |
-| Technology | Celular durante la jornada, computadora o laptop para consolidación y termómetro físico para revisar refrigeración. |
-| Browsers | Navegador web móvil y de escritorio; no se documentó una marca preferida. |
-| Channels | WhatsApp, llamadas de confirmación y verificación presencial de mercadería. |
-
 ![User Persona del administrador](report/assets/chapter-02/Russell-Estrada.png)
 
 **User Persona 2: Responsable comercial de proveedor de productos orgánicos**
-
-| Atributo | Perfil |
-|:---|:---|
-| Name | Diego Paredes. |
-| Market Size | No cuantificado; la muestra exploratoria no permite estimarlo. |
-| Type | Coordinador comercial de proveedor o distribuidora. |
-| Demographic | Aproximadamente 25-35 años; trabaja en distribución B2B de productos orgánicos en Perú y tiene experiencia en catálogo y pedidos. |
-| Base empírica | Síntesis de Marco, Juan y Anita (entrevistas 4-6); el nombre y los datos demográficos no identifican a ninguno de ellos. |
-| Background | Coordina catálogo, disponibilidad y pedidos de varios minimarkets desde oficina, almacén y campo. Contrasta Excel o PDF con lotes y cantidades registrados manualmente; recibe solicitudes por WhatsApp o llamadas y las transcribe a una hoja de pedidos. Usa celular en movimiento y laptop para consolidar información. |
-| Goals | Mantener catálogo, lotes y disponibilidad acordes al almacén; conocer necesidades de reposición; crear pedidos con productos y cantidades para el minimarket correcto; consultar decisiones e historial. |
-| Needs | Catálogo móvil editable con lotes y disponibilidad; necesidades compartidas por minimarket; formulario que distinga destinatario, productos y cantidades sin alterar el inventario del cliente; estados e historial visibles. |
-| Challenges | Sincronizar oferta y almacén al atender varios clientes; reducir la transcripción manual sin omisiones; sostener el uso móvil en campo; no confundir una propuesta creada con una venta aceptada. |
-| Quote | “Quiero ofrecer solo lo que tengo disponible y conocer la respuesta de cada minimarket sin volver a ordenar mensajes y hojas de cálculo.” Frase sintética, no cita literal. |
-| Motivations | Evitar ofrecer stock ya comprometido; reducir transcripciones; responder con rapidez sobre disponibilidad; conservar un registro consultable por cliente. |
-| Frustrations | Solicitudes y cambios dispersos; catálogo desfasado frente al almacén; cantidades mal transcritas; llamadas repetidas para confirmar el estado. |
-| Skills | Gestión de catálogo: 75/100; verificación de stock: 75/100; atención B2B: 85/100; hojas de cálculo: 70/100; coordinación logística: 75/100. Puntuaciones estimadas. |
-| Technology | Celular para mensajes en campo y almacén; laptop para catálogo, pedidos y cierre administrativo. |
-| Browsers | Navegador web móvil y de escritorio; no se documentó una marca preferida. |
-| Channels | WhatsApp y llamadas para disponibilidad, cambios y seguimiento con minimarkets. |
 
 ![User Persona del proveedor](report/assets/chapter-02/Marco-User.png)
 
@@ -1265,31 +1227,9 @@ Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configu
 
 **User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
 
-| Campo | DESCUBRIMIENTO | EVALUACIÓN | CONFIGURACIÓN | MONITOREO | RECEPCIÓN | OPTIMIZACIÓN |
-|:---|:---|:---|:---|:---|:---|:---|
-| Substage title | Reconocer pérdidas y faltantes. | Comparar el flujo de control. | Registrar información inicial. | Vigilar riesgos y necesidades. | Decidir sobre la propuesta. | Revisar resultados del control. |
-| User goals | Identificar productos con posible vencimiento o quiebre de stock antes de que afecten las ventas. | Determinar si una vista unificada simplifica la revisión frente a POS, Excel y libreta. | Disponer de productos, lotes y cantidades fiables para comenzar a controlar existencias. | Detectar lotes, condiciones de conservación y cantidades que requieren atención. | Comprobar productos y cantidades de una propuesta antes de aceptarla o rechazarla. | Evaluar si disminuyen las omisiones y el tiempo invertido en controlar el negocio. |
-| Process | Inspecciona estantes y refrigeradoras; contrasta registros físicos y digitales. | Consulta la propuesta OrganiK y prueba localizar un producto, un lote y una alerta. | Carga productos y lotes; verifica cantidad, vencimiento y condiciones disponibles. | Revisa inventario, alertas y necesidades de reposición; consulta oferta del proveedor. | Abre el pedido pendiente; verifica destinatario, productos y cantidades; decide. | Consulta historial de decisiones, mermas y alertas; compara con su rutina anterior. |
-| Storyboard | Camila descubre un producto próximo a vencer que la libreta no destacaba. | En su celular encuentra la ficha del lote, pero comprueba cuánto tardaría en mantenerla. | Registra un lote y corrige una cantidad tras contar las unidades reales. | Una alerta la lleva a inspeccionar el área y a revisar qué producto debe reponer. | Recibe una propuesta del proveedor y la acepta solo cuando coinciden las cantidades. | Al cierre, revisa qué eventos quedaron documentados y qué datos siguen incompletos. |
-| Experience (inferida) | Preocupación: teme descubrir tarde pérdidas. | Cautela: no quiere duplicar registros. | Atención: comprueba la calidad del dato. | Vigilancia: prioriza las alertas. | Control: decide antes de modificar stock. | Confianza condicional: compara resultados. |
-| KPI (propuesto) | Tiempo para identificar un lote en riesgo o un faltante. | Tiempo y pasos para encontrar stock, lote y alerta. | Porcentaje de productos con lote, cantidad y vencimiento completos. | Tiempo desde la alerta hasta la revisión; alertas atendidas. | Porcentaje de pedidos con decisión registrada y cantidad validada. | Merma registrada y tiempo de control frente al proceso inicial. |
-| Problems | Las fuentes no coinciden y la inspección manual puede omitir riesgos entre turnos. | La adopción pierde valor si exige repetir cada dato del POS o de Excel. | Lotes sin fecha o cantidades atrasadas hacen poco fiables las alertas. | Las lecturas ambientales y existencias requieren actualización consistente. | Un pedido ambiguo puede alterar el inventario si se confirma sin revisión. | Datos parciales o mantenimiento excesivo impiden demostrar una mejora. |
-| Ideas / Opportunities | Mostrar alertas de vencimiento y stock bajo ligadas al producto concreto. | Probar tareas móviles con datos reales y medir carga adicional. | Validar campos críticos y mostrar el origen y última actualización del dato. | Priorizar alertas, necesidades y consulta de catálogo en una vista operativa. | Mostrar detalle previo; solo aceptar actualiza inventario (US 019, US 023-024). | Exponer historial y comparar tiempos y mermas sin prometer mejoras no medidas. |
-
 ![User Journey del administrador](report/assets/chapter-02/user-journey-map-1.png)
 
 **User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
-
-| Campo | DESCUBRIMIENTO | EVALUACIÓN | CONFIGURACIÓN | MONITOREO | RECEPCIÓN | OPTIMIZACIÓN |
-|:---|:---|:---|:---|:---|:---|:---|
-| Substage title | Reconocer la dispersión. | Valorar la herramienta. | Preparar catálogo y lotes. | Seguir necesidades y pedidos. | Conocer la decisión. | Ajustar la oferta. |
-| User goals | Detectar discrepancias entre catálogo, almacén y pedidos recibidos por diversos canales. | Comprobar que la plataforma permite trabajar desde el celular sin duplicar Excel. | Publicar productos y lotes con disponibilidad verificada para cada minimarket. | Consultar necesidades compartidas y dar seguimiento a las propuestas enviadas. | Saber si el administrador aceptó o rechazó el pedido antes de coordinar los siguientes pasos. | Reducir correcciones y consultas repetidas manteniendo la oferta al día. |
-| Process | Compara mensajes, catálogo y existencias del almacén; identifica datos contradictorios. | Prueba búsqueda, edición de producto y consulta de pedido en una sesión móvil. | Registra y actualiza productos y lotes; contrasta cantidades con el almacén. | Consulta necesidades del minimarket y crea un pedido con destinatario y cantidades. | Consulta estado e historial; coordina la operación según la decisión del cliente. | Revisa errores, propuestas pendientes y productos desactualizados; corrige el catálogo. |
-| Storyboard | Diego recibe solicitudes simultáneas y descubre que un lote ya estaba comprometido. | Prueba cambiar una cantidad desde el celular mientras atiende otra consulta. | Corrige la disponibilidad de un producto antes de volver a ofrecerlo. | Ve una necesidad compartida y envía una propuesta de pedido estructurada. | Comprueba que la propuesta fue aceptada; no presupone la decisión del cliente. | Al cierre, identifica dónde hubo correcciones y qué información debe actualizar. |
-| Experience (inferida) | Frustración: reconstruye mensajes. | Cautela: teme una segunda carga. | Concentración: valida lotes y cantidades. | Vigilancia: sigue propuestas pendientes. | Claridad condicional: ve la decisión. | Confianza condicional: mide esfuerzo y errores. |
-| KPI (propuesto) | Tiempo para conciliar catálogo y stock físico. | Tiempo y pasos para actualizar producto y consultar estado en móvil. | Porcentaje de productos ofrecidos con lote y disponibilidad actualizados. | Porcentaje de pedidos con destinatario y cantidades completos. | Porcentaje de propuestas con estado visible; consultas de confirmación. | Correcciones de cantidad y tiempo de seguimiento frente al flujo anterior. |
-| Problems | Los formatos de solicitud varían y la disponibilidad puede quedar desfasada. | La herramienta pierde atractivo si obliga a volver a introducir todo el catálogo. | Una cantidad no verificada puede comprometer stock ofrecido a otro cliente. | Un pedido mal asociado al minimarket genera rectificaciones y llamadas. | La falta de un estado fiable mantiene la dependencia del chat y del teléfono. | Datos incompletos dificultan comprobar si el nuevo flujo ahorra trabajo. |
-| Ideas / Opportunities | Relacionar oferta, necesidades y pedidos sin sustituir la verificación del almacén. | Evaluar edición móvil con tareas reales y medir tiempo de aprendizaje. | Facilitar actualización de productos y lotes (US 016-017). | Mostrar necesidades y crear pedidos estructurados sin cambiar stock ajeno (US 020-021). | Ofrecer estado e historial consultables (US 022, US 025). | Destacar datos desactualizados y comparar correcciones y llamadas con el proceso actual. |
 
 ![User Journey del proveedor](report/assets/chapter-02/user-journey-map-2.png)
 
@@ -1301,33 +1241,9 @@ Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensa
 
 **Empathy Map: Administrador operativo (entrevistas 1-3)**
 
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién estamos empatizando? | Camila Salazar sintetiza patrones de administradores entrevistados (1-3); supervisa existencias, conservación y reposición mientras atiende la operación diaria. Responde por la exactitud del inventario de su negocio; no es una entrevistada individual. |
-| ¿Qué está escuchando? | Recibe catálogos, disponibilidad, precios y confirmaciones de proveedores por mensajería o llamadas. Los cambios de pedido pueden quedar en conversaciones separadas. |
-| ¿Qué es lo que piensa y siente? | **Piensa (inferencia):** ¿Qué lote vence primero?, ¿coincide el stock mostrado con el almacén?, ¿qué cambiará si acepta el pedido? **Siente (inferencia):** preocupación ante merma, faltante o falla de refrigeración descubiertos tarde; presión por la revisión manual repetida y deseo de mayor control. |
-| ¿Qué necesita hacer? | Detectar faltantes, lotes próximos a vencer y condiciones fuera de rango; comparar reposición con oferta disponible; revisar productos y cantidades antes de aceptar o rechazar el pedido. Busca decidir con información vigente sin perder el control del stock. |
-| ¿Qué está viendo? | Anaqueles, vitrinas y refrigeradoras que requieren inspección; termómetros físicos y perecibles con distintas fechas. En sus registros ve POS o sistema de ventas, Excel, libretas y chats cuyos datos no siempre coinciden (1-3). |
-| ¿Qué está haciendo? | Revisa estantes, vencimientos y termómetros; coteja stock físico con registros digitales. Consulta catálogos por WhatsApp y verifica cantidades al recibir mercadería; a veces registra la entrada después del movimiento físico. |
-| Dolores | Pérdidas por vencimiento o deterioro; diferencias entre stock físico y registrado; inspecciones ambientales discontinuas. Los cambios y confirmaciones repartidos entre chats dificultan reconstruir una reposición. |
-| Motivaciones | Detectar lotes y condiciones de riesgo con anticipación; consultar existencias y necesidades en un mismo flujo; decidir sobre cada pedido y revisar el historial del efecto sobre el inventario. |
-| ¿Qué está diciendo? | Cotejar el inventario con registros manuales ocupa tiempo; los productos vencidos o agotados pueden detectarse tarde. Una vista centralizada y alertas serían útiles si reflejan lo que realmente hay en el local (paráfrasis de 1-3). |
-
 ![Empathy Map del administrador](report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
 **Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
-
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién estamos empatizando? | Diego Paredes sintetiza patrones de responsables de catálogo, ventas y distribución entrevistados (4-6). Atiende varios minimarkets y consulta con almacén qué productos y lotes puede ofrecer; no es un entrevistado individual. |
-| ¿Qué está escuchando? | Recibe solicitudes de minimarkets, cambios de cantidades y llamadas sobre disponibilidad o estado. El almacén comunica ajustes de existencias que debe trasladar al catálogo y a las propuestas. |
-| ¿Qué es lo que piensa y siente? | **Piensa (inferencia):** ¿queda suficiente cantidad del lote?, ¿a qué minimarket corresponde el cambio?, ¿qué pedidos siguen pendientes? **Siente (inferencia):** presión cuando varios clientes consultan a la vez y la información está dispersa; frustración por errores de transcripción. |
-| ¿Qué necesita hacer? | Comprobar disponibilidad antes de prometer cantidades; reconocer necesidades por minimarket; preparar una propuesta para el destinatario correcto; consultar aceptación o rechazo y conservar el registro. |
-| ¿Qué está viendo? | Catálogos en Excel o PDF, registros de almacén y mensajes simultáneos de distintos clientes. La oferta publicada puede no reflejar un lote agotado o comprometido; las solicitudes llegan con formatos y cantidades diferentes (4-6). |
-| ¿Qué está haciendo? | Actualiza productos y lotes, contrasta existencias con almacén, atiende consultas y transcribe pedidos. Coordina preparación y responde preguntas de confirmación; ante cambios vuelve a revisar varias fuentes. |
-| Dolores | Disponibilidad desfasada entre catálogo y almacén; solicitudes dispares y riesgo de duplicar cantidades comprometidas. La transcripción y las llamadas repetidas consumen tiempo y dificultan seguir cada operación. |
-| Motivaciones | Mantener una oferta verificable y preparar pedidos estructurados; consultar aceptación o rechazo e historial sin reconstruir chats ni repetir confirmaciones telefónicas. |
-| ¿Qué está diciendo? | Pasar solicitudes de WhatsApp a Excel puede causar omisiones y cantidades erróneas. Centralizar oferta, pedidos y estados ayudaría si la herramienta es sencilla y utilizable desde el celular (paráfrasis de 4-6). |
 
 ![Empathy Map del proveedor](report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
