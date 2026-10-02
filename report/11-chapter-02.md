@@ -639,8 +639,6 @@ A partir de estos patrones, el arquetipo del segmento puede representarse como u
 
 ### 2.3.1. User Personas.
 
-Las fichas describen arquetipos ficticios construidos a partir de los patrones compartidos en 2.2.3; Camila Salazar y Diego Paredes no son personas entrevistadas. La edad aproximada, las puntuaciones de habilidades y las frases representativas son inferencias de diseño, no mediciones ni citas literales.
-
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
 ![User Persona del administrador](assets/chapter-02/Russell-Estrada.png)
@@ -651,7 +649,7 @@ Las fichas describen arquetipos ficticios construidos a partir de los patrones c
 
 ### 2.3.2. User Task Matrix.
 
-La matriz relaciona cada tarea con los dos arquetipos. La frecuencia e importancia son estimaciones cualitativas del equipo basadas en las entrevistas 1-6; no se preguntaron ni midieron con una escala uniforme. «Propuesta» identifica tareas del flujo futuro de OrganiK cuya frecuencia debe validarse con usuarios.
+La matriz relaciona cada tarea con los dos arquetipos. La frecuencia e importancia son estimaciones cualitativas del equipo basadas en las entrevistas. «Propuesta» identifica tareas del flujo futuro de OrganiK cuya frecuencia debe validarse con usuarios.
 
 **Tasks vs User Personas**
 
@@ -675,13 +673,13 @@ La prioridad inicial recae en stock, lotes y conservación para administradores,
 
 ### 2.3.3. User Journey Mapping.
 
-Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configuración, Monitoreo, Recepción y Optimización. Parten de las prácticas actuales descritas en las entrevistas 1-6 y continúan como escenarios de adopción propuestos para OrganiK. Las emociones, dificultades de uso y métricas son hipótesis para validar, no resultados medidos ni experiencias observadas con una plataforma desplegada. En cada mapa, la persona identifica al arquetipo; el *substage title* precisa la tarea de la etapa y el KPI propone cómo evaluarla.
+Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configuración, Monitoreo, Recepción y Optimización. Parten de las prácticas actuales descritas en las entrevistas y continúan como escenarios de adopción propuestos para OrganiK.
 
-**User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
+**User Journey Map 1: Administrador de minimarket**
 
 ![User Journey del administrador](assets/chapter-02/user-journey-map-1.png)
 
-**User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
+**User Journey Map 2: Proveedor de productos orgánicos**
 
 ![User Journey del proveedor](assets/chapter-02/user-journey-map-2.png)
 
@@ -691,11 +689,11 @@ Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configu
 
 Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensamientos y emociones son inferencias; las frases en «dice» son paráfrasis y no citas literales de una persona entrevistada.
 
-**Empathy Map: Administrador operativo (entrevistas 1-3)**
+**Empathy Map: Administrador operativo**
 
 ![Empathy Map del administrador](assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
-**Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
+**Empathy Map: Responsable comercial de proveedor**
 
 ![Empathy Map del proveedor](assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
