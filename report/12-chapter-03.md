@@ -199,11 +199,11 @@ El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 2. El **proveedor** consulta su disponibilidad y crea un **pedido de abastecimiento** dirigido a un minimarket.
 3. El **administrador destinatario** consulta productos y cantidades del pedido pendiente.
 4. Si lo **acepta**, se registra la decisión y se actualiza el inventario del minimarket una sola vez; si lo **rechaza**, el inventario no cambia.
-5. Ambos segmentos consultan el estado e historial del pedido. Este flujo no presupone una orden de envío separada ni demuestra que ya esté implementado.
+5. Ambos segmentos consultan el estado e historial del pedido.
 
 #### API Endpoint Coverage for Backend Web Services
 
-La siguiente matriz presenta endpoints REST **propuestos** para futuros Web Services de **OrganiK**, organizados por módulo, Technical Story y User Story. No representa servicios implementados en AV1.
+La siguiente matriz presenta endpoints REST **propuestos** para futuros Web Services de **OrganiK**, organizados por módulo, Technical Story y User Story.
 
 Los servicios contemplan las funcionalidades requeridas por los dos segmentos objetivo de OrganiK: **administradores de minimarkets** y **proveedores de productos orgánicos**. La API utiliza el prefijo `/api/v1` para mantener una estructura versionada y facilitar futuras extensiones de los servicios.
 
