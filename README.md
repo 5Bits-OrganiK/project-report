@@ -1493,17 +1493,6 @@ El mapa relaciona el objetivo de reducir mermas y quiebres de stock con los admi
 
 La fila US00 corresponde a la landing page de Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. La columna Orden indica la posición en el backlog; cada historia conserva su identificador. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia.
 
-**Secuencia de entrega y decisiones:** Se prioriza comprobar el valor diferencial con el menor trabajo que permita observar tareas reales. Cada incremento depende del anterior; las historias de acceso y persistencia se ejecutan antes de los módulos que las requieren, aunque tengan un número de registro mayor.
-
-| Incremento | Historias del backlog y dependencia | Decisión y resultado comprobable |
-|---|---|---|
-| AV1 / Sprint 1: comunicación | US00, sin dependencia del backend. | Landing page implementada. Permite presentar la propuesta y abrir contacto; no valida todavía el producto operativo. |
-| A: base segura de un piloto | IMP-BE-001, IMP-BE-002; US-026-029; TS-IAM-001-004, TS-PROF-001. | Identidad, aislamiento por negocio y persistencia antes de registrar inventario o pedidos. No avanzar si un proveedor puede modificar existencias ajenas. |
-| B: visibilidad de perecibles | US-001-009; TS-PROD-001-002, TS-INV-001-003, TS-LOT-001-002, TS-EXP-001, TS-DASH-002 para alertas de vencimiento. Depende de A. | Probar con administradores el registro y localización de stock, lotes y vencimientos (H1). Medir finalización, errores y tiempo frente al proceso actual. |
-| C: coordinación entre segmentos | US-015-025; TS-SUP-001-002, TS-ORD-001-004, TS-AUD-001, IMP-BE-003. Depende de A y de inventario en B para aceptar un pedido. | Probar con proveedor y administrador el flujo completo (H3-H5). No avanzar si el pedido rechazado altera existencias, una aceptación duplica stock o los participantes no comprenden el estado. |
-| D: conservación y apoyo operativo | US-010-014, US-030; TS-CON-001-002, TS-MER-001, TS-DASH-001 y extensión de TS-DASH-002 para alertas de conservación. Depende de datos de inventario y permisos. | Validar alertas con lecturas simuladas (H2), dashboards (H6) y funciones complementarias. Sensores reales solo después de valorar precisión y costo. |
-
-
 | # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 |------|--------------|--------|-------------|--------------|
 | 1 | US00 | Conocer OrganiK en la landing page | Como administrador o proveedor visitante, quiero conocer la propuesta de valor y el medio de contacto para evaluar OrganiK. | 5 |
