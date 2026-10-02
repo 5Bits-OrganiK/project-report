@@ -680,69 +680,28 @@ La prioridad inicial recae en stock, lotes y conservación para administradores,
 
 ### 2.3.3. User Journey Mapping.
 
-Los recorridos *As-Is* describen el trabajo actual, desde la detección de una necesidad hasta el seguimiento del abastecimiento. Las etapas se derivan de los resúmenes disponibles; las emociones son interpretaciones que deben comprobarse con cada entrevistado. Las oportunidades expresan decisiones de diseño, no funciones ya utilizadas.
+El User Journey Mapping es una herramienta de diseño centrado en el usuario que nos permite tener un mejor análisis, mapeo del viaje emocional y operativo de los usuarios
 
-**User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
-
-| Etapa | Acción y punto de contacto actual | Dificultad y emoción inferida | Oportunidad para OrganiK |
-|:---|:---|:---|:---|
-| Revisar productos | Consulta POS, hoja de cálculo, libreta y anaqueles para verificar stock, lotes y vencimientos. | Cruza registros distintos; posible preocupación por omitir un producto en riesgo. | Mostrar inventario y lotes en una vista consultable desde el celular. |
-| Comprobar conservación | Inspecciona vitrinas o congeladoras y lee un termómetro físico. | La inspección es discontinua; incertidumbre ante una falla fuera de horario. | Registrar condiciones y alertar sobre valores fuera de rango; validar primero con datos simulados. |
-| Decidir reposición | Identifica faltantes o productos próximos a vencer y consulta catálogos por mensajería. | Debe verificar información en canales separados; posible frustración por demora. | Mostrar stock bajo y disponibilidad de proveedores. |
-| Coordinar pedido | Intercambia mensajes o llamadas con el proveedor y verifica cantidades. | Cambios y confirmaciones pueden perderse en el chat. | Permitir revisar y aceptar o rechazar una propuesta del proveedor. |
-| Registrar resultado | Actualiza sus registros cuando ingresa mercadería y continúa el control. | La actualización manual puede dejar datos desfasados. | Registrar la decisión y actualizar el inventario solo tras la aceptación del administrador. |
+**User Journey Map 1: Administrador de minimarket**
 
 ![User Journey del administrador](assets/chapter-02/user-journey-map-1.png)
 
-**User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
-
-| Etapa | Acción y punto de contacto actual | Dificultad y emoción inferida | Oportunidad para OrganiK |
-|:---|:---|:---|:---|
-| Mantener oferta | Actualiza catálogo en Excel o PDF y registra lotes o disponibilidad con herramientas separadas. | La información puede desactualizarse; preocupación por ofrecer stock inexistente. | Reunir catálogo, lotes y disponibilidad. |
-| Recibir y verificar solicitudes | Atiende mensajes o llamadas de minimarkets y contrasta con el almacén. | Solicitudes en formatos distintos exigen comprobación manual. | Preparar una propuesta de pedido con productos y cantidades verificables. |
-| Registrar pedido | Transcribe la información a una hoja o sistema de ventas. | Marco y Juan relatan errores u omisiones; posible tensión por corregirlos. | Generar el pedido dirigido al minimarket desde un registro estructurado. |
-| Coordinar preparación | Confirma disponibilidad, lotes y cambios antes del despacho. | Las modificaciones repartidas entre chats pueden ser difíciles de rastrear. | Conservar el estado y el historial de cambios de la operación. |
-| Dar seguimiento | Responde consultas sobre confirmación o despacho por mensajería y llamadas. | Repetir respuestas consume tiempo; posible frustración. | Compartir con el administrador el estado del pedido y su decisión de aceptación o rechazo. |
+**User Journey Map 2: Proveedor de productos orgánicos**
 
 ![User Journey del proveedor](assets/chapter-02/user-journey-map-2.png)
 
 
 ### 2.3.4. Empathy Mapping.
 
+Para crear una solución que realmente se vincule con las personas, no es suficiente con saber qué hacen; tenemos que comprender lo que sienten. El Empathy Mapping es una herramienta de diseño centrado en el usuario que nos posibilita trascender los datos demográficos y explorar más a fondo el mundo interno de nuestros perfiles.
 
-Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye» se interpretan a partir de los resúmenes cuando no existe una declaración explícita.
-
-**Empathy Map: Administrador operativo (entrevistas 1-3)**
-
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién empatizamos? | Administrador que controla inventario, conservación y abastecimiento durante la jornada (1-3). |
-| ¿Qué necesita hacer? | Detectar faltantes, revisar lotes y vencimientos, comprobar condiciones y coordinar reposición (1-3). |
-| ¿Qué ve? | Anaqueles, refrigeradoras, registros separados en POS o sistema de ventas, Excel y libreta (1-3). |
-| ¿Qué dice? | Según los registros, el control manual toma tiempo y una vista centralizada con alertas sería útil (1-3; paráfrasis). |
-| ¿Qué hace? | Revisa productos y termómetros, consulta catálogos y coordina con proveedores por WhatsApp (1-3). |
-| ¿Qué oye? | Recibe información de proveedores por mensajería; no se documentaron opiniones de terceros en las fichas (1-3). |
-| ¿Qué piensa y siente? | Posible preocupación por mermas, diferencias de stock y fallas no detectadas; inferencia a partir de las dificultades relatadas (1-3). |
-| Pains / Gains | Riesgo de deterioro y tiempo de control manual / información accesible y alertas oportunas; beneficios aún por validar. |
+**Empathy Map: Administrador operativo**
 
 ![Empathy Map del administrador](assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
 **Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
 
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién empatizamos? | Persona que mantiene oferta y disponibilidad y atiende pedidos para minimarkets (4-6). |
-| ¿Qué necesita hacer? | Verificar stock y lotes, registrar pedidos y comunicar sus cambios o estados (4-6). |
-| ¿Qué ve? | Excel, mensajes, catálogos y, en los casos descritos, registros de almacén separados (4-6). |
-| ¿Qué dice? | Los resúmenes mencionan dificultades para sincronizar disponibilidad y seguir pedidos; Marco pide simplicidad y uso móvil (4-6; paráfrasis). |
-| ¿Qué hace? | Atiende solicitudes, verifica existencias, prepara productos y responde consultas por mensajería o llamadas (4-6). |
-| ¿Qué oye? | Solicitudes y consultas de minimarkets sobre disponibilidad o despachos; no se documentaron otras voces del entorno (4-6). |
-| ¿Qué piensa y siente? | Posible presión por errores de cantidad y necesidad de confirmar información; inferencia a partir de los incidentes relatados (4, 5). |
-| Pains / Gains | Información dispersa y seguimiento manual / catálogo y estado de pedidos consultables; beneficios aún por validar. |
-
 ![Empathy Map del proveedor](assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
-
-
 
 ## 2.4. Big Picture Event Storming.
 El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La siguiente línea de tiempo presenta el flujo propuesto de OrganiK.
