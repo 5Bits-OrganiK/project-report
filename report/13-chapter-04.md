@@ -68,12 +68,12 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
     *   2.2.2. Control de lotes y fechas de vencimiento.
     *   2.2.3. Registro de mermas y ofertas.
 *   **2.3. Monitoreo Ambiental (IoT):**
-    *   2.3.1. Estado en tiempo real (Temperatura y Humedad).
+    *   2.3.1. Lecturas de temperatura y humedad (simuladas en la validación inicial).
     *   2.3.2. Historial de alertas de conservación.
 *   **2.4. Abastecimiento:**
-    *   2.4.1. Catálogo de proveedores y generación de pedidos.
-    *   2.4.2. Bandeja de órdenes de envío (Aprobar recepción / Rechazar).
-    *   2.4.3. Historial de operaciones de abastecimiento.
+    *   2.4.1. Catálogo de proveedores y necesidades de reposición.
+    *   2.4.2. Bandeja de pedidos generados por proveedores (Aceptar / Rechazar).
+    *   2.4.3. Estado e historial de pedidos.
 *   **2.5. Configuración:** Perfil del negocio y preferencias de alertas.
 
 **3. Zona Privada: Proveedor B2B**
@@ -81,10 +81,10 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
 *   **3.2. Mi Catálogo:**
     *   3.2.1. Gestión de productos ofrecidos.
     *   3.2.2. Actualización de disponibilidad y lotes en almacén.
-*   **3.3. Gestión de Pedidos y Envíos:**
-    *   3.3.1. Bandeja de pedidos entrantes (Aprobar / Rechazar).
-    *   3.3.2. Generar y gestionar órdenes de envío.
-    *   3.3.3. Historial de operaciones de abastecimiento.
+*   **3.3. Gestión de Pedidos:**
+    *   3.3.1. Consulta de necesidades compartidas por minimarkets vinculados.
+    *   3.3.2. Creación de pedidos dirigidos a minimarkets.
+    *   3.3.3. Consulta de estado e historial de pedidos.
 *   **3.4. Red de Clientes:** Directorio de minimarkets asociados.
 *   **3.5. Configuración:** Perfil de la empresa y detalles logísticos.
 
@@ -162,6 +162,8 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 
 ## 4.4. Web Applications UX/UI Design.
 
+Las secciones 4.4.1 a 4.4.3 forman parte de la estructura solicitada, pero sus artefactos de aplicación web aún no se incorporan en AV1. No deben confundirse con el wireframe y mock-up de la landing page de 4.3.
+
 ### 4.4.1. Web Applications Wireframes.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -172,15 +174,17 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 
 ## 4.5. Web Applications Prototyping.
 
+El prototipo interactivo de la aplicación web queda pendiente para el siguiente avance; la landing page implementada en Sprint 1 no sustituye esa evidencia.
+
 ## 4.6. Domain-Driven Software Architecture.
 
-La arquitectura de software de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación, abastecimiento y control operativo para minimarkets y proveedores. A partir de este análisis se aplican los principios de Domain-Driven Design (DDD), permitiendo dividir la solución en bounded contexts coherentes con las responsabilidades principales del negocio.
+La arquitectura propuesta de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación y abastecimiento para minimarkets y proveedores. Los bounded contexts delimitan responsabilidades de diseño; no implican que los servicios estén implementados en AV1. El flujo de referencia es el definido en los capítulos I y III: el proveedor crea un pedido dirigido al minimarket y solo el administrador destinatario puede aceptarlo o rechazarlo antes de modificar su inventario.
 
-En las siguientes secciones se presenta cada nivel del modelo arquitectónico, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de OrganiK.
+En las siguientes secciones se presenta cada nivel del modelo arquitectónico. Las láminas que todavía representan solicitudes creadas por el minimarket u órdenes de envío separadas corresponden a un diseño anterior y requieren actualización; las descripciones textuales de esta revisión y las historias del capítulo III definen el alcance vigente.
 
 ### 4.6.1. Design-Level Event Storming.
 
-Para identificar los eventos de dominio y la lógica de negocio de OrganiK, se realizó un proceso de Event Storming orientado a comprender los flujos principales de la plataforma: registro de productos, control de inventario, monitoreo de conservación, solicitudes de abastecimiento, gestión de proveedores, alertas y análisis operativo.
+Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas. Los diagramas elaborados antes de la revisión del flujo deben contrastarse con esta secuencia.
 
 El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
 
@@ -230,13 +234,13 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
 7. **Requisition**
 
-   El bounded context Requisition gestiona las solicitudes de abastecimiento generadas por los minimarkets hacia los proveedores. Permite registrar productos solicitados, cantidades, estado de la solicitud y trazabilidad del proceso de aceptación o rechazo.
+   El bounded context Requisition registra necesidades de reposición que el administrador puede compartir con proveedores vinculados. Una necesidad no constituye un pedido ni modifica el inventario; corresponde a US 018 y US 020 del capítulo III.
 
    ![Requisition Bounded Context](assets/chapter-04/bcrequisition.png)
 
 8. **Procurements**
 
-   El bounded context Procurements administra las órdenes de envío o abastecimiento asociadas a solicitudes aceptadas. Su responsabilidad es permitir al proveedor registrar los productos que serán enviados y al minimarket confirmar o rechazar la recepción.
+   El bounded context Procurements gestiona los pedidos creados por proveedores, su estado y la decisión del administrador destinatario. La aceptación registra la decisión y actualiza el inventario una sola vez; el rechazo conserva las existencias. En este alcance no se define una orden de envío separada.
 
    ![Procurements Bounded Context](assets/chapter-04/bcprocurenments.png)
 
@@ -252,7 +256,7 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
 11. **Communication**
 
-   El bounded context Communication gestiona las alertas y notificaciones generadas por la plataforma. Incluye avisos sobre productos próximos a vencer, condiciones de conservación riesgosas, solicitudes pendientes, órdenes de envío y eventos relevantes para los usuarios.
+   El bounded context Communication gestiona alertas y notificaciones propuestas para vencimientos, condiciones de conservación, necesidades de reposición compartidas y cambios de estado de los pedidos.
 
 12. **Shared Kernel**
 
@@ -268,15 +272,17 @@ En este nivel se presenta una vista de alto nivel de la arquitectura, donde el f
 
 El context diagram muestra al **OrganiK Software System** como el sistema central, rodeado por los principales actores y sistemas con los que interactúa:
 
-- **Administrador de minimarket**: usuario encargado de registrar productos, controlar inventario, gestionar lotes, revisar fechas de vencimiento, crear solicitudes de abastecimiento y confirmar la recepción de órdenes de envío.
-- **Proveedor de productos orgánicos**: usuario responsable de registrar productos ofrecidos, revisar solicitudes de abastecimiento, aceptarlas o rechazarlas, y crear órdenes de envío.
+- **Administrador de minimarket**: registra productos y lotes, consulta conservación y disponibilidad, comparte necesidades de reposición y acepta o rechaza los pedidos dirigidos a su negocio.
+- **Proveedor de productos orgánicos**: mantiene catálogo, lotes y disponibilidad; consulta necesidades compartidas, crea pedidos dirigidos a minimarkets y sigue su estado.
 - **Administrador del sistema**: usuario encargado de gestionar cuentas, roles, permisos y configuración general de la plataforma.
-- **Servicio de notificaciones**: sistema externo utilizado para enviar alertas y comunicaciones relacionadas con vencimientos, conservación, solicitudes y abastecimiento.
-- **Servicio de monitoreo de conservación**: fuente externa o módulo de integración encargado de proporcionar información relacionada con temperatura y humedad para evaluar condiciones de conservación.
+- **Servicio de notificaciones**: integración propuesta para avisos de vencimientos, conservación y decisiones sobre pedidos.
+- **Servicio de monitoreo de conservación**: fuente futura de lecturas de temperatura y humedad; los flujos iniciales se validarán con datos simulados.
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan con OrganiK mediante la aplicación web, mientras que el sistema coordina los procesos internos y las integraciones necesarias para alertas, monitoreo y trazabilidad operativa.
 
 ![Software Architecture Context Diagram](assets/chapter-04/Contexto-dark.png)
+
+La lámina de contexto conserva etiquetas de solicitudes y órdenes de envío del modelo anterior. Debe redibujarse para mostrar que el proveedor crea el pedido y el administrador decide; el texto anterior expresa el flujo vigente.
 
 ---
 
@@ -287,9 +293,9 @@ En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicacio
 La arquitectura lógica de OrganiK se estructura en los siguientes contenedores:
 
 - **Landing Page**: aplicación web pública orientada a presentar la propuesta de valor de OrganiK, sus beneficios y funcionalidades principales para minimarkets y proveedores de productos orgánicos.
-- **Single Page Application (SPA)**: aplicación web principal desarrollada en Angular, donde los usuarios interactúan con los módulos de inventario, productos, proveedores, solicitudes, órdenes de envío, conservación, analítica, dashboard, perfiles, comunicación e IAM.
+- **Single Page Application (SPA)**: aplicación web propuesta en Angular para inventario, productos, proveedores, necesidades de reposición, pedidos, conservación, dashboards, perfiles e IAM. Estos módulos no forman parte de la landing page implementada en Sprint 1.
 - **API REST Application**: backend encargado de exponer los servicios de negocio mediante endpoints REST. Centraliza la lógica de aplicación, validaciones, reglas de dominio y coordinación entre bounded contexts.
-- **Database**: base de datos donde se persiste la información del sistema, incluyendo usuarios, perfiles, productos, inventario, lotes, solicitudes, órdenes de abastecimiento, proveedores, alertas, métricas y registros de conservación.
+- **Database**: persistencia propuesta para usuarios, perfiles, productos, inventario, lotes, necesidades de reposición, pedidos, decisiones, proveedores, alertas y lecturas de conservación.
 
 En el diagrama se observa que:
 
@@ -306,6 +312,8 @@ En el diagrama se observa que:
 
 En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
 
+Los nombres Requisition y Procurements se conservan como agrupaciones de diseño. Las relaciones internas de las láminas de componentes deben revisarse antes de implementarse si representan el flujo antiguo de solicitudes y órdenes de envío.
+
 La API REST organiza sus responsabilidades en componentes especializados:
 
 - **IAM Component**: gestiona autenticación, autorización, usuarios, roles y permisos.
@@ -314,8 +322,8 @@ La API REST organiza sus responsabilidades en componentes especializados:
 - **Analytics Component**: procesa indicadores, métricas y reportes operativos.
 - **Inventory Component**: gestiona inventario, lotes, cantidades, vencimientos, pérdidas y ofertas.
 - **Products Component**: administra el catálogo de productos orgánicos registrados u ofrecidos.
-- **Requisition Component**: gestiona solicitudes de abastecimiento entre minimarkets y proveedores.
-- **Procurements Component**: administra órdenes de envío, aceptación, rechazo y recepción de productos.
+- **Requisition Component**: gestiona necesidades de reposición compartidas por minimarkets.
+- **Procurements Component**: administra pedidos propuestos por proveedores, decisiones del administrador y actualización controlada del inventario.
 - **Suppliers Component**: gestiona proveedores y sus productos ofrecidos.
 - **Conservation Component**: monitorea condiciones de conservación y detecta riesgos.
 - **Communication Component**: administra alertas y notificaciones del sistema.
@@ -425,7 +433,7 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ## 4.8. Database Design.
 
-El diseño de base de datos de OrganiK define la estructura de persistencia necesaria para almacenar y gestionar la información principal de la plataforma. Este diseño considera los datos relacionados con usuarios, perfiles, productos, inventario, proveedores, solicitudes de abastecimiento, órdenes de envío, conservación, comunicación, analítica y auditoría.
+El diseño de base de datos propuesto considera usuarios, perfiles, productos, inventario, proveedores, necesidades de reposición, pedidos y decisiones, conservación, comunicación, analítica y auditoría. Los diagramas que aún contienen entidades de órdenes de envío separadas deben actualizarse antes de tomarse como esquema de implementación.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 

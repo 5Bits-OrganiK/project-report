@@ -21,21 +21,21 @@
 
 **Profesor:** Angel Auguto Velasquez Nuñez
 
- **INFORME DE TRABAJO FINAL — AV1**
+**INFORME DE TRABAJO FINAL — AV1**
 
 **Startup:** 5Bits
 
 **Producto:** OrganiK
 
 
- **INTEGRANTES:**
+**INTEGRANTES:**
 
 | Apellidos y Nombres                    | Código de Alumno |
 |----------------------------------------|------------------|
-| Atencio Cristobal,Cielo Valentina      | u202424216       |
-| Cáceres Pizarro, Albino Florencio      | 201923820        |
+| Atencio Cristobal, Cielo Valentina     | U202424216       |
+| Cáceres Pizarro, Albino Florencio      | U201923820       |
 | Olivares Lao, Gustavo Alonso           | U202216448       |
-| Quispe Almonacid, Andre Sebastian      | u201815005       |
+| Quispe Almonacid, Andre Sebastian      | U201815005       |
 | Torres Huaman, Alexis Calin            | U20241G152       |
 
 **Lima, agosto de 2026**
