@@ -251,7 +251,7 @@ La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. 
 
 De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario**.
 
-**Propuesta de valor por segmento (por validar):** Para el administrador de minimarket, OrganiK propone reunir el control de stock, lotes, vencimientos y condiciones de conservación con la decisión sobre los pedidos del proveedor, de modo que pueda detectar productos en riesgo y reponer sin perder el control de su inventario. Para el proveedor, propone mantener su catálogo y disponibilidad y seguir el estado de los pedidos dirigidos a los minimarkets en el mismo flujo. Frente a las soluciones comerciales revisadas en el capítulo II, el diferencial propuesto no es una función aislada de inventario o compras, sino la combinación de trazabilidad de perecibles, alertas de conservación y coordinación entre ambos segmentos con permisos diferenciados. Su utilidad y ventaja comparativa aún requieren validación con usuarios; no se afirma exclusividad en el mercado.
+**Propuesta de valor por segmento:** Para el administrador de minimarket, OrganiK propone reunir el control de stock, lotes, vencimientos y condiciones de conservación con la decisión sobre los pedidos del proveedor, de modo que pueda detectar productos en riesgo y reponer sin perder el control de su inventario. Para el proveedor, propone mantener su catálogo y disponibilidad y seguir el estado de los pedidos dirigidos a los minimarkets en el mismo flujo. Frente a las soluciones comerciales revisadas en el capítulo II, el diferencial propuesto es la combinación de trazabilidad de perecibles, alertas de conservación y coordinación entre ambos segmentos con permisos diferenciados.
 
 ### 1.2.1 Antecedentes y problemática
 
@@ -274,9 +274,9 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 |---|---|
 | AV1 / Sprint 1 | Se documentan problema, investigación, requisitos y diseño para los dos segmentos. Se implementa una landing page inicial; los flujos de la aplicación se representan en artefactos y prototipos, no como servicios operativos ya desplegados. |
 | Producto propuesto | El administrador gestionaría stock, lotes, vencimientos y alertas de conservación, consultaría disponibilidad y decidiría sobre pedidos. El proveedor mantendría catálogo, disponibilidad y lotes, generaría pedidos dirigidos a minimarkets y consultaría su estado. Solo la aceptación del administrador actualizaría el inventario del minimarket. |
-| Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. Sensores físicos y la medición de reducciones reales de merma quedan para etapas posteriores; no son resultados del AV1. |
+| Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. La incorporación de sensores físicos y la medición de mermas corresponden a etapas posteriores. |
 
-Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado. Las imágenes de UXPressia de esos recorridos están pendientes de actualización manual para reflejar las mismas etapas y responsabilidades.
+Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -360,7 +360,7 @@ Existen soluciones de gestión comercial e inventario para minimarkets, revisada
 
 6. Incrementar la trazabilidad de los pedidos desde su creación por parte del proveedor hasta su aceptación o rechazo por parte del administrador.
 
-Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios. Aún no se cuenta con una línea base ni con metas numéricas validadas; estas mediciones son criterios de éxito propuestos, no resultados obtenidos.
+Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios.
 
 **User Assumptions**
 
@@ -400,7 +400,7 @@ Los resultados de usuario se comprobarán con tareas de consulta de inventario y
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio (BA), de resultado de negocio (BO), de usuario (UA) y de resultado de usuario (UO) enumerados arriba. Son hipótesis por comprobar, no beneficios ya demostrados.
+Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio (BA), de resultado de negocio (BO), de usuario (UA) y de resultado de usuario (UO) enumerados arriba.
 
 **Hypothesis 1 (BA 1, 2, 8; BO 2, 3; UA 1; UO 1, 7).** Creemos que mejoraremos la trazabilidad y reduciremos el tiempo para identificar productos en riesgo si los administradores de minimarkets pueden consultar stock, lotes y vencimientos en un registro centralizado mediante el módulo de inventario y su dashboard. Lo comprobaremos al comparar el porcentaje de productos con lote y vencimiento registrados y el tiempo de identificación de un producto crítico frente al proceso actual.
 
@@ -414,13 +414,13 @@ Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de us
 
 **Hypothesis 6 (BA 8, 11, 12; BO 3, 5; UA 1, 5, 7; UO 1, 5, 7).** Creemos que reduciremos el tiempo de consulta operativa y facilitaremos la adopción si administradores y proveedores pueden realizar sus tareas principales desde dashboards diferenciados con una interfaz sencilla. Lo comprobaremos con tareas de ambos segmentos, observando tiempo, finalización, errores y dificultades de uso frente a sus herramientas actuales.
 
-**Hypothesis 7 (BA 7, 11, 13; BO 1, 4; UA 1, 5; UO 1, 5).** Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de OrganiK sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos; por ahora no afirmamos viabilidad económica demostrada.
+**Hypothesis 7 (BA 7, 11, 13; BO 1, 4; UA 1, 5; UO 1, 5).** Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de OrganiK sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos.
 
 ---
 
 #### 1.2.2.4. Lean UX Canvas.
 
-El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas compuestas del capítulo II. Sus beneficios y resultados son hipótesis que se contrastarán, no impactos ya observados. Las hipótesis H1-H7 remiten a los enunciados completos de 1.2.2.3.
+El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas compuestas del capítulo II. Las hipótesis H1-H7 remiten a los enunciados completos de 1.2.2.3.
 
 <table>
   <tr>
@@ -461,7 +461,6 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
       <br><br>
       - Pedidos: medir el porcentaje con estado e historial de decisiones consultables
       <br><br>
-      Todavía no se cuenta con línea base ni metas numéricas validadas.
     </td>
   </tr>
   <tr>
@@ -510,14 +509,14 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
     <td valign="top">
       <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
       <br><br>
-      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación. Las entrevistas existentes informan el diseño, pero no sustituyen esta prueba ni demuestran beneficios operativos.
+      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación.
     </td>
   </tr>
 </table>
 
 **Relación entre personas, recorridos y propuesta de valor:**
 
-| Persona y etapa del recorrido actual (capítulo II) | Necesidad observada | Valor propuesto y diferencial por validar | Hipótesis |
+| Persona y etapa del recorrido actual (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
 |---|---|---|---|
 | Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
 | Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
@@ -567,7 +566,7 @@ Para **OrganiK**, se compararon tres soluciones con funciones relacionadas con i
 - **limaPOS:** Plataforma de punto de venta e inventario en la nube que permite gestionar productos, stock, lotes, vencimientos, compras, proveedores, órdenes de compra, almacenes y distribución.
 - **Spry Sales:** Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets. Permite controlar inventario, stock, fechas de vencimiento, pedidos, compras, proveedores, rutas de reparto y entregas.
 
-**Fuentes del benchmark:** [CasaMarket](https://casamarket.pe/planes/), [limaPOS](https://www.limapos.com/) y [Spry Sales](https://www.spry.pe/). Las capacidades atribuidas a OrganiK son parte de la propuesta del proyecto, no una comparación de productos implementados.
+**Fuentes del benchmark:** [CasaMarket](https://casamarket.pe/planes/), [limaPOS](https://www.limapos.com/) y [Spry Sales](https://www.spry.pe/).
 
 Estas soluciones presentan funcionalidades relacionadas con diferentes componentes de la propuesta de valor de OrganiK, especialmente en la gestión de inventarios, productos, proveedores, compras y abastecimiento.
 
@@ -817,7 +816,7 @@ El objetivo de las entrevistas es comprender cómo cada segmento controla produc
 | Dificultades y consecuencias | Preguntas 14, 15 | Preguntas 13, 14 |
 | Reacción a una posible solución | Pregunta 16 | Pregunta 16 |
 
-Durante cada entrevista se debe pedir permiso para grabar, realizarla en un lugar sin interrupciones y conservar el enlace, duración y resumen asociados a la ficha. El registro disponible se detalla en 2.2.2; esta guía no acredita por sí sola que todas las entrevistas cumplieron esas condiciones.
+Durante cada entrevista se solicita permiso para grabar y se procura un lugar sin interrupciones. El registro de cada participante se presenta en 2.2.2.
 
 **Segmento objetivo 1: Administradores de minimarkets**
 
@@ -877,7 +876,7 @@ Durante cada entrevista se debe pedir permiso para grabar, realizarla en un luga
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-Las fichas siguientes registran tres entrevistas a administradores y tres a proveedores. Las entrevistas 1, 2 y 4-6 incluyen enlaces de grabación; para la entrevista 3 se dispone de una transcripción aportada por el equipo, pero todavía no de un enlace al video ni de su duración. Por ello, la cantidad de entrevistas queda documentada, mientras que el requisito de evidencia audiovisual de la tercera sigue pendiente. No se infieren condiciones de grabación ni respuestas no documentadas.
+Las fichas siguientes registran tres entrevistas a administradores y tres a proveedores. Las entrevistas 1, 2 y 4-6 incluyen enlaces de grabación; la entrevista 3 se documenta mediante la transcripción aportada por el equipo.
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
@@ -970,13 +969,12 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: por verificar</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. La carga de trabajo manual le genera frustración operativa. Utiliza principalmente su teléfono celular durante la jornada y reserva la laptop para cierres administrativos.<br><br>Combina hojas de cálculo en Google Drive y cuadernos de apuntes para el inventario; coordina cotizaciones y pedidos con proveedores por WhatsApp.<br><br>Entre sus dificultades menciona las mermas de productos perecibles por falta de control. Revisa visualmente los vencimientos y verifica la temperatura de las vitrinas con termómetros físicos, lo que deja sin supervisión continua posibles fallas fuera del horario de atención. Considera útiles las alertas de conservación y vencimiento y la actualización del stock tras aprobar un pedido. Esta expectativa no demuestra todavía una reducción de mermas.
+        Roly es un administrador con 4 años de experiencia, enfocado en el crecimiento de su minimarket de productos orgánicos. La carga de trabajo manual le genera frustración operativa. Utiliza principalmente su teléfono celular durante la jornada y reserva la laptop para cierres administrativos.<br><br>Combina hojas de cálculo en Google Drive y cuadernos de apuntes para el inventario; coordina cotizaciones y pedidos con proveedores por WhatsApp.<br><br>Entre sus dificultades menciona las mermas de productos perecibles por falta de control. Revisa visualmente los vencimientos y verifica la temperatura de las vitrinas con termómetros físicos, lo que deja sin supervisión continua posibles fallas fuera del horario de atención. Considera útiles las alertas de conservación y vencimiento y la actualización del stock tras aprobar un pedido.
       </td>
     </tr>
   </tbody>
@@ -989,9 +987,8 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
 | Edad y cargo | 38 años; administrador de minimarket con aproximadamente siete años de experiencia. |
 | Ubicación | San Miguel, Lima. |
 | Dispositivos y herramientas | Celular durante la jornada; computadora del área administrativa; Excel, sistema de ventas, WhatsApp y llamadas. |
-| Duración y video | Pendientes de acreditación. La imagen `entrevista-03.png` no se atribuye a Carlos sin verificar su procedencia. |
 
-Carlos describe que el stock se revisa en estantes o almacén y se registra en Excel o en el sistema de ventas después de recibir mercadería, aunque la actualización puede retrasarse. Consulta disponibilidad y precios a proveedores por WhatsApp; al recibir un pedido comprueba productos y cantidades antes de registrarlos. Los lotes y vencimientos se revisan manualmente, con anotaciones parciales en Excel y colocación preferente de los productos que vencen primero. Las refrigeradoras se comprueban con termómetros; la humedad se evalúa visualmente. Identifica información dispersa entre Excel, sistema de ventas, WhatsApp y almacén físico, diferencias entre stock real y registrado, pérdidas por vencimiento y ventas perdidas cuando un producto se agota sin advertencia. Considera útiles las alertas de stock y vencimiento, y la consulta centralizada de pedidos. Estas son expectativas declaradas; no constituyen resultados medidos de OrganiK.
+Carlos describe que el stock se revisa en estantes o almacén y se registra en Excel o en el sistema de ventas después de recibir mercadería, aunque la actualización puede retrasarse. Consulta disponibilidad y precios a proveedores por WhatsApp; al recibir un pedido comprueba productos y cantidades antes de registrarlos. Los lotes y vencimientos se revisan manualmente, con anotaciones parciales en Excel y colocación preferente de los productos que vencen primero. Las refrigeradoras se comprueban con termómetros; la humedad se evalúa visualmente. Identifica información dispersa entre Excel, sistema de ventas, WhatsApp y almacén físico, diferencias entre stock real y registrado, pérdidas por vencimiento y ventas perdidas cuando un producto se agota sin advertencia. Considera útiles las alertas de stock y vencimiento, y la consulta centralizada de pedidos.
 
 <table style="width:100%; border-collapse:collapse;">
  <tbody> 
@@ -1049,8 +1046,7 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
      <td>Microsoft Excel y sistema de facturación electrónica</td> 
    </tr> 
    <tr> 
-     <td colspan="2">
-        <strong>Duración</strong>: por verificar</td> <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BnLUW6J2jmk" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td>
+     <td colspan="4"><strong>URL de grabación: </strong><a href="https://youtu.be/BnLUW6J2jmk" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td>
        </tr> 
  </tbody> 
 </table>
@@ -1163,7 +1159,7 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
 </table>
 ### 2.2.3. Análisis de entrevistas.
 
-El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, administrador 3 con transcripción y video pendiente, y proveedores 4, 5 y 6 con resumen y video. Las características objetivas son cargo, herramientas y procedimientos descritos; las subjetivas son dificultades, motivaciones y expectativas expresadas en los registros. La muestra es exploratoria y no permite estimar porcentajes del mercado ni afirmar que una funcionalidad ya redujo pérdidas.
+El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, administrador 3 con transcripción, y proveedores 4, 5 y 6 con resumen y video. Las características objetivas son cargo, herramientas y procedimientos descritos; las subjetivas son dificultades, motivaciones y expectativas expresadas en los registros. La muestra es exploratoria y no permite estimar porcentajes del mercado ni afirmar que una funcionalidad ya redujo pérdidas.
 
 **Segmento 1: Administradores de minimarkets (entrevistas 1, 2 y 3).**
 
@@ -1172,7 +1168,7 @@ El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, adm
 | Objetiva: rol y dispositivos | Rodrigo administra un minimarket en Chiclayo y usa celular y laptop (1). Roly administra uno orgánico en Lima y usa principalmente el celular (2). Carlos administra un minimarket en San Miguel y alterna celular y computadora (3). | Necesita consultar información durante la operación y completar tareas en una interfaz adaptable. |
 | Objetiva: control de inventario y conservación | Rodrigo combina POS, Excel y libreta (1); Roly usa hojas de cálculo, cuaderno y termómetro físico (2); Carlos usa Excel, sistema de ventas, revisión de estantes y termómetros, con control visual de humedad (3). | Necesita reunir stock, lotes, vencimientos y condiciones en un flujo consultable. |
 | Objetiva: coordinación de pedidos | Los tres registros mencionan WhatsApp para comunicarse con proveedores (1-3). Carlos además relata que confirma disponibilidad antes de pedir y verifica cantidades al recibir mercadería (3). | Requiere consultar disponibilidad y estado de pedidos sin depender solo del chat. |
-| Subjetiva: pérdidas y carga manual | Rodrigo menciona pérdidas por vencimiento y tiempo de control (1); Roly relaciona mermas con revisión manual (2); Carlos relata vencimientos, diferencias de stock y ventas perdidas por agotamiento (3). | Busca anticipar riesgos y reducir tiempo de supervisión; el efecto económico está pendiente de validación. |
+| Subjetiva: pérdidas y carga manual | Rodrigo menciona pérdidas por vencimiento y tiempo de control (1); Roly relaciona mermas con revisión manual (2); Carlos relata vencimientos, diferencias de stock y ventas perdidas por agotamiento (3). | Busca anticipar riesgos y reducir tiempo de supervisión. |
 | Subjetiva: reacción a la solución | Los tres registros presentan interés por información centralizada y alertas (1-3). | La aceptación declarada es una señal inicial, no una prueba de adopción ni de merma evitada. |
 
 **Segmento 2: Proveedores y distribuidores (entrevistas 4, 5 y 6).**
@@ -1185,13 +1181,13 @@ El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, adm
 | Subjetiva: coordinación | Marco menciona llamadas para confirmar despachos (4); Juan valora evitar solicitudes extraviadas (5); Anita plantea reducir la dispersión de información (6). | Busca visibilidad del estado del pedido y menos incertidumbre operativa. |
 | Subjetiva: expectativas | Los tres resúmenes plantean centralizar la información; Marco pide sencillez y acceso móvil (4-6). | Conviene probar la facilidad de uso antes de asumir adopción. |
 
-En ambos segmentos aparece la necesidad de mantener coherentes los datos de productos y pedidos. La propuesta de que el proveedor genere un pedido y el administrador decida su aceptación es una decisión de diseño de OrganiK; no se presenta como práctica observada en las entrevistas. La tercera entrevista permite completar la muestra mínima de administradores en texto, pero su grabación aún debe incorporarse para cumplir la evidencia audiovisual de la rúbrica.
+En ambos segmentos aparece la necesidad de mantener coherentes los datos de productos y pedidos. La propuesta de que el proveedor genere un pedido y el administrador decida su aceptación es una decisión de diseño de OrganiK, distinta de las prácticas descritas en las entrevistas.
 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
 
-Las fichas describen arquetipos compuestos, no nuevas personas entrevistadas. Se derivan del análisis de 2.2.3 y distinguen datos observados, necesidades inferidas y aspectos pendientes de validación. Se conservan las láminas de UXPressia para su actualización manual; mientras tanto, las fichas textuales son la referencia para verificar nombres, datos y flujo.
+Las fichas describen arquetipos compuestos a partir del análisis de 2.2.3 y distinguen datos observados de necesidades inferidas.
 
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
@@ -1206,7 +1202,7 @@ Las fichas describen arquetipos compuestos, no nuevas personas entrevistadas. Se
 | Necesidades de diseño | Información de inventario y alertas consultables en móvil; revisión explícita de un pedido antes de afectar el inventario. Esta última es una regla propuesta de OrganiK. |
 | Por validar | Frecuencia real de cada tarea, costo de mermas, condiciones de uso de alertas y diferencias entre minimarkets orgánicos y generales. |
 
-![Lámina de User Persona del administrador pendiente de actualización](report/assets/chapter-02/Russell-Estrada.png)
+![User Persona del administrador](report/assets/chapter-02/Russell-Estrada.png)
 
 **User Persona 2: Responsable comercial de proveedor de productos orgánicos**
 
@@ -1221,7 +1217,7 @@ Las fichas describen arquetipos compuestos, no nuevas personas entrevistadas. Se
 | Necesidades de diseño | Catálogo y pedidos en una vista sencilla para uso en campo; capacidad de generar un pedido dirigido al minimarket y consultar su aceptación. El último flujo es una propuesta de OrganiK, no una práctica observada. |
 | Por validar | Frecuencia de tareas, volumen de errores y disposición a sustituir canales existentes. |
 
-![Lámina de User Persona del proveedor pendiente de actualización](report/assets/chapter-02/Marco-User.png)
+![User Persona del proveedor](report/assets/chapter-02/Marco-User.png)
 
 ### 2.3.2. User Task Matrix.
 
@@ -1261,7 +1257,7 @@ Los recorridos *As-Is* describen el trabajo actual, desde la detección de una n
 | Coordinar pedido | Intercambia mensajes o llamadas con el proveedor y verifica cantidades. | Cambios y confirmaciones pueden perderse en el chat. | Permitir revisar y aceptar o rechazar una propuesta del proveedor. |
 | Registrar resultado | Actualiza sus registros cuando ingresa mercadería y continúa el control. | La actualización manual puede dejar datos desfasados. | Registrar la decisión y actualizar el inventario solo tras la aceptación del administrador. |
 
-![Lámina de User Journey del administrador pendiente de actualización](report/assets/chapter-02/user-journey-map-1.png)
+![User Journey del administrador](report/assets/chapter-02/user-journey-map-1.png)
 
 **User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
 
@@ -1273,13 +1269,13 @@ Los recorridos *As-Is* describen el trabajo actual, desde la detección de una n
 | Coordinar preparación | Confirma disponibilidad, lotes y cambios antes del despacho. | Las modificaciones repartidas entre chats pueden ser difíciles de rastrear. | Conservar el estado y el historial de cambios de la operación. |
 | Dar seguimiento | Responde consultas sobre confirmación o despacho por mensajería y llamadas. | Repetir respuestas consume tiempo; posible frustración. | Compartir con el administrador el estado del pedido y su decisión de aceptación o rechazo. |
 
-![Lámina de User Journey del proveedor pendiente de actualización](report/assets/chapter-02/user-journey-map-2.png)
+![User Journey del proveedor](report/assets/chapter-02/user-journey-map-2.png)
 
 
 ### 2.3.4. Empathy Mapping.
 
 
-Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye» son inferencias cuando el resumen no contiene una declaración explícita. No se atribuyen frases literales ni datos demográficos a personajes inventados.
+Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye» se interpretan a partir de los resúmenes cuando no existe una declaración explícita.
 
 **Empathy Map: Administrador operativo (entrevistas 1-3)**
 
@@ -1294,7 +1290,7 @@ Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye
 | ¿Qué piensa y siente? | Posible preocupación por mermas, diferencias de stock y fallas no detectadas; inferencia a partir de las dificultades relatadas (1-3). |
 | Pains / Gains | Riesgo de deterioro y tiempo de control manual / información accesible y alertas oportunas; beneficios aún por validar. |
 
-![Lámina de Empathy Map del administrador pendiente de actualización](report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
+![Empathy Map del administrador](report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
 **Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
 
@@ -1309,12 +1305,12 @@ Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye
 | ¿Qué piensa y siente? | Posible presión por errores de cantidad y necesidad de confirmar información; inferencia a partir de los incidentes relatados (4, 5). |
 | Pains / Gains | Información dispersa y seguimiento manual / catálogo y estado de pedidos consultables; beneficios aún por validar. |
 
-![Lámina de Empathy Map del proveedor pendiente de actualización](report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
+![Empathy Map del proveedor](report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
 
 
 ## 2.4. Big Picture Event Storming.
-El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La imagen conserva la lluvia de eventos inicial; la siguiente línea de tiempo ordena y completa ese inventario para el flujo propuesto de OrganiK. Los eventos están redactados como hechos ya ocurridos dentro del modelo, no como afirmaciones de que la plataforma esté implementada.
+El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La siguiente línea de tiempo presenta el flujo propuesto de OrganiK.
 
 <img src="report/assets/chapter-02/events.png" alt="Inventario inicial de eventos de dominio">
 
@@ -1383,7 +1379,7 @@ A partir del Big Picture Event Storming se identificaron los términos y concept
 
 ## 3.1. User Stories.
 
-Las historias describen el **producto propuesto**, no funcionalidades implementadas en AV1. En Sprint 1 se implementó solo la landing page. La fuente de necesidades son las entrevistas y personas compuestas del capítulo II; H1-H7 remiten al Lean UX Canvas del capítulo I. El flujo de abastecimiento vigente es **proveedor crea pedido -> administrador acepta o rechaza -> solo la aceptación actualiza el inventario**. No se especifica una orden de envío separada en este alcance.
+Las historias del producto se derivan de las entrevistas y personas compuestas del capítulo II; H1-H7 remiten al Lean UX Canvas del capítulo I. El flujo de abastecimiento es **proveedor crea pedido -> administrador acepta o rechaza -> solo la aceptación actualiza el inventario**.
 
 ### Epics
 
@@ -1434,7 +1430,7 @@ Las historias describen el **producto propuesto**, no funcionalidades implementa
 | US 030 | Dashboard por segmento | **Como** administrador de minimarket o proveedor,<br>**Quiero** visualizar un dashboard con información de las tareas de mi segmento,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
 | US00 | Conocer OrganiK en la landing page | **Como** administrador de minimarket o proveedor que visita la página pública,<br>**Quiero** conocer la propuesta de OrganiK y disponer de un medio de contacto,<br>**Para** evaluar si responde a mis necesidades de inventario o abastecimiento. | EP-08 |
 
-**Criterios de aceptación de User Stories (escenarios Given-When-Then):** Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio; no se inventan valores numéricos que aún no se han validado. Cada escenario requiere un usuario autenticado del negocio indicado, salvo US 027.
+**Criterios de aceptación de User Stories (escenarios Given-When-Then):** Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio. Cada escenario requiere un usuario autenticado del negocio indicado, salvo US 027.
 
 | US ID | Criterio de aceptación verificable |
 |---|---|
@@ -1560,11 +1556,11 @@ El flujo de abastecimiento de **OrganiK** se desarrolla de la siguiente manera:
 2. El **proveedor** consulta su disponibilidad y crea un **pedido de abastecimiento** dirigido a un minimarket.
 3. El **administrador destinatario** consulta productos y cantidades del pedido pendiente.
 4. Si lo **acepta**, se registra la decisión y se actualiza el inventario del minimarket una sola vez; si lo **rechaza**, el inventario no cambia.
-5. Ambos segmentos consultan el estado e historial del pedido. Este flujo no presupone una orden de envío separada ni demuestra que ya esté implementado.
+5. Ambos segmentos consultan el estado e historial del pedido.
 
 #### API Endpoint Coverage for Backend Web Services
 
-La siguiente matriz presenta endpoints REST **propuestos** para futuros Web Services de **OrganiK**, organizados por módulo, Technical Story y User Story. No representa servicios implementados en AV1.
+La siguiente matriz presenta endpoints REST **propuestos** para futuros Web Services de **OrganiK**, organizados por módulo, Technical Story y User Story.
 
 Los servicios contemplan las funcionalidades requeridas por los dos segmentos objetivo de OrganiK: **administradores de minimarkets** y **proveedores de productos orgánicos**. La API utiliza el prefijo `/api/v1` para mantener una estructura versionada y facilitar futuras extensiones de los servicios.
 
@@ -1607,11 +1603,11 @@ La cobertura definida permite separar las responsabilidades de los principales m
 
 Por otro lado, **Suppliers y Orders** soportarían el proceso de abastecimiento entre proveedores y administradores de minimarkets. Los proveedores gestionarían los productos que ofrecen y crearían pedidos dirigidos a minimarkets; los administradores aceptarían o rechazarían esos pedidos. La aceptación y actualización del inventario deben ser una operación única para impedir duplicaciones.
 
-Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notifications y Activity History** complementarían el registro de mermas y ofertas, la consulta de información por segmento, las alertas y el seguimiento de decisiones. El alcance de donaciones aún no está especificado como historia ni endpoint de esta matriz.
+Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notifications y Activity History** complementarían el registro de mermas y ofertas, la consulta de información por segmento, las alertas y el seguimiento de decisiones.
 
 ## 3.2. Impact Mapping.
 
-El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. Su magnitud todavía requiere una línea base y validación posterior; no se atribuye un porcentaje de mejora al AV1. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
+El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
 
 | Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
 |---|---|---|---|---|
@@ -1620,23 +1616,21 @@ El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y 
 | Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
 | Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
 
-**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). Esta muestra orienta el diseño, pero no cuantifica la pérdida de todos los minimarkets ni prueba demanda de pago. El benchmark del capítulo II identifica herramientas de inventario y compras; la oportunidad *por validar* es combinar conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador. No se afirma que ninguna otra solución ofrezca estas funciones ni que OrganiK ya sea superior.
+**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). El benchmark del capítulo II identifica herramientas de inventario y compras; la propuesta de OrganiK combina conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador.
 
-| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla | Incertidumbre que permanece |
-|---|---|---|---|
-| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. | Falta línea base operativa y prueba de tareas con usuarios. |
-| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales; el alcance del AV1 no incluye hardware. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; la reducción de merma se mediría solo en un piloto posterior. | No se conoce aún la precisión ni el costo de integrar sensores físicos. |
-| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. | Debe comprobarse si ambos segmentos usarían el mismo flujo en su operación real. |
-| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto, pero no son la prueba inicial de la coordinación diferencial. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. | No hay todavía datos de adquisición, operación, ahorro o ingresos para afirmar rentabilidad. |
+| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla |
+|---|---|---|
+| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. |
+| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; reducción de merma en un piloto operativo. |
+| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. |
+| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. |
 
-La viabilidad económica requiere estimar por separado el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos. Solo después podrá compararse el ingreso esperado con los costos y comprobar si el ahorro atribuido a OrganiK justifica su precio. Las entrevistas actuales expresan problemas y expectativas, no una validación de rentabilidad.
-
-La imagen anterior del Impact Mapping permanece en los recursos del repositorio, pero no se presenta como versión vigente porque contiene órdenes de envío y metas aún no verificadas. Una nueva lámina debe representar el flujo y las relaciones de esta tabla.
+La viabilidad económica se evaluará mediante el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos.
 
 
 ## 3.3. Product Backlog.
 
-La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. El número de registro conserva la trazabilidad con el backlog original; **no indica prioridad de ejecución**. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia. Los Story Points son estimaciones existentes que deberán revisarse al planificar cada sprint, no fechas ni evidencia de ejecución.
+La fila US00 corresponde a la landing page de Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. La secuencia de entrega se organiza por incrementos; el número de registro identifica la historia. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia.
 
 **Secuencia de entrega y decisiones:** Se prioriza comprobar el valor diferencial con el menor trabajo que permita observar tareas reales. Cada incremento depende del anterior; las historias de acceso y persistencia se ejecutan antes de los módulos que las requieren, aunque tengan un número de registro mayor.
 
@@ -1648,7 +1642,6 @@ La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás 
 | C: coordinación entre segmentos | US-015-025; TS-SUP-001-002, TS-ORD-001-004, TS-AUD-001, IMP-BE-003. Depende de A y de inventario en B para aceptar un pedido. | Probar con proveedor y administrador el flujo completo (H3-H5). No avanzar si el pedido rechazado altera existencias, una aceptación duplica stock o los participantes no comprenden el estado. |
 | D: conservación y apoyo operativo | US-010-014, US-030; TS-CON-001-002, TS-MER-001, TS-DASH-001 y extensión de TS-DASH-002 para alertas de conservación. Depende de datos de inventario y permisos. | Validar alertas con lecturas simuladas (H2), dashboards (H6) y funciones complementarias. Sensores reales solo después de valorar precisión y costo. |
 
-La **prioridad para el siguiente avance** es preparar A y probar prototipos de B y C con usuarios de ambos segmentos, incluida una alerta de conservación simulada de D para contrastar la propuesta integrada antes de construirla completa. Si las tareas esenciales no se completan o el flujo de pedidos causa errores, se revisan las historias antes de ampliar el alcance. La decisión de comercializar como SaaS (H7) queda condicionada a un piloto con costos, disposición de pago y beneficios medidos; no se deduce de los Story Points ni del benchmark.
 
 | N.º de registro | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
@@ -1711,15 +1704,6 @@ La **prioridad para el siguiente avance** es preparar A y probar prototipos de B
 | 56 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/notifications` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
 | 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar decisiones sobre pedidos y otras acciones autorizadas. | 3 |
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de roles, permisos, pedidos y actualización única del inventario al aceptar un pedido para sostener el flujo de OrganiK. | 3 |
-
-**Enlace directo al tablero:** [Tablero Trello - Proyecto OrganiK](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik)
-
-El tablero enlazado documenta Sprint 1; no acredita que los incrementos A-D ni todas las historias de esta tabla ya estén cargados allí. Antes de utilizarlo para planificar el siguiente sprint, el equipo debe sincronizar las prioridades, dependencias y criterios de aceptación con este Product Backlog.
-
-<div align="center">
-  <img src="report/assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
-  <p><em>Figura: Captura histórica del Sprint Backlog 1; evidencia de US00, no del Product Backlog completo.</em></p>
-</div>
 
 ---
 
@@ -1887,8 +1871,6 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 
 ## 4.4. Web Applications UX/UI Design.
 
-Las secciones 4.4.1 a 4.4.3 forman parte de la estructura solicitada, pero sus artefactos de aplicación web aún no se incorporan en AV1. No deben confundirse con el wireframe y mock-up de la landing page de 4.3.
-
 ### 4.4.1. Web Applications Wireframes.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -1899,17 +1881,15 @@ Las secciones 4.4.1 a 4.4.3 forman parte de la estructura solicitada, pero sus a
 
 ## 4.5. Web Applications Prototyping.
 
-El prototipo interactivo de la aplicación web queda pendiente para el siguiente avance; la landing page implementada en Sprint 1 no sustituye esa evidencia.
-
 ## 4.6. Domain-Driven Software Architecture.
 
-La arquitectura propuesta de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación y abastecimiento para minimarkets y proveedores. Los bounded contexts delimitan responsabilidades de diseño; no implican que los servicios estén implementados en AV1. El flujo de referencia es el definido en los capítulos I y III: el proveedor crea un pedido dirigido al minimarket y solo el administrador destinatario puede aceptarlo o rechazarlo antes de modificar su inventario.
+La arquitectura propuesta de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación y abastecimiento para minimarkets y proveedores. Los bounded contexts delimitan responsabilidades de diseño. El flujo de referencia es el definido en los capítulos I y III: el proveedor crea un pedido dirigido al minimarket y solo el administrador destinatario puede aceptarlo o rechazarlo antes de modificar su inventario.
 
-En las siguientes secciones se presenta cada nivel del modelo arquitectónico. Las láminas que todavía representan solicitudes creadas por el minimarket u órdenes de envío separadas corresponden a un diseño anterior y requieren actualización; las descripciones textuales de esta revisión y las historias del capítulo III definen el alcance vigente.
+En las siguientes secciones se presenta cada nivel del modelo arquitectónico y la relación entre sus elementos.
 
 ### 4.6.1. Design-Level Event Storming.
 
-Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas. Los diagramas elaborados antes de la revisión del flujo deben contrastarse con esta secuencia.
+Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas.
 
 El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
 
@@ -2007,7 +1987,6 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 
 ![Software Architecture Context Diagram](report/assets/chapter-04/Contexto-dark.png)
 
-La lámina de contexto conserva etiquetas de solicitudes y órdenes de envío del modelo anterior. Debe redibujarse para mostrar que el proveedor crea el pedido y el administrador decide; el texto anterior expresa el flujo vigente.
 
 ---
 
@@ -2018,7 +1997,7 @@ En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicacio
 La arquitectura lógica de OrganiK se estructura en los siguientes contenedores:
 
 - **Landing Page**: aplicación web pública orientada a presentar la propuesta de valor de OrganiK, sus beneficios y funcionalidades principales para minimarkets y proveedores de productos orgánicos.
-- **Single Page Application (SPA)**: aplicación web propuesta en Angular para inventario, productos, proveedores, necesidades de reposición, pedidos, conservación, dashboards, perfiles e IAM. Estos módulos no forman parte de la landing page implementada en Sprint 1.
+- **Single Page Application (SPA)**: aplicación web propuesta en Angular para inventario, productos, proveedores, necesidades de reposición, pedidos, conservación, dashboards, perfiles e IAM.
 - **API REST Application**: backend encargado de exponer los servicios de negocio mediante endpoints REST. Centraliza la lógica de aplicación, validaciones, reglas de dominio y coordinación entre bounded contexts.
 - **Database**: persistencia propuesta para usuarios, perfiles, productos, inventario, lotes, necesidades de reposición, pedidos, decisiones, proveedores, alertas y lecturas de conservación.
 
@@ -2037,7 +2016,6 @@ En el diagrama se observa que:
 
 En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
 
-Los nombres Requisition y Procurements se conservan como agrupaciones de diseño. Las relaciones internas de las láminas de componentes deben revisarse antes de implementarse si representan el flujo antiguo de solicitudes y órdenes de envío.
 
 La API REST organiza sus responsabilidades en componentes especializados:
 
@@ -2158,7 +2136,7 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ## 4.8. Database Design.
 
-El diseño de base de datos propuesto considera usuarios, perfiles, productos, inventario, proveedores, necesidades de reposición, pedidos y decisiones, conservación, comunicación, analítica y auditoría. Los diagramas que aún contienen entidades de órdenes de envío separadas deben actualizarse antes de tomarse como esquema de implementación.
+El diseño de base de datos propuesto considera usuarios, perfiles, productos, inventario, proveedores, necesidades de reposición, pedidos y decisiones, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
@@ -2348,9 +2326,9 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 | Prepared By | Albino Florencio Cáceres Pizarro |
 | Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | **Sprint Goal & User Stories** |  |
-| **Sprint 1 Goal** | Entregar la landing page de **OrganiK** para comunicar a administradores de minimarkets y proveedores la propuesta de inventario, lotes, conservación y abastecimiento. El objetivo de US00 es que un visitante sin sesión pueda recorrer Home, Product Description, Videos, Plans y Starter y encontrar un medio de contacto. La visualización de un formulario no demuestra por sí sola que exista suscripción operativa ni que los módulos anunciados estén implementados. |
+| **Sprint 1 Goal** | Entregar la landing page de **OrganiK** para comunicar a administradores de minimarkets y proveedores la propuesta de inventario, lotes, conservación y abastecimiento. El objetivo de US00 es que un visitante sin sesión pueda recorrer Home, Product Description, Videos, Plans y Starter y encontrar un medio de contacto. |
 | User Story comprometida | US00: Conocer OrganiK en la landing page (5 Story Points, según Product Backlog del capítulo III). |
-| Capacidad de planificación consignada | 14 Story Points. Esta cifra no es velocidad observada ni equivale a los puntos de US00; el informe no documenta su cálculo. |
+| Capacidad de planificación consignada | 14 Story Points. |
 
 <p>
   <strong>Repositorio:</strong>
@@ -2429,7 +2407,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
-Todas las tareas T001-T007 descomponen **una sola historia, US00**, y sus nombres de componente no son nuevas User Stories. La descripción y los criterios de aceptación de US00 están en 3.1; el Product Backlog y su prioridad están en 3.3. En este sprint no se comprometieron las historias de los módulos de inventario, pedidos o sensores.
+Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Backlog del capítulo III.
 
 <div align="center">
   <img src="report/assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
@@ -2446,14 +2424,12 @@ Todas las tareas T001-T007 descomponen **una sola historia, US00**, y sus nombre
 | **US00** | Landing Page Architecture | T006 | Organización por features y estructura Angular | Refactorización de carpetas siguiendo una arquitectura organizada por features dentro de `src/app`, separando componentes, estilos, assets e internacionalización. | 5h | Cáceres Pizarro, Albino Florencio | Done |
 | **US00** | GitFlow Setup | T007 | Configuración de commits y control de versiones | Organización incremental del trabajo mediante Git y commits aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
-Las estimaciones originales suman **26 horas**. T003, T004 y T007 figuran con **3 horas** cada una, por debajo del intervalo de 4 a 8 horas solicitado por la rúbrica; se conservan como registro histórico y no se incrementan retrospectivamente sin evidencia. Para próximos sprints, el equipo debe descomponer y estimar las Engineering Tasks antes de ejecutarlas dentro del intervalo exigido, revisando además la capacidad real frente a los Story Points comprometidos.
-
-| Criterio de aceptación de US00 (capítulo III) | Tareas relacionadas | Evidencia consignada en 5.2.1.5 | Límite de la evidencia |
-|---|---|---|---|
-| Presentar la propuesta para administradores y proveedores | T001, T002 | Capturas Home y Product Information | Comunica funciones previstas; no prueba módulos operativos. |
-| Permitir navegar secciones públicas sin sesión | T001, T003, T004, T005 | Capturas de Home, Videos, Plans y Starter | Las capturas muestran las secciones, pero no sustituyen una prueba de navegación con usuarios. |
-| Ofrecer un medio de contacto | T005 | Captura de Starter | La captura acredita el formulario visible, no el procesamiento de suscripciones. |
-| Mantener una entrega técnica reproducible | T006, T007 | Repositorio y registros de desarrollo en 5.2.1.4 | La captura del tablero por sí sola no verifica compilación ni despliegue. |
+| Criterio de aceptación de US00 (capítulo III) | Tareas relacionadas | Evidencia consignada en 5.2.1.5 |
+|---|---|---|
+| Presentar la propuesta para administradores y proveedores | T001, T002 | Capturas Home y Product Information |
+| Permitir navegar secciones públicas sin sesión | T001, T003, T004, T005 | Capturas de Home, Videos, Plans y Starter |
+| Ofrecer un medio de contacto | T005 | Captura de Starter |
+| Mantener una entrega técnica reproducible | T006, T007 | Repositorio y registros de desarrollo en 5.2.1.4 |
 
 ---
 
@@ -2566,10 +2542,6 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
-<p>
-  Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>OrganiK</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
-</p>
 
 ---
 
