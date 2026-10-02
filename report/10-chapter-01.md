@@ -198,7 +198,7 @@ Los resultados de usuario se comprobarán con tareas de consulta de inventario y
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio (BA), de resultado de negocio (BO), de usuario (UA) y de resultado de usuario (UO) enumerados arriba.
+Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio, de resultado de negocio, de usuario y de resultado de usuario enumerados arriba.
 
 **Hypothesis 1** Creemos que mejoraremos la trazabilidad y reduciremos el tiempo para identificar productos en riesgo si los administradores de minimarkets pueden consultar stock, lotes y vencimientos en un registro centralizado mediante el módulo de inventario y su dashboard. Lo comprobaremos al comparar el porcentaje de productos con lote y vencimiento registrados y el tiempo de identificación de un producto crítico frente al proceso actual.
 
@@ -218,7 +218,7 @@ Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de us
 
 #### 1.2.2.4. Lean UX Canvas.
 
-El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas compuestas del capítulo II. Las hipótesis H1-H7 remiten a los enunciados completos de 1.2.2.3.
+El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
 
 <table>
   <tr>
@@ -302,19 +302,41 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
     <td valign="top">
       <strong>What’s the most important thing we need to learn first?</strong>
       <br><br>
-      Si el administrador puede identificar un producto en riesgo y aprobar una reposición sin duplicar registros, y si el proveedor puede confirmar disponibilidad y seguir el pedido, usando un mismo flujo. Después se comprobará si ese beneficio percibido justifica adoptar y pagar el servicio (H7).
+            - ¿Los administradores podrán identificar rápidamente productos con stock bajo, próximos a vencer o con condiciones de conservación riesgosas mediante un dashboard centralizado?
+      <br><br>
+      - ¿Los proveedores podrán consultar necesidades de reposición, revisar su disponibilidad y crear pedidos dirigidos a minimarkets sin depender de canales externos?
+      <br><br>
+      - ¿Los administradores comprenderán y confiarán en el flujo de revisión, aceptación o rechazo de pedidos antes de modificar el inventario?
+      <br><br>
+      - ¿Las alertas de vencimiento, stock bajo y conservación generarán acciones concretas o serán ignoradas?
+      <br><br>
+      - ¿La separación de funciones entre administrador y proveedor será suficientemente clara para evitar confusión sobre quién puede modificar inventario y quién puede generar o aprobar pedidos?
+      <br><br>
+      ¿El valor percibido de centralizar inventario, conservación y abastecimiento será suficiente para que minimarkets y proveedores consideren adoptar OrganiK?      
     </td>
     <td valign="top">
       <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
       <br><br>
-      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación.
+      - Crear un prototipo navegable del dashboard con datos ficticios pero realistas de inventario, lotes, vencimientos, temperatura, humedad y alertas.
+      <br><br>
+      - Probar el flujo principal de abastecimiento: identificar una necesidad de reposición, consultar disponibilidad, crear un pedido como proveedor y revisarlo como administrador.
+      <br><br>
+      - Simular pedidos pendientes para comprobar si el administrador entiende cómo aceptar o rechazar una propuesta y qué efecto tiene cada decisión sobre el inventario.
+      <br><br>
+      - Mostrar alertas simuladas de stock bajo, vencimiento y conservación para observar si el usuario reconoce su prioridad y realiza una acción adecuada.
+      <br><br>
+      - Probar perfiles diferenciados de administrador y proveedor para verificar si cada usuario comprende qué acciones puede realizar según su rol.
+      <br><br>
+      - Medir finalización de tareas, tiempo, errores, necesidad de asistencia y comprensión del estado de cada operación.
+      <br><br>
+      - Realizar entrevistas breves después de las pruebas para evaluar confianza, facilidad de uso, utilidad percibida, intención de adopción y disposición de pago.
     </td>
   </tr>
 </table>
 
 **Relación entre personas, recorridos y propuesta de valor:**
 
-| Persona y tarea observada (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
+| Persona y tarea observada  | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
 |---|---|---|---|
 | Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
 | Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
