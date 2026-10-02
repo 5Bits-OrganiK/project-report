@@ -320,3 +320,10 @@ La viabilidad económica se evaluará mediante el costo de desarrollo y operaci�
 | 56 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/notifications` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
 | 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar decisiones sobre pedidos y otras acciones autorizadas. | 3 |
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de roles, permisos, pedidos y actualización única del inventario al aceptar un pedido para sostener el flujo de OrganiK. | 3 |
+
+
+<div align="center">
+  <img src="assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
+  <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
+</div>
+
