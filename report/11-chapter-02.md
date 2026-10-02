@@ -1,5 +1,3 @@
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores.
 
 Para **OrganiK**, se compararon tres soluciones con funciones relacionadas con inventario, compras, proveedores y operaciones comerciales de minimarkets. El benchmark es descriptivo y se basa en las páginas oficiales consultadas el 1 de octubre de 2026; no incluye pruebas de uso ni permite afirmar que una función no exista solo porque no se mencione en esas páginas:
 
@@ -240,26 +238,16 @@ Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket,
 
 | **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
 |---|---|---|
-| **Fortalezas (F)**<br>1. Especialización en productos orgánicos.<br>2. Integración de inventario, abastecimiento y monitoreo.<br>3. Trazabilidad de productos, lotes y vencimientos.<br>4. Dashboards diferenciados para minimarkets y proveedores. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Destacar la reducción de pérdidas mediante el control de inventarios, vencimientos y condiciones de almacenamiento.<br>3. Promover la integración entre minimarkets y proveedores como elemento diferenciador.<br>4. Incorporar progresivamente sensores IoT reales y capacidades analíticas.<br>5. Validar la solución mediante pilotos con minimarkets y proveedores. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades de productos orgánicos.<br>3. Priorizar la especialización frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información.<br>5. Utilizar resultados de pilotos para demostrar el valor de la solución. |
-| **Debilidades (D)**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia (DO) — Reorientación**<br>1. Realizar entrevistas con administradores y proveedores.<br>2. Implementar pilotos con usuarios reales.<br>3. Priorizar las funcionalidades de mayor valor.<br>4. Desarrollar contenido demostrativo sobre reducción de pérdidas y mejora del abastecimiento.<br>5. Evolucionar progresivamente hacia sensores IoT reales. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar funcionalidades de mayor valor para evitar competir por cantidad de funcionalidades.<br>2. Mantener costos accesibles para pequeñas y medianas empresas.<br>3. Implementar mecanismos de respaldo y seguridad.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets. |
+| **Fortalezas**<br>1. Especialización en productos orgánicos.<br>2. Integración de inventario, abastecimiento y monitoreo.<br>3. Trazabilidad de productos, lotes y vencimientos.<br>4. Dashboards diferenciados para minimarkets y proveedores. | **Estrategia — Estrategias Ofensivas**<br>1. Posicionar OrganiK como una solución especializada para la gestión de productos orgánicos.<br>2. Destacar la reducción de pérdidas mediante el control de inventarios, vencimientos y condiciones de almacenamiento.<br>3. Promover la integración entre minimarkets y proveedores como elemento diferenciador.<br>4. Incorporar progresivamente sensores IoT reales y capacidades analíticas.<br>5. Validar la solución mediante pilotos con minimarkets y proveedores. | **Estrategia — Estrategias Defensivas**<br>1. Diferenciar OrganiK mediante la integración de abastecimiento, trazabilidad y conservación.<br>2. Mantener una interfaz sencilla y enfocada en las necesidades de productos orgánicos.<br>3. Priorizar la especialización frente a plataformas generalistas.<br>4. Fortalecer la seguridad y privacidad de la información.<br>5. Utilizar resultados de pilotos para demostrar el valor de la solución. |
+| **Debilidades**<br>1. Bajo reconocimiento de marca.<br>2. Recursos limitados frente a plataformas consolidadas.<br>3. Plataforma en etapa inicial.<br>4. Dependencia inicial de datos IoT simulados. | **Estrategia — Reorientación**<br>1. Realizar entrevistas con administradores y proveedores.<br>2. Implementar pilotos con usuarios reales.<br>3. Priorizar las funcionalidades de mayor valor.<br>4. Desarrollar contenido demostrativo sobre reducción de pérdidas y mejora del abastecimiento.<br>5. Evolucionar progresivamente hacia sensores IoT reales. | **Estrategia — Supervivencia**<br>1. Priorizar funcionalidades de mayor valor para evitar competir por cantidad de funcionalidades.<br>2. Mantener costos accesibles para pequeñas y medianas empresas.<br>3. Implementar mecanismos de respaldo y seguridad.<br>4. Validar continuamente la solución para reducir riesgos de desarrollo innecesario.<br>5. Construir progresivamente una red de proveedores y minimarkets. |
 
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
 
-El objetivo de las entrevistas es comprender cómo cada segmento controla productos, lotes y vencimientos, identifica necesidades de reposición y coordina pedidos; también se indaga por herramientas, dificultades y consecuencias concretas. La siguiente versión revisada de la guía propone preguntas abiertas sobre experiencias recientes y repreguntas como «¿qué ocurrió después?» o «¿puede mostrar cómo lo registra?». Las propuestas de OrganiK se presentan al final para no condicionar las respuestas sobre las prácticas actuales. Las entrevistas ya registradas se analizaron según lo que realmente consta en sus resúmenes o transcripción; la entrevista 3, por ejemplo, utilizó una formulación anterior de la pregunta sobre la solución.
+Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
 
-| Arista de investigación | Administradores | Proveedores |
-|:---|:---|:---|
-| Contexto y hábitos digitales | Preguntas 1-6 | Preguntas 1-6 |
-| Inventario, productos y lotes | Preguntas 7, 9-11 | Preguntas 7, 8, 13 |
-| Abastecimiento y seguimiento | Preguntas 8, 12, 13 | Preguntas 9-12, 15 |
-| Dificultades y consecuencias | Preguntas 14, 15 | Preguntas 13, 14 |
-| Reacción a una posible solución | Pregunta 16 | Pregunta 16 |
-
-Durante cada entrevista se solicita permiso para grabar y se procura un lugar sin interrupciones. El registro de cada participante se presenta en 2.2.2.
-
-**Segmento objetivo 1: Administradores de minimarkets**
+**Segmento objetivo: Administradores de Minimarkets**
 
 #### Preguntas Demográficas
 
@@ -283,10 +271,12 @@ Durante cada entrevista se solicita permiso para grabar y se procura un lugar si
 12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
 13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
 14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
-15. Cuénteme un caso reciente de pérdida de producto o falta de stock. ¿Qué ocurrió y cómo lo resolvió?
-16. Si pudiera cambiar una parte de este proceso, ¿cuál elegiría y por qué? Después de responder, ¿qué utilidad y qué dudas le genera una herramienta que reúna inventario, vencimientos, condiciones de almacenamiento y pedidos?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
 
-**Segmento objetivo 2: Proveedores de productos orgánicos**
+---
+
+**Segmento objetivo: Proveedores de Productos Orgánicos**
 
 #### Preguntas Demográficas
 
@@ -309,9 +299,9 @@ Durante cada entrevista se solicita permiso para grabar y se procura un lugar si
 11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
 12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
 13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
-14. Cuénteme un caso reciente en que un pedido tuvo un error, cambio o retraso. ¿Qué ocurrió y cómo lo resolvió?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
-16. Si pudiera cambiar una parte de este proceso, ¿cuál elegiría y por qué? Después de responder, ¿qué utilidad y qué dudas le genera una herramienta para gestionar disponibilidad, lotes y estados de pedido?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -598,37 +588,54 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
     </tr>
   </tbody>
 </table>
+
 ### 2.2.3. Análisis de entrevistas.
 
-El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, administrador 3 con transcripción, y proveedores 4, 5 y 6 con resumen y video. Las características objetivas son cargo, herramientas y procedimientos descritos; las subjetivas son dificultades, motivaciones y expectativas expresadas en los registros. La muestra es exploratoria y no permite estimar porcentajes del mercado ni afirmar que una funcionalidad ya redujo pérdidas.
+**Análisis por segmento objetivo**
 
-**Segmento 1: Administradores de minimarkets (entrevistas 1, 2 y 3).**
+**Segmento objetivo: Administradores de Minimarkets**
 
-| Variable | Evidencia documentada | Implicación para el arquetipo |
-|:---|:---|:---|
-| Objetiva: rol y dispositivos | Rodrigo administra un minimarket en Chiclayo y usa celular y laptop (1). Roly administra uno orgánico en Lima y usa principalmente el celular (2). Carlos administra un minimarket en San Miguel y alterna celular y computadora (3). | Necesita consultar información durante la operación y completar tareas en una interfaz adaptable. |
-| Objetiva: control de inventario y conservación | Rodrigo combina POS, Excel y libreta (1); Roly usa hojas de cálculo, cuaderno y termómetro físico (2); Carlos usa Excel, sistema de ventas, revisión de estantes y termómetros, con control visual de humedad (3). | Necesita reunir stock, lotes, vencimientos y condiciones en un flujo consultable. |
-| Objetiva: coordinación de pedidos | Los tres registros mencionan WhatsApp para comunicarse con proveedores (1-3). Carlos además relata que confirma disponibilidad antes de pedir y verifica cantidades al recibir mercadería (3). | Requiere consultar disponibilidad y estado de pedidos sin depender solo del chat. |
-| Subjetiva: pérdidas y carga manual | Rodrigo menciona pérdidas por vencimiento y tiempo de control (1); Roly relaciona mermas con revisión manual (2); Carlos relata vencimientos, diferencias de stock y ventas perdidas por agotamiento (3). | Busca anticipar riesgos y reducir tiempo de supervisión. |
-| Subjetiva: reacción a la solución | Los tres registros presentan interés por información centralizada y alertas (1-3). | La aceptación declarada es una señal inicial, no una prueba de adopción ni de merma evitada. |
+#### 1. Descripción general del segmento
 
-**Segmento 2: Proveedores y distribuidores (entrevistas 4, 5 y 6).**
+Este segmento agrupa a administradores responsables de supervisar las operaciones de minimarkets, incluyendo actividades relacionadas con el control de inventario, gestión de productos, lotes, fechas de vencimiento, condiciones de almacenamiento y coordinación del abastecimiento con proveedores. A partir de las entrevistas realizadas a los administradores, se identificaron patrones comunes relacionados con el uso de herramientas digitales, la dependencia de procesos manuales y las dificultades para mantener actualizada y centralizada la información del negocio. Estos hallazgos sirven como base para la construcción del arquetipo correspondiente.
 
-| Variable | Evidencia documentada | Implicación para el arquetipo |
-|:---|:---|:---|
-| Objetiva: rol y dispositivos | Marco coordina ventas B2B desde oficina y campo (4); Juan gestiona ventas y distribución desde campo y laptop (5); Anita figura como proveedora y usa celular y laptop (6). | Necesita registrar y consultar operaciones desde distintos dispositivos. |
-| Objetiva: catálogo y disponibilidad | Marco usa Excel, WhatsApp y registros de almacén (4); Juan combina Excel, PDF y cuaderno (5); Anita refiere Excel y herramientas separadas (6). | Requiere una vista consistente de productos, lotes y disponibilidad. |
-| Objetiva: pedidos | Marco y Juan describen errores de transcripción o disponibilidad al atender mensajes (4, 5). El resumen de Anita describe el proceso de recepción, verificación y despacho, y posibles inconsistencias (6). | Debe poder crear y seguir pedidos dirigidos al minimarket según el flujo propuesto para OrganiK. |
-| Subjetiva: coordinación | Marco menciona llamadas para confirmar despachos (4); Juan valora evitar solicitudes extraviadas (5); Anita plantea reducir la dispersión de información (6). | Busca visibilidad del estado del pedido y menos incertidumbre operativa. |
-| Subjetiva: expectativas | Los tres resúmenes plantean centralizar la información; Marco pide sencillez y acceso móvil (4-6). | Conviene probar la facilidad de uso antes de asumir adopción. |
+#### 2. Características objetivas del segmento
 
-En ambos segmentos aparece la necesidad de mantener coherentes los datos de productos y pedidos. La propuesta de que el proveedor genere un pedido y el administrador decida su aceptación es una decisión de diseño de OrganiK, distinta de las prácticas descritas en las entrevistas.
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Uso de hojas de cálculo para la gestión** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores utilizan Excel o Google Drive para registrar, consultar o actualizar información relacionada con el inventario y las operaciones del minimarket. | El arquetipo posee experiencia utilizando herramientas digitales básicas, pero requiere una alternativa especializada que permita organizar la información de manera integrada. |
+| **Uso frecuente del teléfono celular durante la jornada laboral** | 100% (3/3) | **Entrevistas 1, 2 y 3:** El celular forma parte de las herramientas utilizadas diariamente. En particular, se emplea por su facilidad de acceso y movilidad durante las actividades del minimarket. | El arquetipo necesita acceder a información y realizar consultas desde dispositivos móviles durante sus actividades diarias. |
+| **Uso de WhatsApp para la comunicación con proveedores** | 100% (3/3) | **Entrevistas 1, 2 y 3:** WhatsApp o WhatsApp Business es utilizado para consultar productos, coordinar pedidos y mantener comunicación con proveedores. | El arquetipo está acostumbrado a canales digitales rápidos, pero actualmente la información de abastecimiento permanece distribuida en conversaciones independientes. |
+| **Control manual de inventario, lotes o vencimientos** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Se realizan revisiones físicas de productos, stock, lotes o fechas de vencimiento, complementadas con cuadernos, Excel o sistemas básicos. | El arquetipo combina herramientas digitales con procedimientos manuales, generando una necesidad de simplificar y organizar sus actividades de control. |
+
+#### 3. Características subjetivas del segmento
+
+| Característica | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
+|:---|:---|:---|:---|
+| **Preocupación por productos vencidos o deteriorados** | 100% (3/3) | **Entrevistas 1, 2 y 3:** Los administradores identifican los vencimientos y el deterioro de productos como situaciones que pueden generar pérdidas económicas y requieren revisiones constantes. | El arquetipo busca anticiparse a vencimientos y deterioros para reducir mermas y tomar acciones oportunamente. |
+| **Necesidad de reducir el tiempo dedicado al control manual** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La revisión de stock, vencimientos y registros requiere tiempo debido a que parte de la información debe verificarse manualmente o consultarse en diferentes medios. | El arquetipo valora herramientas que agilicen las consultas y reduzcan el esfuerzo necesario para mantener actualizada la información. |
+| **Necesidad de centralizar la información operativa** | 100% (3/3) | **Entrevistas 1, 2 y 3:** La información se encuentra distribuida entre Excel, cuadernos, sistemas básicos y conversaciones de WhatsApp, dificultando su seguimiento. | El arquetipo necesita disponer de inventario, lotes, vencimientos, proveedores y pedidos desde un mismo entorno. |
+| **Valoración de alertas para anticipar problemas** | 67% (2/3) | **Entrevistas 2 y 3:** Los entrevistados muestran interés en recibir alertas relacionadas con vencimientos, stock o condiciones que requieren atención. | El arquetipo valora mecanismos preventivos que le permitan identificar situaciones importantes antes de que generen pérdidas o problemas de abastecimiento. |
+
+#### 4. Hallazgos principales
+
+- **Fragmentación de la información (100% de coincidencia):** Los tres administradores utilizan diferentes herramientas y medios para gestionar sus operaciones, principalmente Excel, registros manuales y WhatsApp. Esto dificulta mantener una visión integrada y actualizada del inventario, los vencimientos y el abastecimiento.
+
+- **Dependencia de controles manuales (100% de coincidencia):** Los tres entrevistados realizan revisiones físicas o manuales para controlar aspectos como stock, lotes, fechas de vencimiento o condiciones de almacenamiento. Estas actividades demandan tiempo y pueden ocasionar que determinados problemas no sean detectados oportunamente.
+
+- **Necesidad de mejorar la prevención y organización operativa (100% de coincidencia):** Los entrevistados evidencian dificultades relacionadas con productos vencidos o deteriorados, falta de stock, actualización de información y seguimiento de pedidos. Una gestión más organizada permitiría detectar estas situaciones con anticipación y facilitar la toma de decisiones.
+
+#### 5. Conclusión del segmento
+
+Las entrevistas realizadas a los administradores de minimarkets evidencian un patrón común de gestión basado en la combinación de herramientas digitales básicas, principalmente Excel y WhatsApp, con procedimientos manuales para controlar inventario, lotes, vencimientos y abastecimiento. Aunque estas herramientas permiten desarrollar las actividades diarias, la información permanece distribuida en diferentes medios y requiere constantes revisiones y actualizaciones.
+
+Los principales problemas identificados se relacionan con el tiempo empleado en los controles manuales, la dificultad para mantener actualizada la información, el seguimiento de fechas de vencimiento, las pérdidas ocasionadas por productos vencidos o deteriorados y la coordinación de pedidos con proveedores. Asimismo, los entrevistados muestran interés en disponer de información organizada y mecanismos que permitan anticipar situaciones como bajo stock o próximos vencimientos.
+
+A partir de estos patrones, el arquetipo del segmento puede representarse como un administrador que participa activamente en las operaciones del minimarket, utiliza dispositivos móviles y herramientas digitales durante su jornada y necesita consultar información de manera rápida y confiable. Sus principales necesidades se concentran en organizar el inventario, controlar lotes y vencimientos, supervisar las condiciones de almacenamiento y facilitar la coordinación del abastecimiento con proveedores, aspectos que deberán ser considerados en el diseño de **OrganiK**.
 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
-
-Las fichas describen arquetipos ficticios construidos a partir de los patrones compartidos en 2.2.3; Camila Salazar y Diego Paredes no son personas entrevistadas. La edad aproximada, las puntuaciones de habilidades y las frases representativas son inferencias de diseño, no mediciones ni citas literales.
 
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
@@ -640,7 +647,7 @@ Las fichas describen arquetipos ficticios construidos a partir de los patrones c
 
 ### 2.3.2. User Task Matrix.
 
-La matriz relaciona cada tarea con los dos arquetipos. La frecuencia e importancia son estimaciones cualitativas del equipo basadas en las entrevistas 1-6; no se preguntaron ni midieron con una escala uniforme. «Propuesta» identifica tareas del flujo futuro de OrganiK cuya frecuencia debe validarse con usuarios.
+La matriz relaciona cada tarea con los dos arquetipos. La frecuencia e importancia son estimaciones cualitativas del equipo basadas en las entrevistas. «Propuesta» identifica tareas del flujo futuro de OrganiK cuya frecuencia debe validarse con usuarios.
 
 **Tasks vs User Personas**
 
@@ -664,13 +671,13 @@ La prioridad inicial recae en stock, lotes y conservación para administradores,
 
 ### 2.3.3. User Journey Mapping.
 
-Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configuración, Monitoreo, Recepción y Optimización. Parten de las prácticas actuales descritas en las entrevistas 1-6 y continúan como escenarios de adopción propuestos para OrganiK. Las emociones, dificultades de uso y métricas son hipótesis para validar, no resultados medidos ni experiencias observadas con una plataforma desplegada. En cada mapa, la persona identifica al arquetipo; el *substage title* precisa la tarea de la etapa y el KPI propone cómo evaluarla.
+Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configuración, Monitoreo, Recepción y Optimización. Parten de las prácticas actuales descritas en las entrevistas y continúan como escenarios de adopción propuestos para OrganiK.
 
-**User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
+**User Journey Map 1: Administrador de minimarket**
 
 ![User Journey del administrador](assets/chapter-02/user-journey-map-1.png)
 
-**User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
+**User Journey Map 2: Proveedor de productos orgánicos**
 
 ![User Journey del proveedor](assets/chapter-02/user-journey-map-2.png)
 
@@ -680,11 +687,11 @@ Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configu
 
 Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensamientos y emociones son inferencias; las frases en «dice» son paráfrasis y no citas literales de una persona entrevistada.
 
-**Empathy Map: Administrador operativo (entrevistas 1-3)**
+**Empathy Map: Administrador operativo**
 
 ![Empathy Map del administrador](assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
-**Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
+**Empathy Map: Responsable comercial de proveedor**
 
 ![Empathy Map del proveedor](assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
