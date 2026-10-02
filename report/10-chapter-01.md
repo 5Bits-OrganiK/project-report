@@ -334,17 +334,6 @@ El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
   </tr>
 </table>
 
-**Relación entre personas, recorridos y propuesta de valor:**
-
-| Persona y tarea observada  | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
-|---|---|---|---|
-| Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
-| Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
-| Proveedor: mantener oferta y verificar solicitudes | Mostrar disponibilidad y lotes sin repetir información en varios canales | Catálogo conectado con las necesidades del minimarket | H4, H6 |
-| Proveedor: registrar, preparar y seguir el pedido | Conocer si el minimarket aceptó o rechazó la operación | Pedido con estado e historial visibles para ambos segmentos | H4, H5 |
-
-La diferenciación planteada se contrasta con el benchmark del capítulo II.
-
 ---
 
 ## 1.3. Segmentos objetivo.
