@@ -1,5 +1,3 @@
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores.
 
 Para **OrganiK**, se compararon tres soluciones con funciones relacionadas con inventario, compras, proveedores y operaciones comerciales de minimarkets. El benchmark es descriptivo y se basa en las páginas oficiales consultadas el 1 de octubre de 2026; no incluye pruebas de uso ni permite afirmar que una función no exista solo porque no se mencione en esas páginas:
 

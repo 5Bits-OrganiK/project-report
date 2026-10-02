@@ -1191,47 +1191,9 @@ Las fichas describen arquetipos ficticios construidos a partir de los patrones c
 
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
-| Atributo | Perfil |
-|:---|:---|
-| Name | Camila Salazar. |
-| Market Size | No cuantificado; seis entrevistas exploratorias no permiten estimar el tamaño del segmento. |
-| Type | Gestora operativa de minimarket. |
-| Demographic | Aproximadamente 30-40 años; trabaja en un minimarket urbano peruano y tiene experiencia en operación y compras. |
-| Base empírica | Síntesis de Rodrigo, Roly y Carlos (entrevistas 1-3); el nombre y los datos demográficos no identifican a ninguno de ellos. |
-| Background | Supervisa el minimarket entre mostrador, almacén y refrigeración. Contrasta stock físico con POS o sistema de ventas, Excel y libretas; revisa lotes y vencimientos manualmente. Coordina disponibilidad por WhatsApp, consulta desde el celular y reserva la computadora para registros extensos. |
-| Goals | Localizar productos con stock bajo o próximos a vencer; detectar condiciones de conservación riesgosas; comparar necesidades de reposición con la oferta; revisar productos y cantidades antes de decidir qué pedido ingresa al inventario. |
-| Needs | Vista móvil de stock, lote, vencimiento y conservación; alertas vinculadas al producto o área afectada; detalle de pedido antes de aceptar o rechazar; historial de decisiones y cambios de existencias. |
-| Challenges | Mantener registros al día mientras atiende el local; conciliar inventario físico, POS, Excel y anotaciones; reponer con datos incompletos; adoptar un flujo más simple que los chats y hojas de cálculo actuales. |
-| Quote | “Necesito saber qué producto requiere atención y qué pedido voy a aceptar, sin cotejar la libreta, el sistema y varios chats.” Frase sintética, no cita literal. |
-| Motivations | Evitar pérdidas por vencimiento o conservación inadecuada; reducir el tiempo de conciliación; anticipar faltantes; conservar el control sobre qué pedido modifica las existencias. |
-| Frustrations | Diferencias entre stock físico y registrado; fechas de vencimiento parciales; fallas de refrigeración entre inspecciones; cambios y confirmaciones perdidos en chats. |
-| Skills | Control de inventario: 75/100; revisión de perecibles: 80/100; hojas de cálculo: 65/100; coordinación con proveedores: 80/100; herramientas móviles: 75/100. Puntuaciones estimadas. |
-| Technology | Celular durante la jornada, computadora o laptop para consolidación y termómetro físico para revisar refrigeración. |
-| Browsers | Navegador web móvil y de escritorio; no se documentó una marca preferida. |
-| Channels | WhatsApp, llamadas de confirmación y verificación presencial de mercadería. |
-
 ![User Persona del administrador](report/assets/chapter-02/Russell-Estrada.png)
 
 **User Persona 2: Responsable comercial de proveedor de productos orgánicos**
-
-| Atributo | Perfil |
-|:---|:---|
-| Name | Diego Paredes. |
-| Market Size | No cuantificado; la muestra exploratoria no permite estimarlo. |
-| Type | Coordinador comercial de proveedor o distribuidora. |
-| Demographic | Aproximadamente 25-35 años; trabaja en distribución B2B de productos orgánicos en Perú y tiene experiencia en catálogo y pedidos. |
-| Base empírica | Síntesis de Marco, Juan y Anita (entrevistas 4-6); el nombre y los datos demográficos no identifican a ninguno de ellos. |
-| Background | Coordina catálogo, disponibilidad y pedidos de varios minimarkets desde oficina, almacén y campo. Contrasta Excel o PDF con lotes y cantidades registrados manualmente; recibe solicitudes por WhatsApp o llamadas y las transcribe a una hoja de pedidos. Usa celular en movimiento y laptop para consolidar información. |
-| Goals | Mantener catálogo, lotes y disponibilidad acordes al almacén; conocer necesidades de reposición; crear pedidos con productos y cantidades para el minimarket correcto; consultar decisiones e historial. |
-| Needs | Catálogo móvil editable con lotes y disponibilidad; necesidades compartidas por minimarket; formulario que distinga destinatario, productos y cantidades sin alterar el inventario del cliente; estados e historial visibles. |
-| Challenges | Sincronizar oferta y almacén al atender varios clientes; reducir la transcripción manual sin omisiones; sostener el uso móvil en campo; no confundir una propuesta creada con una venta aceptada. |
-| Quote | “Quiero ofrecer solo lo que tengo disponible y conocer la respuesta de cada minimarket sin volver a ordenar mensajes y hojas de cálculo.” Frase sintética, no cita literal. |
-| Motivations | Evitar ofrecer stock ya comprometido; reducir transcripciones; responder con rapidez sobre disponibilidad; conservar un registro consultable por cliente. |
-| Frustrations | Solicitudes y cambios dispersos; catálogo desfasado frente al almacén; cantidades mal transcritas; llamadas repetidas para confirmar el estado. |
-| Skills | Gestión de catálogo: 75/100; verificación de stock: 75/100; atención B2B: 85/100; hojas de cálculo: 70/100; coordinación logística: 75/100. Puntuaciones estimadas. |
-| Technology | Celular para mensajes en campo y almacén; laptop para catálogo, pedidos y cierre administrativo. |
-| Browsers | Navegador web móvil y de escritorio; no se documentó una marca preferida. |
-| Channels | WhatsApp y llamadas para disponibilidad, cambios y seguimiento con minimarkets. |
 
 ![User Persona del proveedor](report/assets/chapter-02/Marco-User.png)
 
@@ -1265,31 +1227,9 @@ Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configu
 
 **User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
 
-| Campo | DESCUBRIMIENTO | EVALUACIÓN | CONFIGURACIÓN | MONITOREO | RECEPCIÓN | OPTIMIZACIÓN |
-|:---|:---|:---|:---|:---|:---|:---|
-| Substage title | Reconocer pérdidas y faltantes. | Comparar el flujo de control. | Registrar información inicial. | Vigilar riesgos y necesidades. | Decidir sobre la propuesta. | Revisar resultados del control. |
-| User goals | Identificar productos con posible vencimiento o quiebre de stock antes de que afecten las ventas. | Determinar si una vista unificada simplifica la revisión frente a POS, Excel y libreta. | Disponer de productos, lotes y cantidades fiables para comenzar a controlar existencias. | Detectar lotes, condiciones de conservación y cantidades que requieren atención. | Comprobar productos y cantidades de una propuesta antes de aceptarla o rechazarla. | Evaluar si disminuyen las omisiones y el tiempo invertido en controlar el negocio. |
-| Process | Inspecciona estantes y refrigeradoras; contrasta registros físicos y digitales. | Consulta la propuesta OrganiK y prueba localizar un producto, un lote y una alerta. | Carga productos y lotes; verifica cantidad, vencimiento y condiciones disponibles. | Revisa inventario, alertas y necesidades de reposición; consulta oferta del proveedor. | Abre el pedido pendiente; verifica destinatario, productos y cantidades; decide. | Consulta historial de decisiones, mermas y alertas; compara con su rutina anterior. |
-| Storyboard | Camila descubre un producto próximo a vencer que la libreta no destacaba. | En su celular encuentra la ficha del lote, pero comprueba cuánto tardaría en mantenerla. | Registra un lote y corrige una cantidad tras contar las unidades reales. | Una alerta la lleva a inspeccionar el área y a revisar qué producto debe reponer. | Recibe una propuesta del proveedor y la acepta solo cuando coinciden las cantidades. | Al cierre, revisa qué eventos quedaron documentados y qué datos siguen incompletos. |
-| Experience (inferida) | Preocupación: teme descubrir tarde pérdidas. | Cautela: no quiere duplicar registros. | Atención: comprueba la calidad del dato. | Vigilancia: prioriza las alertas. | Control: decide antes de modificar stock. | Confianza condicional: compara resultados. |
-| KPI (propuesto) | Tiempo para identificar un lote en riesgo o un faltante. | Tiempo y pasos para encontrar stock, lote y alerta. | Porcentaje de productos con lote, cantidad y vencimiento completos. | Tiempo desde la alerta hasta la revisión; alertas atendidas. | Porcentaje de pedidos con decisión registrada y cantidad validada. | Merma registrada y tiempo de control frente al proceso inicial. |
-| Problems | Las fuentes no coinciden y la inspección manual puede omitir riesgos entre turnos. | La adopción pierde valor si exige repetir cada dato del POS o de Excel. | Lotes sin fecha o cantidades atrasadas hacen poco fiables las alertas. | Las lecturas ambientales y existencias requieren actualización consistente. | Un pedido ambiguo puede alterar el inventario si se confirma sin revisión. | Datos parciales o mantenimiento excesivo impiden demostrar una mejora. |
-| Ideas / Opportunities | Mostrar alertas de vencimiento y stock bajo ligadas al producto concreto. | Probar tareas móviles con datos reales y medir carga adicional. | Validar campos críticos y mostrar el origen y última actualización del dato. | Priorizar alertas, necesidades y consulta de catálogo en una vista operativa. | Mostrar detalle previo; solo aceptar actualiza inventario (US 019, US 023-024). | Exponer historial y comparar tiempos y mermas sin prometer mejoras no medidas. |
-
 ![User Journey del administrador](report/assets/chapter-02/user-journey-map-1.png)
 
 **User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
-
-| Campo | DESCUBRIMIENTO | EVALUACIÓN | CONFIGURACIÓN | MONITOREO | RECEPCIÓN | OPTIMIZACIÓN |
-|:---|:---|:---|:---|:---|:---|:---|
-| Substage title | Reconocer la dispersión. | Valorar la herramienta. | Preparar catálogo y lotes. | Seguir necesidades y pedidos. | Conocer la decisión. | Ajustar la oferta. |
-| User goals | Detectar discrepancias entre catálogo, almacén y pedidos recibidos por diversos canales. | Comprobar que la plataforma permite trabajar desde el celular sin duplicar Excel. | Publicar productos y lotes con disponibilidad verificada para cada minimarket. | Consultar necesidades compartidas y dar seguimiento a las propuestas enviadas. | Saber si el administrador aceptó o rechazó el pedido antes de coordinar los siguientes pasos. | Reducir correcciones y consultas repetidas manteniendo la oferta al día. |
-| Process | Compara mensajes, catálogo y existencias del almacén; identifica datos contradictorios. | Prueba búsqueda, edición de producto y consulta de pedido en una sesión móvil. | Registra y actualiza productos y lotes; contrasta cantidades con el almacén. | Consulta necesidades del minimarket y crea un pedido con destinatario y cantidades. | Consulta estado e historial; coordina la operación según la decisión del cliente. | Revisa errores, propuestas pendientes y productos desactualizados; corrige el catálogo. |
-| Storyboard | Diego recibe solicitudes simultáneas y descubre que un lote ya estaba comprometido. | Prueba cambiar una cantidad desde el celular mientras atiende otra consulta. | Corrige la disponibilidad de un producto antes de volver a ofrecerlo. | Ve una necesidad compartida y envía una propuesta de pedido estructurada. | Comprueba que la propuesta fue aceptada; no presupone la decisión del cliente. | Al cierre, identifica dónde hubo correcciones y qué información debe actualizar. |
-| Experience (inferida) | Frustración: reconstruye mensajes. | Cautela: teme una segunda carga. | Concentración: valida lotes y cantidades. | Vigilancia: sigue propuestas pendientes. | Claridad condicional: ve la decisión. | Confianza condicional: mide esfuerzo y errores. |
-| KPI (propuesto) | Tiempo para conciliar catálogo y stock físico. | Tiempo y pasos para actualizar producto y consultar estado en móvil. | Porcentaje de productos ofrecidos con lote y disponibilidad actualizados. | Porcentaje de pedidos con destinatario y cantidades completos. | Porcentaje de propuestas con estado visible; consultas de confirmación. | Correcciones de cantidad y tiempo de seguimiento frente al flujo anterior. |
-| Problems | Los formatos de solicitud varían y la disponibilidad puede quedar desfasada. | La herramienta pierde atractivo si obliga a volver a introducir todo el catálogo. | Una cantidad no verificada puede comprometer stock ofrecido a otro cliente. | Un pedido mal asociado al minimarket genera rectificaciones y llamadas. | La falta de un estado fiable mantiene la dependencia del chat y del teléfono. | Datos incompletos dificultan comprobar si el nuevo flujo ahorra trabajo. |
-| Ideas / Opportunities | Relacionar oferta, necesidades y pedidos sin sustituir la verificación del almacén. | Evaluar edición móvil con tareas reales y medir tiempo de aprendizaje. | Facilitar actualización de productos y lotes (US 016-017). | Mostrar necesidades y crear pedidos estructurados sin cambiar stock ajeno (US 020-021). | Ofrecer estado e historial consultables (US 022, US 025). | Destacar datos desactualizados y comparar correcciones y llamadas con el proceso actual. |
 
 ![User Journey del proveedor](report/assets/chapter-02/user-journey-map-2.png)
 
@@ -1301,33 +1241,9 @@ Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensa
 
 **Empathy Map: Administrador operativo (entrevistas 1-3)**
 
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién estamos empatizando? | Camila Salazar sintetiza patrones de administradores entrevistados (1-3); supervisa existencias, conservación y reposición mientras atiende la operación diaria. Responde por la exactitud del inventario de su negocio; no es una entrevistada individual. |
-| ¿Qué está escuchando? | Recibe catálogos, disponibilidad, precios y confirmaciones de proveedores por mensajería o llamadas. Los cambios de pedido pueden quedar en conversaciones separadas. |
-| ¿Qué es lo que piensa y siente? | **Piensa (inferencia):** ¿Qué lote vence primero?, ¿coincide el stock mostrado con el almacén?, ¿qué cambiará si acepta el pedido? **Siente (inferencia):** preocupación ante merma, faltante o falla de refrigeración descubiertos tarde; presión por la revisión manual repetida y deseo de mayor control. |
-| ¿Qué necesita hacer? | Detectar faltantes, lotes próximos a vencer y condiciones fuera de rango; comparar reposición con oferta disponible; revisar productos y cantidades antes de aceptar o rechazar el pedido. Busca decidir con información vigente sin perder el control del stock. |
-| ¿Qué está viendo? | Anaqueles, vitrinas y refrigeradoras que requieren inspección; termómetros físicos y perecibles con distintas fechas. En sus registros ve POS o sistema de ventas, Excel, libretas y chats cuyos datos no siempre coinciden (1-3). |
-| ¿Qué está haciendo? | Revisa estantes, vencimientos y termómetros; coteja stock físico con registros digitales. Consulta catálogos por WhatsApp y verifica cantidades al recibir mercadería; a veces registra la entrada después del movimiento físico. |
-| Dolores | Pérdidas por vencimiento o deterioro; diferencias entre stock físico y registrado; inspecciones ambientales discontinuas. Los cambios y confirmaciones repartidos entre chats dificultan reconstruir una reposición. |
-| Motivaciones | Detectar lotes y condiciones de riesgo con anticipación; consultar existencias y necesidades en un mismo flujo; decidir sobre cada pedido y revisar el historial del efecto sobre el inventario. |
-| ¿Qué está diciendo? | Cotejar el inventario con registros manuales ocupa tiempo; los productos vencidos o agotados pueden detectarse tarde. Una vista centralizada y alertas serían útiles si reflejan lo que realmente hay en el local (paráfrasis de 1-3). |
-
 ![Empathy Map del administrador](report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
 **Empathy Map: Responsable comercial de proveedor (entrevistas 4, 5 y 6)**
-
-| Pregunta del lienzo | Síntesis y origen |
-|:---|:---|
-| ¿Con quién estamos empatizando? | Diego Paredes sintetiza patrones de responsables de catálogo, ventas y distribución entrevistados (4-6). Atiende varios minimarkets y consulta con almacén qué productos y lotes puede ofrecer; no es un entrevistado individual. |
-| ¿Qué está escuchando? | Recibe solicitudes de minimarkets, cambios de cantidades y llamadas sobre disponibilidad o estado. El almacén comunica ajustes de existencias que debe trasladar al catálogo y a las propuestas. |
-| ¿Qué es lo que piensa y siente? | **Piensa (inferencia):** ¿queda suficiente cantidad del lote?, ¿a qué minimarket corresponde el cambio?, ¿qué pedidos siguen pendientes? **Siente (inferencia):** presión cuando varios clientes consultan a la vez y la información está dispersa; frustración por errores de transcripción. |
-| ¿Qué necesita hacer? | Comprobar disponibilidad antes de prometer cantidades; reconocer necesidades por minimarket; preparar una propuesta para el destinatario correcto; consultar aceptación o rechazo y conservar el registro. |
-| ¿Qué está viendo? | Catálogos en Excel o PDF, registros de almacén y mensajes simultáneos de distintos clientes. La oferta publicada puede no reflejar un lote agotado o comprometido; las solicitudes llegan con formatos y cantidades diferentes (4-6). |
-| ¿Qué está haciendo? | Actualiza productos y lotes, contrasta existencias con almacén, atiende consultas y transcribe pedidos. Coordina preparación y responde preguntas de confirmación; ante cambios vuelve a revisar varias fuentes. |
-| Dolores | Disponibilidad desfasada entre catálogo y almacén; solicitudes dispares y riesgo de duplicar cantidades comprometidas. La transcripción y las llamadas repetidas consumen tiempo y dificultan seguir cada operación. |
-| Motivaciones | Mantener una oferta verificable y preparar pedidos estructurados; consultar aceptación o rechazo e historial sin reconstruir chats ni repetir confirmaciones telefónicas. |
-| ¿Qué está diciendo? | Pasar solicitudes de WhatsApp a Excel puede causar omisiones y cantidades erróneas. Centralizar oferta, pedidos y estados ayudaría si la herramienta es sencilla y utilizable desde el celular (paráfrasis de 4-6). |
 
 ![Empathy Map del proveedor](report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
@@ -1420,75 +1336,42 @@ Las historias del producto se derivan de las entrevistas y personas compuestas d
 
 ### User Stories
 
-| US ID | Título | Descripción | Relacionado con (EPIC ID) |
-|---|---|---|---|
-| US 001 | Registrar producto en inventario | **Como** administrador de minimarket,<br>**Quiero** registrar productos en el inventario,<br>**Para** mantener actualizada la información de los productos disponibles. | EP-01 |
-| US 002 | Visualizar inventario | **Como** administrador de minimarket,<br>**Quiero** visualizar los productos registrados,<br>**Para** conocer el estado actual de mi inventario. | EP-01 |
-| US 003 | Buscar productos en inventario | **Como** administrador de minimarket,<br>**Quiero** buscar productos dentro del inventario,<br>**Para** encontrarlos rápidamente. | EP-01 |
-| US 004 | Filtrar inventario | **Como** administrador de minimarket,<br>**Quiero** filtrar productos por categoría, estado o vencimiento,<br>**Para** identificar rápidamente productos que requieren atención. | EP-01 / EP-02 |
-| US 005 | Actualizar inventario | **Como** administrador de minimarket,<br>**Quiero** actualizar la información de los productos,<br>**Para** mantener el inventario correctamente registrado. | EP-01 |
-| US 006 | Registrar lote | **Como** administrador de minimarket,<br>**Quiero** registrar lotes de productos,<br>**Para** mantener la trazabilidad de los productos almacenados. | EP-02 |
-| US 007 | Consultar lotes | **Como** administrador de minimarket,<br>**Quiero** consultar los lotes registrados,<br>**Para** conocer el origen y estado de los productos. | EP-02 |
-| US 008 | Controlar fechas de vencimiento | **Como** administrador de minimarket,<br>**Quiero** visualizar las fechas de vencimiento de los productos,<br>**Para** identificar productos próximos a vencer. | EP-02 |
-| US 009 | Generar alertas de vencimiento | **Como** administrador de minimarket,<br>**Quiero** recibir alertas sobre productos próximos a vencer,<br>**Para** tomar acciones antes de que se generen pérdidas. | EP-02 |
-| US 010 | Consultar condiciones de conservación | **Como** administrador de minimarket,<br>**Quiero** consultar las condiciones de conservación de los productos,<br>**Para** identificar posibles riesgos de deterioro. | EP-03 |
-| US 011 | Monitorear temperatura y humedad | **Como** administrador de minimarket,<br>**Quiero** visualizar registros de temperatura y humedad,<br>**Para** conocer las condiciones de almacenamiento de los productos. | EP-03 |
-| US 012 | Generar alertas de conservación | **Como** administrador de minimarket,<br>**Quiero** recibir alertas cuando las condiciones de conservación sean inadecuadas,<br>**Para** reaccionar oportunamente ante posibles riesgos de deterioro. | EP-03 |
-| US 013 | Registrar merma | **Como** administrador de minimarket,<br>**Quiero** registrar productos que hayan sufrido merma,<br>**Para** mantener un historial de pérdidas de inventario. | EP-01 / EP-07 |
-| US 014 | Registrar oferta de productos | **Como** administrador de minimarket,<br>**Quiero** registrar productos disponibles como oferta,<br>**Para** promocionar productos con stock disponible y mantener trazabilidad sobre su salida comercial del inventario. | EP-01 / EP-07 |
-| US 015 | Consultar productos de proveedores | **Como** administrador de minimarket,<br>**Quiero** consultar los productos ofrecidos por los proveedores,<br>**Para** identificar opciones disponibles para abastecer el minimarket. | EP-05 |
-| US 016 | Registrar productos ofrecidos | **Como** proveedor de productos orgánicos,<br>**Quiero** registrar los productos que ofrezco,<br>**Para** ponerlos a disposición de los minimarkets. | EP-05 |
-| US 017 | Consultar productos ofrecidos | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar los productos que tengo registrados,<br>**Para** mantener control sobre mi oferta dentro de la plataforma. | EP-05 |
-| US 018 | Registrar necesidad de reposición | **Como** administrador de minimarket,<br>**Quiero** registrar los productos y cantidades que necesito reponer,<br>**Para** orientar mis decisiones de abastecimiento sin crear un pedido en nombre del proveedor. | EP-04 |
-| US 019 | Consultar pedidos de abastecimiento | **Como** administrador de minimarket o proveedor autorizado,<br>**Quiero** consultar los pedidos relacionados con mi negocio,<br>**Para** conocer sus productos, cantidades y estado actual. | EP-04 |
-| US 020 | Consultar necesidades de reposición | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar las necesidades de reposición compartidas por los minimarkets a los que atiendo,<br>**Para** preparar propuestas acordes con mi disponibilidad. | EP-04 |
-| US 021 | Crear pedido de abastecimiento | **Como** proveedor de productos orgánicos,<br>**Quiero** crear un pedido dirigido a un minimarket con productos y cantidades disponibles,<br>**Para** proponer una operación de abastecimiento verificable. | EP-04 |
-| US 022 | Consultar estado de pedido | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar el estado de los pedidos que generé,<br>**Para** conocer la decisión del administrador. | EP-04 |
-| US 023 | Aceptar pedido | **Como** administrador de minimarket,<br>**Quiero** aceptar un pedido dirigido a mi negocio después de verificar sus productos y cantidades,<br>**Para** incorporar únicamente los productos aprobados al inventario. | EP-01 / EP-04 |
-| US 024 | Rechazar pedido | **Como** administrador de minimarket,<br>**Quiero** rechazar un pedido dirigido a mi negocio,<br>**Para** evitar incorporar productos no aprobados al inventario. | EP-04 |
-| US 025 | Consultar historial de abastecimiento | **Como** administrador de minimarket o proveedor autorizado,<br>**Quiero** consultar el historial de pedidos y decisiones de mi negocio,<br>**Para** mantener trazabilidad de las operaciones. | EP-04 / EP-07 |
-| US 026 | Registrar usuario | **Como** usuario administrador autorizado,<br>**Quiero** registrar usuarios en el sistema,<br>**Para** permitir el acceso controlado a OrganiK. | EP-06 |
-| US 027 | Inicio de sesión | **Como** usuario,<br>**Quiero** iniciar sesión,<br>**Para** acceder al dashboard de OrganiK según mis permisos. | EP-06 |
-| US 028 | Gestionar permisos por rol | **Como** usuario administrador autorizado,<br>**Quiero** gestionar los permisos asociados a los roles,<br>**Para** controlar las acciones que cada segmento puede realizar. | EP-06 |
-| US 029 | Controlar acceso según operación | **Como** administrador de minimarket o proveedor,<br>**Quiero** que las acciones disponibles en pedidos e inventario dependan de mi rol y negocio,<br>**Para** evitar modificaciones no autorizadas. | EP-01 / EP-04 / EP-06 |
-| US 030 | Dashboard por segmento | **Como** administrador de minimarket o proveedor,<br>**Quiero** visualizar un dashboard con información de las tareas de mi segmento,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
-| US00 | Conocer OrganiK en la landing page | **Como** administrador de minimarket o proveedor que visita la página pública,<br>**Quiero** conocer la propuesta de OrganiK y disponer de un medio de contacto,<br>**Para** evaluar si responde a mis necesidades de inventario o abastecimiento. | EP-08 |
+Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio. Cada escenario Given-When-Then requiere un usuario autenticado del negocio indicado, salvo US 027.
 
-**Criterios de aceptación de User Stories (escenarios Given-When-Then):** Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio. Cada escenario requiere un usuario autenticado del negocio indicado, salvo US 027.
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| US 001 | Registrar producto en inventario | **Como** administrador de minimarket,<br>**Quiero** registrar productos en el inventario,<br>**Para** mantener actualizada la información de los productos disponibles. | Dado un administrador autorizado y un producto con datos obligatorios válidos, cuando registra el producto y su cantidad inicial, entonces aparece una sola vez en el inventario de su minimarket; con datos obligatorios ausentes no se guarda. | EP-01 |
+| US 002 | Visualizar inventario | **Como** administrador de minimarket,<br>**Quiero** visualizar los productos registrados,<br>**Para** conocer el estado actual de mi inventario. | Dado un minimarket con productos registrados, cuando su administrador abre inventario, entonces ve producto, cantidad, lote y vencimiento cuando apliquen; no ve existencias de otro negocio. | EP-01 |
+| US 003 | Buscar productos en inventario | **Como** administrador de minimarket,<br>**Quiero** buscar productos dentro del inventario,<br>**Para** encontrarlos rápidamente. | Dado un inventario con productos, cuando el administrador busca por nombre o código, entonces se muestran solo coincidencias de su negocio; una búsqueda sin coincidencias informa que no hay resultados. | EP-01 |
+| US 004 | Filtrar inventario | **Como** administrador de minimarket,<br>**Quiero** filtrar productos por categoría, estado o vencimiento,<br>**Para** identificar rápidamente productos que requieren atención. | Dado un inventario con categorías, estados y vencimientos, cuando el administrador aplica filtros, entonces el listado cumple todos los filtros activos y permite restablecerlos. | EP-01 / EP-02 |
+| US 005 | Actualizar inventario | **Como** administrador de minimarket,<br>**Quiero** actualizar la información de los productos,<br>**Para** mantener el inventario correctamente registrado. | Dado un producto propio, cuando el administrador modifica un campo editable con valor válido, entonces se guarda el cambio y queda registrado; un proveedor no puede alterar ese inventario. | EP-01 |
+| US 006 | Registrar lote | **Como** administrador de minimarket,<br>**Quiero** registrar lotes de productos,<br>**Para** mantener la trazabilidad de los productos almacenados. | Dado un producto del minimarket, cuando el administrador registra identificador de lote, cantidad y vencimiento válidos, entonces el lote queda asociado al producto; no se acepta una cantidad negativa. | EP-02 |
+| US 007 | Consultar lotes | **Como** administrador de minimarket,<br>**Quiero** consultar los lotes registrados,<br>**Para** conocer el origen y estado de los productos. | Dado un producto con lotes, cuando el administrador consulta su detalle, entonces ve identificador, cantidad y vencimiento de cada lote de su negocio. | EP-02 |
+| US 008 | Controlar fechas de vencimiento | **Como** administrador de minimarket,<br>**Quiero** visualizar las fechas de vencimiento de los productos,<br>**Para** identificar productos próximos a vencer. | Dado un lote con fecha registrada, cuando el administrador consulta vencimientos, entonces ve la fecha y su estado respecto a la fecha actual; los lotes sin fecha se señalan como datos incompletos. | EP-02 |
+| US 009 | Generar alertas de vencimiento | **Como** administrador de minimarket,<br>**Quiero** recibir alertas sobre productos próximos a vencer,<br>**Para** tomar acciones antes de que se generen pérdidas. | Dado un lote dentro del umbral configurable previo al vencimiento, cuando se evalúan alertas, entonces aparece una alerta vinculada al lote; fuera del umbral no aparece como próxima a vencer. | EP-02 |
+| US 010 | Consultar condiciones de conservación | **Como** administrador de minimarket,<br>**Quiero** consultar las condiciones de conservación de los productos,<br>**Para** identificar posibles riesgos de deterioro. | Dado un área con condiciones registradas, cuando el administrador abre su detalle, entonces ve temperatura, humedad, hora y área de la lectura; si no hay lecturas, se indica ausencia de datos. | EP-03 |
+| US 011 | Monitorear temperatura y humedad | **Como** administrador de minimarket,<br>**Quiero** visualizar registros de temperatura y humedad,<br>**Para** conocer las condiciones de almacenamiento de los productos. | Dadas lecturas simuladas o reales identificadas por origen, cuando el administrador consulta el monitoreo, entonces ve valores, unidades, marca temporal y origen sin confundir datos simulados con sensores físicos. | EP-03 |
+| US 012 | Generar alertas de conservación | **Como** administrador de minimarket,<br>**Quiero** recibir alertas cuando las condiciones de conservación sean inadecuadas,<br>**Para** reaccionar oportunamente ante posibles riesgos de deterioro. | Dado un umbral configurado y una lectura fuera de rango, cuando se procesa la lectura, entonces se genera una alerta con área, variable y momento; una lectura dentro de rango no genera esa alerta. | EP-03 |
+| US 013 | Registrar merma | **Como** administrador de minimarket,<br>**Quiero** registrar productos que hayan sufrido merma,<br>**Para** mantener un historial de pérdidas de inventario. | Dado un lote con existencias, cuando el administrador registra una merma válida no superior a la cantidad disponible, entonces disminuye el stock y queda causa y cantidad en el historial; una cantidad excesiva se rechaza. | EP-01 / EP-07 |
+| US 014 | Registrar oferta de productos | **Como** administrador de minimarket,<br>**Quiero** registrar productos disponibles como oferta,<br>**Para** promocionar productos con stock disponible y mantener trazabilidad sobre su salida comercial del inventario. | Dado un producto propio con stock, cuando el administrador registra una oferta con vigencia y cantidad válidas, entonces queda visible como oferta sin descontar automáticamente el stock; no se permite ofertar más unidades que las disponibles. | EP-01 / EP-07 |
+| US 015 | Consultar productos de proveedores | **Como** administrador de minimarket,<br>**Quiero** consultar los productos ofrecidos por los proveedores,<br>**Para** identificar opciones disponibles para abastecer el minimarket. | Dado un proveedor vinculado con productos disponibles, cuando el administrador consulta su catálogo, entonces ve producto, disponibilidad y fecha de actualización; no modifica la oferta del proveedor. | EP-05 |
+| US 016 | Registrar productos ofrecidos | **Como** proveedor de productos orgánicos,<br>**Quiero** registrar los productos que ofrezco,<br>**Para** ponerlos a disposición de los minimarkets. | Dado un proveedor autenticado, cuando registra producto, lote y disponibilidad válidos, entonces aparecen en su catálogo; no modifica el inventario de ningún minimarket. | EP-05 |
+| US 017 | Consultar productos ofrecidos | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar los productos que tengo registrados,<br>**Para** mantener control sobre mi oferta dentro de la plataforma. | Dado un catálogo propio, cuando el proveedor lo consulta, entonces ve sus productos, lotes y disponibilidad actual; no ve información privada de otro proveedor. | EP-05 |
+| US 018 | Registrar necesidad de reposición | **Como** administrador de minimarket,<br>**Quiero** registrar los productos y cantidades que necesito reponer,<br>**Para** orientar mis decisiones de abastecimiento sin crear un pedido en nombre del proveedor. | Dado stock bajo y un administrador autorizado, cuando registra producto y cantidad a reponer, entonces la necesidad queda asociada a su minimarket y no se crea ni acepta un pedido automáticamente. | EP-04 |
+| US 019 | Consultar pedidos de abastecimiento | **Como** administrador de minimarket o proveedor autorizado,<br>**Quiero** consultar los pedidos relacionados con mi negocio,<br>**Para** conocer sus productos, cantidades y estado actual. | Dado un pedido dirigido al minimarket o creado por el proveedor, cuando el usuario autorizado lo consulta, entonces ve productos, cantidades, estado y participantes; un tercero no puede verlo. | EP-04 |
+| US 020 | Consultar necesidades de reposición | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar las necesidades de reposición compartidas por los minimarkets a los que atiendo,<br>**Para** preparar propuestas acordes con mi disponibilidad. | Dada una necesidad compartida con un proveedor vinculado, cuando este la consulta, entonces ve producto y cantidad requerida; no puede editar la necesidad del minimarket. | EP-04 |
+| US 021 | Crear pedido de abastecimiento | **Como** proveedor de productos orgánicos,<br>**Quiero** crear un pedido dirigido a un minimarket con productos y cantidades disponibles,<br>**Para** proponer una operación de abastecimiento verificable. | Dado un proveedor vinculado y disponibilidad suficiente, cuando crea un pedido con productos, cantidades positivas y minimarket destinatario, entonces queda pendiente de decisión y no altera inventario; cantidades superiores a la disponibilidad se rechazan. | EP-04 |
+| US 022 | Consultar estado de pedido | **Como** proveedor de productos orgánicos,<br>**Quiero** consultar el estado de los pedidos que generé,<br>**Para** conocer la decisión del administrador. | Dado un pedido creado por el proveedor, cuando consulta su detalle, entonces ve si está pendiente, aceptado o rechazado y la fecha de la última decisión. | EP-04 |
+| US 023 | Aceptar pedido | **Como** administrador de minimarket,<br>**Quiero** aceptar un pedido dirigido a mi negocio después de verificar sus productos y cantidades,<br>**Para** incorporar únicamente los productos aprobados al inventario. | Dado un pedido pendiente dirigido al minimarket, cuando su administrador lo acepta, entonces queda aceptado con actor y fecha y se incorporan sus cantidades una sola vez al inventario; una segunda aceptación no duplica stock. | EP-01 / EP-04 |
+| US 024 | Rechazar pedido | **Como** administrador de minimarket,<br>**Quiero** rechazar un pedido dirigido a mi negocio,<br>**Para** evitar incorporar productos no aprobados al inventario. | Dado un pedido pendiente dirigido al minimarket, cuando su administrador lo rechaza, entonces queda rechazado con actor y fecha y el inventario no cambia; un pedido ya decidido no puede rechazarse de nuevo. | EP-04 |
+| US 025 | Consultar historial de abastecimiento | **Como** administrador de minimarket o proveedor autorizado,<br>**Quiero** consultar el historial de pedidos y decisiones de mi negocio,<br>**Para** mantener trazabilidad de las operaciones. | Dado un pedido del negocio, cuando un participante autorizado abre el historial, entonces ve creación, cambios de estado, decisión, actor y fecha en orden cronológico; no accede a operaciones ajenas. | EP-04 / EP-07 |
+| US 026 | Registrar usuario | **Como** usuario administrador autorizado,<br>**Quiero** registrar usuarios en el sistema,<br>**Para** permitir el acceso controlado a OrganiK. | Dado un administrador autorizado, cuando registra un usuario con identificador único y rol válido, entonces se crea en su negocio con ese rol; un identificador duplicado o rol no permitido se rechaza. | EP-06 |
+| US 027 | Inicio de sesión | **Como** usuario,<br>**Quiero** iniciar sesión,<br>**Para** acceder al dashboard de OrganiK según mis permisos. | Dadas credenciales válidas, cuando el usuario inicia sesión, entonces accede solo a su segmento y negocio; con credenciales inválidas no se crea sesión ni se revela qué dato falló. | EP-06 |
+| US 028 | Gestionar permisos por rol | **Como** usuario administrador autorizado,<br>**Quiero** gestionar los permisos asociados a los roles,<br>**Para** controlar las acciones que cada segmento puede realizar. | Dado un administrador autorizado, cuando asigna un rol permitido a un usuario de su negocio, entonces cambian sus permisos efectivos; no puede asignar permisos de otro negocio. | EP-06 |
+| US 029 | Controlar acceso según operación | **Como** administrador de minimarket o proveedor,<br>**Quiero** que las acciones disponibles en pedidos e inventario dependan de mi rol y negocio,<br>**Para** evitar modificaciones no autorizadas. | Dado un proveedor, cuando intenta aceptar pedidos o editar el inventario del minimarket, entonces se deniega la operación incluso por API; solo el administrador destinatario puede decidir sobre el pedido. | EP-01 / EP-04 / EP-06 |
+| US 030 | Dashboard por segmento | **Como** administrador de minimarket o proveedor,<br>**Quiero** visualizar un dashboard con información de las tareas de mi segmento,<br>**Para** consultar rápidamente el estado de mis operaciones. | Dado un usuario autenticado, cuando abre su dashboard, entonces ve solo indicadores y accesos de su segmento y negocio; el administrador ve riesgos e inventario y el proveedor ve catálogo y pedidos. | EP-07 |
+| US00 | Conocer OrganiK en la landing page | **Como** administrador de minimarket o proveedor que visita la página pública,<br>**Quiero** conocer la propuesta de OrganiK y disponer de un medio de contacto,<br>**Para** evaluar si responde a mis necesidades de inventario o abastecimiento. | Dado un visitante sin sesión, cuando abre la landing page, entonces puede leer la propuesta para ambos segmentos, navegar sus secciones y acceder al medio de contacto sin iniciar sesión; la página no presenta los módulos futuros como ya operativos. | EP-08 |
 
-| US ID | Criterio de aceptación verificable |
-|---|---|
-| US 001 | Dado un administrador autorizado y un producto con datos obligatorios válidos, cuando registra el producto y su cantidad inicial, entonces aparece una sola vez en el inventario de su minimarket; con datos obligatorios ausentes no se guarda. |
-| US 002 | Dado un minimarket con productos registrados, cuando su administrador abre inventario, entonces ve producto, cantidad, lote y vencimiento cuando apliquen; no ve existencias de otro negocio. |
-| US 003 | Dado un inventario con productos, cuando el administrador busca por nombre o código, entonces se muestran solo coincidencias de su negocio; una búsqueda sin coincidencias informa que no hay resultados. |
-| US 004 | Dado un inventario con categorías, estados y vencimientos, cuando el administrador aplica filtros, entonces el listado cumple todos los filtros activos y permite restablecerlos. |
-| US 005 | Dado un producto propio, cuando el administrador modifica un campo editable con valor válido, entonces se guarda el cambio y queda registrado; un proveedor no puede alterar ese inventario. |
-| US 006 | Dado un producto del minimarket, cuando el administrador registra identificador de lote, cantidad y vencimiento válidos, entonces el lote queda asociado al producto; no se acepta una cantidad negativa. |
-| US 007 | Dado un producto con lotes, cuando el administrador consulta su detalle, entonces ve identificador, cantidad y vencimiento de cada lote de su negocio. |
-| US 008 | Dado un lote con fecha registrada, cuando el administrador consulta vencimientos, entonces ve la fecha y su estado respecto a la fecha actual; los lotes sin fecha se señalan como datos incompletos. |
-| US 009 | Dado un lote dentro del umbral configurable previo al vencimiento, cuando se evalúan alertas, entonces aparece una alerta vinculada al lote; fuera del umbral no aparece como próxima a vencer. |
-| US 010 | Dado un área con condiciones registradas, cuando el administrador abre su detalle, entonces ve temperatura, humedad, hora y área de la lectura; si no hay lecturas, se indica ausencia de datos. |
-| US 011 | Dadas lecturas simuladas o reales identificadas por origen, cuando el administrador consulta el monitoreo, entonces ve valores, unidades, marca temporal y origen sin confundir datos simulados con sensores físicos. |
-| US 012 | Dado un umbral configurado y una lectura fuera de rango, cuando se procesa la lectura, entonces se genera una alerta con área, variable y momento; una lectura dentro de rango no genera esa alerta. |
-| US 013 | Dado un lote con existencias, cuando el administrador registra una merma válida no superior a la cantidad disponible, entonces disminuye el stock y queda causa y cantidad en el historial; una cantidad excesiva se rechaza. |
-| US 014 | Dado un producto propio con stock, cuando el administrador registra una oferta con vigencia y cantidad válidas, entonces queda visible como oferta sin descontar automáticamente el stock; no se permite ofertar más unidades que las disponibles. |
-| US 015 | Dado un proveedor vinculado con productos disponibles, cuando el administrador consulta su catálogo, entonces ve producto, disponibilidad y fecha de actualización; no modifica la oferta del proveedor. |
-| US 016 | Dado un proveedor autenticado, cuando registra producto, lote y disponibilidad válidos, entonces aparecen en su catálogo; no modifica el inventario de ningún minimarket. |
-| US 017 | Dado un catálogo propio, cuando el proveedor lo consulta, entonces ve sus productos, lotes y disponibilidad actual; no ve información privada de otro proveedor. |
-| US 018 | Dado stock bajo y un administrador autorizado, cuando registra producto y cantidad a reponer, entonces la necesidad queda asociada a su minimarket y no se crea ni acepta un pedido automáticamente. |
-| US 019 | Dado un pedido dirigido al minimarket o creado por el proveedor, cuando el usuario autorizado lo consulta, entonces ve productos, cantidades, estado y participantes; un tercero no puede verlo. |
-| US 020 | Dada una necesidad compartida con un proveedor vinculado, cuando este la consulta, entonces ve producto y cantidad requerida; no puede editar la necesidad del minimarket. |
-| US 021 | Dado un proveedor vinculado y disponibilidad suficiente, cuando crea un pedido con productos, cantidades positivas y minimarket destinatario, entonces queda pendiente de decisión y no altera inventario; cantidades superiores a la disponibilidad se rechazan. |
-| US 022 | Dado un pedido creado por el proveedor, cuando consulta su detalle, entonces ve si está pendiente, aceptado o rechazado y la fecha de la última decisión. |
-| US 023 | Dado un pedido pendiente dirigido al minimarket, cuando su administrador lo acepta, entonces queda aceptado con actor y fecha y se incorporan sus cantidades una sola vez al inventario; una segunda aceptación no duplica stock. |
-| US 024 | Dado un pedido pendiente dirigido al minimarket, cuando su administrador lo rechaza, entonces queda rechazado con actor y fecha y el inventario no cambia; un pedido ya decidido no puede rechazarse de nuevo. |
-| US 025 | Dado un pedido del negocio, cuando un participante autorizado abre el historial, entonces ve creación, cambios de estado, decisión, actor y fecha en orden cronológico; no accede a operaciones ajenas. |
-| US 026 | Dado un administrador autorizado, cuando registra un usuario con identificador único y rol válido, entonces se crea en su negocio con ese rol; un identificador duplicado o rol no permitido se rechaza. |
-| US 027 | Dadas credenciales válidas, cuando el usuario inicia sesión, entonces accede solo a su segmento y negocio; con credenciales inválidas no se crea sesión ni se revela qué dato falló. |
-| US 028 | Dado un administrador autorizado, cuando asigna un rol permitido a un usuario de su negocio, entonces cambian sus permisos efectivos; no puede asignar permisos de otro negocio. |
-| US 029 | Dado un proveedor, cuando intenta aceptar pedidos o editar el inventario del minimarket, entonces se deniega la operación incluso por API; solo el administrador destinatario puede decidir sobre el pedido. |
-| US 030 | Dado un usuario autenticado, cuando abre su dashboard, entonces ve solo indicadores y accesos de su segmento y negocio; el administrador ve riesgos e inventario y el proveedor ve catálogo y pedidos. |
-| US00 | Dado un visitante sin sesión, cuando abre la landing page, entonces puede leer la propuesta para ambos segmentos, navegar sus secciones y acceder al medio de contacto sin iniciar sesión; la página no presenta los módulos futuros como ya operativos. |
 
 **Trazabilidad del alcance:** Las personas son compuestas a partir de las entrevistas del capítulo II. Los recorridos As-Is de administrador (inventario, conservación y reposición) y proveedor (oferta y pedidos) sustentan los grupos de historias; H1-H7 son las hipótesis del Canvas, no beneficios demostrados.
 
@@ -1502,74 +1385,45 @@ Las historias del producto se derivan de las entrevistas y personas compuestas d
 
 ### Technical Stories
 
-| TS ID | Título | Descripción | Relacionado con (EPIC ID) |
-|---|---|---|---|
-| TS-IAM-001 | Sign-in API | **Como** frontend developer, **Quiero** autenticar usuarios mediante una API de inicio de sesión, **Para** obtener las credenciales de sesión y permisos correspondientes. | EP-06 |
-| TS-IAM-002 | Sign-up API | **Como** frontend developer, **Quiero** registrar usuarios mediante una API, **Para** habilitar el acceso controlado a OrganiK. | EP-06 |
-| TS-IAM-003 | Users directory API | **Como** frontend developer, **Quiero** consultar y registrar usuarios mediante la API, **Para** administrar los usuarios autorizados de OrganiK. | EP-06 |
-| TS-IAM-004 | User detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar usuarios mediante la API, **Para** mantener sus roles o estados actualizados. | EP-06 |
-| TS-PROF-001 | Profile read and update API | **Como** frontend developer, **Quiero** consultar y actualizar el perfil del usuario o negocio, **Para** mostrar información actualizada dentro de OrganiK. | EP-06 |
-| TS-PROD-001 | Products catalog API | **Como** frontend developer, **Quiero** consultar y registrar productos mediante la API, **Para** alimentar el inventario y catálogo de productos ofrecidos. | EP-01 / EP-05 |
-| TS-PROD-002 | Product detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar productos, **Para** mantener la información actualizada. | EP-01 / EP-05 |
-| TS-INV-001 | Inventory list and create API | **Como** frontend developer, **Quiero** consultar y registrar elementos del inventario, **Para** mantener actualizado el stock del minimarket. | EP-01 |
-| TS-INV-002 | Inventory update API | **Como** frontend developer, **Quiero** actualizar los registros de inventario, **Para** reflejar cambios en las cantidades y datos de los productos. | EP-01 / EP-06 |
-| TS-INV-003 | Inventory search and filter API | **Como** frontend developer, **Quiero** consultar el inventario utilizando filtros, **Para** implementar búsquedas por producto, categoría, estado o vencimiento. | EP-01 / EP-02 |
-| TS-LOT-001 | Lots API | **Como** frontend developer, **Quiero** consultar y registrar lotes, **Para** implementar la trazabilidad de los productos. | EP-02 |
-| TS-LOT-002 | Lot detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar información de lotes, **Para** mantener actualizada la trazabilidad. | EP-02 |
-| TS-EXP-001 | Expiration tracking API | **Como** frontend developer, **Quiero** consultar productos y lotes próximos a vencer, **Para** alimentar las alertas de vencimiento. | EP-02 |
-| TS-CON-001 | Conservation monitoring API | **Como** frontend developer, **Quiero** consultar registros de temperatura y humedad, **Para** mostrar las condiciones de conservación. | EP-03 |
-| TS-CON-002 | Conservation alerts API | **Como** frontend developer, **Quiero** consultar las alertas generadas por condiciones de conservación, **Para** mostrarlas al administrador. | EP-03 |
-| TS-SUP-001 | Supplier directory API | **Como** frontend developer, **Quiero** consultar y registrar proveedores, **Para** mantener disponible la información necesaria para el abastecimiento. | EP-05 |
-| TS-SUP-002 | Supplier products API | **Como** frontend developer, **Quiero** consultar los productos ofrecidos por cada proveedor, **Para** mostrar el catálogo disponible para los minimarkets. | EP-05 |
-| TS-ORD-001 | Replenishment needs API | **Como** frontend developer, **Quiero** consultar y registrar necesidades de reposición mediante la API, **Para** mostrar al proveedor las cantidades solicitadas sin crear pedidos en su nombre. | EP-04 |
-| TS-ORD-002 | Supplier orders API | **Como** frontend developer, **Quiero** crear y consultar pedidos dirigidos por proveedores a minimarkets, **Para** registrar productos, cantidades y estado de cada propuesta. | EP-04 |
-| TS-ORD-003 | Order decision API | **Como** frontend developer, **Quiero** aceptar o rechazar pedidos mediante la API con autorización del administrador, **Para** registrar su decisión y actualizar inventario solo cuando corresponda. | EP-01 / EP-04 / EP-06 |
-| TS-ORD-004 | Order history API | **Como** frontend developer, **Quiero** consultar el historial de estados y decisiones de pedidos, **Para** mostrar la trazabilidad a ambos segmentos sin exponer datos de otros negocios. | EP-04 / EP-07 |
-| TS-MER-001 | Waste and offer API | **Como** frontend developer, **Quiero** registrar mermas y ofertas de productos, **Para** mantener trazabilidad sobre las operaciones que afectan el inventario. | EP-01 / EP-07 |
-| TS-DASH-001 | Dashboard API | **Como** frontend developer, **Quiero** consultar indicadores correspondientes al segmento y negocio autenticados, **Para** alimentar dashboards diferenciados. | EP-07 |
-| TS-DASH-002 | Alerts and notifications API | **Como** frontend developer, **Quiero** consultar las alertas y notificaciones del usuario, **Para** informar oportunamente sobre eventos relevantes. | EP-03 / EP-07 |
-| TS-AUD-001 | Activity history API | **Como** frontend developer, **Quiero** consultar el historial de operaciones, **Para** mantener trazabilidad de las acciones realizadas en OrganiK. | EP-06 / EP-07 |
+Los contratos REST son propuestos para sprints posteriores. En todos los endpoints privados, una petición sin sesión válida debe rechazarse y una petición a datos de otro negocio debe denegarse. Las respuestas correctas deben devolver datos del negocio autorizado sin filtrar información ajena.
 
-**Relación y criterios de aceptación de Technical Stories:** Los contratos REST son propuestos para sprints posteriores. En todos los endpoints privados, una petición sin sesión válida debe rechazarse y una petición a datos de otro negocio debe denegarse. Las respuestas correctas deben devolver datos del negocio autorizado sin filtrar información ajena.
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| TS-IAM-001 | Sign-in API | **Como** frontend developer, **Quiero** autenticar usuarios mediante una API de inicio de sesión, **Para** obtener las credenciales de sesión y permisos correspondientes.<br>**US vinculadas:** US 027, 029. | Credenciales válidas crean sesión con rol y negocio; credenciales inválidas no crean sesión. | EP-06 |
+| TS-IAM-002 | Sign-up API | **Como** frontend developer, **Quiero** registrar usuarios mediante una API, **Para** habilitar el acceso controlado a OrganiK.<br>**US vinculadas:** US 026. | Registro válido crea usuario único con rol permitido; duplicados son rechazados. | EP-06 |
+| TS-IAM-003 | Users directory API | **Como** frontend developer, **Quiero** consultar y registrar usuarios mediante la API, **Para** administrar los usuarios autorizados de OrganiK.<br>**US vinculadas:** US 026, 028. | Listado y creación muestran solo usuarios del negocio autorizado. | EP-06 |
+| TS-IAM-004 | User detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar usuarios mediante la API, **Para** mantener sus roles o estados actualizados.<br>**US vinculadas:** US 026, 028. | Consulta y cambio de rol o estado persisten solo para usuarios del mismo negocio. | EP-06 |
+| TS-PROF-001 | Profile read and update API | **Como** frontend developer, **Quiero** consultar y actualizar el perfil del usuario o negocio, **Para** mostrar información actualizada dentro de OrganiK.<br>**US vinculadas:** US 027, 030. | Consulta devuelve perfil propio; actualización ajena se deniega. | EP-06 |
+| TS-PROD-001 | Products catalog API | **Como** frontend developer, **Quiero** consultar y registrar productos mediante la API, **Para** alimentar el inventario y catálogo de productos ofrecidos.<br>**US vinculadas:** US 001, 016. | Creación distingue catálogo de proveedor e inventario de minimarket según rol. | EP-01 / EP-05 |
+| TS-PROD-002 | Product detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar productos, **Para** mantener la información actualizada.<br>**US vinculadas:** US 005, 017. | Consulta y actualización conservan propietario; un proveedor no altera productos ajenos. | EP-01 / EP-05 |
+| TS-INV-001 | Inventory list and create API | **Como** frontend developer, **Quiero** consultar y registrar elementos del inventario, **Para** mantener actualizado el stock del minimarket.<br>**US vinculadas:** US 001, 002. | Alta y listado devuelven cantidad y producto del minimarket autenticado. | EP-01 |
+| TS-INV-002 | Inventory update API | **Como** frontend developer, **Quiero** actualizar los registros de inventario, **Para** reflejar cambios en las cantidades y datos de los productos.<br>**US vinculadas:** US 005, 023, 029. | Cambio directo requiere administrador; aceptación repetida del pedido no duplica cantidad. | EP-01 / EP-06 |
+| TS-INV-003 | Inventory search and filter API | **Como** frontend developer, **Quiero** consultar el inventario utilizando filtros, **Para** implementar búsquedas por producto, categoría, estado o vencimiento.<br>**US vinculadas:** US 003, 004. | Búsqueda y filtros combinados devuelven solo coincidencias del minimarket. | EP-01 / EP-02 |
+| TS-LOT-001 | Lots API | **Como** frontend developer, **Quiero** consultar y registrar lotes, **Para** implementar la trazabilidad de los productos.<br>**US vinculadas:** US 006, 007. | Alta de lote exige producto, identificador y cantidad válidos; listado conserva asociación. | EP-02 |
+| TS-LOT-002 | Lot detail and update API | **Como** frontend developer, **Quiero** consultar y actualizar información de lotes, **Para** mantener actualizada la trazabilidad.<br>**US vinculadas:** US 007, 008. | Detalle y actualización conservan lote, vencimiento y negocio asociado. | EP-02 |
+| TS-EXP-001 | Expiration tracking API | **Como** frontend developer, **Quiero** consultar productos y lotes próximos a vencer, **Para** alimentar las alertas de vencimiento.<br>**US vinculadas:** US 008, 009. | Consulta clasifica lotes según fecha y umbral configurable, sin alertar fuera del umbral. | EP-02 |
+| TS-CON-001 | Conservation monitoring API | **Como** frontend developer, **Quiero** consultar registros de temperatura y humedad, **Para** mostrar las condiciones de conservación.<br>**US vinculadas:** US 010, 011. | Lectura devuelve valor, unidad, momento, área y origen simulado o real. | EP-03 |
+| TS-CON-002 | Conservation alerts API | **Como** frontend developer, **Quiero** consultar las alertas generadas por condiciones de conservación, **Para** mostrarlas al administrador.<br>**US vinculadas:** US 012. | Fuera de umbral se expone alerta vinculada a lectura y área; dentro de umbral no. | EP-03 |
+| TS-SUP-001 | Supplier directory API | **Como** frontend developer, **Quiero** consultar y registrar proveedores, **Para** mantener disponible la información necesaria para el abastecimiento.<br>**US vinculadas:** US 015-017. | Directorio muestra proveedores vinculados; otro negocio no edita sus datos. | EP-05 |
+| TS-SUP-002 | Supplier products API | **Como** frontend developer, **Quiero** consultar los productos ofrecidos por cada proveedor, **Para** mostrar el catálogo disponible para los minimarkets.<br>**US vinculadas:** US 015-017. | Catálogo devuelve producto, lote, disponibilidad y fecha de actualización del proveedor. | EP-05 |
+| TS-ORD-001 | Replenishment needs API | **Como** frontend developer, **Quiero** consultar y registrar necesidades de reposición mediante la API, **Para** mostrar al proveedor las cantidades solicitadas sin crear pedidos en su nombre.<br>**US vinculadas:** US 018, 020. | Alta de necesidad no crea pedido; lectura del proveedor exige vínculo con minimarket. | EP-04 |
+| TS-ORD-002 | Supplier orders API | **Como** frontend developer, **Quiero** crear y consultar pedidos dirigidos por proveedores a minimarkets, **Para** registrar productos, cantidades y estado de cada propuesta.<br>**US vinculadas:** US 019, 021, 022. | Solo proveedor vinculado crea pedido pendiente con cantidades válidas; la creación no modifica stock. | EP-04 |
+| TS-ORD-003 | Order decision API | **Como** frontend developer, **Quiero** aceptar o rechazar pedidos mediante la API con autorización del administrador, **Para** registrar su decisión y actualizar inventario solo cuando corresponda.<br>**US vinculadas:** US 023, 024, 029. | Solo administrador destinatario decide pedido pendiente; aceptación incrementa stock una vez y rechazo no lo modifica. | EP-01 / EP-04 / EP-06 |
+| TS-ORD-004 | Order history API | **Como** frontend developer, **Quiero** consultar el historial de estados y decisiones de pedidos, **Para** mostrar la trazabilidad a ambos segmentos sin exponer datos de otros negocios.<br>**US vinculadas:** US 019, 022, 025. | Historial devuelve eventos con actor, estado y fecha solo a participantes autorizados. | EP-04 / EP-07 |
+| TS-MER-001 | Waste and offer API | **Como** frontend developer, **Quiero** registrar mermas y ofertas de productos, **Para** mantener trazabilidad sobre las operaciones que afectan el inventario.<br>**US vinculadas:** US 013, 014. | Merma válida descuenta stock; oferta válida se registra sin descuento automático. | EP-01 / EP-07 |
+| TS-DASH-001 | Dashboard API | **Como** frontend developer, **Quiero** consultar indicadores correspondientes al segmento y negocio autenticados, **Para** alimentar dashboards diferenciados.<br>**US vinculadas:** US 030. | Respuesta separa indicadores por segmento y negocio. | EP-07 |
+| TS-DASH-002 | Alerts and notifications API | **Como** frontend developer, **Quiero** consultar las alertas y notificaciones del usuario, **Para** informar oportunamente sobre eventos relevantes.<br>**US vinculadas:** US 009, 012. | Notificaciones incluyen tipo, origen y estado; no incluyen alertas de otro negocio. | EP-03 / EP-07 |
+| TS-AUD-001 | Activity history API | **Como** frontend developer, **Quiero** consultar el historial de operaciones, **Para** mantener trazabilidad de las acciones realizadas en OrganiK.<br>**US vinculadas:** US 025, 028, 029. | Historial conserva actor, acción y fecha y se consulta solo con permiso. | EP-06 / EP-07 |
 
-| TS ID | US vinculadas | Criterio de aceptación técnico |
-|---|---|---|
-| TS-IAM-001 | US 027, 029 | Credenciales válidas crean sesión con rol y negocio; credenciales inválidas no crean sesión. |
-| TS-IAM-002 | US 026 | Registro válido crea usuario único con rol permitido; duplicados son rechazados. |
-| TS-IAM-003 | US 026, 028 | Listado y creación muestran solo usuarios del negocio autorizado. |
-| TS-IAM-004 | US 026, 028 | Consulta y cambio de rol o estado persisten solo para usuarios del mismo negocio. |
-| TS-PROF-001 | US 027, 030 | Consulta devuelve perfil propio; actualización ajena se deniega. |
-| TS-PROD-001 | US 001, 016 | Creación distingue catálogo de proveedor e inventario de minimarket según rol. |
-| TS-PROD-002 | US 005, 017 | Consulta y actualización conservan propietario; un proveedor no altera productos ajenos. |
-| TS-INV-001 | US 001, 002 | Alta y listado devuelven cantidad y producto del minimarket autenticado. |
-| TS-INV-002 | US 005, 023, 029 | Cambio directo requiere administrador; aceptación repetida del pedido no duplica cantidad. |
-| TS-INV-003 | US 003, 004 | Búsqueda y filtros combinados devuelven solo coincidencias del minimarket. |
-| TS-LOT-001 | US 006, 007 | Alta de lote exige producto, identificador y cantidad válidos; listado conserva asociación. |
-| TS-LOT-002 | US 007, 008 | Detalle y actualización conservan lote, vencimiento y negocio asociado. |
-| TS-EXP-001 | US 008, 009 | Consulta clasifica lotes según fecha y umbral configurable, sin alertar fuera del umbral. |
-| TS-CON-001 | US 010, 011 | Lectura devuelve valor, unidad, momento, área y origen simulado o real. |
-| TS-CON-002 | US 012 | Fuera de umbral se expone alerta vinculada a lectura y área; dentro de umbral no. |
-| TS-SUP-001 | US 015-017 | Directorio muestra proveedores vinculados; otro negocio no edita sus datos. |
-| TS-SUP-002 | US 015-017 | Catálogo devuelve producto, lote, disponibilidad y fecha de actualización del proveedor. |
-| TS-ORD-001 | US 018, 020 | Alta de necesidad no crea pedido; lectura del proveedor exige vínculo con minimarket. |
-| TS-ORD-002 | US 019, 021, 022 | Solo proveedor vinculado crea pedido pendiente con cantidades válidas; la creación no modifica stock. |
-| TS-ORD-003 | US 023, 024, 029 | Solo administrador destinatario decide pedido pendiente; aceptación incrementa stock una vez y rechazo no lo modifica. |
-| TS-ORD-004 | US 019, 022, 025 | Historial devuelve eventos con actor, estado y fecha solo a participantes autorizados. |
-| TS-MER-001 | US 013, 014 | Merma válida descuenta stock; oferta válida se registra sin descuento automático. |
-| TS-DASH-001 | US 030 | Respuesta separa indicadores por segmento y negocio. |
-| TS-DASH-002 | US 009, 012 | Notificaciones incluyen tipo, origen y estado; no incluyen alertas de otro negocio. |
-| TS-AUD-001 | US 025, 028, 029 | Historial conserva actor, acción y fecha y se consulta solo con permiso. |
 
 Las historias de implementación del Product Backlog también tienen una condición de cierre: **IMP-BE-001** exige que el servicio arranque, responda a health check y publique documentación de API sin exponer secretos; **IMP-BE-002** exige migraciones reproducibles y datos iniciales de prueba aislados por negocio; **IMP-BE-003** exige pruebas de autorización y de transición pendiente-aceptado/rechazado, incluida la aceptación repetida sin duplicar stock. Se vinculan respectivamente con TS-IAM-001/TS-DASH-001, TS-INV-001/TS-PROD-001 y TS-ORD-002/TS-ORD-003.
 
 #### Functional Stories
 
-| FS ID | Título | Descripción | Relacionado con (EPIC ID) |
-|---|---|---|---|
-| FS-001 | Permisos de creación de pedidos | **Como** sistema, **Quiero** permitir la creación de pedidos únicamente a proveedores autorizados, **Para** impedir que otros roles propongan abastecimiento en su nombre. | EP-04 / EP-06 |
-| FS-002 | Permisos de decisión e inventario | **Como** sistema, **Quiero** reservar la aceptación o rechazo al administrador destinatario, **Para** actualizar inventario solo tras su aceptación y conservar el estado anterior si rechaza. | EP-01 / EP-04 / EP-06 |
-
-**Criterios de aceptación de Functional Stories:** FS-001 se cumple si solo un proveedor vinculado puede crear un pedido pendiente para el minimarket destinatario y ningún usuario puede crear pedidos en nombre de otro proveedor. FS-002 se cumple si únicamente el administrador destinatario decide un pedido pendiente; aceptar registra la decisión y añade cantidades al inventario una sola vez, mientras rechazar registra la decisión sin alterar existencias.
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| FS-001 | Permisos de creación de pedidos | **Como** sistema, **Quiero** permitir la creación de pedidos únicamente a proveedores autorizados, **Para** impedir que otros roles propongan abastecimiento en su nombre. | Solo un proveedor vinculado puede crear un pedido pendiente para el minimarket destinatario; ningún usuario puede crear pedidos en nombre de otro proveedor. | EP-04 / EP-06 |
+| FS-002 | Permisos de decisión e inventario | **Como** sistema, **Quiero** reservar la aceptación o rechazo al administrador destinatario, **Para** actualizar inventario solo tras su aceptación y conservar el estado anterior si rechaza. | Únicamente el administrador destinatario decide un pedido pendiente; aceptar registra la decisión y añade cantidades al inventario una sola vez, mientras rechazar registra la decisión sin alterar existencias. | EP-01 / EP-04 / EP-06 |
 
 
 #### Flujo principal de abastecimiento
