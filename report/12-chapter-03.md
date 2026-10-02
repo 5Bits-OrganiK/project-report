@@ -22,7 +22,7 @@
 
 ## 3.1. User Stories.
 
-Las historias describen el **producto propuesto**, no funcionalidades implementadas en AV1. En Sprint 1 se implementó solo la landing page. La fuente de necesidades son las entrevistas y personas compuestas del capítulo II; H1-H7 remiten al Lean UX Canvas del capítulo I. El flujo de abastecimiento vigente es **proveedor crea pedido -> administrador acepta o rechaza -> solo la aceptación actualiza el inventario**. No se especifica una orden de envío separada en este alcance.
+Las historias del producto se derivan de las entrevistas y personas compuestas del capítulo II; H1-H7 remiten al Lean UX Canvas del capítulo I. El flujo de abastecimiento es **proveedor crea pedido -> administrador acepta o rechaza -> solo la aceptación actualiza el inventario**.
 
 ### Epics
 
@@ -73,7 +73,7 @@ Las historias describen el **producto propuesto**, no funcionalidades implementa
 | US 030 | Dashboard por segmento | **Como** administrador de minimarket o proveedor,<br>**Quiero** visualizar un dashboard con información de las tareas de mi segmento,<br>**Para** consultar rápidamente el estado de mis operaciones. | EP-07 |
 | US00 | Conocer OrganiK en la landing page | **Como** administrador de minimarket o proveedor que visita la página pública,<br>**Quiero** conocer la propuesta de OrganiK y disponer de un medio de contacto,<br>**Para** evaluar si responde a mis necesidades de inventario o abastecimiento. | EP-08 |
 
-**Criterios de aceptación de User Stories (escenarios Given-When-Then):** Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio; no se inventan valores numéricos que aún no se han validado. Cada escenario requiere un usuario autenticado del negocio indicado, salvo US 027.
+**Criterios de aceptación de User Stories (escenarios Given-When-Then):** Los umbrales de alertas, anticipación de vencimiento y disponibilidad se configuran por producto o negocio. Cada escenario requiere un usuario autenticado del negocio indicado, salvo US 027.
 
 | US ID | Criterio de aceptación verificable |
 |---|---|
@@ -246,11 +246,11 @@ La cobertura definida permite separar las responsabilidades de los principales m
 
 Por otro lado, **Suppliers y Orders** soportarían el proceso de abastecimiento entre proveedores y administradores de minimarkets. Los proveedores gestionarían los productos que ofrecen y crearían pedidos dirigidos a minimarkets; los administradores aceptarían o rechazarían esos pedidos. La aceptación y actualización del inventario deben ser una operación única para impedir duplicaciones.
 
-Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notifications y Activity History** complementarían el registro de mermas y ofertas, la consulta de información por segmento, las alertas y el seguimiento de decisiones. El alcance de donaciones aún no está especificado como historia ni endpoint de esta matriz.
+Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notifications y Activity History** complementarían el registro de mermas y ofertas, la consulta de información por segmento, las alertas y el seguimiento de decisiones.
 
 ## 3.2. Impact Mapping.
 
-El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. Su magnitud todavía requiere una línea base y validación posterior; no se atribuye un porcentaje de mejora al AV1. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
+El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
 
 | Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
 |---|---|---|---|---|
@@ -259,23 +259,21 @@ El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y 
 | Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
 | Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
 
-**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). Esta muestra orienta el diseño, pero no cuantifica la pérdida de todos los minimarkets ni prueba demanda de pago. El benchmark del capítulo II identifica herramientas de inventario y compras; la oportunidad *por validar* es combinar conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador. No se afirma que ninguna otra solución ofrezca estas funciones ni que OrganiK ya sea superior.
+**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). El benchmark del capítulo II identifica herramientas de inventario y compras; la propuesta de OrganiK combina conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador.
 
-| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla | Incertidumbre que permanece |
-|---|---|---|---|
-| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. | Falta línea base operativa y prueba de tareas con usuarios. |
-| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales; el alcance del AV1 no incluye hardware. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; la reducción de merma se mediría solo en un piloto posterior. | No se conoce aún la precisión ni el costo de integrar sensores físicos. |
-| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. | Debe comprobarse si ambos segmentos usarían el mismo flujo en su operación real. |
-| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto, pero no son la prueba inicial de la coordinación diferencial. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. | No hay todavía datos de adquisición, operación, ahorro o ingresos para afirmar rentabilidad. |
+| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla |
+|---|---|---|
+| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. |
+| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; reducción de merma en un piloto operativo. |
+| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. |
+| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. |
 
-La viabilidad económica requiere estimar por separado el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos. Solo después podrá compararse el ingreso esperado con los costos y comprobar si el ahorro atribuido a OrganiK justifica su precio. Las entrevistas actuales expresan problemas y expectativas, no una validación de rentabilidad.
-
-La imagen anterior del Impact Mapping permanece en los recursos del repositorio, pero no se presenta como versión vigente porque contiene órdenes de envío y metas aún no verificadas. Una nueva lámina debe representar el flujo y las relaciones de esta tabla.
+La viabilidad económica se evaluará mediante el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos.
 
 
 ## 3.3. Product Backlog.
 
-La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. El número de registro conserva la trazabilidad con el backlog original; **no indica prioridad de ejecución**. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia. Los Story Points son estimaciones existentes que deberán revisarse al planificar cada sprint, no fechas ni evidencia de ejecución.
+La fila US00 corresponde a la landing page de Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. La secuencia de entrega se organiza por incrementos; el número de registro identifica la historia. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia.
 
 **Secuencia de entrega y decisiones:** Se prioriza comprobar el valor diferencial con el menor trabajo que permita observar tareas reales. Cada incremento depende del anterior; las historias de acceso y persistencia se ejecutan antes de los módulos que las requieren, aunque tengan un número de registro mayor.
 
@@ -287,7 +285,6 @@ La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás 
 | C: coordinación entre segmentos | US-015-025; TS-SUP-001-002, TS-ORD-001-004, TS-AUD-001, IMP-BE-003. Depende de A y de inventario en B para aceptar un pedido. | Probar con proveedor y administrador el flujo completo (H3-H5). No avanzar si el pedido rechazado altera existencias, una aceptación duplica stock o los participantes no comprenden el estado. |
 | D: conservación y apoyo operativo | US-010-014, US-030; TS-CON-001-002, TS-MER-001, TS-DASH-001 y extensión de TS-DASH-002 para alertas de conservación. Depende de datos de inventario y permisos. | Validar alertas con lecturas simuladas (H2), dashboards (H6) y funciones complementarias. Sensores reales solo después de valorar precisión y costo. |
 
-La **prioridad para el siguiente avance** es preparar A y probar prototipos de B y C con usuarios de ambos segmentos, incluida una alerta de conservación simulada de D para contrastar la propuesta integrada antes de construirla completa. Si las tareas esenciales no se completan o el flujo de pedidos causa errores, se revisan las historias antes de ampliar el alcance. La decisión de comercializar como SaaS (H7) queda condicionada a un piloto con costos, disposición de pago y beneficios medidos; no se deduce de los Story Points ni del benchmark.
 
 | N.º de registro | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
@@ -350,12 +347,3 @@ La **prioridad para el siguiente avance** es preparar A y probar prototipos de B
 | 56 | TS-DASH-002 | Alerts and notifications API | Como frontend developer, quiero consultar `/api/v1/notifications` para mostrar alertas y notificaciones relevantes al usuario. | 2 |
 | 57 | TS-AUD-001 | Activity history API | Como frontend developer, quiero consultar `/api/v1/activity-history` para mostrar decisiones sobre pedidos y otras acciones autorizadas. | 3 |
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de roles, permisos, pedidos y actualización única del inventario al aceptar un pedido para sostener el flujo de OrganiK. | 3 |
-
-**Enlace directo al tablero:** [Tablero Trello - Proyecto OrganiK](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik)
-
-El tablero enlazado documenta Sprint 1; no acredita que los incrementos A-D ni todas las historias de esta tabla ya estén cargados allí. Antes de utilizarlo para planificar el siguiente sprint, el equipo debe sincronizar las prioridades, dependencias y criterios de aceptación con este Product Backlog.
-
-<div align="center">
-  <img src="./assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
-  <p><em>Figura: Captura histórica del Sprint Backlog 1; evidencia de US00, no del Product Backlog completo.</em></p>
-</div>
