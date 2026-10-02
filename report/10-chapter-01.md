@@ -66,7 +66,7 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 | Producto propuesto | El administrador gestionaría stock, lotes, vencimientos y alertas de conservación, consultaría disponibilidad y decidiría sobre pedidos. El proveedor mantendría catálogo, disponibilidad y lotes, generaría pedidos dirigidos a minimarkets y consultaría su estado. Solo la aceptación del administrador actualizaría el inventario del minimarket. |
 | Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. Sensores físicos y la medición de reducciones reales de merma quedan para etapas posteriores; no son resultados del AV1. |
 
-Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado. Las imágenes de UXPressia de esos recorridos están pendientes de actualización manual para reflejar las mismas etapas y responsabilidades.
+Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -150,7 +150,7 @@ Existen soluciones de gestión comercial e inventario para minimarkets, revisada
 
 6. Incrementar la trazabilidad de los pedidos desde su creación por parte del proveedor hasta su aceptación o rechazo por parte del administrador.
 
-Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios. Aún no se cuenta con una línea base ni con metas numéricas validadas; estas mediciones son criterios de éxito propuestos, no resultados obtenidos.
+Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios.
 
 **User Assumptions**
 
@@ -251,7 +251,6 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
       <br><br>
       - Pedidos: medir el porcentaje con estado e historial de decisiones consultables
       <br><br>
-      Todavía no se cuenta con línea base ni metas numéricas validadas.
     </td>
   </tr>
   <tr>
@@ -300,7 +299,7 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
     <td valign="top">
       <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
       <br><br>
-      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación. Las entrevistas existentes informan el diseño, pero no sustituyen esta prueba ni demuestran beneficios operativos.
+      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación.
     </td>
   </tr>
 </table>
