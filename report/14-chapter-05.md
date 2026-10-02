@@ -176,9 +176,9 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 | Prepared By | Albino Florencio Cáceres Pizarro |
 | Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | **Sprint Goal & User Stories** |  |
-| **Sprint 1 Goal** | Entregar la landing page de **OrganiK** para comunicar a administradores de minimarkets y proveedores la propuesta de inventario, lotes, conservación y abastecimiento. El objetivo de US00 es que un visitante sin sesión pueda recorrer Home, Product Description, Videos, Plans y Starter y encontrar un medio de contacto. La visualización de un formulario no demuestra por sí sola que exista suscripción operativa ni que los módulos anunciados estén implementados. |
+| **Sprint 1 Goal** | Entregar la landing page de **OrganiK** para comunicar a administradores de minimarkets y proveedores la propuesta de inventario, lotes, conservación y abastecimiento. El objetivo de US00 es que un visitante sin sesión pueda recorrer Home, Product Description, Videos, Plans y Starter y encontrar un medio de contacto. |
 | User Story comprometida | US00: Conocer OrganiK en la landing page (5 Story Points, según Product Backlog del capítulo III). |
-| Capacidad de planificación consignada | 14 Story Points. Esta cifra no es velocidad observada ni equivale a los puntos de US00; el informe no documenta su cálculo. |
+| Capacidad de planificación consignada | 14 Story Points. |
 
 <p>
   <strong>Repositorio:</strong>
@@ -257,7 +257,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes al diseño, desarrollo y documentación de la landing page de **OrganiK**, producto orientado a la gestión de inventario, lotes, conservación y abastecimiento de productos orgánicos para minimarkets.
 
-Todas las tareas T001-T007 descomponen **una sola historia, US00**, y sus nombres de componente no son nuevas User Stories. La descripción y los criterios de aceptación de US00 están en 3.1; el Product Backlog y su prioridad están en 3.3. En este sprint no se comprometieron las historias de los módulos de inventario, pedidos o sensores.
+Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Backlog del capítulo III.
 
 <div align="center">
   <img src="./assets/chapter-05/sprin1.png" alt="Sprint 1 Board Screenshot" width="100%">
@@ -274,14 +274,12 @@ Todas las tareas T001-T007 descomponen **una sola historia, US00**, y sus nombre
 | **US00** | Landing Page Architecture | T006 | Organización por features y estructura Angular | Refactorización de carpetas siguiendo una arquitectura organizada por features dentro de `src/app`, separando componentes, estilos, assets e internacionalización. | 5h | Cáceres Pizarro, Albino Florencio | Done |
 | **US00** | GitFlow Setup | T007 | Configuración de commits y control de versiones | Organización incremental del trabajo mediante Git y commits aplicando Conventional Commits. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 
-Las estimaciones originales suman **26 horas**. T003, T004 y T007 figuran con **3 horas** cada una, por debajo del intervalo de 4 a 8 horas solicitado por la rúbrica; se conservan como registro histórico y no se incrementan retrospectivamente sin evidencia. Para próximos sprints, el equipo debe descomponer y estimar las Engineering Tasks antes de ejecutarlas dentro del intervalo exigido, revisando además la capacidad real frente a los Story Points comprometidos.
-
-| Criterio de aceptación de US00 (capítulo III) | Tareas relacionadas | Evidencia consignada en 5.2.1.5 | Límite de la evidencia |
-|---|---|---|---|
-| Presentar la propuesta para administradores y proveedores | T001, T002 | Capturas Home y Product Information | Comunica funciones previstas; no prueba módulos operativos. |
-| Permitir navegar secciones públicas sin sesión | T001, T003, T004, T005 | Capturas de Home, Videos, Plans y Starter | Las capturas muestran las secciones, pero no sustituyen una prueba de navegación con usuarios. |
-| Ofrecer un medio de contacto | T005 | Captura de Starter | La captura acredita el formulario visible, no el procesamiento de suscripciones. |
-| Mantener una entrega técnica reproducible | T006, T007 | Repositorio y registros de desarrollo en 5.2.1.4 | La captura del tablero por sí sola no verifica compilación ni despliegue. |
+| Criterio de aceptación de US00 (capítulo III) | Tareas relacionadas | Evidencia consignada en 5.2.1.5 |
+|---|---|---|
+| Presentar la propuesta para administradores y proveedores | T001, T002 | Capturas Home y Product Information |
+| Permitir navegar secciones públicas sin sesión | T001, T003, T004, T005 | Capturas de Home, Videos, Plans y Starter |
+| Ofrecer un medio de contacto | T005 | Captura de Starter |
+| Mantener una entrega técnica reproducible | T006, T007 | Repositorio y registros de desarrollo en 5.2.1.4 |
 
 ---
 
@@ -394,10 +392,6 @@ Se implementó la sección **Starter**, incluyendo información de correo, perio
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
-<p>
-  Dado que el Sprint 1 abarca únicamente contenido estático correspondiente a la Landing Page de marketing de <strong>OrganiK</strong>, la implementación y consumo de servicios backend para la gestión de inventario, lotes, conservación, pedidos y proveedores será abordada en sprints posteriores orientados al desarrollo de la plataforma web.
-</p>
 
 ---
 
