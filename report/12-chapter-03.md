@@ -249,39 +249,15 @@ Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notificat
 
 El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento.
 
-| Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
-|---|---|---|---|---|
-| Detectar riesgos de pérdida con mayor anticipación | Administrador de minimarket | Identifica lotes próximos a vencer y condiciones de conservación fuera de rango | Inventario por lotes, alertas de vencimiento y monitoreo inicialmente simulado | US 001-012; TS-INV-001, TS-LOT-001, TS-EXP-001, TS-CON-001, TS-CON-002 |
-| Decidir reposición con información vigente | Administrador de minimarket | Identifica stock bajo, consulta oferta y comparte necesidades | Consulta de catálogo y registro de necesidades de reposición | US 015, US 018; TS-SUP-002, TS-ORD-001 |
-| Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
-| Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
-
-**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). El benchmark del capítulo II identifica herramientas de inventario y compras; la propuesta de OrganiK combina conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador.
-
-| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla |
-|---|---|---|
-| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. |
-| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; reducción de merma en un piloto operativo. |
-| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. |
-| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. |
-
 La viabilidad económica se evaluará mediante el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos.
 
+<div align="center">
+  <img src="assets/chapter-03/impact-Mapping.png" alt="Impact Mapping" width="90%">
+</div>
 
 ## 3.3. Product Backlog.
 
-La fila US00 corresponde a la landing page de Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. La secuencia de entrega se organiza por incrementos; el número de registro identifica la historia. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia.
-
 **Secuencia de entrega y decisiones:** Se prioriza comprobar el valor diferencial con el menor trabajo que permita observar tareas reales. Cada incremento depende del anterior; las historias de acceso y persistencia se ejecutan antes de los módulos que las requieren, aunque tengan un número de registro mayor.
-
-| Incremento | Historias del backlog y dependencia | Decisión y resultado comprobable |
-|---|---|---|
-| AV1 / Sprint 1: comunicación | US00, sin dependencia del backend. | Landing page implementada. Permite presentar la propuesta y abrir contacto; no valida todavía el producto operativo. |
-| A: base segura de un piloto | IMP-BE-001, IMP-BE-002; US-026-029; TS-IAM-001-004, TS-PROF-001. | Identidad, aislamiento por negocio y persistencia antes de registrar inventario o pedidos. No avanzar si un proveedor puede modificar existencias ajenas. |
-| B: visibilidad de perecibles | US-001-009; TS-PROD-001-002, TS-INV-001-003, TS-LOT-001-002, TS-EXP-001, TS-DASH-002 para alertas de vencimiento. Depende de A. | Probar con administradores el registro y localización de stock, lotes y vencimientos (H1). Medir finalización, errores y tiempo frente al proceso actual. |
-| C: coordinación entre segmentos | US-015-025; TS-SUP-001-002, TS-ORD-001-004, TS-AUD-001, IMP-BE-003. Depende de A y de inventario en B para aceptar un pedido. | Probar con proveedor y administrador el flujo completo (H3-H5). No avanzar si el pedido rechazado altera existencias, una aceptación duplica stock o los participantes no comprenden el estado. |
-| D: conservación y apoyo operativo | US-010-014, US-030; TS-CON-001-002, TS-MER-001, TS-DASH-001 y extensión de TS-DASH-002 para alertas de conservación. Depende de datos de inventario y permisos. | Validar alertas con lecturas simuladas (H2), dashboards (H6) y funciones complementarias. Sensores reales solo después de valorar precisión y costo. |
-
 
 | N.º de registro | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
