@@ -305,7 +305,8 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
 16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
-### 2.2.2. Registro de entrevistas.
+
+### 2.2.2. Registro de entrevistas
 
 **Segmento objetivo: Administradores de Minimarkets**
 
