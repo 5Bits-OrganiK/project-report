@@ -591,11 +591,12 @@ En conclusión, se identifica la necesidad de centralizar la información de pro
     </tr>
   </tbody>
 </table>
+
 ### 2.2.3. Análisis de entrevistas.
 
 El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, administrador 3 con transcripción, y proveedores 4, 5 y 6 con resumen y video. Las características objetivas son cargo, herramientas y procedimientos descritos; las subjetivas son dificultades, motivaciones y expectativas expresadas en los registros. La muestra es exploratoria y no permite estimar porcentajes del mercado ni afirmar que una funcionalidad ya redujo pérdidas.
 
-**Segmento 1: Administradores de minimarkets (entrevistas 1, 2 y 3).**
+**Segmento 1: Administradores de minimarkets.**
 
 | Variable | Evidencia documentada | Implicación para el arquetipo |
 |:---|:---|:---|
@@ -605,7 +606,7 @@ El análisis utiliza seis fichas: administradores 1 y 2 con resumen y video, adm
 | Subjetiva: pérdidas y carga manual | Rodrigo menciona pérdidas por vencimiento y tiempo de control (1); Roly relaciona mermas con revisión manual (2); Carlos relata vencimientos, diferencias de stock y ventas perdidas por agotamiento (3). | Busca anticipar riesgos y reducir tiempo de supervisión. |
 | Subjetiva: reacción a la solución | Los tres registros presentan interés por información centralizada y alertas (1-3). | La aceptación declarada es una señal inicial, no una prueba de adopción ni de merma evitada. |
 
-**Segmento 2: Proveedores y distribuidores (entrevistas 4, 5 y 6).**
+**Segmento 2: Proveedores y distribuidores**
 
 | Variable | Evidencia documentada | Implicación para el arquetipo |
 |:---|:---|:---|
