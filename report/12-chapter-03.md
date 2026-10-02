@@ -6,18 +6,19 @@
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
-| Consulta y revisión de información | Consulta su dashboard para revisar inventario, lotes, vencimientos, conservación y pedidos dirigidos al minimarket. | “Necesito encontrar rápidamente los productos que requieren atención.” | Con mayor sensación de control. |
-| Gestión y abastecimiento | Detecta stock bajo y consulta la disponibilidad ofrecida por proveedores; comunica sus necesidades de reposición. | “Necesito saber qué productos están disponibles para reponer.” | Atento a la disponibilidad. |
-| Toma de decisión | Revisa productos y cantidades de los pedidos generados por el proveedor y decide aceptarlos o rechazarlos. | “Necesito verificar el pedido antes de incorporarlo al inventario.” | Responsable de la decisión. |
-| Seguimiento y control | Consulta el historial; solo cuando acepta un pedido se actualizan las existencias del minimarket. | “Necesito saber qué fue aceptado y qué cambió en el inventario.” | Con mayor trazabilidad. |
+| Consulta y revisión de información | Consulta el dashboard común para revisar el inventario, productos, lotes, fechas de vencimiento, condiciones de conservación, pedidos y órdenes de envío del minimarket. | “Necesito encontrar rápidamente la información de mis productos y conocer cuáles requieren atención.” | Organizado y con mayor sensación de control. |
+| Gestión y abastecimiento | Identifica necesidades de abastecimiento, consulta los productos ofrecidos por los proveedores y genera pedidos indicando los productos y cantidades requeridas. | “Necesito solicitar los productos adecuados para mantener abastecido el minimarket.” | Atento y enfocado en mantener la disponibilidad de productos. |
+| Toma de decisión | Consulta las órdenes de envío generadas por los proveedores y decide aceptarlas o rechazarlas después de revisar los productos y cantidades enviados. | “Necesito verificar que los productos recibidos correspondan con lo solicitado antes de incorporarlos al inventario.” | Responsable y seguro al contar con información centralizada. |
+| Seguimiento y control | Consulta el estado de sus pedidos y órdenes de envío. Cuando acepta una orden de envío, los productos recibidos se incorporan automáticamente al inventario del minimarket. | “Necesito conocer cómo avanzan mis pedidos y asegurar que solo los productos recibidos ingresen al inventario.” | Vigilante, con mayor sensación de control y seguridad. |
 
 #### Proveedores de Productos Orgánicos
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|------------------|-----------------------|----------------------|
-| Consulta y revisión de información | Consulta su dashboard para revisar catálogo, lotes, disponibilidad y necesidades de reposición comunicadas por minimarkets. | “Necesito saber qué puedo ofrecer y a quién.” | Con mayor claridad sobre su oferta. |
-| Gestión de pedidos | Crea un pedido dirigido a un minimarket con productos y cantidades disponibles. | “Necesito registrar una propuesta verificable para el cliente.” | Atento a las cantidades. |
-| Seguimiento | Consulta si el administrador aceptó o rechazó el pedido. | “Necesito conocer la decisión sin buscarla en varios canales.” | Con mayor trazabilidad. |
+| Consulta y revisión de información | Consulta el dashboard común para revisar los productos que ofrece, los pedidos recibidos de los minimarkets y las órdenes de envío relacionadas con sus operaciones. | “Necesito conocer qué productos solicitan los minimarkets y revisar rápidamente mis operaciones pendientes.” | Organizado y con mayor claridad sobre sus operaciones. |
+| Gestión de pedidos | Consulta los pedidos recibidos de los minimarkets y decide aceptarlos o rechazarlos según su disponibilidad de productos. | “Necesito verificar si puedo atender correctamente los productos y cantidades solicitadas.” | Atento y responsable al evaluar las solicitudes recibidas. |
+| Gestión de órdenes de envío | Para los pedidos aceptados, genera una orden de envío indicando los productos, cantidades y demás información correspondiente al despacho. | “Necesito registrar correctamente lo que voy a enviar para que el minimarket pueda verificarlo al recibirlo.” | Enfocado y seguro al mantener trazabilidad del envío. |
+| Seguimiento y control | Consulta el estado de las órdenes de envío generadas y verifica si fueron aceptadas o rechazadas por los administradores de los minimarkets. | “Necesito saber si los productos enviados fueron aceptados y mantener un registro de mis operaciones.” | Tranquilo y con mayor sensación de control y trazabilidad. |
 
 
 ## 3.1. User Stories.
