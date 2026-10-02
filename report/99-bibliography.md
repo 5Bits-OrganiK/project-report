@@ -31,3 +31,9 @@
 - World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. W3C. https://www.w3.org/TR/WCAG22/
 
 - Zavaleta-Zarate, K., Escobal-Vera, J., & Zarate-Perez, E. (2026). Optimizing inventory in convenience stores to maximize ROI using Random Forest and genetic algorithms. *Logistics, 10*(3), 64. https://doi.org/10.3390/logistics10030064
+
+- CasaMarket. (s. f.). *Planes CasaMarket para minimarket*. https://casamarket.pe/planes/
+
+- limaPOS. (s. f.). *Punto de venta e inventario en la nube*. https://www.limapos.com/
+
+- Spry Sales. (s. f.). *Software de gestión comercial electrónica*. https://www.spry.pe/
