@@ -1621,14 +1621,37 @@ El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y 
 | Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
 | Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
 
+**Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). Esta muestra orienta el diseño, pero no cuantifica la pérdida de todos los minimarkets ni prueba demanda de pago. El benchmark del capítulo II identifica herramientas de inventario y compras; la oportunidad *por validar* es combinar conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador. No se afirma que ninguna otra solución ofrezca estas funciones ni que OrganiK ya sea superior.
+
+| Decisión de producto | Evidencia disponible | Hipótesis y medida para comprobarla | Incertidumbre que permanece |
+|---|---|---|---|
+| Priorizar registro de lotes y vencimientos | Administradores relatan revisión manual o fragmentada (entrevistas 1-3, capítulo II). | H1: porcentaje de productos con lote y vencimiento registrados y tiempo para localizar un producto en riesgo, comparados con la práctica actual. | Falta línea base operativa y prueba de tareas con usuarios. |
+| Probar alertas de conservación con lecturas simuladas antes de adquirir sensores | Administradores describen comprobaciones de temperatura manuales; el alcance del AV1 no incluye hardware. | H2: finalización y tiempo de detección de una lectura fuera de umbral en un prototipo; la reducción de merma se mediría solo en un piloto posterior. | No se conoce aún la precisión ni el costo de integrar sensores físicos. |
+| Priorizar el pedido proveedor-administrador y la decisión sobre inventario | Ambos segmentos describen coordinación dispersa; el Canvas plantea un flujo compartido con permisos diferenciados. | H3-H5: tareas de creación, consulta y decisión completadas; porcentaje de pedidos con estado e historial y ausencia de cambios de stock ante rechazo o aceptación repetida. | Debe comprobarse si ambos segmentos usarían el mismo flujo en su operación real. |
+| Posponer funciones complementarias hasta validar el núcleo | Mermas, ofertas e indicadores están en el alcance propuesto, pero no son la prueba inicial de la coordinación diferencial. | H6-H7: observar uso de dashboards y contrastar valor percibido y disposición de pago con costos del servicio en un piloto. | No hay todavía datos de adquisición, operación, ahorro o ingresos para afirmar rentabilidad. |
+
+La viabilidad económica requiere estimar por separado el costo de desarrollo y operación (incluidos soporte, alojamiento y eventual hardware), el ingreso que aceptarían pagar los negocios y el beneficio medido en pilotos. Solo después podrá compararse el ingreso esperado con los costos y comprobar si el ahorro atribuido a OrganiK justifica su precio. Las entrevistas actuales expresan problemas y expectativas, no una validación de rentabilidad.
+
 La imagen anterior del Impact Mapping permanece en los recursos del repositorio, pero no se presenta como versión vigente porque contiene órdenes de envío y metas aún no verificadas. Una nueva lámina debe representar el flujo y las relaciones de esta tabla.
 
 
 ## 3.3. Product Backlog.
 
-La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores; su posición en esta tabla no afirma que estén terminados. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia.
+La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás historias describen el producto y trabajo técnico propuestos para etapas posteriores. El número de registro conserva la trazabilidad con el backlog original; **no indica prioridad de ejecución**. Los identificadores `US 001` de la tabla de historias y `US-001` del backlog designan la misma historia. Los Story Points son estimaciones existentes que deberán revisarse al planificar cada sprint, no fechas ni evidencia de ejecución.
 
-| Orden | User Story ID | Título | Descripción | Story Points |
+**Secuencia de entrega y decisiones:** Se prioriza comprobar el valor diferencial con el menor trabajo que permita observar tareas reales. Cada incremento depende del anterior; las historias de acceso y persistencia se ejecutan antes de los módulos que las requieren, aunque tengan un número de registro mayor.
+
+| Incremento | Historias del backlog y dependencia | Decisión y resultado comprobable |
+|---|---|---|
+| AV1 / Sprint 1: comunicación | US00, sin dependencia del backend. | Landing page implementada. Permite presentar la propuesta y abrir contacto; no valida todavía el producto operativo. |
+| A: base segura de un piloto | IMP-BE-001, IMP-BE-002; US-026-029; TS-IAM-001-004, TS-PROF-001. | Identidad, aislamiento por negocio y persistencia antes de registrar inventario o pedidos. No avanzar si un proveedor puede modificar existencias ajenas. |
+| B: visibilidad de perecibles | US-001-009; TS-PROD-001-002, TS-INV-001-003, TS-LOT-001-002, TS-EXP-001, TS-DASH-002 para alertas de vencimiento. Depende de A. | Probar con administradores el registro y localización de stock, lotes y vencimientos (H1). Medir finalización, errores y tiempo frente al proceso actual. |
+| C: coordinación entre segmentos | US-015-025; TS-SUP-001-002, TS-ORD-001-004, TS-AUD-001, IMP-BE-003. Depende de A y de inventario en B para aceptar un pedido. | Probar con proveedor y administrador el flujo completo (H3-H5). No avanzar si el pedido rechazado altera existencias, una aceptación duplica stock o los participantes no comprenden el estado. |
+| D: conservación y apoyo operativo | US-010-014, US-030; TS-CON-001-002, TS-MER-001, TS-DASH-001 y extensión de TS-DASH-002 para alertas de conservación. Depende de datos de inventario y permisos. | Validar alertas con lecturas simuladas (H2), dashboards (H6) y funciones complementarias. Sensores reales solo después de valorar precisión y costo. |
+
+La **prioridad para el siguiente avance** es preparar A y probar prototipos de B y C con usuarios de ambos segmentos, incluida una alerta de conservación simulada de D para contrastar la propuesta integrada antes de construirla completa. Si las tareas esenciales no se completan o el flujo de pedidos causa errores, se revisan las historias antes de ampliar el alcance. La decisión de comercializar como SaaS (H7) queda condicionada a un piloto con costos, disposición de pago y beneficios medidos; no se deduce de los Story Points ni del benchmark.
+
+| N.º de registro | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
 | 0 | US00 | Conocer OrganiK en la landing page | Como administrador o proveedor visitante, quiero conocer la propuesta de valor y el medio de contacto para evaluar OrganiK. | 5 |
 | 1 | US-001 | Registrar producto en inventario | Como administrador de minimarket, quiero registrar productos en el inventario para mantener un control estructurado de los productos disponibles. | 5 |
@@ -1691,7 +1714,8 @@ La fila US00 corresponde a la landing page implementada en Sprint 1. Las demás 
 | 58 | IMP-BE-003 | Business rules and integration readiness | Como desarrollador, quiero implementar las reglas de roles, permisos, pedidos y actualización única del inventario al aceptar un pedido para sostener el flujo de OrganiK. | 3 |
 
 **Enlace directo al tablero:** [Tablero Trello - Proyecto OrganiK](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik)
-``` https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik ```
+
+El tablero enlazado documenta Sprint 1; no acredita que los incrementos A-D ni todas las historias de esta tabla ya estén cargados allí. Antes de utilizarlo para planificar el siguiente sprint, el equipo debe sincronizar las prioridades, dependencias y criterios de aceptación con este Product Backlog.
 
 <div align="center">
   <img src="report/assets/chapter-03/spring1.png" alt="Evidence Product Backlog" width="90%">
