@@ -7,7 +7,7 @@ Para **OrganiK**, se compararon tres soluciones con funciones relacionadas con i
 - **limaPOS:** Plataforma de punto de venta e inventario en la nube que permite gestionar productos, stock, lotes, vencimientos, compras, proveedores, órdenes de compra, almacenes y distribución.
 - **Spry Sales:** Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets. Permite controlar inventario, stock, fechas de vencimiento, pedidos, compras, proveedores, rutas de reparto y entregas.
 
-**Fuentes del benchmark:** [CasaMarket](https://casamarket.pe/planes/), [limaPOS](https://www.limapos.com/) y [Spry Sales](https://www.spry.pe/). Las capacidades atribuidas a OrganiK son parte de la propuesta del proyecto, no una comparación de productos implementados.
+**Fuentes del benchmark:** [CasaMarket](https://casamarket.pe/planes/), [limaPOS](https://www.limapos.com/) y [Spry Sales](https://www.spry.pe/).
 
 Estas soluciones presentan funcionalidades relacionadas con diferentes componentes de la propuesta de valor de OrganiK, especialmente en la gestión de inventarios, productos, proveedores, compras y abastecimiento.
 
@@ -751,7 +751,7 @@ Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye
 
 
 ## 2.4. Big Picture Event Storming.
-El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La imagen conserva la lluvia de eventos inicial; la siguiente línea de tiempo ordena y completa ese inventario para el flujo propuesto de OrganiK. Los eventos están redactados como hechos ya ocurridos dentro del modelo, no como afirmaciones de que la plataforma esté implementada.
+El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La siguiente línea de tiempo presenta el flujo propuesto de OrganiK.
 
 <img src="assets/chapter-02/events.png" alt="Inventario inicial de eventos de dominio">
 
