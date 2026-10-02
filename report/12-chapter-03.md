@@ -250,14 +250,20 @@ Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notificat
 
 ## 3.2. Impact Mapping.
 
-El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
+El objetivo de negocio es **reducir las pérdidas de productos perecibles y los quiebres de stock en los minimarkets que usan OrganiK**, y mejorar la trazabilidad del abastecimiento con los proveedores. Se busca que cada pedido, decisión y cambio de inventario pueda seguirse sin depender de registros dispersos. La mejora se evaluará comparando mermas, tiempo de detección de riesgos y proporción de pedidos con estado verificable frente al proceso actual, sin asumir todavía un resultado cuantificado.
 
-| Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
-|---|---|---|---|---|
-| Detectar riesgos de pérdida con mayor anticipación | Administrador de minimarket | Identifica lotes próximos a vencer y condiciones de conservación fuera de rango | Inventario por lotes, alertas de vencimiento y monitoreo inicialmente simulado | US 001-012; TS-INV-001, TS-LOT-001, TS-EXP-001, TS-CON-001, TS-CON-002 |
-| Decidir reposición con información vigente | Administrador de minimarket | Identifica stock bajo, consulta oferta y comparte necesidades | Consulta de catálogo y registro de necesidades de reposición | US 015, US 018; TS-SUP-002, TS-ORD-001 |
-| Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
-| Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
+El mapa relaciona ese objetivo (why), los dos segmentos (who), cuatro cambios de comportamiento esperados por segmento (how), las capacidades propuestas (what) y las User Stories oficiales que las especifican. Los impactos expresan resultados de uso, no nombres de funcionalidades.
+
+| Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | User Stories |
+|---|---|---|---|
+| Administrador de minimarket | Mantiene existencias y lotes verificables e identifica vencimientos antes de la merma. | Inventario, lotes y alertas de vencimiento. | US 001, US 002, US 006, US 008, US 009. |
+| Administrador de minimarket | Reconoce condiciones de conservación riesgosas y registra pérdidas u ofertas con trazabilidad. | Consulta y alertas de conservación; registro de mermas y ofertas. Las lecturas de monitoreo se probarían inicialmente con datos simulados. | US 010, US 011, US 012, US 013, US 014. |
+| Administrador de minimarket | Detecta faltantes y comunica cantidades por reponer con información vigente. | Filtros de inventario, catálogo de proveedores y necesidades de reposición. | US 004, US 015, US 018. |
+| Administrador de minimarket | Revisa y decide sobre el pedido antes de modificar sus existencias. | Consulta, aceptación o rechazo autorizado; actualización única del inventario solo al aceptar. | US 019, US 023, US 024, US 029. |
+| Proveedor de productos orgánicos | Mantiene catálogo, lotes y disponibilidad coherentes con lo que puede ofrecer. | Registro y consulta de productos ofrecidos. | US 016, US 017. |
+| Proveedor de productos orgánicos | Reconoce las necesidades compartidas por cada minimarket antes de preparar su oferta. | Consulta de necesidades de reposición. | US 020. |
+| Proveedor de productos orgánicos | Propone cantidades disponibles en un pedido dirigido al minimarket correcto. | Creación estructurada de pedidos de abastecimiento. | US 021. |
+| Proveedor de productos orgánicos | Conoce la decisión y reconstruye el historial sin depender del chat. | Estado, historial y dashboard del proveedor. | US 022, US 025, US 030. |
 
 **Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). El benchmark del capítulo II identifica herramientas de inventario y compras; la propuesta de OrganiK combina conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador.
 
