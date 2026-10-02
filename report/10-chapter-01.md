@@ -66,7 +66,7 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 | Producto propuesto | El administrador gestionaría stock, lotes, vencimientos y alertas de conservación, consultaría disponibilidad y decidiría sobre pedidos. El proveedor mantendría catálogo, disponibilidad y lotes, generaría pedidos dirigidos a minimarkets y consultaría su estado. Solo la aceptación del administrador actualizaría el inventario del minimarket. |
 | Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. La incorporación de sensores físicos y la medición de mermas corresponden a etapas posteriores. |
 
-Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado.
+Este alcance responde a los patrones observados en las entrevistas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado. Los recorridos de adopción propuestos en 2.3.3 muestran cómo cada segmento podría pasar de esas prácticas dispersas a un flujo compartido.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -306,14 +306,14 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
 
 **Relación entre personas, recorridos y propuesta de valor:**
 
-| Persona y etapa del recorrido actual (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
+| Persona y tarea observada (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
 |---|---|---|---|
 | Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
 | Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
 | Proveedor: mantener oferta y verificar solicitudes | Mostrar disponibilidad y lotes sin repetir información en varios canales | Catálogo conectado con las necesidades del minimarket | H4, H6 |
 | Proveedor: registrar, preparar y seguir el pedido | Conocer si el minimarket aceptó o rechazó la operación | Pedido con estado e historial visibles para ambos segmentos | H4, H5 |
 
-La diferenciación planteada se contrasta con el benchmark del capítulo II; la alineación visual de los User Journey Mapping de UXPressia se actualizará manualmente.
+La diferenciación planteada se contrasta con el benchmark del capítulo II.
 
 ---
 

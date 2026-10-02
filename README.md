@@ -276,7 +276,7 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 | Producto propuesto | El administrador gestionaría stock, lotes, vencimientos y alertas de conservación, consultaría disponibilidad y decidiría sobre pedidos. El proveedor mantendría catálogo, disponibilidad y lotes, generaría pedidos dirigidos a minimarkets y consultaría su estado. Solo la aceptación del administrador actualizaría el inventario del minimarket. |
 | Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. La incorporación de sensores físicos y la medición de mermas corresponden a etapas posteriores. |
 
-Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado.
+Este alcance responde a los patrones observados en las entrevistas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado. Los recorridos de adopción propuestos en 2.3.3 muestran cómo cada segmento podría pasar de esas prácticas dispersas a un flujo compartido.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -516,14 +516,14 @@ El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas 
 
 **Relación entre personas, recorridos y propuesta de valor:**
 
-| Persona y etapa del recorrido actual (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
+| Persona y tarea observada (capítulo II) | Necesidad observada | Valor propuesto y diferencial | Hipótesis |
 |---|---|---|---|
 | Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
 | Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
 | Proveedor: mantener oferta y verificar solicitudes | Mostrar disponibilidad y lotes sin repetir información en varios canales | Catálogo conectado con las necesidades del minimarket | H4, H6 |
 | Proveedor: registrar, preparar y seguir el pedido | Conocer si el minimarket aceptó o rechazó la operación | Pedido con estado e historial visibles para ambos segmentos | H4, H5 |
 
-La diferenciación planteada se contrasta con el benchmark del capítulo II; la alineación visual de los User Journey Mapping de UXPressia se actualizará manualmente.
+La diferenciación planteada se contrasta con el benchmark del capítulo II.
 
 ---
 
@@ -1187,20 +1187,23 @@ En ambos segmentos aparece la necesidad de mantener coherentes los datos de prod
 
 ### 2.3.1. User Personas.
 
-Las fichas describen arquetipos compuestos a partir del análisis de 2.2.3 y distinguen datos observados de necesidades inferidas.
+Las fichas describen arquetipos ficticios construidos a partir de los patrones compartidos en 2.2.3; Camila Salazar y Diego Paredes no son personas entrevistadas. La edad aproximada, las puntuaciones de habilidades y las frases representativas son inferencias de diseño, no mediciones ni citas literales.
 
 **User Persona 1: Administrador operativo de minimarket orgánico**
 
 | Atributo | Perfil |
 |:---|:---|
-| Base empírica | Rodrigo (entrevista 1, Chiclayo, 26 años), Roly (entrevista 2, Lima, 28 años) y Carlos (entrevista 3, Lima, 38 años). Las edades y ciudades describen la muestra, no a un individuo ficticio. |
-| Rol y contexto | Supervisa inventario, conservación y coordinación con proveedores mientras atiende la operación diaria. |
-| Herramientas y comportamiento | Usa el celular durante la jornada; alterna con laptop o computadora, POS o sistema de ventas, Excel, libreta y WhatsApp según la tarea (1-3). |
-| Objetivo | Detectar productos en riesgo y necesidades de reposición antes de que ocasionen merma o desabastecimiento. |
-| Tareas | Consultar stock, revisar lotes y vencimientos, observar condiciones de almacenamiento, coordinar pedidos y registrar entradas de producto. |
-| Frustraciones | Tiempo dedicado a cruzar registros; vencimientos o fallas de conservación detectados tarde; seguimiento de pedidos disperso en chats y diferencias entre stock real y registrado (1-3). |
-| Necesidades de diseño | Información de inventario y alertas consultables en móvil; revisión explícita de un pedido antes de afectar el inventario. Esta última es una regla propuesta de OrganiK. |
-| Por validar | Frecuencia real de cada tarea, costo de mermas, condiciones de uso de alertas y diferencias entre minimarkets orgánicos y generales. |
+| Name / Type | Camila Salazar; gestora operativa de minimarket. |
+| Demographic | Aproximadamente 30-40 años; trabaja en un minimarket urbano peruano y tiene experiencia en operación y compras. |
+| Base empírica | Síntesis de Rodrigo, Roly y Carlos (entrevistas 1-3); el nombre y los datos demográficos no identifican a ninguno de ellos. |
+| Background | Alterna entre mostrador, almacén y revisión de refrigeración. Consulta POS o sistema de ventas, Excel, libreta y WhatsApp; usa el celular durante la jornada y una computadora para registros extensos. |
+| Goals | Detectar stock bajo y vencimientos antes de que causen pérdidas; controlar lotes y conservación; decidir qué pedido del proveedor ingresa al inventario. |
+| Quote representativa | “Necesito ver qué producto requiere atención y decidir qué pedido entra al inventario sin revisar varios registros.” |
+| Motivations | Evitar mermas y quiebres de stock; reducir tiempo de revisión manual; conservar el control de las existencias del negocio. |
+| Frustrations | Lotes y vencimientos dispersos; cambios de pedidos difíciles de seguir en chats; temperatura revisada mediante inspecciones discontinuas. |
+| Skills estimadas | Control de inventario: 75/100; revisión de perecibles: 80/100; hojas de cálculo: 65/100; coordinación con proveedores: 80/100. |
+| Technology / Browsers | Celular durante la jornada y computadora o laptop para registros; navegador web móvil y de escritorio, sin preferencia de marca documentada. |
+| Channels / Brands and Influencers | WhatsApp, llamadas y contacto presencial; POS o sistema de ventas, Excel y Google Drive como herramientas actuales, sin marcas de preferencia verificadas. |
 
 ![User Persona del administrador](report/assets/chapter-02/Russell-Estrada.png)
 
@@ -1208,14 +1211,17 @@ Las fichas describen arquetipos compuestos a partir del análisis de 2.2.3 y dis
 
 | Atributo | Perfil |
 |:---|:---|
-| Base empírica | Marco (entrevista 4, Lima, 24 años), Juan (entrevista 5, Lambayeque, 26 años) y Anita (entrevista 6, Arequipa, 32 años). |
-| Rol y contexto | Mantiene catálogo y disponibilidad, atiende pedidos de minimarkets y coordina preparación o despacho. |
-| Herramientas y comportamiento | Alterna celular y laptop; usa Excel y mensajería, con PDF o cuaderno de almacén en los casos documentados (4-6). |
-| Objetivo | Evitar errores de disponibilidad y dar seguimiento claro a cada pedido. |
-| Tareas | Actualizar productos y lotes, verificar disponibilidad, registrar cambios, coordinar pedidos y consultar estados. |
-| Frustraciones | Pedidos en formatos distintos, transcripción manual, información desactualizada y consultas repetidas sobre despachos (4-6). |
-| Necesidades de diseño | Catálogo y pedidos en una vista sencilla para uso en campo; capacidad de generar un pedido dirigido al minimarket y consultar su aceptación. El último flujo es una propuesta de OrganiK, no una práctica observada. |
-| Por validar | Frecuencia de tareas, volumen de errores y disposición a sustituir canales existentes. |
+| Name / Type | Diego Paredes; coordinador comercial de proveedor o distribuidora. |
+| Demographic | Aproximadamente 25-35 años; trabaja en distribución B2B de productos orgánicos en Perú y tiene experiencia en catálogo y pedidos. |
+| Base empírica | Síntesis de Marco, Juan y Anita (entrevistas 4-6); el nombre y los datos demográficos no identifican a ninguno de ellos. |
+| Background | Coordina catálogo, almacén y atención a minimarkets desde oficina y campo. Combina Excel, PDF, cuaderno y mensajería; usa el celular en movimiento y la laptop para consolidar información. |
+| Goals | Mantener productos, lotes y disponibilidad consistentes; preparar pedidos verificables para cada minimarket; conocer si el administrador aceptó o rechazó el pedido. |
+| Quote representativa | “Quiero preparar una propuesta con disponibilidad real y saber su estado sin reconstruirla desde varios chats.” |
+| Motivations | Evitar prometer stock agotado; reducir errores de transcripción; responder con claridad a cada cliente. |
+| Frustrations | Pedidos en formatos distintos; disponibilidad desfasada entre almacén y catálogo; llamadas repetidas para confirmar el estado. |
+| Skills estimadas | Gestión de catálogo: 75/100; verificación de stock: 75/100; atención B2B: 85/100; hojas de cálculo: 70/100. |
+| Technology / Browsers | Celular en campo y almacén y laptop para consolidación; navegador web móvil y de escritorio, sin preferencia de marca documentada. |
+| Channels / Brands and Influencers | WhatsApp y llamadas con minimarkets; Excel, PDF y registros de almacén como herramientas actuales, sin marcas de preferencia verificadas. |
 
 ![User Persona del proveedor](report/assets/chapter-02/Marco-User.png)
 
@@ -1245,29 +1251,29 @@ La prioridad inicial recae en stock, lotes y conservación para administradores,
 
 ### 2.3.3. User Journey Mapping.
 
-Los recorridos *As-Is* describen el trabajo actual, desde la detección de una necesidad hasta el seguimiento del abastecimiento. Las etapas se derivan de los resúmenes disponibles; las emociones son interpretaciones que deben comprobarse con cada entrevistado. Las oportunidades expresan decisiones de diseño, no funciones ya utilizadas.
+Los recorridos AWARE–JOIN–USE–DEVELOP–LEAVE son escenarios de adopción propuestos a partir de las prácticas y dificultades descritas en las entrevistas 1-6. AWARE parte de herramientas actuales; las etapas siguientes muestran tareas que podrían evaluarse con OrganiK. Los problemas de uso y las emociones son hipótesis de diseño, no experiencias ya observadas con una plataforma desplegada.
 
 **User Journey Map 1: Administrador de minimarket (entrevistas 1-3)**
 
-| Etapa | Acción y punto de contacto actual | Dificultad y emoción inferida | Oportunidad para OrganiK |
-|:---|:---|:---|:---|
-| Revisar productos | Consulta POS, hoja de cálculo, libreta y anaqueles para verificar stock, lotes y vencimientos. | Cruza registros distintos; posible preocupación por omitir un producto en riesgo. | Mostrar inventario y lotes en una vista consultable desde el celular. |
-| Comprobar conservación | Inspecciona vitrinas o congeladoras y lee un termómetro físico. | La inspección es discontinua; incertidumbre ante una falla fuera de horario. | Registrar condiciones y alertar sobre valores fuera de rango; validar primero con datos simulados. |
-| Decidir reposición | Identifica faltantes o productos próximos a vencer y consulta catálogos por mensajería. | Debe verificar información en canales separados; posible frustración por demora. | Mostrar stock bajo y disponibilidad de proveedores. |
-| Coordinar pedido | Intercambia mensajes o llamadas con el proveedor y verifica cantidades. | Cambios y confirmaciones pueden perderse en el chat. | Permitir revisar y aceptar o rechazar una propuesta del proveedor. |
-| Registrar resultado | Actualiza sus registros cuando ingresa mercadería y continúa el control. | La actualización manual puede dejar datos desfasados. | Registrar la decisión y actualizar el inventario solo tras la aceptación del administrador. |
+| Phase | User goals | Touchpoints | Problems | Experience (inferida) | Ideas / Opportunities |
+|:---|:---|:---|:---|:---|:---|
+| AWARE | Reconocer productos en riesgo y registros dispersos. | Anaqueles, POS, libreta, termómetro y WhatsApp. | Vencimientos y stock bajo pueden detectarse tarde. | Preocupación. | Mostrar riesgos de perecibles y trazabilidad en la propuesta. |
+| JOIN | Evaluar si una vista unificada facilita revisar stock y pedidos. | Landing page, explicación del alcance y prueba de tareas. | Posible temor a duplicar el trabajo de Excel y POS. | Cautela. | Probar la consulta móvil con datos del negocio. |
+| USE | Revisar lotes, conservación y un pedido entrante; aceptarlo o rechazarlo. | Inventario, lotes, alertas, catálogo y pedido. | Información insuficiente o cantidades incorrectas en el pedido. | Atención. | Permitir revisar y decidir; solo la aceptación actualiza el inventario (US 023-024). |
+| DEVELOP | Incorporar registro y alertas a la rutina del local. | Dashboard, historial y registros del equipo. | Datos sin actualizar reducirían la confianza. | Confianza condicional. | Hacer visibles alertas e historial (US 009, US 012, US 025). |
+| LEAVE | Decidir continuidad según tiempo de control y confianza en datos. | Resultados de uso y alternativas actuales. | El costo o esfuerzo podría superar el valor percibido. | Evaluación. | Contrastar tiempos, errores y valor percibido con la práctica actual. |
 
 ![User Journey del administrador](report/assets/chapter-02/user-journey-map-1.png)
 
 **User Journey Map 2: Proveedor de productos orgánicos (entrevistas 4, 5 y 6)**
 
-| Etapa | Acción y punto de contacto actual | Dificultad y emoción inferida | Oportunidad para OrganiK |
-|:---|:---|:---|:---|
-| Mantener oferta | Actualiza catálogo en Excel o PDF y registra lotes o disponibilidad con herramientas separadas. | La información puede desactualizarse; preocupación por ofrecer stock inexistente. | Reunir catálogo, lotes y disponibilidad. |
-| Recibir y verificar solicitudes | Atiende mensajes o llamadas de minimarkets y contrasta con el almacén. | Solicitudes en formatos distintos exigen comprobación manual. | Preparar una propuesta de pedido con productos y cantidades verificables. |
-| Registrar pedido | Transcribe la información a una hoja o sistema de ventas. | Marco y Juan relatan errores u omisiones; posible tensión por corregirlos. | Generar el pedido dirigido al minimarket desde un registro estructurado. |
-| Coordinar preparación | Confirma disponibilidad, lotes y cambios antes del despacho. | Las modificaciones repartidas entre chats pueden ser difíciles de rastrear. | Conservar el estado y el historial de cambios de la operación. |
-| Dar seguimiento | Responde consultas sobre confirmación o despacho por mensajería y llamadas. | Repetir respuestas consume tiempo; posible frustración. | Compartir con el administrador el estado del pedido y su decisión de aceptación o rechazo. |
+| Phase | User goals | Touchpoints | Problems | Experience (inferida) | Ideas / Opportunities |
+|:---|:---|:---|:---|:---|:---|
+| AWARE | Reconocer errores de disponibilidad y pedidos dispersos. | Excel, PDF, almacén, WhatsApp y llamadas. | Solicitudes heterogéneas y stock desfasado. | Frustración. | Explicar el pedido iniciado por el proveedor. |
+| JOIN | Evaluar si puede mantener su oferta sin duplicar registros. | Landing page, catálogo de prueba y tareas móviles. | Duda sobre el esfuerzo para actualizar el catálogo. | Cautela. | Probar el registro de disponibilidad desde el celular. |
+| USE | Registrar productos y generar un pedido para un minimarket. | Productos, lotes, necesidades compartidas y pedidos. | Errores de cantidad al transcribir. | Concentración. | Crear un pedido estructurado y dirigido (US 016, US 021). |
+| DEVELOP | Consultar el estado y coordinar la preparación con datos consistentes. | Estado del pedido e historial. | Consultas repetidas por falta de visibilidad. | Alivio condicional. | Mostrar la aceptación o el rechazo y el historial (US 022, US 025). |
+| LEAVE | Decidir continuidad según claridad y menor esfuerzo de seguimiento. | Resultados de uso y canales anteriores. | La doble carga de datos podría desalentar la adopción. | Evaluación. | Comparar errores y tiempo de seguimiento con mensajería. |
 
 ![User Journey del proveedor](report/assets/chapter-02/user-journey-map-2.png)
 
@@ -1275,20 +1281,21 @@ Los recorridos *As-Is* describen el trabajo actual, desde la detección de una n
 ### 2.3.4. Empathy Mapping.
 
 
-Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye» se interpretan a partir de los resúmenes cuando no existe una declaración explícita.
+Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensamientos y emociones son inferencias; las frases en «dice» son paráfrasis y no citas literales de una persona entrevistada.
 
 **Empathy Map: Administrador operativo (entrevistas 1-3)**
 
 | Pregunta del lienzo | Síntesis y origen |
 |:---|:---|
-| ¿Con quién empatizamos? | Administrador que controla inventario, conservación y abastecimiento durante la jornada (1-3). |
-| ¿Qué necesita hacer? | Detectar faltantes, revisar lotes y vencimientos, comprobar condiciones y coordinar reposición (1-3). |
-| ¿Qué ve? | Anaqueles, refrigeradoras, registros separados en POS o sistema de ventas, Excel y libreta (1-3). |
-| ¿Qué dice? | Según los registros, el control manual toma tiempo y una vista centralizada con alertas sería útil (1-3; paráfrasis). |
-| ¿Qué hace? | Revisa productos y termómetros, consulta catálogos y coordina con proveedores por WhatsApp (1-3). |
-| ¿Qué oye? | Recibe información de proveedores por mensajería; no se documentaron opiniones de terceros en las fichas (1-3). |
-| ¿Qué piensa y siente? | Posible preocupación por mermas, diferencias de stock y fallas no detectadas; inferencia a partir de las dificultades relatadas (1-3). |
-| Pains / Gains | Riesgo de deterioro y tiempo de control manual / información accesible y alertas oportunas; beneficios aún por validar. |
+| WHO are we empathizing with? | Camila Salazar representa a administradores que supervisan inventario, conservación y abastecimiento durante la jornada (1-3). |
+| What do they need to DO? | Detectar faltantes y vencimientos, comprobar condiciones de almacenamiento y revisar productos y cantidades antes de aceptar o rechazar un pedido. El resultado buscado es decidir con datos vigentes y trazables. |
+| What do they SEE? | Anaqueles, refrigeradoras y termómetros; información repartida entre POS, Excel, libreta y mensajes (1-3). |
+| What do they SAY? | El control manual consume tiempo; una vista centralizada con alertas ayudaría a identificar riesgos (paráfrasis de 1-3). |
+| What do they DO? | Revisa estantes y termómetros, compara registros, consulta disponibilidad por WhatsApp y registra el ingreso de mercadería (1-3). |
+| What do they HEAR? | Recibe disponibilidad y confirmaciones de proveedores por mensajería o llamadas; no se atribuyen opiniones a terceros no entrevistados. |
+| What do they THINK and FEEL? | Podría preocuparle que un producto venza o se agote sin advertencia y sentir presión al supervisar varias tareas; inferencia a partir de 1-3. |
+| PAINS | Merma, diferencias entre stock real y registrado, controles discontinuos y cambios perdidos en chats. |
+| GAINS | Visibilidad de lotes, vencimientos y conservación; decisión explícita sobre pedidos e historial consultable. |
 
 ![Empathy Map del administrador](report/assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
 
@@ -1296,14 +1303,15 @@ Los mapas sintetizan lo descrito en las entrevistas; «piensa y siente» y «oye
 
 | Pregunta del lienzo | Síntesis y origen |
 |:---|:---|
-| ¿Con quién empatizamos? | Persona que mantiene oferta y disponibilidad y atiende pedidos para minimarkets (4-6). |
-| ¿Qué necesita hacer? | Verificar stock y lotes, registrar pedidos y comunicar sus cambios o estados (4-6). |
-| ¿Qué ve? | Excel, mensajes, catálogos y, en los casos descritos, registros de almacén separados (4-6). |
-| ¿Qué dice? | Los resúmenes mencionan dificultades para sincronizar disponibilidad y seguir pedidos; Marco pide simplicidad y uso móvil (4-6; paráfrasis). |
-| ¿Qué hace? | Atiende solicitudes, verifica existencias, prepara productos y responde consultas por mensajería o llamadas (4-6). |
-| ¿Qué oye? | Solicitudes y consultas de minimarkets sobre disponibilidad o despachos; no se documentaron otras voces del entorno (4-6). |
-| ¿Qué piensa y siente? | Posible presión por errores de cantidad y necesidad de confirmar información; inferencia a partir de los incidentes relatados (4, 5). |
-| Pains / Gains | Información dispersa y seguimiento manual / catálogo y estado de pedidos consultables; beneficios aún por validar. |
+| WHO are we empathizing with? | Diego Paredes representa a responsables que mantienen catálogo y disponibilidad y atienden minimarkets (4-6). |
+| What do they need to DO? | Verificar productos y lotes, preparar un pedido dirigido a cada minimarket y seguir su aceptación o rechazo; el resultado buscado es reducir omisiones y conocer el estado de cada operación. |
+| What do they SEE? | Catálogos en Excel o PDF, registros de almacén y mensajes simultáneos de distintos clientes; disponibilidad que cambia durante la jornada (4-6). |
+| What do they SAY? | Centralizar catálogo y pedidos simplificaría la coordinación; la interfaz debería funcionar desde el celular (paráfrasis de 4-6). |
+| What do they DO? | Actualiza oferta, contrasta existencias, transcribe solicitudes, coordina preparación y responde consultas por WhatsApp o teléfono (4-6). |
+| What do they HEAR? | Recibe consultas de minimarkets sobre disponibilidad y estado; no se atribuyen voces adicionales no documentadas. |
+| What do they THINK and FEEL? | Podría sentir tensión por errores de transcripción y necesitar comprobar cantidades antes de prometerlas; inferencia a partir de 4-6. |
+| PAINS | Disponibilidad desfasada, pedidos en formatos dispares y llamadas repetidas de confirmación. |
+| GAINS | Oferta unificada, pedidos estructurados y decisión del administrador visible en el historial. |
 
 ![Empathy Map del proveedor](report/assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
 
@@ -1607,14 +1615,20 @@ Finalmente, los servicios propuestos de **Waste and Offers, Dashboard, Notificat
 
 ## 3.2. Impact Mapping.
 
-El objetivo de negocio propuesto es reducir pérdidas de productos perecibles y mejorar la trazabilidad del abastecimiento. El mapa relaciona el objetivo (why), las personas (who), los cambios esperados en sus tareas (how) y los entregables propuestos (what).
+El objetivo de negocio es **reducir las pérdidas de productos perecibles y los quiebres de stock en los minimarkets que usan OrganiK**, y mejorar la trazabilidad del abastecimiento con los proveedores. Se busca que cada pedido, decisión y cambio de inventario pueda seguirse sin depender de registros dispersos. La mejora se evaluará comparando mermas, tiempo de detección de riesgos y proporción de pedidos con estado verificable frente al proceso actual, sin asumir todavía un resultado cuantificado.
 
-| Objetivo (why) | Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | Historias |
-|---|---|---|---|---|
-| Detectar riesgos de pérdida con mayor anticipación | Administrador de minimarket | Identifica lotes próximos a vencer y condiciones de conservación fuera de rango | Inventario por lotes, alertas de vencimiento y monitoreo inicialmente simulado | US 001-012; TS-INV-001, TS-LOT-001, TS-EXP-001, TS-CON-001, TS-CON-002 |
-| Decidir reposición con información vigente | Administrador de minimarket | Identifica stock bajo, consulta oferta y comparte necesidades | Consulta de catálogo y registro de necesidades de reposición | US 015, US 018; TS-SUP-002, TS-ORD-001 |
-| Coordinar abastecimiento con menos dispersión | Proveedor de productos orgánicos | Mantiene disponibilidad, crea pedidos dirigidos a minimarkets y sigue su estado | Catálogo y pedidos con estado e historial | US 016-017, US 020-022, US 025; TS-SUP-002, TS-ORD-002, TS-ORD-004 |
-| Conservar control sobre las existencias | Administrador de minimarket | Acepta o rechaza pedidos del proveedor antes de modificar inventario | Decisión autorizada con actualización única de stock solo al aceptar | US 019, US 023-025, US 029; TS-ORD-003 |
+El mapa relaciona ese objetivo (why), los dos segmentos (who), cuatro cambios de comportamiento esperados por segmento (how), las capacidades propuestas (what) y las User Stories oficiales que las especifican. Los impactos expresan resultados de uso, no nombres de funcionalidades.
+
+| Persona (who) | Impacto esperado (how) | Entregable propuesto (what) | User Stories |
+|---|---|---|---|
+| Administrador de minimarket | Mantiene existencias y lotes verificables e identifica vencimientos antes de la merma. | Inventario, lotes y alertas de vencimiento. | US 001, US 002, US 006, US 008, US 009. |
+| Administrador de minimarket | Reconoce condiciones de conservación riesgosas y registra pérdidas u ofertas con trazabilidad. | Consulta y alertas de conservación; registro de mermas y ofertas. Las lecturas de monitoreo se probarían inicialmente con datos simulados. | US 010, US 011, US 012, US 013, US 014. |
+| Administrador de minimarket | Detecta faltantes y comunica cantidades por reponer con información vigente. | Filtros de inventario, catálogo de proveedores y necesidades de reposición. | US 004, US 015, US 018. |
+| Administrador de minimarket | Revisa y decide sobre el pedido antes de modificar sus existencias. | Consulta, aceptación o rechazo autorizado; actualización única del inventario solo al aceptar. | US 019, US 023, US 024, US 029. |
+| Proveedor de productos orgánicos | Mantiene catálogo, lotes y disponibilidad coherentes con lo que puede ofrecer. | Registro y consulta de productos ofrecidos. | US 016, US 017. |
+| Proveedor de productos orgánicos | Reconoce las necesidades compartidas por cada minimarket antes de preparar su oferta. | Consulta de necesidades de reposición. | US 020. |
+| Proveedor de productos orgánicos | Propone cantidades disponibles en un pedido dirigido al minimarket correcto. | Creación estructurada de pedidos de abastecimiento. | US 021. |
+| Proveedor de productos orgánicos | Conoce la decisión y reconstruye el historial sin depender del chat. | Estado, historial y dashboard del proveedor. | US 022, US 025, US 030. |
 
 **Necesidad, oportunidad y comprobación.** Las entrevistas de los tres administradores describen registros de stock, lotes y vencimientos dispersos; las de los tres proveedores describen catálogos y coordinación de pedidos por herramientas separadas (capítulo II). El benchmark del capítulo II identifica herramientas de inventario y compras; la propuesta de OrganiK combina conservación de perecibles, trazabilidad por lote y un pedido iniciado por el proveedor cuya incorporación al inventario controla el administrador.
 
