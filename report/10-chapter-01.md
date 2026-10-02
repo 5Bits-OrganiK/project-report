@@ -265,9 +265,9 @@ El Canvas sintetiza la propuesta de valor descrita  para las dos segmentos.
     <td valign="top">
       <strong>Users and customers</strong>
       <br><br>
-      - Administrador de minimarket: persona compuesta a partir de Rodrigo, Roly y Carlos; decide sobre inventario, conservación y reposición.
+      - Administrador de minimarket: Persona que deciden sobre inventario, conservación y reposición.
       <br>
-      - Proveedor de productos orgánicos: persona compuesta a partir de Marco, Juan y Anita; mantiene oferta y coordina pedidos.
+      - Proveedor de productos orgánicos: Persona que mantiene oferta y coordina pedidos.
     </td>
     <td valign="top">
       <strong>User benefits</strong>
