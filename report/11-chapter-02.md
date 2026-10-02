@@ -247,19 +247,9 @@ Luego de realizar el análisis de nuestra solución con respecto a **CasaMarket,
 
 ### 2.2.1. Diseño de entrevistas.
 
-El objetivo de las entrevistas es comprender cómo cada segmento controla productos, lotes y vencimientos, identifica necesidades de reposición y coordina pedidos; también se indaga por herramientas, dificultades y consecuencias concretas. La siguiente versión revisada de la guía propone preguntas abiertas sobre experiencias recientes y repreguntas como «¿qué ocurrió después?» o «¿puede mostrar cómo lo registra?». Las propuestas de OrganiK se presentan al final para no condicionar las respuestas sobre las prácticas actuales. Las entrevistas ya registradas se analizaron según lo que realmente consta en sus resúmenes o transcripción; la entrevista 3, por ejemplo, utilizó una formulación anterior de la pregunta sobre la solución.
+Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron las siguientes preguntas siguiendo las buenas prácticas para el diseño de recolección de información:
 
-| Arista de investigación | Administradores | Proveedores |
-|:---|:---|:---|
-| Contexto y hábitos digitales | Preguntas 1-6 | Preguntas 1-6 |
-| Inventario, productos y lotes | Preguntas 7, 9-11 | Preguntas 7, 8, 13 |
-| Abastecimiento y seguimiento | Preguntas 8, 12, 13 | Preguntas 9-12, 15 |
-| Dificultades y consecuencias | Preguntas 14, 15 | Preguntas 13, 14 |
-| Reacción a una posible solución | Pregunta 16 | Pregunta 16 |
-
-Durante cada entrevista se solicita permiso para grabar y se procura un lugar sin interrupciones. El registro de cada participante se presenta en 2.2.2.
-
-**Segmento objetivo 1: Administradores de minimarkets**
+**Segmento objetivo: Administradores de Minimarkets**
 
 #### Preguntas Demográficas
 
@@ -283,10 +273,12 @@ Durante cada entrevista se solicita permiso para grabar y se procura un lugar si
 12. ¿Cómo consulta actualmente la disponibilidad de productos ofrecidos por sus proveedores?
 13. ¿Cómo realiza el seguimiento de los pedidos o solicitudes de abastecimiento realizados a sus proveedores?
 14. ¿Qué dificultades encuentra actualmente al gestionar inventario, lotes, vencimientos y abastecimiento?
-15. Cuénteme un caso reciente de pérdida de producto o falta de stock. ¿Qué ocurrió y cómo lo resolvió?
-16. Si pudiera cambiar una parte de este proceso, ¿cuál elegiría y por qué? Después de responder, ¿qué utilidad y qué dudas le genera una herramienta que reúna inventario, vencimientos, condiciones de almacenamiento y pedidos?
+15. ¿Ha experimentado pérdidas por productos deteriorados, vencidos, falta de stock o condiciones inadecuadas de almacenamiento? ¿Cómo las gestiona?
+16. ¿Considera que una plataforma que centralice el inventario, lotes, vencimientos, condiciones de almacenamiento, proveedores y pedidos de abastecimiento facilitaría su gestión? ¿Por qué?
 
-**Segmento objetivo 2: Proveedores de productos orgánicos**
+---
+
+**Segmento objetivo: Proveedores de Productos Orgánicos**
 
 #### Preguntas Demográficas
 
@@ -309,9 +301,9 @@ Durante cada entrevista se solicita permiso para grabar y se procura un lugar si
 11. ¿Cómo comunica actualmente a sus clientes la disponibilidad, precios y características de los productos?
 12. ¿Cómo realiza el seguimiento del estado de los pedidos realizados por sus clientes?
 13. ¿Qué dificultades encuentra para mantener actualizada la información sobre sus productos, disponibilidad y lotes?
-14. Cuénteme un caso reciente en que un pedido tuvo un error, cambio o retraso. ¿Qué ocurrió y cómo lo resolvió?
+14. ¿Qué problemas ha experimentado relacionados con errores de comunicación, pérdida de información, retrasos o falta de disponibilidad? ¿Cómo los resuelve?
 15. ¿Cómo coordina actualmente con los minimarkets las confirmaciones, cambios o rechazos relacionados con los pedidos?
-16. Si pudiera cambiar una parte de este proceso, ¿cuál elegiría y por qué? Después de responder, ¿qué utilidad y qué dudas le genera una herramienta para gestionar disponibilidad, lotes y estados de pedido?
+16. ¿Considera que una plataforma que permita gestionar productos, disponibilidad, lotes y pedidos de abastecimiento, además de consultar el estado de cada operación, facilitaría su gestión? ¿Por qué?
 
 ### 2.2.2. Registro de entrevistas.
 
