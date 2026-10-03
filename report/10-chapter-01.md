@@ -114,6 +114,14 @@ Existen soluciones de gestión comercial e inventario para minimarkets. La oport
 >
 > Sabremos que tenemos éxito cuando veamos que **(1) los administradores identifican los lotes en riesgo (próximos a vencer o fuera de rango de conservación) en menos de 2 minutos, frente a la revisión manual actual; (2) al menos el 80 % de los productos del minimarket piloto tiene lote y vencimiento registrados; (3) al menos el 70 % de los pedidos entre proveedor y minimarket piloto se crea y decide dentro de OrganiK, sin confirmación por WhatsApp; y (4) se reducen en 20 % las bajas por vencimiento o deterioro durante los tres primeros meses de piloto**.
 
+**Restricciones que se aplican al problema:**
+
+- Durante el ciclo académico, las lecturas de temperatura y humedad se **simulan**; la integración con sensores físicos queda fuera del alcance inicial.
+- La solución se limita a una **experiencia web responsive** (Landing Page y Web Application) y un RESTful API propio; no incluye aplicaciones móviles nativas.
+- OrganiK **no procesa pagos ni facturación electrónica**; los pedidos registran cantidades y decisiones, no transacciones monetarias.
+- El proveedor **no puede modificar el inventario** del minimarket: solo propone pedidos; la decisión y la entrada de inventario corresponden al administrador.
+- Los indicadores de éxito se medirán contra una línea base levantada en las pruebas con usuarios, porque las cifras nacionales de pérdida de alimentos contextualizan el problema pero no miden la merma de los minimarkets entrevistados.
+
 --
 
 #### 1.2.2.2. Lean UX Assumptions.
