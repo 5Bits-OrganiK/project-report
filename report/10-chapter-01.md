@@ -61,6 +61,8 @@ De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos 
 | Especialización en productos orgánicos perecibles | **Sí** | No | No | No |
 | Punto de venta y facturación electrónica | No (fuera de alcance) | Sí | Sí | Sí |
 
+OrganiK no compite como punto de venta: se posiciona como **complemento especializado** del POS que el minimarket ya usa, enfocado en la conservación de perecibles y en la coordinación con el proveedor. Esta decisión evita competir por cantidad de funcionalidades con plataformas consolidadas (ver estrategias en 2.1.2).
+
 
 ### 1.2.1 Antecedentes y problemática
 
