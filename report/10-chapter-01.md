@@ -239,21 +239,19 @@ Los resultados de usuario se comprobarán con tareas de consulta de inventario y
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio, de resultado de negocio, de usuario y de resultado de usuario enumerados arriba.
+Siguiendo el enunciado, se redacta **un hypothesis statement por cada feature assumption** (8 en total), con la plantilla de Lean UX: *We believe we will achieve [business outcome] if [these personas] attain [this benefit/user outcome] with [this feature]*. En la versión en español: **"Creemos que lograremos [resultado de negocio] si [persona] obtiene [resultado de usuario] con [funcionalidad]"**. Cada hipótesis indica los assumptions de los que proviene (BA = Business Assumption, BOA = Business Outcome Assumption, UA = User Assumption, UOA = User Outcome Assumption, FA = Feature Assumption) y la señal con la que se comprobará.
 
-**Hypothesis 1** Creemos que mejoraremos la trazabilidad y reduciremos el tiempo para identificar productos en riesgo si los administradores de minimarkets pueden consultar stock, lotes y vencimientos en un registro centralizado mediante el módulo de inventario y su dashboard. Lo comprobaremos al comparar el porcentaje de productos con lote y vencimiento registrados y el tiempo de identificación de un producto crítico frente al proceso actual.
+| ID | Feature assumption | Business outcome | Persona | User outcome | Feature |
+|:---:|:---|:---|:---|:---|:---|
+| H1 | FA1 | Mayor trazabilidad de productos, lotes y vencimientos (BOA2) | Administrador de minimarket | Confía en un registro único de stock, lotes y vencimientos (UOA1) | Registro, búsqueda, filtro y actualización de inventario por lote |
+| H2 | FA2 | Menos productos dados de baja por vencimiento o deterioro (BOA1, BOA3) | Administrador de minimarket | Se entera a tiempo de lotes próximos a vencer o fuera de rango (UOA3) | Alertas configurables de vencimiento y conservación |
+| H3 | FA3 | Menor tiempo para detectar condiciones de riesgo (BOA3) | Administrador de minimarket | Supervisa temperatura y humedad sin revisar vitrinas físicamente (UOA3) | Panel de lecturas de temperatura y humedad por área (datos simulados en esta etapa) |
+| H4 | FA4 | Más información vigente para decidir el abastecimiento (BOA5) | Proveedor de productos orgánicos | Mantiene su catálogo y disponibilidad en un solo lugar (UOA5) | Catálogo del proveedor con lotes y disponibilidad |
+| H5 | FA5 | Reposición anticipada y pedidos centralizados (BOA4, BOA6) | Administrador y proveedor | Comparten la necesidad de reposición y el pedido sin transcribir chats (UOA2, UOA5) | Necesidades de reposición y creación de pedidos por el proveedor |
+| H6 | FA6 | Trazabilidad de cada pedido desde su creación hasta su decisión (BOA6) | Administrador de minimarket | Decide qué entra a su inventario y conserva el control (UOA4, UOA6) | Aceptación o rechazo de pedidos con actualización única del inventario |
+| H7 | FA7 | Decisiones operativas más rápidas y mayor adopción (BOA5, BA12) | Administrador y proveedor | Consulta el estado de su operación en segundos (UOA7) | Dashboards diferenciados con indicadores, alertas e historial |
+| H8 | FA8 | Confianza de ambos segmentos para compartir información en la plataforma (BA3, BA4) | Administrador y proveedor | Accede solo a los datos y acciones de su negocio (UOA4) | Autenticación, roles y permisos por segmento |
 
-**Hypothesis 2** Creemos que reduciremos las bajas por deterioro y el tiempo de detección de condiciones riesgosas si los administradores identifican a tiempo productos o lotes afectados mediante alertas de temperatura y humedad. Primero comprobaremos la detección y atención de alertas con datos simulados; la reducción de bajas y la integración con sensores reales requerirán validación posterior en operación.
-
-**Hypothesis 3** Creemos que mejoraremos la reposición y la información disponible para decidir compras si los administradores pueden identificar stock bajo y consultar disponibilidad de proveedores mediante alertas de inventario y catálogo compartido. Lo comprobaremos con el tiempo entre la detección de stock bajo y la decisión de reposición, y con tareas de consulta de disponibilidad completadas.
-
-**Hypothesis 4** Creemos que incrementaremos la trazabilidad de los pedidos y reduciremos la dispersión de información si los proveedores pueden mantener disponibles sus productos y lotes, crear pedidos dirigidos a minimarkets y consultar su estado mediante el catálogo y el módulo de pedidos. Lo comprobaremos con el porcentaje de pedidos que conserva estado e historial consultables y con tareas de creación y seguimiento completadas sin recurrir a otros canales.
-
-**Hypothesis 5** Creemos que mejoraremos el control del inventario y la trazabilidad del abastecimiento si los administradores pueden revisar, aceptar o rechazar pedidos mediante un flujo de aprobación con historial. Lo comprobaremos verificando que cada decisión quede registrada, que solo los pedidos aceptados actualicen el inventario y que los usuarios puedan consultar el estado resultante.
-
-**Hypothesis 6** Creemos que reduciremos el tiempo de consulta operativa y facilitaremos la adopción si administradores y proveedores pueden realizar sus tareas principales desde dashboards diferenciados con una interfaz sencilla. Lo comprobaremos con tareas de ambos segmentos, observando tiempo, finalización, errores y dificultades de uso frente a sus herramientas actuales.
-
-**Hypothesis 7** Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de OrganiK sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos.
 
 ---
 
