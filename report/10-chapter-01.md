@@ -49,6 +49,19 @@ De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos 
 | **Proveedor de productos orgánicos** | "Publica tu catálogo y disponibilidad una vez y sigue cada pedido sin transcribir chats ni recibir llamadas de confirmación." | Pedidos transcritos desde WhatsApp con errores, disponibilidad desactualizada, llamadas para confirmar despachos (entrevistas 4, 5 y 6). |
 
 
+**Características diferenciales frente a la competencia:** la siguiente tabla resume las capacidades declaradas en las páginas oficiales de los competidores revisados en 2.1 (consulta del 1 de octubre de 2026). Un "No declarado" indica que la función no aparece en la información pública, no que se haya comprobado su inexistencia.
+
+| Capacidad | OrganiK | CasaMarket | limaPOS | Spry Sales |
+|:---|:---:|:---:|:---:|:---:|
+| Inventario y stock | Sí | Sí | Sí | Sí |
+| Lotes y vencimientos | Sí | No declarado | Sí | Sí |
+| Alertas de conservación (temperatura y humedad por área) | **Sí** | No declarado | No declarado | No declarado |
+| Pedido propuesto por el proveedor y aprobado por el minimarket antes de afectar el inventario | **Sí** | No declarado | No declarado | No declarado |
+| Experiencia diferenciada para minimarket y proveedor en la misma plataforma | **Sí** | No declarado | No declarado | No declarado |
+| Especialización en productos orgánicos perecibles | **Sí** | No | No | No |
+| Punto de venta y facturación electrónica | No (fuera de alcance) | Sí | Sí | Sí |
+
+
 ### 1.2.1 Antecedentes y problemática
 
 El sistema alimentario peruano enfrenta importantes pérdidas de productos a lo largo de su cadena de suministro. Se estima que en el Perú se pierden aproximadamente 12,8 millones de toneladas de alimentos al año, equivalente al 47,6% de la oferta anual de alimentos. Dentro de estas pérdidas, una proporción importante corresponde a frutas y hortalizas, productos particularmente sensibles a factores como la temperatura, humedad, manipulación y tiempo de almacenamiento (OECD, 2025; Bedoya-Perales & Dal’ Magro, 2021). Esta situación evidencia la necesidad de mejorar los mecanismos de gestión y conservación de productos perecibles.
