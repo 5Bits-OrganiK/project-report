@@ -274,7 +274,8 @@ La viabilidad del modelo SaaS (BA7 y BA13) no corresponde a una funcionalidad, p
 ---
 #### 1.2.2.4. Lean UX Canvas.
 
-El Canvas sintetiza la propuesta de valor descrita para las dos segmentos.
+
+El Lean UX Canvas sintetiza la propuesta de valor para los dos segmentos y conecta el problema de negocio, los usuarios, los beneficios, las ideas de solución y las hipótesis H1-H8 de la sección anterior.
 
 <table>
  <tr>
@@ -292,17 +293,19 @@ El Canvas sintetiza la propuesta de valor descrita para las dos segmentos.
  <br><br>
  - Registro de stock, lotes y vencimientos para el administrador (H1)
  <br><br>
- - Alertas de conservación con datos inicialmente simulados (H2)
+ - Alertas de vencimiento y conservación, con datos inicialmente simulados (H2)
  <br><br>
- - Alertas de stock bajo y consulta de disponibilidad del proveedor (H3)
+ - Panel de temperatura y humedad por área (H3)
  <br><br>
- - Catálogo del proveedor y creación y seguimiento de pedidos (H4)
+ - Catálogo del proveedor con lotes y disponibilidad (H4)
  <br><br>
- - Aceptación o rechazo por el administrador antes de actualizar inventario (H5)
+ - Necesidades de reposición y pedidos creados por el proveedor (H5)
  <br><br>
- - Dashboards diferenciados por segmento (H6)
+ - Aceptación o rechazo por el administrador antes de actualizar inventario (H6)
  <br><br>
- - Acceso SaaS a los módulos centrales, sujeto a validación de adopción y costo (H7)
+ - Dashboards e historial por segmento (H7)
+ <br><br>
+ - Autenticación, roles y permisos por negocio (H8)
  </td>
  <td valign="top">
  <strong>Business Outcomes</strong>
@@ -321,7 +324,7 @@ El Canvas sintetiza la propuesta de valor descrita para las dos segmentos.
  <td valign="top">
  <strong>Users and customers</strong>
  <br><br>
- - Administrador de minimarket: Persona que deciden sobre inventario, conservación y reposición.
+ - Administrador de minimarket: Persona que decide sobre inventario, conservación y reposición.
  <br>
  - Proveedor de productos orgánicos: Persona que mantiene oferta y coordina pedidos.
  </td>
@@ -341,19 +344,21 @@ El Canvas sintetiza la propuesta de valor descrita para las dos segmentos.
  <td valign="top">
  <strong>Hypotheses</strong>
  <br><br>
- - H1: Creemos que mejoraremos la trazabilidad y reduciremos el tiempo para identificar productos en riesgo si los administradores de minimarkets pueden consultar stock, lotes y vencimientos en un registro centralizado mediante el módulo de inventario y su dashboard. Lo comprobaremos al comparar el porcentaje de productos con lote y vencimiento registrados y el tiempo de identificación de un producto crítico frente al proceso actual.
+ - H1: Más productos con lote y vencimiento registrados si el administrador tiene un registro único de inventario por lote.
  <br><br>
- - H2: Creemos que reduciremos las bajas por deterioro y el tiempo de detección de condiciones riesgosas si los administradores identifican a tiempo productos o lotes afectados mediante alertas de temperatura y humedad. Primero comprobaremos la detección y atención de alertas con datos simulados; la reducción de bajas y la integración con sensores reales requerirán validación posterior en operación.
+ - H2: Menos bajas por vencimiento o deterioro si el administrador recibe alertas configurables de vencimiento y conservación.
  <br><br>
- - H3: Creemos que mejoraremos la reposición y la información disponible para decidir compras si los administradores pueden identificar stock bajo y consultar disponibilidad de proveedores mediante alertas de inventario y catálogo compartido. Lo comprobaremos con el tiempo entre la detección de stock bajo y la decisión de reposición, y con tareas de consulta de disponibilidad completadas.
+ - H3: Detección de condiciones de riesgo en menos de 2 minutos con un panel de temperatura y humedad por área.
  <br><br>
- - H4: Creemos que incrementaremos la trazabilidad de los pedidos y reduciremos la dispersión de información si los proveedores pueden mantener disponibles sus productos y lotes, crear pedidos dirigidos a minimarkets y consultar su estado mediante el catálogo y el módulo de pedidos. Lo comprobaremos con el porcentaje de pedidos que conserva estado e historial consultables y con tareas de creación y seguimiento completadas sin recurrir a otros canales.
+ - H4: Consultas de disponibilidad resueltas sin llamadas si el proveedor mantiene su catálogo, lotes y disponibilidad en OrganiK.
  <br><br>
- - H5: Creemos que mejoraremos el control del inventario y la trazabilidad del abastecimiento si los administradores pueden revisar, aceptar o rechazar pedidos mediante un flujo de aprobación con historial. Lo comprobaremos verificando que cada decisión quede registrada, que solo los pedidos aceptados actualicen el inventario y que los usuarios puedan consultar el estado resultante.
+ - H5: Pedidos creados dentro de la plataforma si ambos segmentos comparten necesidades de reposición y pedidos.
  <br><br>
- - H6: Creemos que reduciremos el tiempo de consulta operativa y facilitaremos la adopción si administradores y proveedores pueden realizar sus tareas principales desde dashboards diferenciados con una interfaz sencilla. Lo comprobaremos con tareas de ambos segmentos, observando tiempo, finalización, errores y dificultades de uso frente a sus herramientas actuales.
+ - H6: Pedidos con estado e historial consultables si solo el administrador acepta o rechaza y el inventario cambia una sola vez.
  <br><br>
- - H7: Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de OrganiK sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos.
+ - H7: Uso frecuente de la plataforma con dashboards diferenciados por segmento.
+ <br><br>
+ - H8: Confianza para compartir información con autenticación, roles y permisos por negocio.
  </td>
  <td valign="top">
  <strong>What’s the most important thing we need to learn first?</strong>
