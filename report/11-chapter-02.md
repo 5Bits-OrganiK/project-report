@@ -783,23 +783,49 @@ Los Empathy Maps se elaboraron en UXPressia con el User Persona de cada segmento
 
 
 ## 2.4. Big Picture Event Storming.
-El *Big Picture Event Storming* organiza en secuencia los hechos relevantes del negocio, los actores que los provocan y los puntos donde puede perderse información. La siguiente línea de tiempo presenta el flujo propuesto de OrganiK.
 
-<img src="assets/chapter-02/events.png" alt="Inventario inicial de eventos de dominio">
+El *Big Picture Event Storming* se realizó de forma colaborativa en Miro, siguiendo la guía *Step-by-Step* del curso. Su objetivo fue entender el dominio completo (la oferta del proveedor, el control del minimarket, la reposición, la decisión de pedidos y su seguimiento) antes de diseñar la solución. Cada integrante aportó eventos y pain points a partir de las entrevistas, y cada etapa se trabajó sobre una copia de la anterior para conservar la evolución del tablero.
+
+Tablero de la sesión: [OrganiK – Big Picture Event Storming (Miro)](https://miro.com/welcomeonboard/dnpHWHJVaW5DN0NjK1ordExFczhIQnVGaithTE5DN3FrbHBSb09zTHdzQ2xNMlRnOWZRNTNOYWVwczFjdzkrMFhjRm1DVHVTNGVMMTdOT0M4dUxYeFRCL2liekxjeVhnYWlWbVcyTUcySVRQQWw5SnFIZjkxVHhrVlQzSmFZU0hnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=75936186891)
+
+**Etapa 1. Unstructured exploration.** Cada integrante escribió en notas naranjas, en pasado y sin ordenar, los eventos de dominio que recordaba de las entrevistas. En esta etapa aparecieron eventos duplicados (*Pedido creado*, *Vencimiento próximo detectado*) y un evento técnico (*App configurada*), que se depuraron en la etapa siguiente.
+
+![Etapa 1: exploración no estructurada](assets/chapter-02/es-01-exploration.png)
+
+**Etapa 2. Timeline.** Se eliminaron los duplicados y el evento técnico, se reescribieron los eventos en inglés siguiendo el Ubiquitous Language (2.5) y se ordenaron de izquierda a derecha en cinco carriles: oferta del proveedor, control del minimarket, reposición, decisión del pedido y seguimiento. La decisión del pedido se representa como una bifurcación: *Supply Order Accepted* o *Supply Order Rejected*, con sus resultados *Inventory Increased From Order* o *Inventory Kept Unchanged*.
+
+![Etapa 2: timeline](assets/chapter-02/es-02-timeline.png)
+
+**Etapa 3. Pain points.** Se marcaron con hexágonos rosados los problemas observados en las entrevistas, sobre el evento donde ocurren: disponibilidad desactualizada, vencimientos detectados cuando ya son merma, fallas de frío de madrugada no detectadas, transcripción manual de pedidos desde WhatsApp, riesgo de modificar el inventario sin aprobación del administrador y llamadas para consultar el estado del pedido.
+
+![Etapa 3: pain points](assets/chapter-02/es-03-pain-points.png)
+
+**Etapa 4. Pivotal points.** Se resaltaron con un recuadro rojo los eventos que cambian la responsabilidad entre actores: *Supply Order Created* (el proveedor propone) y *Supply Order Accepted* (el administrador decide y el inventario cambia).
+
+![Etapa 4: pivotal points](assets/chapter-02/es-04-pivotal-points.png)
+
+![Detalle de los pivotal points](assets/chapter-02/es-04-pivotal-points-detalle.png)
+
+**Etapa 5. Actors and external systems.** Se agregaron los actores en notas amarillas (*Supplier* y *Minimarket Administrator*, representados por Enrique Villar y Russell Estrada) junto a los eventos que provocan y, en rosado, el sistema externo que entrega las lecturas de temperatura y humedad (*Storage Sensor*, simulado en esta etapa del proyecto). Al final de los carriles se registraron en verde las oportunidades identificadas: alertas automáticas de vencimiento, un pedido digital que el administrador acepta con un clic e indicadores de mermas por negocio.
+
+![Etapa 5: actores y sistemas externos](assets/chapter-02/es-05-actors-systems.png)
+
+La siguiente tabla resume la secuencia resultante:
 
 | Secuencia | Actor y acción | Evento de dominio | Regla o punto de atención |
 |:---|:---|:---|:---|
-| 1 | Proveedor registra o corrige un producto y su lote. | Producto registrado; lote actualizado. | La cantidad y el vencimiento deben corresponder al lote ofrecido. |
-| 2 | Proveedor revisa la disponibilidad antes de ofrecer productos. | Disponibilidad actualizada. | Una oferta desfasada puede generar un pedido que no se pueda atender. |
-| 3 | Administrador revisa stock, lotes y vencimientos de su minimarket. | Stock bajo detectado; producto próximo a vencer detectado. | El dato debe asociarse al inventario del minimarket, no al del proveedor. |
-| 4 | Sistema evalúa condiciones de almacenamiento registradas. | Condición fuera de rango detectada; alerta emitida. | En la etapa inicial se usan datos simulados; una alerta no equivale a merma comprobada. |
-| 5 | Proveedor prepara una propuesta de abastecimiento para un minimarket. | Pedido generado. | Debe indicar productos, cantidades y minimarket destinatario; todavía no cambia el inventario del receptor. |
-| 6 | Administrador examina la propuesta. | Pedido aceptado o pedido rechazado. | Solo el administrador del minimarket decide. Un rechazo conserva su inventario sin cambios. |
-| 7 | Sistema registra la decisión y, si se acepta, la entrada correspondiente. | Estado de pedido actualizado; inventario del minimarket actualizado. | La actualización requiere aceptación y debe quedar asociada al pedido para su trazabilidad. |
-| 8 | Ambos actores consultan el historial. | Estado de pedido consultado. | La ausencia de historial o estados consistentes reproduce la incertidumbre observada en los chats. |
+| 1 | El proveedor registra un producto, sus lotes y su disponibilidad. | *Product Registered*, *Lot Registered*, *Availability Updated* | La cantidad y el vencimiento deben corresponder al lote ofrecido. |
+| 2 | El administrador registra sus productos y recibe lotes. | *Inventory Item Registered*, *Lot Received* | El stock pertenece al minimarket, no al proveedor. |
+| 3 | El sistema evalúa vencimientos y stock mínimo. | *Expiration Approaching Detected*, *Low Stock Detected* | Los umbrales los configura el administrador por producto. |
+| 4 | El sistema evalúa las lecturas de conservación. | *Storage Condition Out Of Range Detected*, *Conservation Alert Raised* | En esta etapa las lecturas son simuladas; una alerta no equivale a una merma. |
+| 5 | El administrador retira un producto vencido o deteriorado. | *Product Written Off* | Toda baja registra su causa para medir las mermas. |
+| 6 | El administrador comparte una necesidad de reposición. | *Replenishment Need Shared* | Compartir una necesidad no crea un pedido. |
+| 7 | El proveedor crea un pedido para el minimarket. | *Supply Order Created* | Indica productos, cantidades y destinatario; no modifica el inventario del minimarket. |
+| 8 | El administrador acepta o rechaza el pedido. | *Supply Order Accepted* / *Supply Order Rejected* | Solo el administrador destinatario decide; un pedido ya decidido no se vuelve a decidir. |
+| 9 | El sistema actualiza o conserva el inventario. | *Inventory Increased From Order* / *Inventory Kept Unchanged* | La entrada de inventario ocurre una sola vez y queda asociada al pedido. |
+| 10 | Ambos actores consultan el seguimiento. | *Order Status Consulted*, *Operational Indicators Calculated* | Los indicadores se calculan por negocio. |
 
-Los puntos de mayor riesgo identificados son la disponibilidad desactualizada, la pérdida de cambios en pedidos y la modificación del inventario sin una decisión del administrador. Esta secuencia se usará para contrastar requisitos y prototipos; las entrevistas describen el proceso actual, mientras que los pasos 4-8 especifican la solución propuesta.
-
+Los puntos de mayor riesgo son la disponibilidad desactualizada, la transcripción manual de pedidos y la modificación del inventario sin decisión del administrador. Estos eventos son la base del Design-Level Event Storming de la sección 4.6.1.
 
 ## 2.5. Ubiquitous Language.
 
