@@ -681,15 +681,35 @@ El proveedor de productos orgánicos opera con herramientas digitales básicas y
 
 ## 2.3. Needfinding.
 
+En esta sección se presentan los artefactos resultantes del análisis de las entrevistas (2.2.3) y del análisis competitivo (2.1). Cada artefacto se construye sobre el anterior: los User Personas tipifican los rasgos más frecuentes de cada segmento; el User Task Matrix ordena sus tareas actuales; los User Journey Maps recorren su situación As-Is; y los Empathy Maps profundizan en lo que piensan, sienten y necesitan.
+
 ### 2.3.1. User Personas.
 
-**User Persona 1: Administrador operativo de minimarket orgánico**
+Se elaboró en UXPressia una ficha de User Persona por segmento objetivo. Cada Persona es un arquetipo ficticio: combina las características con mayor porcentaje del análisis de entrevistas y no representa a ningún entrevistado en particular. La siguiente tabla muestra de dónde proviene cada rasgo:
+
+| Rasgo de la ficha | Administrador: Russell Estrada | Proveedor: Enrique Villar |
+|:---|:---|:---|
+| Arquetipo (Type) | *Guardian*: protege la calidad de sus productos y el capital del negocio. | *El coordinador saturado*: atiende muchos clientes con información dispersa. |
+| Edad y ubicación | 28 años, Lima (rango de los entrevistados: 26 a 38 años). | 32 años, Lurín, Lima (rango de los entrevistados: 24 a 32 años). |
+| Dispositivos y navegador | Celular Android en el local y laptop Windows para cierres; Google Chrome (100% usa el celular en la jornada). | Celular Android en campo y laptop Windows en oficina; Google Chrome (100% combina celular y laptop; 67% declara Chrome). |
+| Herramientas actuales | Excel o Google Drive, sistema de ventas y libreta (100% usa hojas de cálculo). | Excel para catálogo y pedidos, y registros de almacén (100% usa Excel). |
+| Canales | WhatsApp con proveedores (100%). | WhatsApp y llamadas con los minimarkets (100%). |
+| Objetivos | Mantener el stock actualizado, reducir mermas y centralizar a sus proveedores. | Centralizar catálogo y pedidos, eliminar errores de transcripción y llamadas de confirmación. |
+| Frustraciones | Vencimientos y temperatura revisados a mano, mermas no detectadas a tiempo y transcripción desde chats (100%). | Pedidos en formatos distintos, productos comprometidos con dos clientes y llamadas de confirmación (100%). |
+| Diferencia frente a la competencia | Las soluciones revisadas en 2.1 no le avisan de riesgos de conservación. | Las soluciones revisadas en 2.1 no le permiten proponer pedidos que el minimarket apruebe. |
+
+**User Persona 1: Russell Estrada, administrador de minimarket orgánico**
 
 ![User Persona del administrador](assets/chapter-02/Russell-Estrada.png)
 
-**User Persona 2: Responsable comercial de proveedor de productos orgánicos**
+Russell representa al administrador que supervisa en persona el local y toma las decisiones de compra. Su principal meta es no perder dinero por mermas y mantener el inventario confiable sin dedicar horas a revisiones manuales.
 
-![User Persona del proveedor](assets/chapter-02/Marco-User.png)
+**User Persona 2: Enrique Villar, coordinador comercial de proveedor de productos orgánicos**
+
+![User Persona del proveedor](assets/chapter-02/enrique-villar.png)
+
+Enrique representa al proveedor que atiende a varios minimarkets desde el celular y la laptop. Su principal meta es que los pedidos lleguen ordenados y que sus clientes consulten disponibilidad y estado sin llamarlo.
+
 
 ### 2.3.2. User Task Matrix.
 
