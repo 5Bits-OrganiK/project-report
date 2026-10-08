@@ -736,15 +736,31 @@ Se consideran los dos segmentos objetivo, representados por sus User Personas: R
 
 ### 2.3.3. User Journey Mapping.
 
-Los recorridos se organizan en seis etapas: Descubrimiento, Evaluación, Configuración, Monitoreo, Recepción y Optimización. Parten de las prácticas actuales descritas en las entrevistas y continúan como escenarios de adopción propuestos para OrganiK.
+Los User Journey Maps presentan la situación **As-Is** de cada User Persona, es decir, su recorrido actual sin OrganiK, desde que detecta un problema operativo hasta que evalúa si necesita una herramienta distinta. Las etapas siguen la plantilla de UXPressia (Aware, Join, Use, Develop, Leave) y cada mapa está vinculado a la ficha de su User Persona en la misma herramienta. La fila *Ideas / Opportunities* registra las oportunidades que luego se trasladan a las User Stories.
 
-**User Journey Map 1: Administrador de minimarket**
+**User Journey Map 1: Russell Estrada (administrador de minimarket)**
 
-![User Journey del administrador](assets/chapter-02/user-journey-map-1.png)
+![User Journey de Russell Estrada](assets/chapter-02/as-is-journey-russell-estrada.png)
 
-**User Journey Map 2: Proveedor de productos orgánicos**
+| Etapa | Qué hace hoy | Problema principal | Emoción | Oportunidad para OrganiK |
+|:---|:---|:---|:---|:---|
+| Aware | Revisa con termómetro y libreta el stock y los vencimientos. | No detecta fallas de frío de madrugada. | Tristeza | Alertas de conservación y vencimiento. |
+| Join | Pide reposición al proveedor por WhatsApp. | Catálogo en PDF desactualizado. | Neutral | Catálogo del proveedor con disponibilidad vigente. |
+| Use | Aprueba el pedido por chat y lo transcribe a Excel. | Errores de tipeo y stock real descuadrado. | Enojo | Pedido estructurado que actualiza el inventario al aceptarlo. |
+| Develop | Intenta formalizar pedidos por correo. | Vuelve a WhatsApp por urgencia; no hay trazabilidad. | Remordimiento | Estado e historial de cada pedido. |
+| Leave | Hace el cierre mensual de mermas en Excel. | El desorden lo lleva a buscar software. | Neutral | Indicadores de mermas y reposición en el dashboard. |
 
-![User Journey del proveedor](assets/chapter-02/user-journey-map-2.png)
+**User Journey Map 2: Enrique Villar (proveedor de productos orgánicos)**
+
+![User Journey de Enrique Villar](assets/chapter-02/as-is-journey-enrique-villar.png)
+
+| Etapa | Qué hace hoy | Problema principal | Emoción | Oportunidad para OrganiK |
+|:---|:---|:---|:---|:---|
+| Aware | Recibe pedidos de varios minimarkets por WhatsApp y llamadas. | Pedidos desordenados en audios y textos. | Fastidio | Bandeja única de pedidos estructurados. |
+| Join | Confirma en el cuaderno de almacén si hay stock físico. | Promete productos o lotes que ya se agotaron. | Neutral | Disponibilidad actualizada que se reserva al crear un pedido. |
+| Use | Transcribe el pedido a Excel y prepara el lote. | Cantidades o lotes equivocados por la transcripción. | Disgusto | Pedido creado en la plataforma sin transcripción. |
+| Develop | Coordina la entrega y responde dudas de los clientes. | Interrupciones constantes por "¿a qué hora llega mi pedido?". | Aburrimiento | Estado del pedido visible para ambas partes. |
+| Leave | Cierra las ventas del día y atiende devoluciones. | Los errores dañan su credibilidad ante los minimarkets. | Neutral | Historial de pedidos y decisiones que respalda su servicio. |
 
 
 ### 2.3.4. Empathy Mapping.
