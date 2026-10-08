@@ -713,27 +713,26 @@ Enrique representa al proveedor que atiende a varios minimarkets desde el celula
 
 ### 2.3.2. User Task Matrix.
 
-La matriz relaciona cada tarea con los dos arquetipos. La frecuencia e importancia son estimaciones cualitativas del equipo basadas en las entrevistas. «Propuesta» identifica tareas del flujo futuro de OrganiK cuya frecuencia debe validarse con usuarios.
+Se consideran los dos segmentos objetivo, representados por sus User Personas: Russell Estrada (administrador de minimarket) y Enrique Villar (proveedor de productos orgánicos). Las tareas listadas son las que cada persona realiza **hoy, con o sin OrganiK**; no son funcionalidades de software. La frecuencia (Diaria, Semanal, Mensual, Ocasional) y la importancia (Alta, Media, Baja) se asignaron a partir de lo descrito en las entrevistas.
 
-**Tasks vs User Personas**
+| Tarea | Russell Estrada (Administrador) Frecuencia | Russell Estrada (Administrador) Importancia | Enrique Villar (Proveedor) Frecuencia | Enrique Villar (Proveedor) Importancia |
+|:---|:---:|:---:|:---:|:---:|
+| Revisar existencias en anaqueles o almacén | Diaria | Alta | Diaria | Alta |
+| Revisar fechas de vencimiento de los lotes | Diaria | Alta | Semanal | Alta |
+| Verificar temperatura y humedad de refrigeradoras y vitrinas | Diaria | Alta | Ocasional | Media |
+| Identificar productos que deben reponerse | Diaria | Alta | No aplica | No aplica |
+| Consultar disponibilidad y precios con el proveedor | Semanal | Alta | No aplica | No aplica |
+| Actualizar y enviar el catálogo o la lista de disponibilidad | No aplica | No aplica | Semanal | Alta |
+| Recibir y registrar pedidos de clientes | No aplica | No aplica | Diaria | Alta |
+| Confirmar, modificar o rechazar un pedido | Semanal | Alta | Diaria | Alta |
+| Preparar y coordinar el despacho | No aplica | No aplica | Diaria | Alta |
+| Verificar productos y cantidades recibidos | Semanal | Alta | No aplica | No aplica |
+| Registrar el ingreso de mercadería al inventario | Semanal | Alta | Semanal | Media |
+| Responder o hacer consultas sobre el estado de un pedido | Semanal | Media | Diaria | Media |
+| Retirar productos vencidos o deteriorados (mermas) | Semanal | Media | Ocasional | Media |
+| Cerrar el balance mensual de inventario y mermas | Mensual | Media | Mensual | Media |
 
-| Tasks | Administradores de Minimarkets (Frecuencia) | Administradores de Minimarkets (Importancia) | Proveedores B2B (Frecuencia) | Proveedores B2B (Importancia) |
-| :--- | :---: | :---: | :---: | :---: |
-| Controlar inventario y niveles de stock | Muy frecuente | Alta | No aplica | No aplica |
-| Gestionar catálogo propio y disponibilidad | No aplica | No aplica | Muy frecuente | Alta |
-| Revisar condiciones de almacenamiento | Frecuente | Alta | No aplica | No aplica |
-| Controlar lotes y fechas de vencimiento | Muy frecuente | Alta | Frecuente | Alta |
-| Consultar catálogo de proveedores conectados | Frecuente | Alta | No aplica | No aplica |
-| Generar pedidos dirigidos al minimarket (propuesta) | No aplica | No aplica | Por validar | Alta |
-| Evaluar pedidos entrantes (propuesta) | Por validar | Alta | No aplica | No aplica |
-| Registrar entrada de productos en inventario | Frecuente | Alta | No aplica | No aplica |
-| Realizar seguimiento de pedidos activos | Frecuente | Alta | Muy frecuente | Alta |
-| Consultar resumen de operaciones (propuesta) | Por validar | Media | Por validar | Media |
-| Gestionar mermas, pérdidas o donaciones | Ocasional | Media | No aplica | No aplica |
-| Comunicarse y resolver incidencias de logística | Ocasional | Alta | Frecuente | Alta |
-
-La prioridad inicial recae en stock, lotes y conservación para administradores, y en disponibilidad y pedidos para proveedores. La aceptación de un pedido y su efecto sobre el inventario son responsabilidades distintas: el proveedor propone; el administrador decide y mantiene el control de su inventario. Las estimaciones de frecuencia deben ajustarse tras completar la muestra y observar tareas reales.
-
+**Análisis:** las tareas con mayor frecuencia e importancia para Russell son la revisión diaria de existencias, vencimientos y temperatura, y la identificación de productos por reponer; para Enrique son la recepción de pedidos, su confirmación y la preparación del despacho. Ambas personas coinciden en revisar existencias y en confirmar pedidos, pero desde lados opuestos: Enrique los propone o confirma y Russell decide si los recibe. Esta coincidencia justifica el flujo central de OrganiK (el proveedor propone, el administrador decide), mientras que la verificación de temperatura es una tarea casi exclusiva del administrador y sustenta el módulo de conservación.
 
 ### 2.3.3. User Journey Mapping.
 
