@@ -765,17 +765,21 @@ Los User Journey Maps presentan la situación **As-Is** de cada User Persona, es
 
 ### 2.3.4. Empathy Mapping.
 
+Los Empathy Maps se elaboraron en UXPressia con el User Persona de cada segmento al centro. Cada integrante del equipo colocó sus observaciones de las entrevistas en las secciones *Who are we empathizing with?*, *What do they need to do?*, *See*, *Say*, *Do*, *Hear* y *Think and Feel*, y luego se consolidaron los *Pains* (¿qué le preocupa?) y los *Gains* (¿qué puede ayudar a resolver sus problemas y convencerlo de que somos la alternativa correcta?). Las frases de *Say* son paráfrasis de lo dicho por los entrevistados del segmento.
 
-Los mapas sintetizan las entrevistas de cada segmento. Las secciones sobre pensamientos y emociones son inferencias; las frases en «dice» son paráfrasis y no citas literales de una persona entrevistada.
+**Empathy Map: Russell Estrada (administrador de minimarket)**
 
-**Empathy Map: Administrador operativo**
+![Empathy Map de Russell Estrada](assets/chapter-02/empathy-map-russell-estrada.png)
 
-![Empathy Map del administrador](assets/chapter-02/Carlos-Mendoza-Administrador-de-Minimarket.png)
+**Empathy Map: Enrique Villar (proveedor de productos orgánicos)**
 
-**Empathy Map: Responsable comercial de proveedor**
+![Empathy Map de Enrique Villar](assets/chapter-02/empathy-map-enrique-villar.png)
 
-![Empathy Map del proveedor](assets/chapter-02/Valeria-Ríos-Distribuidora-Mayorista-de-Productos-Orgánicos.png)
-
+| Elemento | Russell Estrada (administrador) | Enrique Villar (proveedor) |
+|:---|:---|:---|
+| Pains | Pérdidas por productos vencidos o deteriorados sin detectar; tiempo excesivo en registros manuales; sin monitoreo de conservación. | Errores de transcripción; disponibilidad desactualizada; llamadas constantes para confirmar despachos. |
+| Gains | Inventario, lotes, conservación y pedidos en un solo lugar; alertas antes de la pérdida; inventario actualizado al aceptar un pedido. | Catálogo publicado una vez; pedidos estructurados; clientes que consultan el estado del pedido sin llamar. |
+| ¿Qué lo convencería de elegir OrganiK? | Ver una alerta de conservación o vencimiento a tiempo en una prueba con sus propios productos. | Recibir un pedido completo sin tener que reescribirlo y ver que el cliente consulta su estado solo. |
 
 
 ## 2.4. Big Picture Event Storming.
