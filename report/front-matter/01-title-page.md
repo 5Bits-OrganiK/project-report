@@ -19,26 +19,34 @@
 
 **NRC:** 7742
 
-**Profesor:** Angel Auguto Velasquez Nuñez
+**Profesor:** Velásquez Núñez, Ángel Augusto
 
-**INFORME DE TRABAJO FINAL — AV1**
+**INFORME DE TRABAJO FINAL — TB1**
 
 **Startup:** 5Bits
 
 **Producto:** OrganiK
 
-
 **INTEGRANTES:**
 
-| Apellidos y Nombres                    | Código de Alumno |
-|----------------------------------------|------------------|
-| Atencio Cristobal, Cielo Valentina     | U202424216       |
-| Cáceres Pizarro, Albino Florencio      | U201923820       |
-| Olivares Lao, Gustavo Alonso           | U202216448       |
-| Quispe Almonacid, Andre Sebastian      | U201815005       |
-| Torres Huaman, Alexis Calin            | U20241G152       |
+<table align="center" style="margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+      <th>Apellidos y Nombres</th>
+      <th>Código de Alumno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>U202424216</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td></tr>
+  </tbody>
+</table>
 
-**Lima, agosto de 2026**
+<br>
+
+**Lima, octubre de 2026**
 </div>
-
 
