@@ -37,7 +37,7 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
     <th>
       CasaMarket
       <br>
-      <img src="assets/chapter-02/casamarket.png" alt="CasaMarket" width="387" height="350">
+      <img src="assets/chapter-02/casamarket.png" alt="CasaMarket" width="100">
     </th>
     <th>
       limaPOS
@@ -309,7 +309,7 @@ Para el desarrollo de las entrevistas de los segmentos objetivo, se redactaron l
 
 **Segmento objetivo: Administradores de Minimarkets**
 
-Las fichas siguientes registran tres entrevistas a administradores y tres a proveedores. Las entrevistas 1, 2 y 4-6 incluyen enlaces de grabación; la entrevista 3 se documenta mediante la transcripción aportada por el equipo.
+Se realizaron tres entrevistas por segmento: las entrevistas 1, 2 y 3 a administradores de minimarkets y las entrevistas 4, 5 y 6 a proveedores. Cada ficha incluye nombre, edad, distrito, captura del video, enlace de la grabación, duración y un resumen descriptivo de las respuestas.
 
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tbody>
@@ -345,7 +345,7 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>José Leonardo Ortíz, Chiclayo, Lambayeque</td>
+      <td>José Leonardo Ortiz, Chiclayo, Lambayeque</td>
       <td><strong>Software especializado utilizado</strong></td>
       <td>Excel (Google Drive) y sistema POS básico</td>
     </tr>
@@ -381,7 +381,7 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
       <td><strong>Nombre completo</strong></td>
       <td>Roly Hans Luna</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td>Teléfono celular(Smartphone)</td>
+      <td>Teléfono celular (smartphone)</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
@@ -402,7 +402,8 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
       <td>Microsoft Excel (Google Drive)</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">Ver video</a></td>
+            <td colspan="2"><strong>Duración</strong>: 13:00 </td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/NzzEsy9Kx7Y" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -422,6 +423,8 @@ Las fichas siguientes registran tres entrevistas a administradores y tres a prov
 | Dispositivos y herramientas | Celular durante la jornada; computadora del área administrativa; Excel, sistema de ventas, WhatsApp y llamadas. |
 
 Carlos describe que el stock se revisa en estantes o almacén y se registra en Excel o en el sistema de ventas después de recibir mercadería, aunque la actualización puede retrasarse. Consulta disponibilidad y precios a proveedores por WhatsApp; al recibir un pedido comprueba productos y cantidades antes de registrarlos. Los lotes y vencimientos se revisan manualmente, con anotaciones parciales en Excel y colocación preferente de los productos que vencen primero. Las refrigeradoras se comprueban con termómetros; la humedad se evalúa visualmente. Identifica información dispersa entre Excel, sistema de ventas, WhatsApp y almacén físico, diferencias entre stock real y registrado, pérdidas por vencimiento y ventas perdidas cuando un producto se agota sin advertencia. Considera útiles las alertas de stock y vencimiento, y la consulta centralizada de pedidos.
+
+**Segmento objetivo: Proveedores de Productos Orgánicos**
 
 <table style="width:100%; border-collapse:collapse;">
  <tbody> 
@@ -479,7 +482,7 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
      <td>Microsoft Excel y sistema de facturación electrónica</td> 
    </tr> 
    <tr> 
-     <td colspan="4"><strong>URL de grabación: </strong><a href="https://youtu.be/BnLUW6J2jmk" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td>
+     <td colspan="2"><strong>Duración</strong>: 03:45 </td><td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/BnLUW6J2jmk" target="_blank">Ver video</a></td> </tr> <tr> <td colspan="4"> <strong>Resumen de la entrevista</strong><br><br> Marco Antonio Ríos, coordinador comercial de una distribuidora de productos orgánicos ubicada en Lurín, cuenta con cinco años de experiencia en el rubro y atiende a alrededor de treinta minimarkets de Lima Metropolitana. Gestiona su catálogo de aproximadamente ciento veinte productos en un archivo de Excel que actualiza semanalmente y distribuye a sus clientes mediante WhatsApp, mientras que la disponibilidad y los lotes se registran de forma manual en el almacén. Los pedidos llegan por mensajería en formatos distintos y son transcritos a una hoja de cálculo, lo que ha ocasionado pedidos omitidos, cantidades mal registradas y productos comprometidos con más de un cliente. El seguimiento del estado de cada pedido depende de actualizaciones manuales que el cliente no puede consultar, generando llamadas constantes para confirmar despachos. Identifica como principal dificultad la dispersión de la información en el Excel del catálogo, la hoja de pedidos, el cuaderno del almacén y el sistema de facturación, sin integración entre ellos ni registro ordenado de confirmaciones, cambios o rechazos. Considera que una plataforma que centralice productos, disponibilidad, lotes y pedidos de abastecimiento, mostrando el estado de cada operación, facilitaría su gestión, siempre que sea sencilla de usar y funcione adecuadamente desde el celular. </td>
        </tr> 
  </tbody> 
 </table>
@@ -554,7 +557,7 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
       <td><strong>Nombre completo</strong></td>
       <td>Anita Gamboa</td>
       <td><strong>Dispositivo de mayor frecuencia</strong></td>
-      <td> celular / laptop </td>
+      <td> Celular y laptop </td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
@@ -566,16 +569,16 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
       <td><strong>Definición profesional / cargo</strong></td>
       <td>Proveedor de productos orgánicos</td>
       <td><strong>Canales digitales de comunicación</strong></td>
-      <td>Whatsapp</td>
+      <td>WhatsApp</td>
     </tr>
     <tr>
       <td><strong>Residencia / ubicación</strong></td>
-      <td>Cerro Colorado - Arequipa</td>
+      <td>Cerro Colorado, Arequipa</td>
       <td><strong>Software especializado utilizado</strong></td>
       <td>Excel</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: 7:50 min</td>
+      <td colspan="2"><strong>Duración</strong>: 07:50</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://youtu.be/A0u3vSoaUJk" target="_blank">Ver video</a></td>
     </tr>
     <tr>
