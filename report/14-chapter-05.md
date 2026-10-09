@@ -83,15 +83,15 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
       <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/5Bits-OrganiK/project-report.git</a></td>
     </tr>
     <tr>
-      <td>Landing Page OrganiK</td>
+      <td>Landing Page OrganiK (repositorio final)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
     </tr>
     <tr>
-      <td>Landing Page OrganiK (repositorio del Sprint 1)</td>
+      <td>Landing Page OrganiK (repositorio inicial del Sprint 1, reemplazado por <code>organik-landing-page-static</code>)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
-      <td>Frontend Web Application OrganiK</td>
+      <td>Frontend Web Application OrganiK (repositorio final)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a></td>
     </tr>
     <tr>
@@ -936,7 +936,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
 
 Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Además de las vistas públicas, se presentan las pantallas de los módulos internos de la Web Application, capturadas con una sesión autenticada y con datos de ejemplo.
 
-El video que ilustra y explica la visualización y navegación logradas en este Sprint está disponible en la carpeta de Google Drive del equipo: [Video de navegación del Sprint 2](https://drive.google.com/drive/folders/1hi_rKkgi2mjeThxX-4SFhgweqxDTi8IN?usp=sharing).
+El video que ilustra y explica la visualización y navegación logradas en este Sprint está disponible en Google Drive: [Video de navegación del Sprint 2](https://drive.google.com/file/d/13J-F3-Kes8TYnkpBZBGxVg_Ngv3RjEQ0/view?usp=drive_link).
 
 ##### Evidencia 1: Landing Page (nueva versión)
 La Landing Page mantiene su pantalla principal e incorpora selector de idioma ES/EN, acceso a la aplicación mediante los botones de inicio de sesión y enlaces a las páginas legales en el footer.
