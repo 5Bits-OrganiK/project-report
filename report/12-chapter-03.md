@@ -123,7 +123,7 @@ La siguiente matriz relaciona los endpoints propuestos del RESTful API de Organi
  
 ## 3.2. Impact Mapping.
  
-En esta sección el equipo presenta el Impact Map de OrganiK, elaborado en UXPressia a partir de las fichas de User Persona construidas en el Capítulo II. Para cada Business Goal (definido con criterios SMART) se identifican los User Personas que ayudarán a lograrlo (Actors), los cambios de comportamiento esperados en ellos (Impacts), lo que OrganiK puede ofrecer como negocio digital para provocar esos cambios (Deliverables) y las User Stories que permiten construir dichos deliverables.
+En esta sección el equipo presenta el Impact Map de OrganiK, elaborado en UXPressia en tres mapas, uno por cada Business Goal a partir de las fichas de User Persona construidas en el Capítulo II. Para cada Business Goal (definido con criterios SMART) se identifican los User Personas que ayudarán a lograrlo (Actors), los cambios de comportamiento esperados en ellos (Impacts), lo que OrganiK puede ofrecer como negocio digital para provocar esos cambios (Deliverables) y las User Stories que permiten construir dichos deliverables.
  
 
 ### Business Goal 1
@@ -135,6 +135,10 @@ En esta sección el equipo presenta el Impact Map de OrganiK, elaborado en UXPre
 | Russell Estrada (administrador de minimarket) | Registra sus productos, lotes y vencimientos en OrganiK en lugar de libretas y hojas de cálculo. | Registro de inventario y lotes; control de vencimientos. | US-001: Como administrador de minimarket, deseo registrar productos en el inventario, para mantener actualizada la información de los productos disponibles.<br>US-006: Como administrador de minimarket, deseo registrar lotes de productos, para mantener la trazabilidad de los productos almacenados.<br>US-008: Como administrador de minimarket, deseo visualizar las fechas de vencimiento de los productos, para identificar productos próximos a vencer. |
 | Russell Estrada (administrador de minimarket) | Consulta diariamente el estado de su negocio desde un solo lugar. | Dashboard del administrador; búsqueda y filtros de inventario. | US-030: Como administrador de minimarket o proveedor, deseo visualizar un dashboard con la información de mi segmento, para consultar rápidamente el estado de mis operaciones.<br>US-004: Como administrador de minimarket, deseo filtrar productos por categoría, estado o vencimiento, para identificar rápidamente productos que requieren atención. |
 | Russell Estrada (como visitante de la landing) | Se registra en OrganiK después de conocer su propuesta. | Landing Page con sección y call-to-action para administradores. | US-032: Como visitante del segmento administrador de minimarket, deseo conocer los beneficios de OrganiK para mi negocio, para decidir si me registro.<br>US-036: Como visitante, deseo acceder desde el Landing Page a la vista de la Web Application que corresponde a mi segmento, para empezar a usar OrganiK sin pasos adicionales. |
+
+![Impact Map BG1](assets/chapter-03/impact-map-bg1.png)
+
+*Figura: Impact Map del Business Goal 1 (adopción por minimarkets) elaborado en UXPressia.*
  
 ### Business Goal 2
  
@@ -145,6 +149,10 @@ En esta sección el equipo presenta el Impact Map de OrganiK, elaborado en UXPre
 | Enrique Villar (proveedor) | Mantiene su catálogo y disponibilidad actualizados en OrganiK en lugar de enviar archivos por WhatsApp. | Catálogo del proveedor. | US-016: Como proveedor de productos orgánicos, deseo registrar los productos que ofrezco, para ponerlos a disposición de los minimarkets.<br>US-017: Como proveedor de productos orgánicos, deseo consultar los productos que tengo registrados, para mantener control sobre mi oferta dentro de la plataforma. |
 | Enrique Villar (proveedor) | Crea y sigue sus pedidos de abastecimiento en OrganiK. | Creación de pedidos; consulta de estado; necesidades de reposición. | US-021: Como proveedor de productos orgánicos, deseo crear un pedido dirigido a un minimarket con productos y cantidades disponibles, para proponer una operación de abastecimiento verificable.<br>US-022: Como proveedor de productos orgánicos, deseo consultar el estado de los pedidos que generé, para conocer la decisión del administrador.<br>US-020: Como proveedor de productos orgánicos, deseo consultar las necesidades de reposición compartidas por los minimarkets que atiendo, para preparar pedidos acordes con mi disponibilidad. |
 | Russell Estrada (administrador de minimarket) | Revisa y decide los pedidos de sus proveedores en OrganiK. | Flujo de aceptación y rechazo de pedidos con historial. | US-023: Como administrador de minimarket, deseo aceptar un pedido dirigido a mi negocio después de verificar sus productos y cantidades, para incorporar únicamente los productos aprobados al inventario.<br>US-024: Como administrador de minimarket, deseo rechazar un pedido dirigido a mi negocio, para evitar incorporar productos no aprobados al inventario. |
+
+![Impact Map BG2](assets/chapter-03/impact-map-bg2.png)
+
+*Figura: Impact Map del Business Goal 2 (adopción por proveedores) elaborado en UXPressia.*
  
 ### Business Goal 3
  
@@ -156,9 +164,9 @@ En esta sección el equipo presenta el Impact Map de OrganiK, elaborado en UXPre
 | Russell Estrada (administrador de minimarket) | Corrige oportunamente las condiciones de temperatura y humedad. | Monitoreo de conservación; alertas de conservación. | US-011: Como administrador de minimarket, deseo visualizar registros de temperatura y humedad, para conocer las condiciones de almacenamiento de los productos.<br>US-012: Como administrador de minimarket, deseo recibir alertas cuando las condiciones de conservación sean inadecuadas, para reaccionar oportunamente ante posibles riesgos de deterioro. |
 | Russell Estrada (administrador de minimarket) | Registra sus mermas para medir la reducción de pérdidas. | Registro de mermas. | US-013: Como administrador de minimarket, deseo registrar productos que hayan sufrido merma, para mantener un historial de pérdidas de inventario. |
 
-![Impact Mapping](assets/chapter-03/impact-Mapping.png)
- 
-*Figura: Impact Map de OrganiK elaborado en UXPressia.*
+![Impact Map BG3](assets/chapter-03/impact-map-bg3.png)
+
+*Figura: Impact Map del Business Goal 3 (reducción de bajas por vencimiento y conservación) elaborado en UXPressia.*
  
 El Impact Map muestra que los tres objetivos de negocio dependen de que ambos User Personas trasladen a OrganiK tareas que hoy realizan con libretas, hojas de cálculo y mensajería. Por ello, las historias asociadas al registro de inventario, al catálogo del proveedor y al flujo de pedidos con aprobación del administrador concentran el mayor valor y se ubican en las primeras posiciones del Product Backlog, después de las historias del Landing Page.
  
