@@ -13,3 +13,4 @@
 | 1.7.1 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Student Outcome: integración de las contribuciones TB1 de cada integrante y de los aportes verificados en el repositorio. |
 | 1.7.2 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Corrección de los nombres de los repositorios finales de la Web Application y la Landing Page (Capítulo IV, 5.1.2 y Anexos) y actualización del enlace al video de navegación del Sprint 2. |
 | 1.7.3 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Team Collaboration Insights de los Sprints 1 y 2 (5.2.1.8 y 5.2.2.8): capturas de Contributors de GitHub Insights de la Landing Page y la Web Application, y tabla de commits alineada con ellas. |
+| 1.7.4 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV (4.4.3): reemplazo del diagrama de User Flows por la versión actualizada con los flujos del administrador de minimarket y del proveedor. |
