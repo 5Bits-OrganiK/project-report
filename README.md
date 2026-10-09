@@ -64,6 +64,8 @@
 | 1.3.0 | 03/10/2026 | Torres Huaman, Alexis Calin<br>Atencio Cristobal, Cielo Valentina, Quispe Almonacid, Andre Sebastian | Actualización del Solution Profile, Problem Statement y Lean UX Hypothesis Statements; incorporación de criterios de aceptación en user stories y retiro de la sección TO-BE Scenario Mapping. |
 | 1.4.0 | 08/10/2026 | Torres Huaman, Alexis Calin | Reconstrucción del Capítulo II: registro y análisis de entrevistas, User Personas, User Task Matrix, As-Is Journey Maps, Empathy Maps, Big Picture EventStorming y Ubiquitous Language en inglés. Actualización de carátula para TB1. |
 | 1.5.0 | 08/10/2026 | Atencio Cristobal, Cielo Valentina | Entrega TB1: corrección de términos según Anexo E, enlaces del Product Backlog e Impact Map, separación de conclusiones y recomendaciones, anexo de videos y actualización de Student Outcome y Collaboration Insights. |
+| 1.6.0 | 09/10/2026 | Torres Huaman, Alexis Calin | Release v1.6.0: corrección de los Capítulos II y III (Big Picture EventStorming y Ubiquitous Language en inglés, nombres de User Personas en el Impact Map, reconstrucción del Impact Map con tres Business Goals, retiro de US-038 y corrección del enlace público del Product Backlog). |
+| 1.7.0 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV: capturas de los 12 bounded contexts del Design-Level EventStorming (Lucidchart), leyenda y relaciones clave actualizadas, y nuevo enlace al tablero. Capítulo V: corrección de niveles de encabezado, de la evidencia del Sprint 1 y del stack de la Landing Page; incorporación del Sprint 2 (5.2.2.1 a 5.2.2.8) con evidencia de desarrollo, ejecución, despliegue y colaboración. Registro de Project Report Collaboration Insights de TB1. Incorporación del pipeline de exportación a PDF con Pandoc y Typst. |
 
 ---
 
@@ -216,6 +218,15 @@ Para la entrega TB1, el equipo trabajó sobre la rama `develop` aplicando GitFlo
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](report/14-chapter-05.md#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](report/14-chapter-05.md#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](report/14-chapter-05.md#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](report/14-chapter-05.md#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2.](report/14-chapter-05.md#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](report/14-chapter-05.md#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](report/14-chapter-05.md#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](report/14-chapter-05.md#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](report/14-chapter-05.md#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](report/14-chapter-05.md#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](report/14-chapter-05.md#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](report/14-chapter-05.md#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](report/98-conclusions.md)
 - [Bibliografía](report/99-bibliography.md)
 - [Anexos](report/annexes/90-annex-a-raw-data.md)
@@ -237,7 +248,7 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
 | Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br>**TB1:** Expuso y validó con los integrantes los criterios de aceptación incorporados a las user stories, y sustentó en la exposición la corrección de los artefactos observados en AV1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Coordinó la organización del equipo, creación del repositorio y distribución de actividades. Participó activamente en el desarrollo, revisión e integración de los capítulos y artefactos del Project Report, apoyando en la elaboración de entregables, resolución de inconvenientes y seguimiento de las actividades correspondientes al Sprint 1.<br>**TB1:** Coordinó las reuniones de revisión post-AV1, explicó al equipo las observaciones de la rúbrica y presentó la arquitectura por bounded contexts de la Web Application en Angular.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados, colaborando con el equipo en las actividades correspondientes al Sprint 1.<br>**TB1:** [COMPLETAR: qué expuso o presentó en TB1]<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Participó en el desarrollo de los capítulos y artefactos asignados del Project Report, colaborando en las actividades correspondientes al Sprint 1.<br>**TB1:** [COMPLETAR: qué expuso o presentó en TB1]<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Participó en el desarrollo de los artefactos asignados y colaboró en la planificación y organización de las actividades del Sprint 1.<br>**TB1:** Presentó al equipo los hallazgos del análisis de entrevistas por segmento y lideró la sesión de Big Picture EventStorming, explicando los eventos del dominio a los integrantes. | **AV1:** El equipo comunicó oralmente el avance del proyecto al organizar y sustentar los artefactos desarrollados para el Sprint 1, explicando el problema, la propuesta de solución, los segmentos objetivo, los requisitos, el diseño del producto y las evidencias de implementación de la landing page ante una audiencia académica.<br><br>**TB1:** El equipo comunicó oralmente las correcciones realizadas sobre los artefactos de AV1 y la primera versión de la Web Application, ajustando el nivel de detalle técnico según la audiencia: explicación de flujos de usuario para perfiles de negocio y de bounded contexts para la audiencia técnica. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br>**TB1:** Redactó criterios de aceptación en formato Gherkin para las user stories del Capítulo III y depuró la sección TO-BE Scenario Mapping, que no correspondía a la estructura del informe. Corrigió términos según el Anexo E y actualizó el registro de versiones, Collaboration Insights y anexos para TB1.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br>**TB1:** Redactó la revisión de Lean UX assumptions, el análisis FODA, el Impact Mapping por segmento y la justificación del Product Backlog, y documentó la Web Application con README, CHANGELOG y CONTRIBUTING.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br>**TB1:** [COMPLETAR: qué redactó en TB1]<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br>**TB1:** [COMPLETAR: qué redactó en TB1]<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1.<br>**TB1:** Reescribió el Capítulo II: registro y análisis de entrevistas, User Personas, User Task Matrix, As-Is Journey Maps, Empathy Maps y Ubiquitous Language en inglés; además actualizó el Problem Statement y los Hypothesis Statements. | **AV1:** El equipo comunicó por escrito el proceso de ingeniería desarrollado mediante el Project Report, documentando en Markdown la carátula, el registro de versiones, los capítulos I al V, los artefactos de análisis, requisitos, diseño, configuración, evidencias del Sprint 1, conclusiones, bibliografía y anexos de manera organizada para docentes, compañeros y lectores técnicos.<br><br>**TB1:** El equipo mejoró la comunicación escrita incorporando la retroalimentación de AV1, corrigiendo términos según las convenciones del curso, aplicando Gherkin en los criterios de aceptación y documentando el Sprint 2 con evidencias verificables en GitHub. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Atencio Cristobal, Cielo Valentina**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br>**TB1:** Redactó criterios de aceptación en formato Gherkin para las user stories del Capítulo III y depuró la sección TO-BE Scenario Mapping, que no correspondía a la estructura del informe. Corrigió términos según el Anexo E y actualizó el registro de versiones, Collaboration Insights y anexos para TB1. Además, migró las páginas legales de privacidad y términos a la Landing Page estática y los bounded contexts Conservation e IAM a la Web Application, registrando un commit por archivo bajo Conventional Commits y siguiendo el flujo GitFlow con merge a develop.<br><br>**Cáceres Pizarro, Albino Florencio**<br>**AV1:** Participó en la planificación, distribución y seguimiento de las actividades del equipo, colaborando de manera transversal en el desarrollo y revisión de los capítulos, artefactos y evidencias del proyecto. Asimismo, apoyó a los integrantes del equipo en la organización y cumplimiento de las tareas correspondientes al Sprint 1.<br>**TB1:** Redactó la revisión de Lean UX assumptions, el análisis FODA, el Impact Mapping por segmento y la justificación del Product Backlog, y documentó la Web Application con README, CHANGELOG y CONTRIBUTING.<br><br>**Olivares Lao, Gustavo Alonso**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos y artefactos del proyecto, coordinando sus avances con el equipo.<br>**TB1:** Redactó el Sprint 2 del Capítulo V (planning, backlog, evidencias de desarrollo, ejecución y despliegue), incorporó al Capítulo IV las capturas de los bounded contexts del Design-Level EventStorming y configuró la exportación del informe a PDF con Pandoc.<br><br>**Quispe Almonacid, Andre Sebastian**<br>**AV1:** Cumplió con las actividades asignadas para el desarrollo de los capítulos, artefactos y evidencias correspondientes al proyecto.<br>**TB1:** Configuró las convenciones de formato del repositorio de la Landing Page (`.editorconfig` y Prettier) y su hoja de estilos global, que se documentan en la sección 5.1.3.<br><br>**Torres Huaman, Alexis Calin**<br>**AV1:** Colaboró en la organización de las actividades del equipo y en la planificación de las tareas correspondientes al Sprint 1.<br>**TB1:** Reescribió el Capítulo II: registro y análisis de entrevistas, User Personas, User Task Matrix, As-Is Journey Maps, Empathy Maps y Ubiquitous Language en inglés; además actualizó el Problem Statement y los Hypothesis Statements. | **AV1:** El equipo comunicó por escrito el proceso de ingeniería desarrollado mediante el Project Report, documentando en Markdown la carátula, el registro de versiones, los capítulos I al V, los artefactos de análisis, requisitos, diseño, configuración, evidencias del Sprint 1, conclusiones, bibliografía y anexos de manera organizada para docentes, compañeros y lectores técnicos.<br><br>**TB1:** El equipo mejoró la comunicación escrita incorporando la retroalimentación de AV1, corrigiendo términos según las convenciones del curso, aplicando Gherkin en los criterios de aceptación y documentando el Sprint 2 con evidencias verificables en GitHub. |
 
 ---
 
@@ -264,7 +275,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | Imagen | Apellidos y nombres | Código | Carrera | Perfil |
 |:---:|:---|:---:|:---|:---|
 | <img src="report/assets/chapter-01/profile_caceres.png" alt="Foto de Albino Caceres" width="120" /> | **Cáceres Pizarro, Albino Florencio** | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo. |
-| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Me considero responsable y creativa. He participado en proyectos de videojuegos, donde también aplico mis habilidades en dibujo digital y diseño. Mi meta es crecer en el campo tecnológico y desarrollarme como futura profesional. |
+| <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable y creativa. Tengo experiencia en proyectos de videojuegos, donde aplico dibujo digital y diseño. En el proyecto apoyo en el desarrollo de la Web Application y en la documentación del informe, buscando comunicar con claridad mis avances al equipo. Mi meta es seguir creciendo como profesional en el campo tecnológico. |
 | <img src="report/assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
 | <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
 | <img src="report/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
@@ -691,14 +702,12 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
   <tr>
     <th colspan="6">Competitive Analysis Landscape</th>
   </tr>
-
   <tr>
     <th>¿Por qué llevar a cabo este análisis?</th>
     <td colspan="5">
       Este análisis permite comparar OrganiK con soluciones existentes de gestión comercial e inventarios, identificando sus fortalezas, limitaciones y oportunidades de diferenciación. Esto permitirá establecer una propuesta de valor enfocada en la reducción de pérdidas, trazabilidad, conservación y coordinación del abastecimiento de productos orgánicos.
     </td>
   </tr>
-
   <tr>
     <th colspan="2">Competidores</th>
     <th>
@@ -722,7 +731,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       <img src="report/assets/chapter-02/sprysales.png" alt="Spry Sales" width="100">
     </th>
   </tr>
-
   <tr>
     <th rowspan="2">Perfil</th>
     <th>Overview</th>
@@ -739,7 +747,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets, con funcionalidades de inventario, pedidos, compras, proveedores y distribución.
     </td>
   </tr>
-
   <tr>
     <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
     <td>
@@ -755,7 +762,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Integración de gestión comercial, inventario, pedidos, compras, proveedores, reparto y entregas, con funcionalidades para negocios como minimarkets.
     </td>
   </tr>
-
   <tr>
     <th rowspan="2">Perfil de Marketing</th>
     <th>Mercado objetivo</th>
@@ -772,7 +778,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Minimarkets, bodegas, emprendedores y otros negocios que necesitan controlar sus operaciones comerciales, inventario, pedidos, compras, proveedores y entregas.
     </td>
   </tr>
-
   <tr>
     <th>Estrategias de marketing</th>
     <td>
@@ -788,7 +793,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Marketing orientado a la digitalización y gestión integral de negocios, destacando el control de stock, pedidos, compras, reparto y entregas.
     </td>
   </tr>
-
   <tr>
     <th rowspan="3">Perfil de Producto</th>
     <th>Productos & Servicios</th>
@@ -805,7 +809,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Software de gestión comercial con funcionalidades de control de stock, inventario, pedidos, compras, proveedores, fechas de vencimiento, reparto y entregas.
     </td>
   </tr>
-
   <tr>
     <th>Precios & Costos</th>
     <td>
@@ -821,7 +824,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Cuenta con diferentes modalidades y planes de servicio según las necesidades operativas y comerciales de cada negocio.
     </td>
   </tr>
-
   <tr>
     <th>Canales de distribución<br>(Web y/o Móvil)</th>
     <td>
@@ -837,7 +839,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Web / Móvil. Permite gestionar diferentes actividades comerciales y operativas mediante herramientas digitales.
     </td>
   </tr>
-
   <tr>
     <th rowspan="4">Análisis SWOT</th>
     <th>Fortalezas</th>
@@ -854,7 +855,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Integración de inventario, pedidos, compras, proveedores, reparto y entregas, además de funcionalidades orientadas a minimarkets.
     </td>
   </tr>
-
   <tr>
     <th>Debilidades</th>
     <td>
@@ -870,7 +870,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       En las páginas consultadas predomina el enfoque comercial; no se identificó una propuesta específica de conservación de productos orgánicos con monitoreo ambiental.
     </td>
   </tr>
-
   <tr>
     <th>Oportunidades</th>
     <td>
@@ -886,7 +885,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Crecimiento de la digitalización de minimarkets y pequeños negocios y necesidad de centralizar sus operaciones.
     </td>
   </tr>
-
   <tr>
     <th>Amenazas</th>
     <td>
@@ -1258,9 +1256,7 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         La entrevista evidencia que la gestión actual depende principalmente de herramientas separadas como Excel, WhatsApp, llamadas y registros internos. Aunque estas permiten administrar productos y pedidos, la actualización manual de la información genera dificultades para mantener sincronizados el catálogo, la disponibilidad, los lotes y el estado de los pedidos.
-
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
-
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
       </td>
     </tr>
@@ -2351,12 +2347,13 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 #### Software Development
 
-#### Software Development
 * **GitHub:** Hosting del repositorio de código fuente y control de versiones.
   * Ruta: `https://github.com`
+* **HTML5, CSS3 y JavaScript:** Tecnologías de la Landing Page, publicada como sitio estático desde su migración del 29/09/2026 (en el Sprint 1 se construyó en Angular).
+  * Ruta: `https://developer.mozilla.org`
 * **WebStorm:** IDE utilizado para el desarrollo de la aplicación.
   * Ruta: `https://www.jetbrains.com/webstorm/`
-* **Angular 22:** Framework utilizado para construir las interfaces web de OrganiK.
+* **Angular 22:** Framework utilizado para construir la Web Application de OrganiK.
   * Ruta: `https://angular.dev`
 * **TypeScript:** Lenguaje principal para la implementación de componentes y lógica.
   * Ruta: `https://www.typescriptlang.org`
@@ -2364,7 +2361,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
   * Ruta: `https://material.angular.io`
 * **@ngx-translate:** Librería utilizada para la internacionalización en español e inglés.
   * Ruta: `https://github.com/ngx-translate/core`
-* **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos.
+* **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos de la Landing Page y de las plantillas de la Web Application.
   * Ruta: `https://developer.mozilla.org/en-US/docs/Web/HTML` and `https://developer.mozilla.org/en-US/docs/Web/CSS`
 
 #### Software Testing
@@ -2408,6 +2405,10 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
     <tr>
       <td>Landing Page OrganiK</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page OrganiK (repositorio del Sprint 1)</td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK</td>
@@ -2499,13 +2500,13 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 Se especifican los pasos y recursos de configuración de despliegue para asegurar que la plataforma **OrganiK** sea completamente accesible en sus diferentes productos.
 
 #### Landing Page (Firebase Hosting)
-1. **Preparación:** Clonación del repositorio `organik-landingpage` y configuración local.
-2. **Construcción:** Ejecución del comando de compilación de Angular (`ng build`) para generar los archivos estáticos optimizados.
-3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar el código compilado en la nube.
+1. **Preparación:** Clonación del repositorio `organik-landing-page-static` y configuración local.
+2. **Construcción:** No requiere compilación: la Landing Page es un sitio estático (HTML5, CSS3 y JavaScript) y sus archivos se publican tal cual.
+3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar los archivos del sitio en la nube.
 * **URL de producción:** https://organik-d6e58.web.app/
 
 #### Frontend Web Application (Firebase Hosting)
-1. **Preparación:** Integración de los últimos cambios de Angular en la rama `main` del repositorio `organik-frontend`.
+1. **Preparación:** Integración de los últimos cambios de Angular en la rama `main` del repositorio `organik-web-application`.
 2. **Construcción:** Configuración del archivo de entorno (variables de entorno) para apuntar al backend público, y compilación del proyecto para producción (`ng build --configuration production`).
 3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar la plataforma interactiva en la nube.
 * **URL de producción:** https://organik-app-d6e58.web.app/
@@ -2539,6 +2540,7 @@ Se especifican los pasos y recursos de configuración de despliegue para asegura
    https://github.com/5Bits-OrganiK/organik-landingpage.git
   </a>
 </p>
+
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
@@ -2638,7 +2640,7 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
-  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page de <strong>OrganiK</strong>. A continuación se resumen los commits más relevantes del repositorio de la Landing Page, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial del repositorio.
+  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page de <strong>OrganiK</strong> en Angular. A continuación se resumen los commits más relevantes del repositorio <code>organik-landingpage</code>, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial del repositorio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -2654,89 +2656,113 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
   </thead>
   <tbody>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
       <td>main</td>
-      <td><code>e23d611</code></td>
-      <td>chore: initial commit</td>
+      <td><code>baa4cfd</code></td>
+      <td>initial commit</td>
       <td>Inicializa el repositorio de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/landing-page-html</td>
-      <td><code>3ac25f6</code></td>
-      <td>feat(landing-page): created the principal HTML of the landing page</td>
-      <td>Estructura HTML principal de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>f4caf68</code></td>
+      <td>feat(landing): build organik landing page</td>
+      <td>Construcción de la Landing Page: Home, Product Information, Videos, Plans y Starter.</td>
+      <td>20-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/i18n-configuration</td>
-      <td><code>a326659</code></td>
-      <td>feat(i18n): create i18n for english and spanish translation for the landing page</td>
-      <td>Traducciones al inglés y español de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>d6e7244</code></td>
+      <td>fix(app): enable zoneless change detection</td>
+      <td>Habilita la detección de cambios sin zone.js.</td>
+      <td>20-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/team-profiles-images-and-icons</td>
-      <td><code>76240a9</code></td>
-      <td>feat(images-and-logo): insert the team profiles images for the landing page and logo of organik</td>
-      <td>Fotos de perfil del equipo y logo de OrganiK.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>515f08c</code></td>
+      <td>fix(videos): update team embed url</td>
+      <td>Actualiza la URL embebida del video del equipo.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>de7a73e</code></td>
+      <td>fix(brand): align assets with organik name</td>
+      <td>Alinea los recursos de marca con el nombre OrganiK.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>f1f246f</code></td>
+      <td>fix(videos): show youtube previews</td>
+      <td>Muestra previsualizaciones de YouTube en la sección de videos.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>577bdea</code></td>
+      <td>refactor(app): move landing features to app root</td>
+      <td>Mueve las features de la landing a la raíz de la aplicación.</td>
+      <td>20-09-2026</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la nueva versión de la Landing Page de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas y la correcta adaptación de la plataforma al idioma inglés.
 
-#### Evidencia 1: Home Section y Propuesta de Valor
+##### Evidencia 1: Home Section y Propuesta de Valor
 Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de OrganiK: controlar el inventario antes de que sea tarde. El diseño presenta una interfaz oscura con un dashboard visual interactivo y componentes que ilustran el estado del stock en tiempo real.
 
 ![Vista principal de OrganiK desplegada en la Landing Page.](report/assets/chapter-05/execution-landing-home.jpg)
 *Figura: Vista principal de OrganiK desplegada en la Landing Page.*
 
-#### Evidencia 2: Características del Producto (Features)
+##### Evidencia 2: Características del Producto (Features)
 Se maquetó la sección informativa donde se presentan las principales capacidades de OrganiK mediante tarjetas UI, incluyendo inventario centralizado, control de lotes por código, alertas inteligentes y fechas de caducidad.
 
 ![Sección de características y funcionalidades principales.](report/assets/chapter-05/execution-landing-features.jpg)
 *Figura: Sección de características y funcionalidades principales.*
 
-#### Evidencia 3: Módulo para Proveedores (Suppliers)
+##### Evidencia 3: Módulo para Proveedores (Suppliers)
 Se implementó una sección dedicada exclusivamente a los proveedores ("Reach more minimarkets"), comunicando cómo la plataforma les permite publicar su catálogo orgánico, recibir necesidades de reabastecimiento de los minimarkets y gestionar pedidos en un solo lugar.
 
 ![Sección dedicada a los proveedores de minimarkets.](report/assets/chapter-05/execution-landing-suppliers.jpg)
 *Figura: Sección dedicada a los proveedores de minimarkets.*
 
-#### Evidencia 4: Demostración del Producto (Product Video)
+##### Evidencia 4: Demostración del Producto (Product Video)
 Se integró un apartado audiovisual ("See OrganiK in action") diseñado para incrustar material de video demostrativo. Esta sección permite explicar visualmente cómo la solución centraliza los procesos operativos del minimarket.
 
 ![Sección de video demostrativo del producto.](report/assets/chapter-05/execution-landing-demo-video.jpg)
 *Figura: Sección de video demostrativo del producto.*
 
-#### Evidencia 5: Testimonios de Usuarios (Testimonials)
+##### Evidencia 5: Testimonios de Usuarios (Testimonials)
 Se desarrolló una sección de validación social ("What minimarkets are saying") que muestra comentarios de clientes y proveedores ficticios, destacando métricas de éxito como la reducción de desperdicios y el ahorro de tiempo semanal.
 
 ![Sección de testimonios de usuarios de OrganiK.](report/assets/chapter-05/execution-landing-testimonials.jpg)
 *Figura: Sección de testimonios de usuarios de OrganiK.*
 
-#### Evidencia 6: Planes Comerciales (Pricing)
+##### Evidencia 6: Planes Comerciales (Pricing)
 Se diseñó la vista de planes de suscripción ("A plan for every minimarket size"), presentando las alternativas Basic, Professional y Enterprise. La interfaz permite cambiar entre planes para minimarkets y proveedores mediante un selector interactivo.
 
 ![Sección de planes de suscripción disponibles.](report/assets/chapter-05/execution-landing-pricing.jpg)
 *Figura: Sección de planes de suscripción disponibles.*
 
-#### Evidencia 7: Presentación del Equipo (The Team)
+##### Evidencia 7: Presentación del Equipo (The Team)
 Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
 ![Perfiles de los miembros del equipo de OrganiK.](report/assets/chapter-05/execution-landing-team.jpg)
 *Figura: Perfiles de los miembros del equipo de OrganiK.*
 
-#### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
+##### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
 Se construyó la sección de cierre orientada a la conversión ("Take control of your minimarket with OrganiK"). Incluye un botón de inicio de sesión directo, un gráfico de radar temático y el pie de página con enlaces a políticas de privacidad.
 
 ![Sección final de llamado a la acción y pie de página.](report/assets/chapter-05/execution-landing-starter.jpg)
@@ -2744,15 +2770,15 @@ Se construyó la sección de cierre orientada a la conversión ("Take control of
 
 ---
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquetación y despliegue de la Landing Page estática, la implementación y documentación de los servicios Backend (API RESTful) se abordarán a partir del Sprint 2. Por lo tanto, la evidencia de documentación de servicios (Swagger/OpenAPI) se incluirá en las siguientes iteraciones.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar la primera versión de la Landing Page de **OrganiK**. El proyecto se compila y se publica con el CLI de Firebase (`firebase deploy --only hosting`), tal como se describe en la sección 5.1.4. La Web Application y los Web Services se despliegan a partir del Sprint 2 y Sprint 3, respectivamente.
+Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar la primera versión de la Landing Page de **OrganiK**. El proyecto se compila con Angular y se publica con el CLI de Firebase (`firebase deploy --only hosting`). La Web Application y los Web Services se despliegan a partir del Sprint 2 y Sprint 3, respectivamente.
 
-* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landing-page-static
+* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landingpage
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-d6e58.web.app/
 
@@ -2837,7 +2863,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna 
   </thead>
   <tbody>
     <tr><td>Atencio Cristobal, Cielo Valentina</td><td>U202424216</td><td>Ciel0p</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td></tr>
-    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>C</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td><td>GeGuMaGu25</td><td>—</td><td>L</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td><td>u201815005</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td><td>Alex_Torres</td><td>L</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
@@ -2856,6 +2882,7 @@ El seguimiento se realiza en el mismo tablero de Trello del proyecto: [Tablero d
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **US-037** | Cambiar idioma del Landing Page | T008 | Script principal de la landing | Navegación, cambio de idioma ES/EN y animaciones en `main.js`. | 4h | Torres Huaman, Alexis Calin | Done |
 | **US-039** | Consultar términos y condiciones | T009 | Páginas legales | Páginas de términos y condiciones y de política de privacidad enlazadas en el footer. | 3h | Atencio Cristobal, Cielo Valentina | Done |
+| — | Tarea técnica | T023 | Migración de la landing a HTML, CSS y JS estático | Reemplaza la implementación Angular por un sitio estático, con i18n y secciones de evidencia de la rúbrica. | 6h | Cáceres Pizarro, Albino Florencio | Done |
 | — | Tarea técnica | T010 | Página 404 de la landing | Página de error personalizada `404.html`. | 2h | Torres Huaman, Alexis Calin | Done |
 | — | Tarea técnica | T011 | Estilos globales y configuración | `.editorconfig`, Prettier y hoja de estilos global de la landing. | 3h | Quispe Almonacid, Andre Sebastian | Done |
 | — | Tarea técnica | T012 | Configuración inicial de la Web Application | Proyecto Angular, archivos de entorno de desarrollo y producción. | 4h | Olivares Lao, Gustavo Alonso | Done |
@@ -2892,6 +2919,38 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>101d570</code></td>
+      <td>feat(landing): migrate to static html css js</td>
+      <td>Migra la Landing Page a HTML, CSS y JavaScript estáticos.</td>
+      <td>29-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>dba8e73</code></td>
+      <td>fix(i18n): default landing language to english</td>
+      <td>Idioma inglés por defecto en la Landing Page.</td>
+      <td>29-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>6438274</code></td>
+      <td>feat(landing): add rubric evidence sections</td>
+      <td>Agrega secciones de evidencia de la rúbrica a la Landing Page.</td>
+      <td>02-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>b3a0723</code></td>
+      <td>feat(landing): add platform screenshots</td>
+      <td>Agrega capturas de la plataforma a la Landing Page.</td>
+      <td>02-10-2026</td>
+    </tr>
     <tr>
       <td>5Bits-OrganiK/organik-landing-page-static</td>
       <td>feature/main-script</td>
@@ -3297,6 +3356,7 @@ Gestión de usuarios del minimarket con correo, rol, estado y acciones, y acceso
 
 ![Usuarios y roles de la Web Application](report/assets/chapter-05/s2-app-users.jpg)
 *Figura: Vista de usuarios y roles.*
+
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -3336,7 +3396,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 </p>
 
 <p>
-  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio.
+  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio. La columna Landing Page suma <code>organik-landingpage</code> y <code>organik-landing-page-static</code>.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -3351,9 +3411,9 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
   </thead>
   <tbody>
     <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>57</td><td>59</td></tr>
-    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
-    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>4</td><td>12</td><td>16</td></tr>
-    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>23</td><td>72</td><td>95</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>10</td><td>20</td><td>30</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>2</td><td>0</td><td>2</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
   </tbody>
 </table>
@@ -3373,19 +3433,23 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 
 ## Conclusiones y recomendaciones.
 
+### Conclusiones
+
 1. El desarrollo de **OrganiK** permitió identificar una problemática real en la gestión de productos orgánicos: la fragmentación de información, el control manual de inventarios, la poca trazabilidad de lotes y la dependencia de canales informales como WhatsApp para coordinar pedidos entre minimarkets y proveedores.
 
 2. Las entrevistas realizadas evidenciaron que tanto administradores de minimarkets como proveedores necesitan una solución centralizada, sencilla y accesible que les permita reducir errores operativos, anticipar vencimientos, controlar stock y mejorar la coordinación del abastecimiento.
 
 3. La propuesta de **OrganiK** se diferencia de soluciones generales de inventario al enfocarse específicamente en productos orgánicos, integrando inventario, lotes, vencimientos, abastecimiento, proveedores y monitoreo de condiciones de conservación como temperatura y humedad.
 
-4. La implementación de la landing page permitió comunicar de manera clara la propuesta de valor del producto, sus funcionalidades principales, planes comerciales y canales de contacto, funcionando como una primera aproximación para validar el interés del mercado.
+4. La implementación de la landing page, publicada como sitio estático bilingüe con páginas legales, permitió comunicar de manera clara la propuesta de valor del producto, sus funcionalidades principales, planes comerciales y canales de contacto, funcionando como una primera aproximación para validar el interés del mercado.
 
-5. El uso de Angular, componentes organizados por features, internacionalización y control de versiones mediante Git permitió construir una base técnica ordenada, escalable y alineada con buenas prácticas de desarrollo frontend.
+5. La primera versión de la Web Application, desarrollada en Angular y organizada por bounded contexts y capas (domain, application, infrastructure, presentation), con internacionalización y una API simulada, permitió construir una base técnica ordenada y escalable, desplegada en Firebase Hosting y gestionada con GitFlow, Conventional Commits y Semantic Versioning.
 
 6. El trabajo colaborativo del equipo permitió avanzar en investigación, diseño, documentación e implementación, fortaleciendo la planificación, asignación de responsabilidades y seguimiento del proyecto mediante herramientas digitales.
 
-1. Continuar con el desarrollo de la plataforma web principal, priorizando los módulos de inventario, proveedores, requisiciones, pedidos, alertas y dashboard, ya que son los flujos de mayor valor para los usuarios entrevistados.
+### Recomendaciones
+
+1. Completar la Web Application integrando los módulos de requisiciones y órdenes de envío, y conectarla a los Web Services en el Sprint 3, ya que el abastecimiento es el flujo de mayor valor para los usuarios entrevistados.
 
 2. Realizar nuevas validaciones con administradores de minimarkets y proveedores usando prototipos funcionales, no solo mockups, para medir si los usuarios pueden completar tareas clave sin dificultad.
 
