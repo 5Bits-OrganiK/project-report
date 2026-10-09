@@ -13,31 +13,53 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 * **Trello:** Empleado para la organización visual del flujo de trabajo diario, priorización de tareas y seguimiento del avance de las secciones de la landing page.
   * **Ruta:** `https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik`
 
+* **UXPressia:** Utilizado para la construcción de los artefactos de UX, como los User Personas, Journey Maps e Impact Maps.
+  * Ruta: `https://uxpressia.com`
+
 #### Product UX/UI Design
 
-1. **Miro:** Pizarra colaborativa utilizada para organizar ideas, flujos de usuario y estructura general de la landing page.
-2. **Figma:** Herramienta principal para el diseño visual, definición de secciones, jerarquía de contenido, componentes UI y propuesta responsive.
-3. **Structurizr:** Utilizado para apoyar el modelado de arquitectura mediante diagramas de alto nivel cuando sea necesario.
+* **Miro:** Pizarra colaborativa utilizada para organizar ideas, flujos de usuario y estructura general.
+  * Ruta: `https://miro.com`
+* **Figma:** Herramienta principal para el diseño visual, definición de jerarquía de contenido, componentes UI y wireframes.
+  * Ruta: `https://www.figma.com`
+* **Structurizr:** Utilizado para apoyar el modelado de arquitectura mediante diagramas de alto nivel C4 Model.
+  * Ruta: `https://structurizr.com`
 
 #### Software Development
 
-1. **GitHub:** Hosting del repositorio de código fuente. Se aplica control de versiones mediante Git y commits bajo la convención **Conventional Commits**.
-2. **WebStorm:** IDE utilizado para el desarrollo frontend de la landing page.
-3. **Angular 22:** Framework utilizado para construir la landing page de **OrganiK** mediante componentes standalone.
-4. **TypeScript:** Lenguaje principal para la implementación de componentes, configuración de la aplicación y lógica de presentación.
-5. **Angular Material:** Librería utilizada para componentes de interfaz, como el selector de idioma.
-6. **@ngx-translate:** Librería utilizada para la internacionalización de la landing page en español e inglés.
-7. **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos.
+#### Software Development
+* **GitHub:** Hosting del repositorio de código fuente y control de versiones.
+  * Ruta: `https://github.com`
+* **WebStorm:** IDE utilizado para el desarrollo de la aplicación.
+  * Ruta: `https://www.jetbrains.com/webstorm/`
+* **Angular 22:** Framework utilizado para construir las interfaces web de OrganiK.
+  * Ruta: `https://angular.dev`
+* **TypeScript:** Lenguaje principal para la implementación de componentes y lógica.
+  * Ruta: `https://www.typescriptlang.org`
+* **Angular Material:** Librería de componentes de interfaz web.
+  * Ruta: `https://material.angular.io`
+* **@ngx-translate:** Librería utilizada para la internacionalización en español e inglés.
+  * Ruta: `https://github.com/ngx-translate/core`
+* **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos.
+  * Ruta: `https://developer.mozilla.org/en-US/docs/Web/HTML` and `https://developer.mozilla.org/en-US/docs/Web/CSS`
 
 #### Software Testing
+* **Vitest / Angular Test Runner:** Utilizado para validar el renderizado de secciones principales y pruebas unitarias básicas.
+  * Ruta: `https://vitest.dev`
 
-* **Vitest / Angular Test Runner:** Utilizado para validar la creación de la aplicación, renderizado de secciones principales y pruebas unitarias básicas.
-* **Criterios de aceptación:** Definidos según la correcta visualización de las secciones Home, Product Information, Videos, Pricing y Starter.
+#### Database Design
+* **MySQL Workbench:** Herramienta visual empleada para el modelado, diseño de diagramas y administración de la base de datos relacional.
+  * Ruta: `https://www.mysql.com/products/workbench/`
+
+#### Software Deployment
+* **Firebase Hosting:** Plataforma en la nube de Google utilizada para el despliegue rápido y seguro tanto de la Landing Page estática como de la Frontend Web Application.
+  * Ruta: https://firebase.google.com
+* **Google Cloud / Firebase:** Infraestructura utilizada para el despliegue de los Backend Web Services.
+  * Ruta: https://cloud.google.com
 
 #### Software Documentation
-
-* **Markdown:** Utilizado para documentar el proyecto, la configuración, evidencias de sprint y decisiones técnicas.
-* **README.md:** Documento principal del repositorio para describir instalación, ejecución y estructura del proyecto.
+* **Markdown:** Utilizado para documentar el proyecto, la configuración y decisiones técnicas.
+  * Ruta: `https://www.markdownguide.org`
 
 ---
 
@@ -121,6 +143,8 @@ En esta sección se establecen las convenciones de estilo y nomenclatura adoptad
 | HTML/CSS | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
 | TypeScript | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
 | Angular | [Angular Style Guide](https://angular.dev/style-guide) |
+| Spring Boot | [Spring Boot Features](https://spring.io/projects/spring-boot) |
+| Java | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) |
 | Conventional Commits | [Conventional Commits](https://www.conventionalcommits.org/) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de la landing page y la plataforma **OrganiK**, manteniendo nombres claros, consistentes y alineados al producto.
@@ -148,7 +172,21 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 
 ### 5.1.4. Software Deployment Configuration.
 
-Se especifica la configuración de despliegue para la landing page de **OrganiK**, garantizando disponibilidad para usuarios interesados en conocer la propuesta de valor del producto.
+Se especifican los pasos y recursos de configuración de despliegue para asegurar que la plataforma **OrganiK** sea completamente accesible en sus diferentes productos.
+
+#### Landing Page (Firebase Hosting)
+1. **Preparación:** Clonación del repositorio `organik-landingpage` y configuración local.
+2. **Construcción:** Ejecución del comando de compilación de Angular (`ng build`) para generar los archivos estáticos optimizados.
+3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar el código compilado en la nube.
+* **URL de producción:** https://organik-d6e58.web.app/
+
+#### Frontend Web Application (Firebase Hosting)
+1. **Preparación:** Integración de los últimos cambios de Angular en la rama `main` del repositorio `organik-frontend`.
+2. **Construcción:** Configuración del archivo de entorno (variables de entorno) para apuntar al backend público, y compilación del proyecto para producción (`ng build --configuration production`).
+3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar la plataforma interactiva en la nube.
+* **URL de producción:** https://organik-app-d6e58.web.app/
+
+---
 
 #### Landing Page
 
@@ -174,7 +212,7 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
 | Time | 10:00 p.m. |
 | Location | Discord / WhatsApp |
 | Prepared By | Albino Florencio Cáceres Pizarro |
-| Attendees | Albino Florencio Cáceres Pizarro<br>Matias Daniel Huaranga Romero<br>Winnie Lisbeth Merino Ordinola<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Cielo Valentina Atencio Cristobal<br>Gustavo Alonso Olivares Lao<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | **Sprint Goal & User Stories** |  |
 | **Sprint 1 Goal** | Entregar la landing page de **OrganiK** para comunicar a administradores de minimarkets y proveedores la propuesta de inventario, lotes, conservación y abastecimiento. El objetivo de US00 es que un visitante sin sesión pueda recorrer Home, Product Description, Videos, Plans y Starter y encontrar un medio de contacto. |
 | User Story comprometida | US00: Conocer OrganiK en la landing page (5 Story Points, según Product Backlog del capítulo III). |
@@ -186,7 +224,6 @@ La landing page puede desplegarse como sitio estático mediante servicios como A
    https://github.com/5Bits-OrganiK/organik-landingpage.git
   </a>
 </p>
-
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
@@ -267,8 +304,8 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 | User Story Id | Componente de US00 | Task Id | Engineering Task | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **US00** | Landing Page Base | T001 | Implementación de Home Section | Desarrollo de la sección principal de la landing page en Angular, presentando la propuesta de valor de OrganiK para minimarkets orgánicos. | 4h | Cáceres Pizarro, Albino Florencio | Done |
-| **US00** | Product Information | T002 | Maquetación de descripción del producto | Implementación de la sección informativa sobre inventario, lotes, alertas de conservación, pedidos y accesos por rol. | 4h | Huaranga Romero, Matias Daniel | Done |
-| **US00** | Videos Section | T003 | Implementación de sección de videos | Desarrollo del apartado visual para presentar al equipo y mostrar el funcionamiento general de OrganiK mediante videos embebidos. | 3h | Merino Ordinola, Winnie Lisbeth | Done |
+| **US00** | Product Information | T002 | Maquetación de descripción del producto | Implementación de la sección informativa sobre inventario, lotes, alertas de conservación, pedidos y accesos por rol. | 4h | Atencio Cristobal, Cielo Valentina | Done |
+| **US00** | Videos Section | T003 | Implementación de sección de videos | Desarrollo del apartado visual para presentar al equipo y mostrar el funcionamiento general de OrganiK mediante videos embebidos. | 3h | Olivares Lao, Gustavo Alonso | Done |
 | **US00** | Pricing Section | T004 | Implementación de planes | Maquetación de los planes Básico, Profesional y Empresarial, incluyendo precios, beneficios y llamadas a la acción. | 3h | Quispe Almonacid, Andre Sebastian | Done |
 | **US00** | Starter Section | T005 | Implementación de sección de suscripción | Desarrollo de la sección Starter/Suscribirse con formulario para que los minimarkets interesados puedan iniciar el proceso de adopción de OrganiK. | 4h | Torres Huaman, Alexis Calin | Done |
 | **US00** | Landing Page Architecture | T006 | Organización por features y estructura Angular | Refactorización de carpetas siguiendo una arquitectura organizada por features dentro de `src/app`, separando componentes, estilos, assets e internacionalización. | 5h | Cáceres Pizarro, Albino Florencio | Done |
