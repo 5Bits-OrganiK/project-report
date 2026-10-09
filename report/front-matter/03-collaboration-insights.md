@@ -1,5 +1,5 @@
 # Project Report Collaboration Insights
-El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
+La presente sección tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
 Link de la organización: 🔗https://github.com/5Bits-OrganiK
 
@@ -37,3 +37,21 @@ La siguiente figura muestra el historial de commits realizados por los integrant
 **Figura 4.** Registro de commits realizados por los integrantes del equipo.  
 **Fuente:** GitHub.
 
+## TB1
+
+Para la entrega TB1, el equipo trabajó sobre la rama `develop` aplicando GitFlow: cada capítulo del informe se desarrolló en su propia rama `feature/` (por ejemplo, `feature/11-chapter-02` y `feature/00-front-matter`) y se integró mediante Pull Requests. Las actividades se centraron en corregir los artefactos observados en AV1, principalmente en el Capítulo II (entrevistas, needfinding, Big Picture EventStorming y Ubiquitous Language), en el Capítulo III (user stories, impact mapping y product backlog) y en la incorporación del Sprint 2 en el Capítulo V. Los mensajes de commit siguen la especificación Conventional Commits.
+
+<img src="../assets/common/insights-tb1.png" alt="Insights del repositorio en TB1">
+
+**Figura 5.** Estadísticas de actividad del repositorio durante TB1.  
+**Fuente:** GitHub Insights.
+
+<img src="../assets/common/contributors-tb1.png" alt="Contribuidores del repositorio en TB1">
+
+**Figura 6.** Contribuidores del repositorio durante TB1.  
+**Fuente:** GitHub Insights.
+
+<img src="../assets/common/commits-tb1.png" alt="Commits del repositorio en TB1">
+
+**Figura 7.** Registro de commits realizados durante TB1.  
+**Fuente:** GitHub.
