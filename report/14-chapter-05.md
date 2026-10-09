@@ -53,9 +53,9 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 #### Software Deployment
 * **Firebase Hosting:** Plataforma en la nube de Google utilizada para el despliegue rápido y seguro tanto de la Landing Page estática como de la Frontend Web Application.
-  * Ruta: https://firebase.google.com
+  * Ruta: `https://firebase.google.com`
 * **Google Cloud / Firebase:** Infraestructura utilizada para el despliegue de los Backend Web Services.
-  * Ruta: https://cloud.google.com
+  * Ruta: `https://cloud.google.com`
 
 #### Software Documentation
 * **Markdown:** Utilizado para documentar el proyecto, la configuración y decisiones técnicas.
@@ -83,11 +83,11 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
     </tr>
     <tr>
       <td>Landing Page OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-frontend.git">https://github.com/5Bits-OrganiK/organik-frontend.git</a></td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a></td>
     </tr>
     <tr>
       <td>Backend Web Services OrganiK</td>
