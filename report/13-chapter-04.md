@@ -226,11 +226,19 @@ Los diagramas de flujo de usuario describen, paso a paso, cómo el usuario compl
 3. Si las credenciales son incorrectas, el panel muestra el error y permite reintentar; si la cuenta está pendiente de activación, se informa.
 4. Si son correctas, se crea la sesión y se muestra el Dashboard (o la ruta que intentó abrir).
 
+![Flujo 1 – Iniciar sesión](assets/chapter-04/web-user-flow-1.png)
+
+*Figura: Diagrama de Flujo 1 – Iniciar sesión.*
+
 **Flujo 2 – Registrar stock**
 1. Desde Inventario, el usuario selecciona *Registrar stock*.
 2. Elige el producto e ingresa cantidad, lote y fecha de vencimiento.
 3. El formulario valida los datos; si hay errores, los marca en línea.
 4. Al guardar, el inventario se actualiza y se confirma con una notificación.
+
+![Flujo 2 – Registrar stock](assets/chapter-04/web-user-flow-2.png)
+
+*Figura: Diagrama de Flujo 2 – Registrar stock.*
 
 **Flujo 3 – Gestionar un pedido**
 1. El administrador comparte una necesidad con *Nueva solicitud*.
@@ -238,12 +246,18 @@ Los diagramas de flujo de usuario describen, paso a paso, cómo el usuario compl
 3. Desde Envíos, el administrador destinatario revisa el pedido y elige *Aceptar* o *Rechazar*.
 4. Si acepta, el inventario se actualiza una sola vez; si rechaza, las existencias no cambian.
 
+![Flujo 3 – Gestionar un pedido](assets/chapter-04/web-user-flow-3.png)
+
+*Figura: Diagrama de Flujo 3 – Gestionar un pedido.*
+
 **Flujo 4 – Atender una alerta de conservación**
 1. El Dashboard o Conservación muestra una alerta por temperatura o humedad fuera de rango.
 2. El usuario abre *Ver alertas* y revisa el detalle.
 3. Toma acción sobre el lote afectado (registrar merma o cambiar su estado).
 
-![Web Applications User Flow Diagrams](assets/chapter-04/web-user-flows.png)
+![Flujo 4 – Atender una alerta de conservación](assets/chapter-04/web-user-flow-4.png)
+
+*Figura: Diagrama de Flujo 4 – Atender una alerta de conservación.*
 
 ## 4.5. Web Applications Prototyping.
 
