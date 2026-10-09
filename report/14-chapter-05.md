@@ -314,7 +314,7 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
-  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page y se inició la Web Application de <strong>OrganiK</strong> en Angular, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication y Shared Kernel) y capas (domain, application, infrastructure, presentation). A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
+  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page de <strong>OrganiK</strong>. A continuación se resumen los commits más relevantes del repositorio de la Landing Page, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial del repositorio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -361,6 +361,212 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
       <td>Fotos de perfil del equipo y logo de OrganiK.</td>
       <td>07-10-2026</td>
     </tr>
+  </tbody>
+</table>
+
+---
+
+### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la nueva versión de la Landing Page de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas y la correcta adaptación de la plataforma al idioma inglés.
+
+#### Evidencia 1: Home Section y Propuesta de Valor
+Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de OrganiK: controlar el inventario antes de que sea tarde. El diseño presenta una interfaz oscura con un dashboard visual interactivo y componentes que ilustran el estado del stock en tiempo real.
+
+![Vista principal de OrganiK desplegada en la Landing Page.](./assets/chapter-05/execution-landing-home.jpg)
+*Figura: Vista principal de OrganiK desplegada en la Landing Page.*
+
+#### Evidencia 2: Características del Producto (Features)
+Se maquetó la sección informativa donde se presentan las principales capacidades de OrganiK mediante tarjetas UI, incluyendo inventario centralizado, control de lotes por código, alertas inteligentes y fechas de caducidad.
+
+![Sección de características y funcionalidades principales.](./assets/chapter-05/execution-landing-features.jpg)
+*Figura: Sección de características y funcionalidades principales.*
+
+#### Evidencia 3: Módulo para Proveedores (Suppliers)
+Se implementó una sección dedicada exclusivamente a los proveedores ("Reach more minimarkets"), comunicando cómo la plataforma les permite publicar su catálogo orgánico, recibir necesidades de reabastecimiento de los minimarkets y gestionar pedidos en un solo lugar.
+
+![Sección dedicada a los proveedores de minimarkets.](./assets/chapter-05/execution-landing-suppliers.jpg)
+*Figura: Sección dedicada a los proveedores de minimarkets.*
+
+#### Evidencia 4: Demostración del Producto (Product Video)
+Se integró un apartado audiovisual ("See OrganiK in action") diseñado para incrustar material de video demostrativo. Esta sección permite explicar visualmente cómo la solución centraliza los procesos operativos del minimarket.
+
+![Sección de video demostrativo del producto.](./assets/chapter-05/execution-landing-demo-video.jpg)
+*Figura: Sección de video demostrativo del producto.*
+
+#### Evidencia 5: Testimonios de Usuarios (Testimonials)
+Se desarrolló una sección de validación social ("What minimarkets are saying") que muestra comentarios de clientes y proveedores ficticios, destacando métricas de éxito como la reducción de desperdicios y el ahorro de tiempo semanal.
+
+![Sección de testimonios de usuarios de OrganiK.](./assets/chapter-05/execution-landing-testimonials.jpg)
+*Figura: Sección de testimonios de usuarios de OrganiK.*
+
+#### Evidencia 6: Planes Comerciales (Pricing)
+Se diseñó la vista de planes de suscripción ("A plan for every minimarket size"), presentando las alternativas Basic, Professional y Enterprise. La interfaz permite cambiar entre planes para minimarkets y proveedores mediante un selector interactivo.
+
+![Sección de planes de suscripción disponibles.](./assets/chapter-05/execution-landing-pricing.jpg)
+*Figura: Sección de planes de suscripción disponibles.*
+
+#### Evidencia 7: Presentación del Equipo (The Team)
+Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
+
+![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
+*Figura: Perfiles de los miembros del equipo de OrganiK.*
+
+#### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
+Se construyó la sección de cierre orientada a la conversión ("Take control of your minimarket with OrganiK"). Incluye un botón de inicio de sesión directo, un gráfico de radar temático y el pie de página con enlaces a políticas de privacidad.
+
+![Sección final de llamado a la acción y pie de página.](./assets/chapter-05/execution-landing-starter.jpg)
+*Figura: Sección final de llamado a la acción y pie de página.*
+
+---
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquetación y despliegue de la Landing Page estática, la implementación y documentación de los servicios Backend (API RESTful) se abordarán a partir del Sprint 2. Por lo tanto, la evidencia de documentación de servicios (Swagger/OpenAPI) se incluirá en las siguientes iteraciones.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar la primera versión de la Landing Page de **OrganiK**. El proyecto se compila y se publica con el CLI de Firebase (`firebase deploy --only hosting`), tal como se describe en la sección 5.1.4. La Web Application y los Web Services se despliegan a partir del Sprint 2 y Sprint 3, respectivamente.
+
+* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landing-page-static
+* **Entorno local:** http://localhost:4200/
+* **URL de Producción:** https://organik-d6e58.web.app/
+
+![Evidencia de despliegue en producción en Firebase.](./assets/chapter-05/execution-deployment-firebase.png)
+*Figura: Landing Page de OrganiK desplegada exitosamente en Firebase Hosting.*
+
+---
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+<p>
+  Durante este primer sprint, el esfuerzo principal del equipo de <strong>OrganiK</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de commits mediante Conventional Commits y la documentación inicial del producto <strong>OrganiK</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
+</p>
+
+<p>
+  En primer lugar, el <strong>Historial de Commits</strong> del repositorio demuestra que el trabajo fue organizado mediante cambios incrementales y commits siguiendo la convención de <strong>Conventional Commits</strong>. Durante el sprint se realizaron cambios relacionados con la maquetación de secciones, la adaptación visual basada en referencias, la internacionalización de contenido, la corrección de videos embebidos, la alineación de marca y la refactorización de la arquitectura por features.
+</p>
+
+<div align="center">
+  <img src="assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de OrganiK.</em></p>
+</div>
+
+<p>
+  En segundo lugar, el gráfico de <strong>Visitors (Traffic)</strong> proporcionado por los Insights de GitHub permite evidenciar la actividad de consulta del repositorio. Las visitas y usuarios únicos reflejan que el equipo revisó recurrentemente el avance del proyecto, validando la estructura visual, el contenido de las secciones y la coherencia general de la landing page antes del despliegue.
+</p>
+
+<div align="center">
+  <img src="assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
+  <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo OrganiK.</em></p>
+</div>
+
+---
+
+### 5.2.2. Sprint 2
+
+---
+
+#### 5.2.2.1. Sprint Planning 2.
+
+| **Sprint Planning Sprint 2** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 07/10/2026 |
+| Time | Por confirmar |
+| Location | Discord |
+| Prepared By | Olivares Lao, Gustavo Alonso |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Cielo Valentina Atencio Cristobal<br>Gustavo Alonso Olivares Lao<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal** | **Nuestro enfoque** es entregar la primera versión navegable de la Web Application de **OrganiK**, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation y Shared Kernel, con datos simulados), y una nueva versión de la Landing Page con selector de idioma, páginas legales y página 404. **Creemos que esto entrega** a administradores de minimarket y proveedores una primera forma concreta de ver su inventario, catálogo, proveedores, alertas y conservación, y a los visitantes información legal clara y navegación bilingüe. **Esto se confirmará cuando** la Landing Page y la Web Application estén desplegadas en Firebase Hosting con soporte en español e inglés, y los módulos por bounded context estén integrados en la rama `develop` del repositorio. |
+| Historias de usuario comprometidas | US-037, US-039 (Landing Page); US-040, US-001, US-002, US-006, US-007, US-013, US-014, US-015, US-016, US-009, US-010, US-011, US-012, US-030 (Web Application). |
+| Story Points comprometidos | 61 Story Points, según el Product Backlog del capítulo III. |
+
+<p>
+  <strong>Repositorios:</strong><br>
+  <a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a><br>
+  <a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a>
+</p>
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<p>
+Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna Líder (L) y Colaborador (C) según el trabajo registrado en los repositorios. Los aspectos corresponden a los bounded contexts de la Web Application y a las mejoras de la Landing Page. Un guion (—) indica que el integrante no participó en ese aspecto durante el sprint.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>Student Code</th>
+      <th>GitHub Username</th>
+      <th>Aspect: Landing Page v2</th>
+      <th>Aspect: Project Setup &amp; i18n</th>
+      <th>Aspect: Shared Kernel</th>
+      <th>Aspect: Dashboard &amp; Inventory</th>
+      <th>Aspect: Products &amp; Suppliers</th>
+      <th>Aspect: Analytics &amp; Communication</th>
+      <th>Aspect: Conservation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>U202424216</td><td>Ciel0p</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td><td>GeGuMaGu25</td><td>—</td><td>L</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td><td>u201815005</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td><td>Alex_Torres</td><td>L</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>
+
+---
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 agrupa las tareas de la primera versión de la Web Application y de la nueva versión de la Landing Page de **OrganiK**. Las tareas se derivan de las historias de usuario del Product Backlog del capítulo III. La Web Application se implementa en el frontend con una API simulada (`fake-api`), a la espera de los Web Services. Las tareas sin historia asociada corresponden a trabajo técnico transversal.
+
+El seguimiento se realiza en el mismo tablero de Trello del proyecto: [Tablero de Trello de OrganiK](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik).
+
+| User Story Id | User Story Title | Task Id | Engineering Task | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-037** | Cambiar idioma del Landing Page | T008 | Script principal de la landing | Navegación, cambio de idioma ES/EN y animaciones en `main.js`. | 4h | Torres Huaman, Alexis Calin | Done |
+| **US-039** | Consultar términos y condiciones | T009 | Páginas legales | Páginas de términos y condiciones y de política de privacidad enlazadas en el footer. | 3h | Atencio Cristobal, Cielo Valentina | Done |
+| — | Tarea técnica | T010 | Página 404 de la landing | Página de error personalizada `404.html`. | 2h | Torres Huaman, Alexis Calin | Done |
+| — | Tarea técnica | T011 | Estilos globales y configuración | `.editorconfig`, Prettier y hoja de estilos global de la landing. | 3h | Quispe Almonacid, Andre Sebastian | To-Review |
+| — | Tarea técnica | T012 | Configuración inicial de la Web Application | Proyecto Angular, archivos de entorno de desarrollo y producción. | 4h | Olivares Lao, Gustavo Alonso | Done |
+| **US-040** | Cambiar idioma de la aplicación | T013 | Internacionalización ES/EN | Archivos i18n en español e inglés para la Web Application. | 3h | Olivares Lao, Gustavo Alonso | Done |
+| — | Tarea técnica | T014 | Shared Kernel | Modelos de dominio compartidos (Money, Quantity, DateTime, etc.), stores, API simulada, layout, sidebar y componentes compartidos. | 8h | Cáceres Pizarro, Albino Florencio | Done |
+| **US-030** | Consultar dashboard por segmento | T015 | Bounded context Dashboard | Capas de aplicación y presentación del dashboard. | 5h | Olivares Lao, Gustavo Alonso | Done |
+| **US-002, US-006, US-007, US-013, US-014** | Visualizar inventario; registrar y consultar lotes; registrar merma y oferta | T016 | Bounded context Inventory | Capas de dominio, aplicación, infraestructura y presentación: listado, lotes, stock, mermas y ofertas. | 8h | Olivares Lao, Gustavo Alonso | Done |
+| **US-001** | Registrar producto en inventario | T017 | Bounded context Products | Capas de dominio, aplicación, infraestructura y presentación: lista, formulario y categorías de productos. | 6h | Torres Huaman, Alexis Calin | Done |
+| **US-015, US-016** | Consultar y registrar productos de proveedores | T018 | Bounded context Suppliers | Capas de dominio, aplicación, infraestructura y presentación: proveedores, catálogo y ofertas. | 6h | Torres Huaman, Alexis Calin | Done |
+| — | Tarea técnica | T019 | Bounded context Analytics | Capas de dominio, aplicación, infraestructura y presentación: resumen de analítica y formulario de reportes. | 5h | Cáceres Pizarro, Albino Florencio | Done |
+| **US-009** | Generar alertas de vencimiento | T020 | Bounded context Communication | Capas de aplicación y presentación: vista general de alertas. | 4h | Cáceres Pizarro, Albino Florencio | Done |
+| **US-010, US-011, US-012** | Consultar condiciones, monitorear temperatura y humedad, alertas de conservación | T021 | Bounded context Conservation | Capas de dominio, aplicación, infraestructura y presentación: monitoreo y alertas de conservación. | 8h | Atencio Cristobal, Cielo Valentina | To-Review |
+
+Las estimaciones en horas son de planificación. Las tareas en estado *To-Review* están implementadas en ramas `feature` que aún no se integran en `develop`.
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+<p>
+  Durante el Sprint 2 se implementó la primera versión de la Web Application en Angular, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation y Shared Kernel) y por capas (domain, application, infrastructure, presentation), y se amplió la Landing Page con el script principal, páginas legales, página 404 y estilos globales. A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>5Bits-OrganiK/organik-landing-page-static</td>
       <td>feature/main-script</td>
@@ -391,6 +597,14 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
       <td><code>0483e07</code></td>
       <td>feat(landing): add terms and conditions page</td>
       <td>Página de términos y condiciones enlazada en el footer.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/global-styles</td>
+      <td><code>77f021a</code></td>
+      <td>chore(config): setup editorconfig, prettier and global styles</td>
+      <td>Configuración de .editorconfig, Prettier y estilos globales.</td>
       <td>09-10-2026</td>
     </tr>
     <tr>
@@ -539,10 +753,58 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
     </tr>
     <tr>
       <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/conservation</td>
+      <td><code>28e4d6a</code></td>
+      <td>feat(conservation): add domain/model/storage-zone.entity.ts</td>
+      <td>Conservation: entidad de zona de almacenamiento.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/conservation</td>
+      <td><code>7893fbc</code></td>
+      <td>feat(conservation): add infrastructure/conservation-api.ts</td>
+      <td>Conservation: API simulada de conservación.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/conservation</td>
+      <td><code>6757a0e</code></td>
+      <td>feat(conservation): add application/conservation.store.ts</td>
+      <td>Conservation: store de la capa de aplicación.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/conservation</td>
+      <td><code>1f91f4f</code></td>
+      <td>feat(conservation): add presentation/views/conservation-monitoring/conservation-monitoring.ts</td>
+      <td>Conservation: vista de monitoreo de temperatura y humedad.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/conservation</td>
+      <td><code>a911fc2</code></td>
+      <td>feat(conservation): add presentation/views/conservation-alerts/conservation-alerts.ts</td>
+      <td>Conservation: vista de alertas de conservación.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
       <td>feature/shared</td>
       <td><code>d59262e</code></td>
       <td>feat(shared): add domain/model/domain-error.ts</td>
       <td>Shared Kernel: error de dominio base.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/shared</td>
+      <td><code>de23b15</code></td>
+      <td>feat(shared): add infrastructure/fake-api.ts</td>
+      <td>Shared Kernel: API simulada compartida por los contextos.</td>
       <td>09-10-2026</td>
     </tr>
     <tr>
@@ -558,73 +820,69 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 
 ---
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
 
-Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la nueva versión de la Landing Page de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas y la correcta adaptación de la plataforma al idioma inglés.
+Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Las pantallas de los módulos internos (dashboard, inventario, productos, proveedores, alertas, analítica y conservación) están implementadas en el repositorio y requieren una sesión autenticada.
 
-#### Evidencia 1: Home Section y Propuesta de Valor
-Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de OrganiK: controlar el inventario antes de que sea tarde. El diseño presenta una interfaz oscura con un dashboard visual interactivo y componentes que ilustran el estado del stock en tiempo real.
+##### Evidencia 1: Landing Page (nueva versión)
+La Landing Page mantiene su pantalla principal e incorpora selector de idioma ES/EN, acceso a la aplicación mediante los botones de inicio de sesión y enlaces a las páginas legales en el footer.
 
-![Vista principal de OrganiK desplegada en la Landing Page.](./assets/chapter-05/execution-landing-home.jpg)
-*Figura: Vista principal de OrganiK desplegada en la Landing Page.*
+![Landing Page nueva versión](./assets/chapter-05/s2-landing-home.png)
+*Figura: Pantalla principal de la Landing Page de OrganiK en español.*
 
-#### Evidencia 2: Características del Producto (Features)
-Se maquetó la sección informativa donde se presentan las principales capacidades de OrganiK mediante tarjetas UI, incluyendo inventario centralizado, control de lotes por código, alertas inteligentes y fechas de caducidad.
+##### Evidencia 2: Términos y Condiciones (US-039)
+Se implementó la página de términos y condiciones, con secciones numeradas, enlace de regreso al inicio y selector de idioma.
 
-![Sección de características y funcionalidades principales.](./assets/chapter-05/execution-landing-features.jpg)
-*Figura: Sección de características y funcionalidades principales.*
+![Términos y condiciones](./assets/chapter-05/s2-landing-terminos.png)
+*Figura: Página de Términos y Condiciones de la Landing Page.*
 
-#### Evidencia 3: Módulo para Proveedores (Suppliers)
-Se implementó una sección dedicada exclusivamente a los proveedores ("Reach more minimarkets"), comunicando cómo la plataforma les permite publicar su catálogo orgánico, recibir necesidades de reabastecimiento de los minimarkets y gestionar pedidos en un solo lugar.
+##### Evidencia 3: Política de Privacidad
+Se implementó la página de política de privacidad, enlazada desde el footer de la Landing Page y de la Web Application.
 
-![Sección dedicada a los proveedores de minimarkets.](./assets/chapter-05/execution-landing-suppliers.jpg)
-*Figura: Sección dedicada a los proveedores de minimarkets.*
+![Política de privacidad](./assets/chapter-05/s2-landing-privacidad.png)
+*Figura: Página de Política de Privacidad de la Landing Page.*
 
-#### Evidencia 4: Demostración del Producto (Product Video)
-Se integró un apartado audiovisual ("See OrganiK in action") diseñado para incrustar material de video demostrativo. Esta sección permite explicar visualmente cómo la solución centraliza los procesos operativos del minimarket.
+##### Evidencia 4: Página 404 de la Landing Page
+Se implementó una página de error personalizada para rutas inexistentes.
 
-![Sección de video demostrativo del producto.](./assets/chapter-05/execution-landing-demo-video.jpg)
-*Figura: Sección de video demostrativo del producto.*
+![Página 404 de la Landing Page](./assets/chapter-05/s2-landing-404.png)
+*Figura: Página 404 personalizada de la Landing Page.*
 
-#### Evidencia 5: Testimonios de Usuarios (Testimonials)
-Se desarrolló una sección de validación social ("What minimarkets are saying") que muestra comentarios de clientes y proveedores ficticios, destacando métricas de éxito como la reducción de desperdicios y el ahorro de tiempo semanal.
+##### Evidencia 5: Web Application — Inicio de sesión
+La primera versión de la Web Application incluye la pantalla de acceso, con selector de idioma ES/EN (US-040), enlace de registro, regreso al sitio y enlaces a términos y privacidad.
 
-![Sección de testimonios de usuarios de OrganiK.](./assets/chapter-05/execution-landing-testimonials.jpg)
-*Figura: Sección de testimonios de usuarios de OrganiK.*
+![Inicio de sesión de la Web Application](./assets/chapter-05/s2-webapp-login.png)
+*Figura: Pantalla de inicio de sesión de la Web Application de OrganiK.*
 
-#### Evidencia 6: Planes Comerciales (Pricing)
-Se diseñó la vista de planes de suscripción ("A plan for every minimarket size"), presentando las alternativas Basic, Professional y Enterprise. La interfaz permite cambiar entre planes para minimarkets y proveedores mediante un selector interactivo.
+##### Evidencia 6: Web Application — Registro de usuario
+Pantalla de creación de cuenta con selección de segmento (minimarket o proveedor), datos del negocio, contraseña y aceptación de términos y condiciones.
 
-![Sección de planes de suscripción disponibles.](./assets/chapter-05/execution-landing-pricing.jpg)
-*Figura: Sección de planes de suscripción disponibles.*
+![Registro de la Web Application](./assets/chapter-05/s2-webapp-register.png)
+*Figura: Pantalla de registro de la Web Application de OrganiK.*
 
-#### Evidencia 7: Presentación del Equipo (The Team)
-Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
+##### Evidencia 7: Web Application — Flujo del prototipo
+Vista que consolida el recorrido recomendado del prototipo (dashboard, acciones CRUD, alertas, reportes, proveedores, usuarios y roles) con accesos directos a las interacciones principales.
 
-![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
-*Figura: Perfiles de los miembros del equipo de OrganiK.*
+![Flujo del prototipo](./assets/chapter-05/s2-webapp-prototype.png)
+*Figura: Vista de flujo consolidado del prototipo de la Web Application.*
 
-#### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
-Se construyó la sección de cierre orientada a la conversión ("Take control of your minimarket with OrganiK"). Incluye un botón de inicio de sesión directo, un gráfico de radar temático y el pie de página con enlaces a políticas de privacidad.
+##### Evidencia 8: Web Application — Página 404
+Página de error para rutas inexistentes de la aplicación.
 
-![Sección final de llamado a la acción y pie de página.](./assets/chapter-05/execution-landing-starter.jpg)
-*Figura: Sección final de llamado a la acción y pie de página.*
-
-#### Evidencia 9: Web Application (Pantalla de Inicio de Sesión)
-Se implementó y desplegó la pantalla de acceso de la Web Application de OrganiK ("Welcome back"), donde minimarkets y proveedores ingresan con su correo y contraseña. La vista incluye el selector de idioma (ES/EN), el enlace de registro, el acceso de regreso a la landing page y los enlaces a términos y condiciones y política de privacidad. Está disponible en https://organik-app-d6e58.web.app/login.
-
-![Pantalla de inicio de sesión de la Web Application de OrganiK.](./assets/chapter-05/execution-webapp-login.png)
-*Figura: Pantalla de inicio de sesión de la Web Application de OrganiK desplegada en Firebase Hosting.*
+![Página 404 de la Web Application](./assets/chapter-05/s2-webapp-404.png)
+*Figura: Página 404 de la Web Application de OrganiK.*
 
 ---
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquetación y despliegue de la Landing Page estática, la implementación y documentación de los servicios Backend (API RESTful) se abordarán a partir del Sprint 2. Por lo tanto, la evidencia de documentación de servicios (Swagger/OpenAPI) se incluirá en las siguientes iteraciones.
+En el Sprint 2 no se implementaron Web Services: el repositorio `organik-backend` aún no contiene código y la primera versión del RESTful API está prevista a partir del Sprint 3, con su documentación OpenAPI/Swagger. Para avanzar en el frontend, la Web Application consume una API simulada (`fake-api` e `in-memory-gateway` del Shared Kernel) que respeta los contratos de los endpoints definidos en el capítulo III, de modo que la integración con el backend solo requerirá reemplazar la capa de infraestructura. La relación de endpoints documentados con OpenAPI se incluirá en el Sprint 3.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+---
 
-Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar los dos productos de interfaz de **OrganiK**: la Landing Page (nueva versión) y la primera versión de la Web Application. Ambos proyectos se compilan con Angular y se publican con el CLI de Firebase (`firebase deploy --only hosting`), tal como se describe en la sección 5.1.4. Los Web Services (Backend) se desplegarán a partir del Sprint 2.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Landing Page y la primera versión de la Web Application de **OrganiK**. Ambos productos se publican con el CLI de Firebase (`firebase deploy --only hosting`), según lo descrito en la sección 5.1.4. Los Web Services se desplegarán en el Sprint 3.
 
 **Landing Page**
 
@@ -632,8 +890,8 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-d6e58.web.app/
 
-![Evidencia de despliegue en producción en Firebase.](./assets/chapter-05/execution-deployment-firebase.png)
-*Figura: Landing Page de OrganiK desplegada exitosamente en Firebase Hosting.*
+![Landing Page desplegada en Firebase](./assets/chapter-05/s2-landing-home.png)
+*Figura: Nueva versión de la Landing Page desplegada en Firebase Hosting.*
 
 **Web Application**
 
@@ -641,31 +899,45 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-app-d6e58.web.app/login
 
-![Evidencia de despliegue de la Web Application en producción en Firebase.](./assets/chapter-05/execution-webapp-login.png)
-*Figura: Web Application de OrganiK desplegada exitosamente en Firebase Hosting.*
+![Web Application desplegada en Firebase](./assets/chapter-05/s2-webapp-login.png)
+*Figura: Primera versión de la Web Application desplegada en Firebase Hosting.*
 
 ---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <p>
-  Durante este primer sprint, el esfuerzo principal del equipo de <strong>OrganiK</strong> se centró en la estructuración del proyecto, el diseño UX/UI, la implementación de la landing page, la organización de commits mediante Conventional Commits y la documentación inicial del producto <strong>OrganiK</strong>. Por lo tanto, las evidencias de colaboración presentadas a continuación corresponden al trabajo realizado para construir la presencia digital inicial del producto.
+  Durante el Sprint 2 los cinco integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
 </p>
 
 <p>
-  En primer lugar, el <strong>Historial de Commits</strong> del repositorio demuestra que el trabajo fue organizado mediante cambios incrementales y commits siguiendo la convención de <strong>Conventional Commits</strong>. Durante el sprint se realizaron cambios relacionados con la maquetación de secciones, la adaptación visual basada en referencias, la internacionalización de contenido, la corrección de videos embebidos, la alineación de marca y la refactorización de la arquitectura por features.
+  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio.
 </p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page</th>
+      <th>Web Application</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>25</td><td>27</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>4</td><td>12</td><td>16</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
+  </tbody>
+</table>
 
 <div align="center">
-  <img src="assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
-  <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de OrganiK.</em></p>
+  <img src="assets/chapter-05/s2-commits-por-integrante.png" alt="Commits por integrante en el Sprint 2" width="90%">
+  <p><em>Figura: Commits por integrante en los repositorios de la Landing Page y la Web Application.</em></p>
 </div>
 
 <p>
-  En segundo lugar, el gráfico de <strong>Visitors (Traffic)</strong> proporcionado por los Insights de GitHub permite evidenciar la actividad de consulta del repositorio. Las visitas y usuarios únicos reflejan que el equipo revisó recurrentemente el avance del proyecto, validando la estructura visual, el contenido de las secciones y la coherencia general de la landing page antes del despliegue.
+  En la Web Application, los commits se concentran en el Shared Kernel y en las capas de cada bounded context, con avance incremental por rama <code>feature</code>. En la Landing Page, el trabajo se repartió entre el script principal, las páginas legales, la página 404 y los estilos globales.
 </p>
-
-<div align="center">
-  <img src="assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
-  <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo OrganiK.</em></p>
-</div>
