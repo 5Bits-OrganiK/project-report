@@ -21,35 +21,49 @@
 
 **NRC:** 7742
 
-**Profesor:** Angel Auguto Velasquez Nuñez
+**Profesor:** Velásquez Núñez, Ángel Augusto
 
-**INFORME DE TRABAJO FINAL — AV1**
+**INFORME DE TRABAJO FINAL — TB1**
 
 **Startup:** 5Bits
 
 **Producto:** OrganiK
 
-
 **INTEGRANTES:**
 
-| Apellidos y Nombres                    | Código de Alumno |
-|----------------------------------------|------------------|
-| Atencio Cristobal, Cielo Valentina     | U202424216       |
-| Cáceres Pizarro, Albino Florencio      | U201923820       |
-| Olivares Lao, Gustavo Alonso           | U202216448       |
-| Quispe Almonacid, Andre Sebastian      | U201815005       |
-| Torres Huaman, Alexis Calin            | U20241G152       |
+<table align="center" style="margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+      <th>Apellidos y Nombres</th>
+      <th>Código de Alumno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>U202424216</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td></tr>
+  </tbody>
+</table>
 
-**Lima, agosto de 2026**
+<br>
+
+**Lima, octubre de 2026**
 </div>
 
 ---
 
 # Registro de Versiones del Informe
-
+ 
 | Versión | Fecha | Autores | Descripción |
 |:---|:---|:---|:---|
 | 1.0.0 | 20/09/2026 | Atencio Cristobal, Cielo Valentina<br>Cáceres Pizarro, Albino Florencio<br>Olivares Lao, Gustavo Alonso<br>Quispe Almonacid, Andre Sebastian<br>Torres Huaman, Alexis Calin | Entrega AV1: carátula, registro de versiones, colaboración, contenido, Student Outcome, capítulos I-V, conclusiones, bibliografía y anexos. |
+| 1.1.0 | 22/09/2026 | Cáceres Pizarro, Albino Florencio | Corrección post-AV1 de Capítulos I, II y III: revisión de Lean UX assumptions, Lean UX Canvas, preguntas de entrevista, análisis FODA, user stories y criterios de aceptación. |
+| 1.2.0 | 02/10/2026 | Cáceres Pizarro, Albino Florencio | Alineación de la estructura del informe con la rúbrica: Impact Mapping por segmento, justificación del Product Backlog, criterios de aceptación junto a cada historia, referencias APA y tabla de contenidos ampliada. |
+| 1.3.0 | 03/10/2026 | Torres Huaman, Alexis Calin<br>Atencio Cristobal, Cielo Valentina | Actualización del Solution Profile, Problem Statement y Lean UX Hypothesis Statements; incorporación de criterios de aceptación en user stories y retiro de la sección TO-BE Scenario Mapping. |
+| 1.4.0 | 08/10/2026 | Torres Huaman, Alexis Calin | Reconstrucción del Capítulo II: registro y análisis de entrevistas, User Personas, User Task Matrix, As-Is Journey Maps, Empathy Maps, Big Picture EventStorming y Ubiquitous Language en inglés. Actualización de carátula para TB1. |
+| 1.5.0 | 08/10/2026 | Atencio Cristobal, Cielo Valentina | Entrega TB1: corrección de términos según Anexo E, enlaces del Product Backlog e Impact Map, separación de conclusiones y recomendaciones, anexo de videos y actualización de Student Outcome y Collaboration Insights. |
 
 ---
 
