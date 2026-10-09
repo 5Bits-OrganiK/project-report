@@ -3197,6 +3197,8 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
 
 Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Además de las vistas públicas, se presentan las pantallas de los módulos internos de la Web Application, capturadas con una sesión autenticada y con datos de ejemplo.
 
+El video que ilustra y explica la visualización y navegación logradas en este Sprint está disponible en la carpeta de Google Drive del equipo: [Video de navegación del Sprint 2](https://drive.google.com/drive/folders/1hi_rKkgi2mjeThxX-4SFhgweqxDTi8IN?usp=sharing).
+
 ##### Evidencia 1: Landing Page (nueva versión)
 La Landing Page mantiene su pantalla principal e incorpora selector de idioma ES/EN, acceso a la aplicación mediante los botones de inicio de sesión y enlaces a las páginas legales en el footer.
 
