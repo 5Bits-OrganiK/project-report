@@ -268,7 +268,7 @@ En las siguientes secciones se presenta cada nivel del modelo arquitectónico y 
 
 Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas.
 
-El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
+El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/bc1299f7-d185-4b18-9730-34001b6b8c26/edit?invitationId=inv_71264c50-e7df-4ffe-9b92-f4fd5c1bf3d5&page=8YLvPajJeQAxO#](https://lucid.app/lucidchart/bc1299f7-d185-4b18-9730-34001b6b8c26/edit?invitationId=inv_71264c50-e7df-4ffe-9b92-f4fd5c1bf3d5&page=8YLvPajJeQAxO#)
 
 A continuación, se presentan la leyenda utilizada y las relaciones clave entre los bounded contexts identificados:
 
