@@ -420,6 +420,12 @@ Se construyó la sección de cierre orientada a la conversión ("Take control of
 ![Sección final de llamado a la acción y pie de página.](./assets/chapter-05/execution-landing-starter.jpg)
 *Figura: Sección final de llamado a la acción y pie de página.*
 
+#### Evidencia 9: Web Application (Pantalla de Inicio de Sesión)
+Se implementó y desplegó la pantalla de acceso de la Web Application de OrganiK ("Welcome back"), donde minimarkets y proveedores ingresan con su correo y contraseña. La vista incluye el selector de idioma (ES/EN), el enlace de registro, el acceso de regreso a la landing page y los enlaces a términos y condiciones y política de privacidad. Está disponible en https://organik-app-d6e58.web.app/login.
+
+![Pantalla de inicio de sesión de la Web Application de OrganiK.](./assets/chapter-05/execution-webapp-login.png)
+*Figura: Pantalla de inicio de sesión de la Web Application de OrganiK desplegada en Firebase Hosting.*
+
 ---
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -435,6 +441,11 @@ A continuación, se detalla la configuración de acceso a la plataforma. Se ha u
 
 ![Evidencia de despliegue en producción en Firebase.](./assets/chapter-05/execution-deployment-firebase.png)
 *Figura: Landing Page de OrganiK desplegada exitosamente en Firebase Hosting.*
+
+* **URL de Producción (Web Application):** https://organik-app-d6e58.web.app/login
+
+![Evidencia de despliegue de la Web Application en producción en Firebase.](./assets/chapter-05/execution-webapp-login.png)
+*Figura: Web Application de OrganiK desplegada exitosamente en Firebase Hosting.*
 
 ---
 
