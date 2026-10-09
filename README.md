@@ -71,6 +71,7 @@
 | 1.7.3 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Team Collaboration Insights de los Sprints 1 y 2 (5.2.1.8 y 5.2.2.8): capturas de Contributors de GitHub Insights de la Landing Page y la Web Application, y tabla de commits alineada con ellas. |
 | 1.7.4 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV (4.4.3): reemplazo del diagrama de User Flows por la versión actualizada con los flujos del administrador de minimarket y del proveedor. |
 | 1.7.5 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV (4.4.3): los cuatro diagramas de User Flows (iniciar sesión, registrar stock, gestionar un pedido y atender una alerta de conservación) se incorporan bajo la descripción de cada flujo. |
+| 1.7.6 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Exportación a PDF: ajustes de maquetación para evitar páginas casi vacías (imágenes verticales ajustadas a la página, saltos de sección solo en capítulos y secciones principales). |
 
 ---
 
