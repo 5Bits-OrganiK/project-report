@@ -473,7 +473,7 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 |---|---|
 | **Sprint Planning Background** |  |
 | Date | 25/09/2026 |
-| Time | Por confirmar |
+| Time | 8:00 p.m. |
 | Location | Discord |
 | Prepared By | Olivares Lao, Gustavo Alonso |
 | Attendees | Albino Florencio Cáceres Pizarro<br>Cielo Valentina Atencio Cristobal<br>Gustavo Alonso Olivares Lao<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
