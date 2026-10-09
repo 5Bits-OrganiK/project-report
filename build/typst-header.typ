@@ -16,8 +16,10 @@
 )
 
 // Titulos: cada capitulo en pagina nueva, jerarquia tipografica clara.
+// Las secciones cortas del front-matter fluyen sin salto de pagina forzado.
+#let flow-sections = ([Project Report Collaboration Insights],)
 #show heading.where(level: 1): it => {
-  pagebreak(weak: true)
+  if not flow-sections.contains(it.body) { pagebreak(weak: true) }
   set text(size: 20pt, weight: "bold", fill: rgb("#0f3d2e"))
   block(above: 0pt, below: 14pt, width: 100%, stroke: (bottom: 1.2pt + rgb("#0f3d2e")), inset: (bottom: 6pt), it.body)
 }
@@ -58,9 +60,31 @@
   }
 })
 
+// Imagenes en linea (box): las verticales (alto <= 3 veces el ancho) se limitan al 68% de la altura
+// util de la pagina para que quepan junto al texto previo y no dejen hojas casi vacias. Las tiras
+// extremadamente altas (wireframes/mock-ups de landing) se limitan al 72%.
+#show box: it => if it.body.func() == image {
+  block(width: 100%, breakable: false, layout(size => {
+    let m = measure(it.body)
+    let sw = if m.width > size.width { size.width / m.width } else { 1 }
+    let h = m.height * sw
+    if h > 0pt {
+      let ratio = m.height / m.width
+      let full = 700pt
+      let cap = if ratio <= 3 { full * 0.68 } else { full * 0.72 }
+      let target = calc.min(h, cap)
+      let f = sw * (target / h)
+      if f < 1 { scale(f * 100%, reflow: true, it.body) } else { it.body }
+    } else { it.body }
+  }))
+} else { it }
+
 // Codigo.
 #show raw: set text(font: ("Consolas", "Cascadia Mono", "Courier New"), size: 8.5pt)
 #show raw.where(block: true): it => block(width: 100%, fill: luma(245), inset: 6pt, radius: 2pt, it)
+
+// Indice compacto.
+#show outline.entry: set block(above: 0.45em)
 
 // Enlaces.
 #show link: set text(fill: rgb("#0b5ea8"))
