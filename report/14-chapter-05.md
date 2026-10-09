@@ -377,54 +377,57 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 
 ---
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y ejecución local de la Landing Page estática de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas.
+Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la nueva versión de la Landing Page de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas y la correcta adaptación de la plataforma al idioma inglés.
 
-**Evidencia 1: Home Section y Propuesta de Valor**
+#### Evidencia 1: Home Section y Propuesta de Valor
+Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de OrganiK: controlar el inventario antes de que sea tarde. El diseño presenta una interfaz oscura con un dashboard visual interactivo y componentes que ilustran el estado del stock en tiempo real.
 
-Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de **OrganiK**: controlar el inventario antes de que sea tarde mediante alertas de vencimiento, condiciones de conservación y pedidos de abastecimiento para minimarkets orgánicos. La navegación superior permite acceder a las secciones principales de la landing page y el diseño respeta los lineamientos responsive para dispositivos móviles.
+![Vista principal de OrganiK desplegada en la Landing Page.](./assets/chapter-05/execution-landing-home.jpg)
+*Figura: Vista principal de OrganiK desplegada en la Landing Page.*
 
-<div align="center">
-  <img src="./assets/chapter-05/execution-home.png" alt="Home Section Evidence" width="90%">
-  <p><em>Figura: Vista principal de OrganiK desplegada en la Landing Page.</em></p>
-</div>
+#### Evidencia 2: Características del Producto (Features)
+Se maquetó la sección informativa donde se presentan las principales capacidades de OrganiK mediante tarjetas UI, incluyendo inventario centralizado, control de lotes por código, alertas inteligentes y fechas de caducidad.
 
-**Evidencia 2: Sección de Descripción del Producto**
+![Sección de características y funcionalidades principales.](./assets/chapter-05/execution-landing-features.jpg)
+*Figura: Sección de características y funcionalidades principales.*
 
-Se maquetó la sección informativa donde se presentan las principales capacidades de **OrganiK**, incluyendo inventario centralizado, control de lotes, alertas inteligentes, pedidos de abastecimiento y accesos por rol. Esta sección permite comunicar de forma clara cómo la plataforma ayuda a centralizar la operación diaria de un minimarket orgánico.
+#### Evidencia 3: Módulo para Proveedores (Suppliers)
+Se implementó una sección dedicada exclusivamente a los proveedores ("Reach more minimarkets"), comunicando cómo la plataforma les permite publicar su catálogo orgánico, recibir necesidades de reabastecimiento de los minimarkets y gestionar pedidos en un solo lugar.
 
-<div align="center">
-  <img src="./assets/chapter-05/execution-product-information.png" alt="Product Information Section Evidence" width="90%">
-  <p><em>Figura: Sección de descripción del producto y funcionalidades principales.</em></p>
-</div>
+![Sección dedicada a los proveedores de minimarkets.](./assets/chapter-05/execution-landing-suppliers.jpg)
+*Figura: Sección dedicada a los proveedores de minimarkets.*
 
-**Evidencia 3: Sección de Videos**
+#### Evidencia 4: Demostración del Producto (Product Video)
+Se integró un apartado audiovisual ("See OrganiK in action") diseñado para incrustar material de video demostrativo. Esta sección permite explicar visualmente cómo la solución centraliza los procesos operativos del minimarket.
 
-Se implementó una sección dedicada a presentar al equipo y mostrar el funcionamiento general de **OrganiK** mediante contenido audiovisual. La sección incluye videos embebidos con previsualización, reforzando la confianza del usuario y explicando visualmente el propósito de la solución.
+![Sección de video demostrativo del producto.](./assets/chapter-05/execution-landing-demo-video.jpg)
+*Figura: Sección de video demostrativo del producto.*
 
-<div align="center">
-  <img src="./assets/chapter-05/execution-videos.png" alt="Videos Section Evidence" width="90%">
-  <p><em>Figura: Sección de videos para presentación del equipo y demostración del producto.</em></p>
-</div>
+#### Evidencia 5: Testimonios de Usuarios (Testimonials)
+Se desarrolló una sección de validación social ("What minimarkets are saying") que muestra comentarios de clientes y proveedores ficticios, destacando métricas de éxito como la reducción de desperdicios y el ahorro de tiempo semanal.
 
-**Evidencia 4: Sección de Planes**
+![Sección de testimonios de usuarios de OrganiK.](./assets/chapter-05/execution-landing-testimonials.jpg)
+*Figura: Sección de testimonios de usuarios de OrganiK.*
 
-Se desarrolló la sección de planes comerciales, presentando las alternativas **Básico**, **Profesional** y **Empresarial**. Cada plan comunica de manera ordenada sus beneficios principales, permitiendo que los minimarkets identifiquen la opción más adecuada según su tamaño y necesidades operativas.
+#### Evidencia 6: Planes Comerciales (Pricing)
+Se diseñó la vista de planes de suscripción ("A plan for every minimarket size"), presentando las alternativas Basic, Professional y Enterprise. La interfaz permite cambiar entre planes para minimarkets y proveedores mediante un selector interactivo.
 
-<div align="center">
-  <img src="./assets/chapter-05/execution-pricing.png" alt="Pricing Section Evidence" width="90%">
-  <p><em>Figura: Sección de planes disponibles para los usuarios de OrganiK.</em></p>
-</div>
+![Sección de planes de suscripción disponibles.](./assets/chapter-05/execution-landing-pricing.jpg)
+*Figura: Sección de planes de suscripción disponibles.*
 
-**Evidencia 5: Sección Starter / Suscribirse**
+#### Evidencia 7: Presentación del Equipo (The Team)
+Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
-Se implementó la sección **Starter**, incluyendo información de correo, periodo de prueba, horario de atención y un formulario para que los minimarkets interesados puedan suscribirse o solicitar más información sobre la plataforma. Esta sección reemplaza la sección tradicional de contacto y cumple el objetivo de facilitar el inicio del proceso de adopción de **OrganiK**.
+![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
+*Figura: Perfiles de los miembros del equipo de OrganiK.*
 
-<div align="center">
-  <img src="./assets/chapter-05/execution-starter.png" alt="Starter Section Evidence" width="90%">
-  <p><em>Figura: Sección Starter para suscripción e inicio de adopción de OrganiK.</em></p>
-</div>
+#### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
+Se construyó la sección de cierre orientada a la conversión ("Take control of your minimarket with OrganiK"). Incluye un botón de inicio de sesión directo, un gráfico de radar temático y el pie de página con enlaces a políticas de privacidad.
+
+![Sección final de llamado a la acción y pie de página.](./assets/chapter-05/execution-landing-starter.jpg)
+*Figura: Sección final de llamado a la acción y pie de página.*
 
 ---
 
