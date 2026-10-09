@@ -478,9 +478,9 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 | Prepared By | Olivares Lao, Gustavo Alonso |
 | Attendees | Albino Florencio Cáceres Pizarro<br>Cielo Valentina Atencio Cristobal<br>Gustavo Alonso Olivares Lao<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
 | **Sprint Goal & User Stories** |  |
-| **Sprint 2 Goal** | **Nuestro enfoque** es entregar la primera versión navegable de la Web Application de **OrganiK**, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation y Shared Kernel, con datos simulados), y una nueva versión de la Landing Page con selector de idioma, páginas legales y página 404. **Creemos que esto entrega** a administradores de minimarket y proveedores una primera forma concreta de ver su inventario, catálogo, proveedores, alertas y conservación, y a los visitantes información legal clara y navegación bilingüe. **Esto se confirmará cuando** la Landing Page y la Web Application estén desplegadas en Firebase Hosting con soporte en español e inglés, y los módulos por bounded context estén integrados en la rama `develop` del repositorio. |
-| Historias de usuario comprometidas | US-037, US-039 (Landing Page); US-040, US-001, US-002, US-006, US-007, US-013, US-014, US-015, US-016, US-009, US-010, US-011, US-012, US-030 (Web Application). |
-| Story Points comprometidos | 61 Story Points, según el Product Backlog del capítulo III. |
+| **Sprint 2 Goal** | **Nuestro enfoque** es entregar la primera versión navegable de la Web Application de **OrganiK**, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation, IAM y Shared Kernel, con datos simulados), y una nueva versión de la Landing Page con selector de idioma, páginas legales y página 404. **Creemos que esto entrega** a administradores de minimarket y proveedores una primera forma concreta de ver su inventario, catálogo, proveedores, alertas y conservación, y a los visitantes información legal clara y navegación bilingüe. **Esto se confirmará cuando** la Landing Page y la Web Application estén desplegadas en Firebase Hosting con soporte en español e inglés, y los módulos por bounded context estén integrados en la rama `develop` del repositorio. |
+| Historias de usuario comprometidas | US-037, US-039 (Landing Page); US-040, US-026, US-027, US-028, US-001, US-002, US-006, US-007, US-013, US-014, US-015, US-016, US-009, US-010, US-011, US-012, US-030 (Web Application). |
+| Story Points comprometidos | 72 Story Points, según el Product Backlog del capítulo III. |
 
 <p>
   <strong>Repositorios:</strong><br>
@@ -508,7 +508,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna 
       <th>Aspect: Dashboard &amp; Inventory</th>
       <th>Aspect: Products &amp; Suppliers</th>
       <th>Aspect: Analytics &amp; Communication</th>
-      <th>Aspect: Conservation</th>
+      <th>Aspect: Conservation &amp; IAM</th>
     </tr>
   </thead>
   <tbody>
@@ -533,7 +533,7 @@ El seguimiento se realiza en el mismo tablero de Trello del proyecto: [Tablero d
 | **US-037** | Cambiar idioma del Landing Page | T008 | Script principal de la landing | Navegación, cambio de idioma ES/EN y animaciones en `main.js`. | 4h | Torres Huaman, Alexis Calin | Done |
 | **US-039** | Consultar términos y condiciones | T009 | Páginas legales | Páginas de términos y condiciones y de política de privacidad enlazadas en el footer. | 3h | Atencio Cristobal, Cielo Valentina | Done |
 | — | Tarea técnica | T010 | Página 404 de la landing | Página de error personalizada `404.html`. | 2h | Torres Huaman, Alexis Calin | Done |
-| — | Tarea técnica | T011 | Estilos globales y configuración | `.editorconfig`, Prettier y hoja de estilos global de la landing. | 3h | Quispe Almonacid, Andre Sebastian | To-Review |
+| — | Tarea técnica | T011 | Estilos globales y configuración | `.editorconfig`, Prettier y hoja de estilos global de la landing. | 3h | Quispe Almonacid, Andre Sebastian | Done |
 | — | Tarea técnica | T012 | Configuración inicial de la Web Application | Proyecto Angular, archivos de entorno de desarrollo y producción. | 4h | Olivares Lao, Gustavo Alonso | Done |
 | **US-040** | Cambiar idioma de la aplicación | T013 | Internacionalización ES/EN | Archivos i18n en español e inglés para la Web Application. | 3h | Olivares Lao, Gustavo Alonso | Done |
 | — | Tarea técnica | T014 | Shared Kernel | Modelos de dominio compartidos (Money, Quantity, DateTime, etc.), stores, API simulada, layout, sidebar y componentes compartidos. | 8h | Cáceres Pizarro, Albino Florencio | Done |
@@ -543,16 +543,17 @@ El seguimiento se realiza en el mismo tablero de Trello del proyecto: [Tablero d
 | **US-015, US-016** | Consultar y registrar productos de proveedores | T018 | Bounded context Suppliers | Capas de dominio, aplicación, infraestructura y presentación: proveedores, catálogo y ofertas. | 6h | Torres Huaman, Alexis Calin | Done |
 | — | Tarea técnica | T019 | Bounded context Analytics | Capas de dominio, aplicación, infraestructura y presentación: resumen de analítica y formulario de reportes. | 5h | Cáceres Pizarro, Albino Florencio | Done |
 | **US-009** | Generar alertas de vencimiento | T020 | Bounded context Communication | Capas de aplicación y presentación: vista general de alertas. | 4h | Cáceres Pizarro, Albino Florencio | Done |
-| **US-010, US-011, US-012** | Consultar condiciones, monitorear temperatura y humedad, alertas de conservación | T021 | Bounded context Conservation | Capas de dominio, aplicación, infraestructura y presentación: monitoreo y alertas de conservación. | 8h | Atencio Cristobal, Cielo Valentina | To-Review |
+| **US-010, US-011, US-012** | Consultar condiciones, monitorear temperatura y humedad, alertas de conservación | T021 | Bounded context Conservation | Capas de dominio, aplicación, infraestructura y presentación: monitoreo y alertas de conservación. | 8h | Atencio Cristobal, Cielo Valentina | Done |
+| **US-026, US-027, US-028** | Registrar usuario; iniciar sesión; gestionar permisos por rol | T022 | Bounded context IAM | Capas de dominio, infraestructura y presentación: inicio de sesión, registro, guardias de acceso y gestión de usuarios y roles. | 8h | Atencio Cristobal, Cielo Valentina | Done |
 
-Las estimaciones en horas son de planificación. Las tareas en estado *To-Review* están implementadas en ramas `feature` que aún no se integran en `develop`.
+Las estimaciones en horas son de planificación. Todas las tareas están integradas en la rama `develop` de su repositorio.
 
 ---
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
 <p>
-  Durante el Sprint 2 se implementó la primera versión de la Web Application en Angular, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation y Shared Kernel) y por capas (domain, application, infrastructure, presentation), y se amplió la Landing Page con el script principal, páginas legales, página 404 y estilos globales. A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
+  Durante el Sprint 2 se implementó la primera versión de la Web Application en Angular, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication, Conservation, IAM y Shared Kernel) y por capas (domain, application, infrastructure, presentation), y se amplió la Landing Page con el script principal, páginas legales, página 404 y estilos globales. A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -793,6 +794,54 @@ Las estimaciones en horas son de planificación. Las tareas en estado *To-Review
     </tr>
     <tr>
       <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>92e6fcf</code></td>
+      <td>feat(iam): add domain/model/user.entity.ts</td>
+      <td>IAM: entidad de usuario.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>64ca71d</code></td>
+      <td>feat(iam): add infrastructure/iam-api.ts</td>
+      <td>IAM: API simulada de autenticación y usuarios.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>458f7ac</code></td>
+      <td>feat(iam): add presentation/guards/auth.guard.ts</td>
+      <td>IAM: guardias de acceso por sesión y módulo.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>e4a3805</code></td>
+      <td>feat(iam): add presentation/views/login/login.ts</td>
+      <td>IAM: vista de inicio de sesión.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>3e8d16d</code></td>
+      <td>feat(iam): add presentation/views/register/register.ts</td>
+      <td>IAM: vista de registro de usuario.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/iam</td>
+      <td><code>ece5d4c</code></td>
+      <td>feat(iam): add presentation/views/user-list/user-list.ts</td>
+      <td>IAM: vista de usuarios y roles.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
       <td>feature/shared</td>
       <td><code>d59262e</code></td>
       <td>feat(shared): add domain/model/domain-error.ts</td>
@@ -822,7 +871,7 @@ Las estimaciones en horas son de planificación. Las tareas en estado *To-Review
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Las pantallas de los módulos internos (dashboard, inventario, productos, proveedores, alertas, analítica y conservación) están implementadas en el repositorio y requieren una sesión autenticada.
+Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Además de las vistas públicas, se presentan las pantallas de los módulos internos de la Web Application, capturadas con una sesión autenticada y con datos de ejemplo.
 
 ##### Evidencia 1: Landing Page (nueva versión)
 La Landing Page mantiene su pantalla principal e incorpora selector de idioma ES/EN, acceso a la aplicación mediante los botones de inicio de sesión y enlaces a las páginas legales en el footer.
@@ -872,6 +921,56 @@ Página de error para rutas inexistentes de la aplicación.
 ![Página 404 de la Web Application](./assets/chapter-05/s2-webapp-404.png)
 *Figura: Página 404 de la Web Application de OrganiK.*
 
+##### Evidencia 9: Web Application — Dashboard (US-030)
+Panel principal con indicadores operativos: unidades en inventario, lotes por vencer, stock bajo, pedidos pendientes y actividad reciente.
+
+![Dashboard de la Web Application](./assets/chapter-05/s2-app-dashboard.jpg)
+*Figura: Dashboard de la Web Application de OrganiK.*
+##### Evidencia 10: Web Application — Inventario (US-002, US-006, US-013, US-014)
+Listado de inventario con SKU, producto, lote, stock, fecha de vencimiento y estado (normal, riesgo o crítico), con búsqueda, filtros y accesos para registrar stock, merma y oferta.
+
+![Inventario de la Web Application](./assets/chapter-05/s2-app-inventory.jpg)
+*Figura: Vista de inventario de la Web Application.*
+##### Evidencia 11: Web Application — Productos (US-001)
+Catálogo de productos organizado por categorías (frutas y verduras, lácteos, granos, bebidas, panadería y congelados) con acceso para agregar productos.
+
+![Productos de la Web Application](./assets/chapter-05/s2-app-products.jpg)
+*Figura: Vista de productos por categoría.*
+##### Evidencia 12: Web Application — Proveedores (US-015, US-016)
+Directorio de proveedores activos con acceso a su perfil y alta de nuevos proveedores.
+
+![Proveedores de la Web Application](./assets/chapter-05/s2-app-suppliers.jpg)
+*Figura: Vista de proveedores.*
+##### Evidencia 13: Web Application — Catálogo de proveedores (US-015)
+Catálogo publicado por los proveedores, de solo consulta, con producto, lote, unidades disponibles, vencimiento y fecha de actualización.
+
+![Catálogo de la Web Application](./assets/chapter-05/s2-app-catalog.jpg)
+*Figura: Vista de catálogo de proveedores.*
+##### Evidencia 14: Web Application — Conservación (US-010, US-011, US-012)
+Monitoreo de temperatura y humedad por zona de almacenamiento, con estado de cada lectura e historial filtrable por zona y fechas. Las lecturas son simuladas.
+
+![Conservación de la Web Application](./assets/chapter-05/s2-app-conservation.jpg)
+*Figura: Vista de monitoreo de conservación.*
+##### Evidencia 15: Web Application — Analítica (US-009)
+Indicadores operativos: pérdida evitada, productos en riesgo, solicitudes aceptadas y tendencia de alertas, con acceso para generar reportes.
+
+![Analítica de la Web Application](./assets/chapter-05/s2-app-analytics.jpg)
+*Figura: Vista de analítica.*
+##### Evidencia 16: Web Application — Alertas (US-009)
+Resumen de analítica y alertas de la plataforma, con tendencia de alertas y acceso para generar reportes.
+
+![Alertas de la Web Application](./assets/chapter-05/s2-app-alerts.jpg)
+*Figura: Vista de analítica y alertas.*
+##### Evidencia 17: Web Application — Perfiles (US-028)
+Perfil del usuario autenticado y perfiles de acceso (administrador, operador y proveedor) con los módulos que gestiona o consulta cada uno.
+
+![Perfiles de la Web Application](./assets/chapter-05/s2-app-profiles.jpg)
+*Figura: Vista de perfiles y permisos por rol.*
+##### Evidencia 18: Web Application — Usuarios y roles (US-026, US-028)
+Gestión de usuarios del minimarket con correo, rol, estado y acciones, y acceso para registrar nuevos usuarios.
+
+![Usuarios y roles de la Web Application](./assets/chapter-05/s2-app-users.jpg)
+*Figura: Vista de usuarios y roles.*
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -925,7 +1024,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
     </tr>
   </thead>
   <tbody>
-    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>25</td><td>27</td></tr>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>57</td><td>59</td></tr>
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>4</td><td>12</td><td>16</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
