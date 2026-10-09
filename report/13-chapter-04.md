@@ -254,7 +254,7 @@ El prototipo de la aplicación web es una aplicación funcional desarrollada en 
 *   **Cobertura:** Dashboard, Inventario, Productos, Solicitudes, Envíos, Proveedores, Conservación, Analytics, Usuarios, Perfiles y Configuración, junto con sus formularios de interacción.
 *   **Acceso:** Inicio de sesión con cuentas de demostración, sesión por pestaña del navegador y rutas protegidas por guardas de autenticación.
 *   **Calidad:** 130 pruebas automatizadas, flujo de trabajo con ramas Gitflow y commits convencionales.
-*   **Repositorios:** La aplicación se encuentra en `5Bits-OrganiK/organik-website-v2` y la landing page en `5Bits-OrganiK/organik-frontend-v2`, como repositorios independientes conectados por enlaces.
+*   **Repositorios:** La Web Application se encuentra en `5Bits-OrganiK/organik-web-application` y la Landing Page en `5Bits-OrganiK/organik-landing-page-static`, como repositorios independientes conectados por enlaces.
 
 ![Web Applications Prototype - Flujo del prototipo](assets/chapter-04/web-prototype-flow.png)
 
