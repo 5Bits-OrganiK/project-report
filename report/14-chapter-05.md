@@ -188,15 +188,6 @@ Se especifican los pasos y recursos de configuración de despliegue para asegura
 
 ---
 
-#### Landing Page
-
-La landing page puede desplegarse como sitio estático mediante servicios como Azure Static Web Apps, Vercel, Netlify o GitHub Pages.
-
-* **Entorno local:** `http://127.0.0.1:4200/`
-* **URL de producción:** `https://witty-pebble-068250b10.2.azurestaticapps.net`
-
----
-
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
