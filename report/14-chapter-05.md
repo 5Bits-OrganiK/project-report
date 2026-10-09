@@ -472,7 +472,7 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 | **Sprint Planning Sprint 2** |  |
 |---|---|
 | **Sprint Planning Background** |  |
-| Date | 07/10/2026 |
+| Date | 25/09/2026 |
 | Time | Por confirmar |
 | Location | Discord |
 | Prepared By | Olivares Lao, Gustavo Alonso |
