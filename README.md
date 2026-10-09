@@ -67,6 +67,7 @@
 | 1.6.0 | 09/10/2026 | Torres Huaman, Alexis Calin | Release v1.6.0: corrección de los Capítulos II y III (Big Picture EventStorming y Ubiquitous Language en inglés, nombres de User Personas en el Impact Map, reconstrucción del Impact Map con tres Business Goals, retiro de US-038 y corrección del enlace público del Product Backlog). |
 | 1.7.0 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV: capturas de los 12 bounded contexts del Design-Level EventStorming (Lucidchart), leyenda y relaciones clave actualizadas, y nuevo enlace al tablero. Capítulo V: corrección de niveles de encabezado, de la evidencia del Sprint 1 y del stack de la Landing Page; incorporación del Sprint 2 (5.2.2.1 a 5.2.2.8) con evidencia de desarrollo, ejecución, despliegue y colaboración. Registro de Project Report Collaboration Insights de TB1. Incorporación del pipeline de exportación a PDF con Pandoc y Typst. |
 | 1.7.1 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Student Outcome: integración de las contribuciones TB1 de cada integrante y de los aportes verificados en el repositorio. |
+| 1.7.2 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Corrección de los nombres de los repositorios finales de la Web Application y la Landing Page (Capítulo IV, 5.1.2 y Anexos) y actualización del enlace al video de navegación del Sprint 2. |
 
 ---
 
@@ -2044,7 +2045,7 @@ El prototipo de la aplicación web es una aplicación funcional desarrollada en 
 *   **Cobertura:** Dashboard, Inventario, Productos, Solicitudes, Envíos, Proveedores, Conservación, Analytics, Usuarios, Perfiles y Configuración, junto con sus formularios de interacción.
 *   **Acceso:** Inicio de sesión con cuentas de demostración, sesión por pestaña del navegador y rutas protegidas por guardas de autenticación.
 *   **Calidad:** 130 pruebas automatizadas, flujo de trabajo con ramas Gitflow y commits convencionales.
-*   **Repositorios:** La aplicación se encuentra en `5Bits-OrganiK/organik-website-v2` y la landing page en `5Bits-OrganiK/organik-frontend-v2`, como repositorios independientes conectados por enlaces.
+*   **Repositorios:** La Web Application se encuentra en `5Bits-OrganiK/organik-web-application` y la Landing Page en `5Bits-OrganiK/organik-landing-page-static`, como repositorios independientes conectados por enlaces.
 
 ![Web Applications Prototype - Flujo del prototipo](report/assets/chapter-04/web-prototype-flow.png)
 
@@ -2404,15 +2405,15 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
       <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/5Bits-OrganiK/project-report.git</a></td>
     </tr>
     <tr>
-      <td>Landing Page OrganiK</td>
+      <td>Landing Page OrganiK (repositorio final)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
     </tr>
     <tr>
-      <td>Landing Page OrganiK (repositorio del Sprint 1)</td>
+      <td>Landing Page OrganiK (repositorio inicial del Sprint 1, reemplazado por <code>organik-landing-page-static</code>)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
-      <td>Frontend Web Application OrganiK</td>
+      <td>Frontend Web Application OrganiK (repositorio final)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a></td>
     </tr>
     <tr>
@@ -3257,7 +3258,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
 
 Durante el Sprint 2 el equipo desplegó la primera versión de la Web Application y una nueva versión de la Landing Page de **OrganiK**. Se presentan las vistas públicas de ambos productos. Además de las vistas públicas, se presentan las pantallas de los módulos internos de la Web Application, capturadas con una sesión autenticada y con datos de ejemplo.
 
-El video que ilustra y explica la visualización y navegación logradas en este Sprint está disponible en la carpeta de Google Drive del equipo: [Video de navegación del Sprint 2](https://drive.google.com/drive/folders/1hi_rKkgi2mjeThxX-4SFhgweqxDTi8IN?usp=sharing).
+El video que ilustra y explica la visualización y navegación logradas en este Sprint está disponible en Google Drive: [Video de navegación del Sprint 2](https://drive.google.com/file/d/13J-F3-Kes8TYnkpBZBGxVg_Ngv3RjEQ0/view?usp=drive_link).
 
 ##### Evidencia 1: Landing Page (nueva versión)
 La Landing Page mantiene su pantalla principal e incorpora selector de idioma ES/EN, acceso a la aplicación mediante los botones de inicio de sesión y enlaces a las páginas legales en el footer.
