@@ -22,7 +22,7 @@ local function expand_divs(blocks)
       local align = b.attributes['align']
       local style = b.attributes['style'] or ''
       if style:match('page%-break') then
-        out:insert(raw('#pagebreak(weak: true)'))
+        -- ignorado (ver RawBlock)
       elseif align == 'center' or style:match('text%-align:%s*center') then
         out:insert(raw('#align(center)['))
         out:extend(expand_divs(b.content))
@@ -40,8 +40,9 @@ end
 function RawBlock(el)
   if el.format ~= 'html' then return nil end
   local t = el.text
+  -- Los saltos de pagina manuales del Markdown se ignoran: el PDF decide los cortes.
   if t:match('^%s*<div[^>]*page%-break[^>]*>%s*</div>%s*$') then
-    return raw('#pagebreak(weak: true)')
+    return {}
   end
   if t:match('^%s*<br%s*/?>%s*$') then
     return raw('#v(0.6em)')
