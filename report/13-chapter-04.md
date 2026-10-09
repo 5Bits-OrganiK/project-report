@@ -2,7 +2,7 @@
 
 ## 4.1. Style Guidelines.
 
-Esta sección establece las bases visuales y de comunicación para mantener la consistencia en todos los productos digitales de **OrganiK** (Landing Page y Dashboards). El objetivo es contar con un repositorio centralizado que facilite la escalabilidad del diseño y garantice una experiencia de usuario coherente tanto para administradores de minimarkets como para proveedores.
+Esta sección establece las bases visuales y de comunicación para mantener la consistencia en todos los productos digitales de OrganiK (Landing Page y Web Application). El objetivo es contar con un repositorio centralizado que facilite la escalabilidad del diseño y garantice una experiencia de usuario coherente para quienes gestionan el inventario, la conservación y el abastecimiento de productos orgánicos.
 
 ### 4.1.1. General Style Guidelines.
 
@@ -13,19 +13,23 @@ La comunicación de OrganiK se rige bajo cuatro dimensiones principales para est
 *   **Respetuoso vs. Irreverente:** Respetuoso. Considera la alta carga operativa y el estrés de los usuarios (como los administradores de minimarkets), mostrándose como un asistente empático.
 *   **Entusiasta vs. Sereno:** Sereno. Las interfaces e interacciones no buscan abrumar al usuario con celebraciones excesivas, sino brindar tranquilidad mediante la automatización y alertas preventivas.
 
+La interfaz se ofrece en español (idioma por defecto) y en inglés, con selector de idioma visible en la cabecera.
+
 **Branding y Paleta de Colores**
-La paleta cromática ha sido seleccionada cuidadosamente para generar confianza y evocar la naturaleza de los productos orgánicos, manteniendo un alto contraste para la lectura de datos:
-*   **Colores Primarios (Acción y Confianza):** Se utilizan tonalidades azules como *Azure Radiance* y *Dodger Blue*. El azul transmite seguridad, estabilidad y limpieza tecnológica.
-*   **Colores de Acento y Alerta (Dinamismo):** Se integran tonos anaranjados como *Pumpkin* y *Orange*. Utilizados exclusivamente para llamados a la acción (CTAs) y notificaciones críticas (alertas IoT de temperatura o fechas de vencimiento próximas).
-*   **Colores Neutros (Estructura y Legibilidad):** Se emplean variantes de grises (como *Slate Gray* y *Boulder*) y blancos (*Alice Blue*, *White*) para los fondos de los dashboards, reduciendo la fatiga visual.
+La paleta cromática evoca la naturaleza de los productos orgánicos y mantiene un alto contraste para la lectura de datos. Todo el producto se construye sobre una escala de verdes con un acento lima y neutros tintados de verde:
+*   **Colores Primarios (Marca y Acción):** *Forest* (`#0B2B1C`) para la barra lateral y superficies de énfasis; *Green* (`#17803F`) y *Green Strong* (`#116A33`) para botones principales, enlaces y estados activos; *Leaf* (`#2FA866`) para gráficos e indicadores positivos.
+*   **Colores de Acento (Dinamismo):** *Lime* (`#C8E04F`) y *Lime Soft* (`#D8EC8A`) para resaltar el elemento activo, cifras destacadas y llamados a la acción secundarios.
+*   **Colores Neutros (Estructura y Legibilidad):** *Mist* (`#EDF3EE`) como fondo de pantalla, *Tint* (`#E6F3E9`) y *Tint Strong* (`#D3EBD9`) para superficies y filas, *Border* (`#D5E4D8`) para divisores, *Muted* (`#4E6556`) para texto secundario y blanco para tarjetas, reduciendo la fatiga visual.
+*   **Colores de Estado (Alerta):** *Danger* (`#B42318`) con fondo *Danger Soft* (`#FDE8E6`) para errores, vencimientos críticos y alertas de conservación; *Warning* (`#7A4B00`) con fondo *Warning Soft* (`#FBE7A6`) para productos próximos a vencer y solicitudes pendientes.
 
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-1.png)
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-2.png)
 
 **Tipografía**
-Se seleccionaron dos familias Sans-Serif priorizando la legibilidad en pantallas de múltiples resoluciones:
-*   **Arimo:** Utilizada en encabezados, títulos de módulos y cifras destacadas en los dashboards. Su estructura robusta permite una rápida lectura de los KPIs.
-*   **Inter:** Asignada a los cuerpos de texto y tablas de datos. Diseñada específicamente para interfaces, garantiza que los datos densos sean legibles en tamaños pequeños.
+Se seleccionaron dos familias priorizando la legibilidad en pantallas de múltiples resoluciones (con Inter reservada para los wireframes de baja fidelidad):
+*   **Fraunces (SemiBold):** Utilizada en títulos de pantalla, títulos de tarjetas y cifras destacadas (KPIs) del dashboard. Su carácter serif aporta calidez y un tono natural acorde con el rubro orgánico. Estilos: *Display* 32 px, *Title* 24 px y *Figure* 36 px.
+*   **Geist:** Asignada a la interfaz: cuerpos de texto, tablas de datos, formularios, botones y etiquetas. Diseñada para interfaces, garantiza que los datos densos sean legibles en tamaños pequeños. Estilos: *Body* 14 px, *Body Medium* 15 px, *Caption* 12.5 px y *Label* 12 px en mayúsculas.
+*   **Inter:** Usada únicamente en los wireframes (12.7 px) para mantener un aspecto neutro y sin decoración.
 
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-3.png)
 ![General Style Guide - Colores y Tipografía](assets/chapter-04/style-guideline-4.png)
@@ -36,56 +40,62 @@ Se seleccionaron dos familias Sans-Serif priorizando la legibilidad en pantallas
 
 Para garantizar que la experiencia sea fluida y adaptable (Responsive Web Design), se establecen los siguientes estándares visuales y de interacción:
 
-*   **Sistema de Grillas y Espaciado:** Se utiliza un sistema de espaciado basado en múltiplos de 8px para asegurar consistencia. La estructura base emplea una grilla de 12 columnas para resoluciones de escritorio, adaptándose a 4 columnas en dispositivos móviles.
-*   **Puntos de Ruptura (Breakpoints):** El diseño es fluido, con puntos de adaptación clave en 320px (Mobile), 768px (Tablet) y 1024px+ (Desktop/Laptop).
+*   **Sistema de Espaciado y Forma:** Se utiliza un espaciado basado en múltiplos de 4 y 8 px. Las tarjetas y paneles usan esquinas de 12 px y los campos y botones de 8 px, con sombras suaves que se elevan al interactuar. La barra lateral tiene un ancho fijo de 280 px en escritorio.
+*   **Puntos de Ruptura (Breakpoints):** El diseño es fluido, con puntos de adaptación en 600 px, 700 px, 900 px y 1000 px, donde las cuadrículas pasan a una sola columna y los paneles se reorganizan.
 *   **Estados de Interacción:**
-    *   *Hover:* Los botones principales y tarjetas aumentan sutilmente su sombra (elevation) y oscurecen su fondo un 10% para indicar interactividad.
-    *   *Disabled:* Los botones de acciones incompletas (ej. "Aceptar Pedido" sin haber revisado el lote) se desaturan a *Slate Gray* al 50% de opacidad.
-*   **Accesibilidad (A11y):** Los botones principales y enlaces en la versión móvil tienen un área mínima de toque de 44x44px para evitar errores al interactuar en movimiento. Se garantiza un ratio de contraste mínimo de 4.5:1 entre el texto y su fondo.
+    *   *Hover:* Los botones y tarjetas elevan sutilmente su sombra y oscurecen su fondo hacia *Green Strong*. Estos efectos se activan solo en dispositivos con puntero preciso (`hover: hover`).
+    *   *Disabled:* Los botones de acciones incompletas (ej. "Aceptar recepción" sin completar los datos) se desaturan y reducen su opacidad.
+    *   *Error:* Los campos inválidos muestran el borde y el mensaje en *Danger*; el formulario de acceso sacude el panel ante credenciales incorrectas.
+*   **Movimiento:** Las pantallas aparecen con entradas suaves y escalonadas (desenfoque y desplazamiento leve, 720 ms), las cifras de los KPI cuentan hasta su valor final y las transiciones entre vistas usan *View Transitions*. Todo movimiento se desactiva cuando el usuario tiene activada la preferencia `prefers-reduced-motion`.
+*   **Accesibilidad (A11y):** Se garantiza un ratio de contraste mínimo de 4.5:1 entre el texto y su fondo, y los estados no dependen solo del color: siempre van acompañados de texto o ícono.
 
 ## 4.2. Information Architecture.
 
 La Arquitectura de la Información (IA) de **OrganiK** ha sido diseñada con el objetivo de estructurar, organizar y etiquetar el contenido de la plataforma de manera que los usuarios puedan encontrar la información y completar sus tareas de forma intuitiva.
 
-Dado que la plataforma atiende a dos segmentos con necesidades y permisos operativos distintos, la arquitectura se divide en tres áreas principales: una zona pública orientada a la conversión (Landing Page) y dos zonas privadas (Dashboards) adaptadas al flujo operativo de cada rol (Administrador de Minimarket y Proveedor B2B). Esta separación garantiza que cada usuario acceda únicamente a la información y herramientas relevantes para su gestión.
+Dado que la plataforma atiende a dos segmentos con necesidades y permisos operativos distintos, la arquitectura se divide en tres áreas principales: una zona pública orientada a la conversión (Landing Page) y dos zonas privadas (Web Application) adaptadas al flujo operativo de cada rol (Administrador de Minimarket y Proveedor B2B). Esta separación garantiza que cada usuario acceda únicamente a la información y herramientas relevantes para su gestión.
+
+La landing y la aplicación son productos separados que se conectan por enlaces: el botón *Iniciar sesión* de la landing lleva a la pantalla de acceso de la aplicación, y esta ofrece el enlace de regreso a la landing. Las dos zonas privadas comparten el mismo shell de navegación (barra lateral, cabecera con búsqueda global y selector de idioma) y las rutas están protegidas por autenticación; el rol de cada cuenta se administra desde *Usuarios y roles*.
 
 A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plataforma:
 
 **1. Zona Pública (Landing Page)**
 *   **1.1. Inicio:** Propuesta de valor principal.
-*   **1.2. Solución:** Explicación del funcionamiento integrado (Inventario, Monitoreo y Abastecimiento).
+*   **1.2. Solución:** Explicación del funcionamiento integrado (Inventario, Conservación y Abastecimiento).
 *   **1.3. Beneficios:** Ventajas de la reducción de mermas y digitalización B2B.
 *   **1.4. Equipo:** Presentación del equipo desarrollador.
 *   **1.5. Planes y Precios:** Suscripciones para Minimarkets y Proveedores.
-*   **1.6. Acceso:**
-    *   1.6.1. Iniciar Sesión (Login).
-    *   1.6.2. Registro de nueva cuenta.
+*   **1.6. Acceso:** Iniciar sesión (enlace a la Web Application). Selector de idioma ES/EN en la barra de navegación.
 
 **2. Zona Privada: Administrador de Minimarket**
-*   **2.1. Dashboard Principal:** Resumen de métricas, accesos rápidos y alertas críticas.
-*   **2.2. Inventario Local:**
-    *   2.2.1. Lista de productos orgánicos.
-    *   2.2.2. Control de lotes y fechas de vencimiento.
-    *   2.2.3. Registro de mermas y ofertas.
-*   **2.3. Monitoreo Ambiental (IoT):**
+*   **2.1. Panel (Dashboard):** Resumen de indicadores (KPI), accesos rápidos y alertas críticas.
+*   **2.2. Inventario:**
+    *   2.2.1. Lista de existencias con el estado de cada lote (vigente, próximo a vencer, vencido).
+    *   2.2.2. Registrar stock.
+    *   2.2.3. Productos: catálogo de productos orgánicos por categoría y alta de nuevo producto.
+*   **2.3. Conservación (Monitoreo Ambiental):**
     *   2.3.1. Lecturas de temperatura y humedad (simuladas en la validación inicial).
     *   2.3.2. Historial de alertas de conservación.
 *   **2.4. Abastecimiento:**
-    *   2.4.1. Catálogo de proveedores y necesidades de reposición.
-    *   2.4.2. Bandeja de pedidos generados por proveedores (Aceptar / Rechazar).
-    *   2.4.3. Estado e historial de pedidos.
-*   **2.5. Configuración:** Perfil del negocio y preferencias de alertas.
+    *   2.4.1. Proveedores: directorio, perfil del proveedor, nuevo proveedor y proveedores sugeridos.
+    *   2.4.2. Solicitudes: necesidades de reposición compartidas con proveedores y nueva solicitud.
+    *   2.4.3. Envíos: bandeja de pedidos creados por proveedores (Aceptar / Rechazar recepción) y su estado e historial.
+*   **2.5. Análisis y alertas (Analytics):** Indicadores operativos, alertas y generación de reportes.
+*   **2.6. Administración:**
+    *   2.6.1. Usuarios y roles: lista de cuentas, estado y alta de nuevo usuario.
+    *   2.6.2. Perfiles: perfiles de minimarkets y proveedores.
+    *   2.6.3. Configuración: perfil del negocio y preferencias de alertas.
 
 **3. Zona Privada: Proveedor B2B**
-*   **3.1. Dashboard Principal:** Resumen de ventas, estado de despachos y KPIs comerciales.
+*   **3.1. Panel (Dashboard):** Resumen de pedidos, estado de despachos y KPIs comerciales.
 *   **3.2. Mi Catálogo:**
-    *   3.2.1. Gestión de productos ofrecidos.
-    *   3.2.2. Actualización de disponibilidad y lotes en almacén.
+    *   3.2.1. Gestión de productos ofrecidos (agregar producto).
+    *   3.2.2. Actualización de disponibilidad y lotes en almacén (registrar stock).
 *   **3.3. Gestión de Pedidos:**
-    *   3.3.1. Consulta de necesidades compartidas por minimarkets vinculados.
-    *   3.3.2. Creación de pedidos dirigidos a minimarkets.
-    *   3.3.3. Consulta de estado e historial de pedidos.
-*   **3.4. Red de Clientes:** Directorio de minimarkets asociados.
+    *   3.3.1. Consulta de necesidades de reposición compartidas por minimarkets vinculados (Solicitudes).
+    *   3.3.2. Creación de pedidos dirigidos a minimarkets (Envíos).
+    *   3.3.3. Consulta de estado e historial de pedidos; el pedido queda pendiente hasta que el administrador destinatario lo acepta o rechaza.
+*   **3.4. Red de Clientes:** Directorio de minimarkets asociados (Perfiles).
 *   **3.5. Configuración:** Perfil de la empresa y detalles logísticos.
 
 ![Site Map - Plataforma OrganiK](assets/chapter-04/site-map.png)
@@ -95,82 +105,158 @@ A continuación, se presenta el Mapa de Sitio (Site Map) jerárquico de la plata
 El sistema de organización de **OrganiK** define cómo se estructura y clasifica la información para que los usuarios interactúen con la plataforma sin fricciones. Se han aplicado los siguientes esquemas organizativos:
 *   **Organización Visual y Estructural:**
     *   *Jerárquica:* Aplicada en la *Landing Page*, donde la información fluye de mayor a menor importancia.
-    *   *Matricial:* Utilizada en los dashboards, permitiendo al usuario navegar entre diferentes dimensiones operativas (Inventario, Pedidos, IoT) sin un orden secuencial estricto.
+    *   *Matricial:* Utilizada en la aplicación, permitiendo al usuario navegar entre diferentes dimensiones operativas (Inventario, Solicitudes, Envíos, Conservación) desde la barra lateral sin un orden secuencial estricto.
 *   **Esquemas de Categorización:**
-    *   *Según Audiencia:* Separa la experiencia del *Administrador de Minimarket* (enfocada en control interno y compras) de la del *Proveedor B2B* (enfocada en ventas y despachos).
-    *   *Cronológico:* Aplicado en los historiales de pedidos, registro de mermas y el log de alertas ambientales, ordenando los datos desde el evento más reciente al más antiguo.
-    *   *Por Tópicos:* Utilizado para estructurar el catálogo y el inventario físico, facilitando la agrupación de lotes y productos.
+    *   *Según Audiencia:* Separa la experiencia del *Administrador de Minimarket* (enfocada en control interno y compras) de la del *Proveedor B2B* (enfocada en catálogo, ventas y despachos).
+    *   *Cronológico:* Aplicado en los historiales de pedidos y en el registro de alertas de conservación, ordenando los datos desde el evento más reciente al más antiguo.
+    *   *Por Tópicos:* Utilizado para estructurar el catálogo por categorías de producto y el inventario físico, facilitando la agrupación de lotes y productos.
 
 ### 4.2.2. Labeling Systems.
 
 Para garantizar la comprensión inmediata en entornos operativos rápidos, el sistema de etiquetado se basa en el *Ubiquitous Language* del sector logístico:
-*   **Etiquetas de Navegación:** Términos precisos de 1 a 2 palabras (Ej: *Inventario*, *Abastecimiento*, *Mi Catálogo*, *Mermas*).
-*   **Etiquetas de Acción (Botones):** Utilizan verbos en infinitivo que indican el resultado de la acción alineados a los User Stories (Ej: *Generar Pedido*, *Aprobar Orden de Envío*, *Crear Orden*).
-*   **Etiquetas de Estado:** Emplean un código de color universal respaldado por texto claro para el seguimiento (Ej: *Pendiente* [Amarillo], *Aprobado* [Verde], *Rechazado* [Rojo], *En Ruta* [Azul]).
-*   **Apoyo Iconográfico:** Las etiquetas de navegación principal siempre están acompañadas de iconos estandarizados para acelerar el reconocimiento visual.
+*   **Etiquetas de Navegación:** Términos precisos de 1 a 3 palabras (Ej: *Inventario*, *Productos*, *Solicitudes*, *Envíos*, *Conservación*, *Usuarios y roles*).
+*   **Etiquetas de Acción (Botones):** Utilizan verbos en infinitivo que indican el resultado de la acción, alineados a los User Stories (Ej: *Agregar producto*, *Registrar stock*, *Nueva solicitud*, *Generar reporte*).
+*   **Etiquetas de Estado:** Emplean un código de color respaldado por texto claro para el seguimiento (Ej: *Pendiente* [Ámbar], *Aprobado/Vigente* [Verde], *Rechazado/Vencido* [Rojo]).
+*   **Apoyo Iconográfico:** Las etiquetas de navegación principal siempre están acompañadas de iconos de Material Design para acelerar el reconocimiento visual.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar el posicionamiento en motores de búsqueda y la correcta previsualización al compartir enlaces, se han configurado los siguientes metadatos:
 *   **Landing Page (Pública):**
-    *   `Title:` `<title>OrganiK | Gestión de Inventarios, Monitoreo IoT y Abastecimiento B2B</title>`
-    *   `Meta Description:` `<meta name="description" content="Plataforma SaaS especializada en productos orgánicos. Conecta minimarkets y proveedores, controla inventarios, previene mermas con sensores IoT y gestiona pedidos B2B.">`
-    *   `Meta Keywords:` `<meta name="keywords" content="minimarkets, productos orgánicos, abastecimiento B2B, control de inventario, monitoreo IoT, reducir mermas">`
-*   **Web Application (Privada):** Dado que requiere autenticación, los motores de búsqueda no indexarán el contenido interno (`<meta name="robots" content="noindex, nofollow">`), protegiendo la privacidad operativa de los clientes. Se usan títulos dinámicos en la pestaña (Ej. `<title>Inventario - OrganiK</title>`).
+    *   `Title:` `<title>Organik · Control de inventario para minimarkets</title>`
+    *   `Meta Description:` `<meta name="description" content="Organik centraliza inventario, lotes y vencimientos para que tu minimarket reponga a tiempo y deje de perder producto.">`
+    *   `Open Graph:` `<meta property="og:title" content="Organik · Control de inventario para minimarkets">` y `<meta property="og:description" content="Anticipa vencimientos y gestiona el abastecimiento en tiempo real.">`
+*   **Web Application (Privada):** Dado que requiere autenticación, el contenido interno no debe ser indexado por los motores de búsqueda (`<meta name="robots" content="noindex, nofollow">`), protegiendo la privacidad operativa de los clientes. Se usan títulos dinámicos en la pestaña según la pantalla activa (Ej. `Inventario - OrganiK`).
 
 ### 4.2.4. Searching Systems.
 
-Debido al alto volumen transaccional, OrganiK implementa un sistema de búsqueda robusto para reducir el tiempo de localización de datos:
-*   **Búsqueda Global:** Ubicada en la cabecera del dashboard, permite realizar consultas mediante coincidencia de cadenas (ej. buscar por producto "Manzana" o ID de pedido "ORD-0012").
-*   **Filtros Contextuales:** Menús desplegables en las tablas de datos para refinar resultados (ej. filtrar inventario por estado "Próximo a Vencer", o filtrar pedidos por "Proveedor").
-*   **Presentación de Resultados:** Los datos se presentan en *Data Tables* ordenables y paginadas para no sobrecargar la vista.
+Debido al alto volumen transaccional, OrganiK implementa un sistema de búsqueda para reducir el tiempo de localización de datos:
+*   **Búsqueda Global:** Ubicada en la cabecera de la aplicación, permite realizar consultas por coincidencia de texto (ej. buscar el producto "Manzana" o un proveedor) y navegar directamente al resultado.
+*   **Filtros Contextuales:** Controles en las tablas de datos para refinar resultados (ej. filtrar inventario por estado "Próximo a vencer", o filtrar solicitudes por estado).
+*   **Presentación de Resultados:** Los datos se presentan en *Data Tables* ordenables para no sobrecargar la vista.
 
 ### 4.2.5. Navigation Systems.
 
-El sistema de navegación está estructurado para que los usuarios interactúen con la menor cantidad de clics posibles, adaptándose al comportamiento *Mobile-First*:
-*   **Navegación Global (Landing Page):** *Sticky Top Navbar* con anclas (anchor links) a secciones clave y un botón *Call-to-Action* destacado ("Iniciar Sesión").
-*   **Navegación Global (Web App):** *Sidebar* lateral izquierda colapsable en escritorio, y menú *Hamburguesa* en móviles para facilitar el uso en pantallas pequeñas.
-*   **Navegación Local:** Pestañas (Tabs) dentro de un mismo módulo para separar sub-vistas (ej. Dentro del módulo "Inventario", pestañas separadas para *Stock Activo*, *Lotes* y *Mermas*).
-*   **Navegación Suplementaria:** Ruta de migas de pan (Breadcrumbs) en la cabecera (ej. `OrganiK > Abastecimiento > Detalle Pedido ORD-0012`) que orienta al usuario y le permite retroceder niveles sin perder contexto.
+El sistema de navegación está estructurado para que los usuarios interactúen con la menor cantidad de clics posibles:
+*   **Navegación Global (Landing Page):** *Sticky Top Navbar* con anclas (anchor links) a secciones clave, selector de idioma ES/EN y un enlace destacado "Iniciar sesión" que lleva a la aplicación.
+*   **Navegación Global (Web App):** *Sidebar* lateral izquierda con los módulos principales, cada uno con su icono, y cabecera con búsqueda global, selector de idioma y cierre de sesión.
+*   **Navegación Local:** Cada módulo ofrece sus acciones principales como botones sobre la tabla (ej. *Registrar stock* en Inventario, *Nueva solicitud* en Solicitudes) que abren el formulario correspondiente, con un botón para volver a la lista.
+*   **Control de Acceso:** Las rutas privadas están protegidas por una guarda de autenticación que conserva la dirección solicitada y la recupera tras iniciar sesión; si el usuario ya tiene sesión, el login lo redirige al panel.
 
 ## 4.3. Landing Page UI Design.
 
-En esta sección se presenta la propuesta de Interfaz de Usuario (UI) para la Landing Page de **OrganiK**. El diseño visual traduce las decisiones tomadas en la Arquitectura de la Información y las Guías de Estilo en una interfaz tangible orientada a la conversión. El objetivo principal de esta página pública es comunicar claramente la propuesta de valor integrada (gestión de inventarios, monitoreo IoT y abastecimiento B2B) y dirigir a los administradores de minimarkets y proveedores hacia el registro o inicio de sesión.
+En esta sección se presenta la propuesta de Interfaz de Usuario (UI) para la Landing Page de **OrganiK**. El diseño visual traduce las decisiones tomadas en la Arquitectura de la Información y las Guías de Estilo en una interfaz tangible orientada a la conversión. El objetivo principal de esta página pública es comunicar claramente la propuesta de valor integrada (gestión de inventarios, conservación y abastecimiento) y dirigir a los usuarios hacia el inicio de sesión.
 
 ### 4.3.1. Landing Page Wireframe.
 
-Los wireframes representan el esqueleto estructural de la página en baja fidelidad, desprovistos de color y tipografía final, para centrar el análisis en la usabilidad y la distribución del contenido.
+Los wireframes representan el esqueleto estructural de la página en baja fidelidad, desprovistos de color y tipografía final, para centrar el análisis en la usabilidad y la distribución del contenido. Se elaboraron en las versiones en español e inglés.
 
 **Explicación del Diseño y Arquitectura:**
 *   **Estructura Visual:** Se ha optado por un diseño de bloque único (*Single-page layout*) que guía al usuario a través de un viaje lógico: Problema $\rightarrow$ Solución (Características de OrganiK) $\rightarrow$ Planes $\rightarrow$ Call to Action (CTA).
-*   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas IoT.
-*   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Se ha proyectado que las áreas de interacción (botones de "Empezar" o "Conoce los planes") tengan un área táctil amplia (mínimo 44x44px) para evitar frustración motriz en dispositivos móviles.
+*   **Jerarquía de Información:** La sección *Hero* (cabecera principal) destaca la propuesta de valor central con botones de acción inmediata. A medida que se hace *scroll*, la información se desglosa en bloques asimétricos o de cuadrícula (grid) para explicar módulos específicos como el control de lotes y las alertas de conservación.
+*   **Diseño Inclusivo:** Para la versión *Mobile Web Browser*, el wireframe estructural apila los contenedores en una sola columna. Las áreas de interacción tienen un área táctil amplia para evitar frustración motriz en dispositivos móviles.
 
 ![Landing Page Wireframe - Plataforma OrganiK](assets/chapter-04/landing-page-wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
-Los mock-ups representan el diseño final en alta fidelidad, integrando el *Design System* establecido para los productos digitales de OrganiK.
+Los mock-ups representan el diseño final en alta fidelidad, integrando el *Design System* establecido para los productos digitales de OrganiK y los textos de la landing publicada.
 
 **Explicación de la Aplicación Visual y UI:**
-*   **Aplicación de Style Guidelines:** El diseño final hace un uso extenso del espacio en blanco (White y Alice Blue) para transmitir una sensación de modernidad y limpieza, esencial en un software B2B. Los colores primarios (*Azure Radiance* y *Dodger Blue*) se reservan estratégicamente para los componentes interactivos principales (botones de Login/Registro y enlaces), atrayendo naturalmente la vista del usuario.
-*   **Tipografía y Legibilidad:** Se aplica la fuente *Arimo* en su variante Bold para los encabezados principales (H1, H2), logrando un impacto rápido; mientras que los párrafos explicativos utilizan *Inter*, garantizando una legibilidad óptima incluso en las tarjetas descriptivas de los planes de suscripción.
-*   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo que el usuario pueda acceder al botón de "Iniciar Sesión" en cualquier momento de su lectura, maximizando las oportunidades de conversión.
-*   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos oscuros (Slate Gray/Boulder) y los fondos claros supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG), asegurando que cualquier usuario pueda leer la propuesta de valor sin esfuerzo visual.
+*   **Aplicación de Style Guidelines:** El diseño hace uso de un fondo oscuro en *Forest* con acentos en *Lime* y *Green*, que transmite una sensación de naturaleza, modernidad y confianza. Los colores de acción se reservan estratégicamente para los componentes interactivos principales (botón de inicio de sesión y llamados a la acción), atrayendo naturalmente la vista del usuario.
+*   **Tipografía y Legibilidad:** Se aplica *Fraunces* en los encabezados principales (H1, H2), logrando impacto y calidez; mientras que los párrafos explicativos y las tarjetas utilizan *Geist*, garantizando una legibilidad óptima.
+*   **Consistencia de Interacción:** La barra de navegación superior (Navbar) se mantiene fija (*sticky*) durante el *scroll*, permitiendo acceder al enlace de "Iniciar sesión" en cualquier momento de la lectura.
+*   **Accesibilidad Visual:** Se ha verificado que el contraste entre los textos y sus fondos supere el ratio mínimo de 4.5:1 exigido por las normativas de accesibilidad web (WCAG).
 
 ![Landing Page Mockup - Plataforma OrganiK](assets/chapter-04/landing-page-mockup.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
+Esta sección documenta el diseño de la aplicación web de OrganiK: la estructura de sus pantallas en baja fidelidad, los recorridos entre ellas, su diseño visual final y los flujos de usuario. Las pantallas se diseñaron a partir de la aplicación implementada, aplicando la paleta y tipografía definidas en 4.1.
+
 ### 4.4.1. Web Applications Wireframes.
+
+Los wireframes de la aplicación muestran la distribución de contenido de cada pantalla en escala de grises. Todas las pantallas comparten el mismo esqueleto: barra lateral de navegación a la izquierda, cabecera con búsqueda global y área de contenido con título, indicadores y tabla o formulario.
+
+**Pantallas principales:** Login, Dashboard, Inventario, Productos, Solicitudes, Envíos, Proveedores, Perfil de proveedor, Conservación, Análisis y alertas, Analytics, Usuarios y roles, Perfiles y Configuración.
+
+**Pantallas de interacción:** Agregar producto, Registrar stock, Nueva solicitud, Aceptar recepción, Nuevo proveedor, Ver alertas, Generar reporte, Ver proveedores sugeridos y Nuevo usuario.
+
+![Web Applications Wireframes - Pantallas principales](assets/chapter-04/web-wireframes-screens.png)
+
+![Web Applications Wireframes - Interacciones](assets/chapter-04/web-wireframes-interactions.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+Los wireflows combinan los wireframes con las transiciones entre pantallas. A continuación se describen los recorridos principales:
+
+*   **Acceso:** Landing Page $\rightarrow$ *Iniciar sesión* $\rightarrow$ Login $\rightarrow$ Dashboard. Si el usuario intenta abrir una ruta privada sin sesión, es enviado al Login y, al autenticarse, vuelve a la ruta solicitada.
+*   **Registro de existencias:** Dashboard $\rightarrow$ Inventario $\rightarrow$ *Registrar stock* $\rightarrow$ Formulario $\rightarrow$ Inventario actualizado.
+*   **Catálogo:** Productos $\rightarrow$ *Agregar producto* $\rightarrow$ Formulario $\rightarrow$ Catálogo actualizado.
+*   **Abastecimiento:** Solicitudes $\rightarrow$ *Nueva solicitud* $\rightarrow$ Envíos $\rightarrow$ *Aceptar recepción* (el inventario se actualiza una sola vez, al aceptar).
+*   **Proveedores:** Proveedores $\rightarrow$ Perfil del proveedor / *Nuevo proveedor* / Proveedores sugeridos.
+*   **Conservación:** Conservación $\rightarrow$ *Ver alertas* $\rightarrow$ Alertas de conservación.
+*   **Analítica:** Análisis y alertas $\rightarrow$ *Generar reporte*.
+*   **Administración:** Usuarios y roles $\rightarrow$ *Nuevo usuario*.
+
+![Web Applications Wireflow Diagram](assets/chapter-04/web-wireflow.png)
+
 ### 4.4.2. Web Applications Mock-ups.
+
+Los mock-ups muestran el diseño de alta fidelidad de cada pantalla con la paleta verde y las tipografías Fraunces y Geist. Entre las decisiones visuales principales:
+
+*   **Barra lateral en *Forest* (verde bosque)** con el módulo activo resaltado en *Lime*, de modo que el usuario siempre sabe dónde está.
+*   **Tarjetas de indicadores (KPI)** con cifras en Fraunces que cuentan hasta su valor final al cargar la pantalla.
+*   **Tablas de datos** sobre fondo blanco con filas en *Tint* al pasar el cursor, y etiquetas de estado con color y texto (Vigente, Próximo a vencer, Vencido, Pendiente, Aprobado, Rechazado).
+*   **Alertas** de vencimiento y de conservación en tonos *Warning* y *Danger*, usados únicamente para lo que requiere atención.
+*   **Formularios** en tarjetas con campos de 8 px de radio, mensajes de validación en línea y botón principal en *Green*.
+*   **Pantalla de acceso** dividida: panel de marca a un lado y formulario al otro, con enlace de regreso a la landing.
+
+![Web Applications Mock-ups - Pantallas principales](assets/chapter-04/web-mockups-screens.png)
+
+![Web Applications Mock-ups - Interacciones](assets/chapter-04/web-mockups-interactions.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
+Los diagramas de flujo de usuario describen, paso a paso, cómo el usuario completa las tareas principales.
+
+**Flujo 1 – Iniciar sesión**
+1. El usuario ingresa desde la landing o directamente a la aplicación.
+2. Escribe su correo y contraseña en el Login.
+3. Si las credenciales son incorrectas, el panel muestra el error y permite reintentar; si la cuenta está pendiente de activación, se informa.
+4. Si son correctas, se crea la sesión y se muestra el Dashboard (o la ruta que intentó abrir).
+
+**Flujo 2 – Registrar stock**
+1. Desde Inventario, el usuario selecciona *Registrar stock*.
+2. Elige el producto e ingresa cantidad, lote y fecha de vencimiento.
+3. El formulario valida los datos; si hay errores, los marca en línea.
+4. Al guardar, el inventario se actualiza y se confirma con una notificación.
+
+**Flujo 3 – Gestionar un pedido**
+1. El administrador comparte una necesidad con *Nueva solicitud*.
+2. El proveedor crea el pedido dirigido al minimarket.
+3. Desde Envíos, el administrador destinatario revisa el pedido y elige *Aceptar* o *Rechazar*.
+4. Si acepta, el inventario se actualiza una sola vez; si rechaza, las existencias no cambian.
+
+**Flujo 4 – Atender una alerta de conservación**
+1. El Dashboard o Conservación muestra una alerta por temperatura o humedad fuera de rango.
+2. El usuario abre *Ver alertas* y revisa el detalle.
+3. Toma acción sobre el lote afectado (registrar merma o cambiar su estado).
+
+![Web Applications User Flow Diagrams](assets/chapter-04/web-user-flows.png)
+
 ## 4.5. Web Applications Prototyping.
+
+El prototipo de la aplicación web es una aplicación funcional desarrollada en Angular, con datos simulados en memoria y latencia artificial para reproducir la experiencia real. Permite recorrer todas las pantallas del diseño sin depender de un servidor, y valida los flujos descritos en 4.4 antes de integrar el backend.
+
+*   **Tecnología:** Angular, Angular Material, Reactive Forms y ngx-translate (español e inglés).
+*   **Organización:** Un contexto por bounded context, cada uno con las capas `domain`, `infrastructure`, `application` y `presentation`. Los datos provienen de repositorios en memoria que más adelante se reemplazarán por la API REST.
+*   **Cobertura:** Dashboard, Inventario, Productos, Solicitudes, Envíos, Proveedores, Conservación, Analytics, Usuarios, Perfiles y Configuración, junto con sus formularios de interacción.
+*   **Acceso:** Inicio de sesión con cuentas de demostración, sesión por pestaña del navegador y rutas protegidas por guardas de autenticación.
+*   **Calidad:** 130 pruebas automatizadas, flujo de trabajo con ramas Gitflow y commits convencionales.
+*   **Repositorios:** La aplicación se encuentra en `5Bits-OrganiK/organik-website-v2` y la landing page en `5Bits-OrganiK/organik-frontend-v2`, como repositorios independientes conectados por enlaces.
+
+![Web Applications Prototype - Flujo del prototipo](assets/chapter-04/web-prototype-flow.png)
 
 ## 4.6. Domain-Driven Software Architecture.
 
@@ -182,7 +268,7 @@ En las siguientes secciones se presenta cada nivel del modelo arquitectónico y 
 
 Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas.
 
-El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
+El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/bc1299f7-d185-4b18-9730-34001b6b8c26/edit?invitationId=inv_71264c50-e7df-4ffe-9b92-f4fd5c1bf3d5&page=8YLvPajJeQAxO#](https://lucid.app/lucidchart/bc1299f7-d185-4b18-9730-34001b6b8c26/edit?invitationId=inv_71264c50-e7df-4ffe-9b92-f4fd5c1bf3d5&page=8YLvPajJeQAxO#)
 
 A continuación, se presentan la leyenda utilizada y las relaciones clave entre los bounded contexts identificados:
 
