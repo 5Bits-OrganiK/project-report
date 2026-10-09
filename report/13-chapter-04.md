@@ -336,9 +336,13 @@ A partir de este análisis se identificaron los siguientes bounded contexts:
 
    El bounded context Conservation permite monitorear condiciones de conservación de productos, como temperatura y humedad. Su propósito es identificar riesgos de deterioro y generar alertas cuando las condiciones se encuentren fuera de los rangos aceptables.
 
+   ![Conservation Bounded Context](assets/chapter-04/bcconservation.png)
+
 11. **Communication**
 
    El bounded context Communication gestiona alertas y notificaciones propuestas para vencimientos, condiciones de conservación, necesidades de reposición compartidas y cambios de estado de los pedidos.
+
+   ![Communication Bounded Context](assets/chapter-04/bccommunication.png)
 
 12. **Shared Kernel**
 
