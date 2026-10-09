@@ -422,25 +422,19 @@ Se construyó la sección de cierre orientada a la conversión ("Take control of
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
----
+Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquetación y despliegue de la Landing Page estática, la implementación y documentación de los servicios Backend (API RESTful) se abordarán a partir del Sprint 2. Por lo tanto, la evidencia de documentación de servicios (Swagger/OpenAPI) se incluirá en las siguientes iteraciones.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-<p>
-  <strong>URL de entorno local:</strong>
-  <a href="http://127.0.0.1:4200/">
-    http://127.0.0.1:4200/
-  </a>
-</p>
+A continuación, se detalla la configuración de acceso a la plataforma. Se ha utilizado Firebase Hosting para asegurar un despliegue rápido, seguro y estable de la primera versión de la Landing Page de **OrganiK**.
 
-<p>
-  <strong>URL de Producción:</strong>
-  <a href="https://witty-pebble-068250b10.2.azurestaticapps.net">
-    &lt;https://witty-pebble-068250b10.2.azurestaticapps.net&gt;
-  </a>
-</p>
+* **Entorno local:** http://localhost:4200/
+* **URL de Producción:** https://organik-d6e58.web.app/
+
+![Evidencia de despliegue en producción en Firebase.](./assets/chapter-05/execution-deployment-firebase.png)
+*Figura: Landing Page de OrganiK desplegada exitosamente en Firebase Hosting.*
 
 ---
 
