@@ -41,7 +41,28 @@ La plataforma integra inventario, abastecimiento, trazabilidad y monitoreo IoT. 
 
 De esta manera, OrganiK busca mejorar la gestión y abastecimiento de productos orgánicos mediante información centralizada y permisos diferenciados, bajo el principio de que **el proveedor puede iniciar una operación de abastecimiento, pero solamente el administrador del minimarket puede modificar su inventario**.
 
-**Propuesta de valor por segmento (por validar):** Para el administrador de minimarket, OrganiK propone reunir el control de stock, lotes, vencimientos y condiciones de conservación con la decisión sobre los pedidos del proveedor, de modo que pueda detectar productos en riesgo y reponer sin perder el control de su inventario. Para el proveedor, propone mantener su catálogo y disponibilidad y seguir el estado de los pedidos dirigidos a los minimarkets en el mismo flujo. Frente a las soluciones comerciales revisadas en el capítulo II, el diferencial propuesto no es una función aislada de inventario o compras, sino la combinación de trazabilidad de perecibles, alertas de conservación y coordinación entre ambos segmentos con permisos diferenciados. Su utilidad y ventaja comparativa aún requieren validación con usuarios; no se afirma exclusividad en el mercado.
+**Propuesta de valor por segmento:**
+
+| Segmento | Propuesta de valor | Necesidad atendida (entrevistas) |
+|:---|:---|:---|
+| **Administrador de minimarket** | "Detecta a tiempo qué lotes están por vencer o fuera de temperatura y decide qué entra a tu inventario, todo en un solo lugar." | Revisión manual de vencimientos y vitrinas, mermas no detectadas, stock desactualizado (entrevistas 1, 2 y 3). |
+| **Proveedor de productos orgánicos** | "Publica tu catálogo y disponibilidad una vez y sigue cada pedido sin transcribir chats ni recibir llamadas de confirmación." | Pedidos transcritos desde WhatsApp con errores, disponibilidad desactualizada, llamadas para confirmar despachos (entrevistas 4, 5 y 6). |
+
+
+**Características diferenciales frente a la competencia:** la siguiente tabla resume las capacidades declaradas en las páginas oficiales de los competidores revisados en 2.1 (consulta del 1 de octubre de 2026). Un "No declarado" indica que la función no aparece en la información pública, no que se haya comprobado su inexistencia.
+
+| Capacidad | OrganiK | CasaMarket | limaPOS | Spry Sales |
+|:---|:---:|:---:|:---:|:---:|
+| Inventario y stock | Sí | Sí | Sí | Sí |
+| Lotes y vencimientos | Sí | No declarado | Sí | Sí |
+| Alertas de conservación (temperatura y humedad por área) | **Sí** | No declarado | No declarado | No declarado |
+| Pedido propuesto por el proveedor y aprobado por el minimarket antes de afectar el inventario | **Sí** | No declarado | No declarado | No declarado |
+| Experiencia diferenciada para minimarket y proveedor en la misma plataforma | **Sí** | No declarado | No declarado | No declarado |
+| Especialización en productos orgánicos perecibles | **Sí** | No | No | No |
+| Punto de venta y facturación electrónica | No (fuera de alcance) | Sí | Sí | Sí |
+
+OrganiK no compite como punto de venta: se posiciona como **complemento especializado** del POS que el minimarket ya usa, enfocado en la conservación de perecibles y en la coordinación con el proveedor. Esta decisión evita competir por cantidad de funcionalidades con plataformas consolidadas (ver estrategias en 2.1.2).
+
 
 ### 1.2.1 Antecedentes y problemática
 
@@ -57,16 +78,6 @@ Asimismo, el abastecimiento requiere una coordinación constante entre los admin
 - Facilitar la coordinación de abastecimiento entre administradores de minimarkets y proveedores mediante un flujo de pedidos controlado.
 - Anticipar riesgos operativos asociados a stock bajo, vencimientos próximos y condiciones ambientales inadecuadas.
 - Mejorar la trazabilidad de las operaciones de inventario y abastecimiento.
-
-**Restricciones y alcance del proyecto:**
-
-| Etapa | Alcance y límite |
-|---|---|
-| AV1 / Sprint 1 | Se documentan problema, investigación, requisitos y diseño para los dos segmentos. Se implementa una landing page inicial; los flujos de la aplicación se representan en artefactos y prototipos, no como servicios operativos ya desplegados. |
-| Producto propuesto | El administrador gestionaría stock, lotes, vencimientos y alertas de conservación, consultaría disponibilidad y decidiría sobre pedidos. El proveedor mantendría catálogo, disponibilidad y lotes, generaría pedidos dirigidos a minimarkets y consultaría su estado. Solo la aceptación del administrador actualizaría el inventario del minimarket. |
-| Validación y evolución | Los flujos de monitoreo y alertas se probarían inicialmente con datos simulados. Sensores físicos y la medición de reducciones reales de merma quedan para etapas posteriores; no son resultados del AV1. |
-
-Este alcance responde a los recorridos actuales de ambas personas del capítulo II: el administrador revisa existencias y conservación, decide la reposición y registra el resultado; el proveedor mantiene su oferta, verifica solicitudes, prepara pedidos y consulta su estado. Las imágenes de UXPressia de esos recorridos están pendientes de actualización manual para reflejar las mismas etapas y responsabilidades.
 
 **Técnica "The 5W's y 2H's" aplicada al problema:**
 
@@ -86,23 +97,43 @@ Este alcance responde a los recorridos actuales de ambas personas del capítulo 
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
-En el mercado peruano, los administradores de minimarkets que comercializan productos orgánicos necesitan controlar inventarios, lotes, vencimientos y condiciones de almacenamiento para evitar mermas y reponer a tiempo. Las entrevistas registradas en el capítulo II muestran casos de uso combinado de POS, hojas de cálculo, libretas y mensajería; esa dispersión dificulta detectar productos en riesgo y conocer el stock disponible. Los proveedores, por su parte, necesitan mantener actualizados su catálogo, lotes y disponibilidad, y dar seguimiento a los pedidos dirigidos a los minimarkets. La coordinación mediante archivos y conversaciones separadas dificulta confirmar cantidades, cambios y estados de pedido. La magnitud de las pérdidas alimentarias en el Perú y los hallazgos de las entrevistas contextualizan el problema, sin representar una medición de merma específica de los minimarkets entrevistados.
+En el mercado peruano, los administradores de minimarkets que comercializan productos orgánicos necesitan controlar inventarios, lotes, vencimientos y condiciones de almacenamiento para evitar mermas y reponer a tiempo. Las entrevistas muestran casos de uso combinado de POS, hojas de cálculo, libretas y mensajería; esa dispersión dificulta detectar productos en riesgo y conocer el stock disponible. Los proveedores, por su parte, necesitan mantener actualizados su catálogo, lotes y disponibilidad, y dar seguimiento a los pedidos dirigidos a los minimarkets. La coordinación mediante archivos y conversaciones separadas dificulta confirmar cantidades, cambios y estados de pedido. La magnitud de las pérdidas alimentarias en el Perú y los hallazgos de las entrevistas contextualizan el problema, sin representar una medición de merma específica de los minimarkets entrevistados.
 
-Existen soluciones de gestión comercial e inventario para minimarkets, revisadas en el análisis competitivo del capítulo II. La oportunidad de 5bits es atender de forma integrada la conservación de productos orgánicos, la trazabilidad por lotes y la coordinación de pedidos entre ambos segmentos. Para el administrador, el problema es no identificar a tiempo vencimientos, condiciones de almacenamiento riesgosas y necesidades de reposición, y no mantener un control verificable sobre la entrada de productos a su inventario. Para el proveedor, es no contar con una vista compartida y actualizada de disponibilidad y estado de pedidos. OrganiK busca reducir estas dificultades mediante un flujo en el que el proveedor genera el pedido y el administrador lo acepta o rechaza antes de actualizar el inventario.
+Existen soluciones de gestión comercial e inventario para minimarkets. La oportunidad de 5bits es atender de forma integrada la conservación de productos orgánicos, la trazabilidad por lotes y la coordinación de pedidos entre ambos segmentos. Para el administrador, el problema es no identificar a tiempo vencimientos, condiciones de almacenamiento riesgosas y necesidades de reposición, y no mantener un control verificable sobre la entrada de productos a su inventario. Para el proveedor, es no contar con una vista compartida y actualizada de disponibilidad y estado de pedidos. OrganiK busca reducir estas dificultades mediante un flujo en el que el proveedor genera el pedido y el administrador lo acepta o rechaza antes de actualizar el inventario.
 
-**Problem Statement:** ¿Cómo podemos ayudar a administradores de minimarkets de productos orgánicos y a sus proveedores a identificar riesgos de pérdida y necesidades de reposición, y a coordinar pedidos con trazabilidad y control de inventario, mediante una plataforma integrada de productos, lotes, vencimientos y condiciones de almacenamiento? En esta etapa se validarán el diseño y los flujos con datos de monitoreo simulados; el uso de sensores físicos queda fuera del alcance inicial.
 
-1. **Domain:** Gestión logística, abastecimiento y monitoreo de productos orgánicos.
+**Problem Statement (plantilla *Brand new initiative* de Lean UX, 3.ª edición):**
 
-2. **Customer Segments:** Administradores de minimarkets y proveedores de productos orgánicos.
+> El estado actual de la **gestión de inventario, conservación y abastecimiento de productos orgánicos perecibles en el Perú** se ha enfocado principalmente en **administradores de minimarkets y proveedores mayoristas que controlan stock, lotes y vencimientos con hojas de cálculo, libretas y sistemas POS básicos, y que coordinan pedidos por WhatsApp y llamadas**; en este flujo el 100 % de los administradores entrevistados revisa vencimientos y temperatura de forma manual y el 100 % de los proveedores entrevistados transcribe pedidos desde chats a Excel (ver 2.2.3).
+>
+> Lo que los productos y servicios existentes no logran resolver es **la integración, en un mismo flujo, de la conservación de productos orgánicos (temperatura, humedad y vencimiento por lote) con la coordinación de pedidos entre el minimarket y su proveedor**: las soluciones revisadas (CasaMarket, limaPOS y Spry Sales) cubren ventas, compras e inventario general, pero no alertan sobre condiciones de conservación ni permiten que el proveedor proponga un pedido que el minimarket acepte o rechace antes de que cambie su inventario.
+>
+> Nuestro producto atenderá esta brecha mediante **OrganiK, una plataforma web SaaS que centraliza productos, lotes, vencimientos y lecturas de conservación del minimarket, publica el catálogo y la disponibilidad del proveedor, y gestiona pedidos de abastecimiento con un flujo de aprobación en el que solo el administrador del minimarket modifica su inventario**.
+>
+> Nuestro enfoque inicial será **administradores de minimarkets independientes de productos orgánicos y frescos de Lima Metropolitana, y los proveedores (productores y distribuidoras) que los abastecen**.
+>
+> Sabremos que tenemos éxito cuando veamos que **(1) los administradores identifican los lotes en riesgo (próximos a vencer o fuera de rango de conservación) en menos de 2 minutos, frente a la revisión manual actual; (2) al menos el 80 % de los productos del minimarket piloto tiene lote y vencimiento registrados; (3) al menos el 70 % de los pedidos entre proveedor y minimarket piloto se crea y decide dentro de OrganiK, sin confirmación por WhatsApp; y (4) se reducen en 20 % las bajas por vencimiento o deterioro durante los tres primeros meses de piloto**.
 
-3. **Pain Points:** Pérdidas por deterioro o vencimiento, falta de visibilidad sobre las condiciones de almacenamiento, dificultades para controlar niveles de stock, lotes y vencimientos, problemas para consultar disponibilidad de productos y coordinar pedidos de abastecimiento.
+**Restricciones que se aplican al problema:**
 
-4. **Gap:** Las soluciones comerciales comparadas en el capítulo II cubren componentes de inventario y compras; la oportunidad identificada es integrar la conservación de productos orgánicos, la trazabilidad por lotes y el flujo de pedidos entre minimarket y proveedor, con permisos diferenciados para modificar el inventario.
+- Durante el ciclo académico, las lecturas de temperatura y humedad se **simulan**; la integración con sensores físicos queda fuera del alcance inicial.
+- La solución se limita a una **experiencia web responsive** (Landing Page y Web Application) y un RESTful API propio; no incluye aplicaciones móviles nativas.
+- OrganiK **no procesa pagos ni facturación electrónica**; los pedidos registran cantidades y decisiones, no transacciones monetarias.
+- El proveedor **no puede modificar el inventario** del minimarket: solo propone pedidos; la decisión y la entrada de inventario corresponden al administrador.
+- Los indicadores de éxito se medirán contra una línea base levantada en las pruebas con usuarios, porque las cifras nacionales de pérdida de alimentos contextualizan el problema pero no miden la merma de los minimarkets entrevistados.
 
-5. **Vision/Strategy:** Centralizar la información operativa para identificar riesgos, anticipar necesidades de reposición, gestionar inventarios y facilitar el abastecimiento mediante un flujo en el que los proveedores generen pedidos y los administradores puedan aceptarlos o rechazarlos antes de actualizar el inventario.
+**Elementos del Problem Statement:**
 
-6. **Initial Segment:** Administradores de minimarkets y proveedores de productos orgánicos que requieran mejorar el control de inventarios, conservación y abastecimiento.
+| Elemento | Descripción |
+|:---|:---|
+| **Domain** | Gestión de inventario, conservación y abastecimiento de productos orgánicos perecibles. |
+| **Customer Segments** | Administradores de minimarkets de productos orgánicos y proveedores de productos orgánicos. |
+| **Pain Points** | Pérdidas por deterioro o vencimiento; revisión manual de lotes, vencimientos y temperatura; información dispersa entre Excel, libretas y chats; disponibilidad desactualizada; pedidos transcritos con errores y sin estado consultable. |
+| **Gap** | Las soluciones comerciales revisadas cubren inventario, compras y ventas, pero no integran la conservación de perecibles con un flujo de pedidos proveedor → minimarket con aprobación del administrador. |
+| **Vision/Strategy** | Plataforma SaaS especializada que centraliza inventario, lotes, conservación y pedidos, con permisos diferenciados por segmento. |
+| **Initial Segment** | Minimarkets independientes de productos orgánicos de Lima Metropolitana y sus proveedores directos. |
+
+**Relación con el análisis 5W+2H:** el *Who* define los dos segmentos del enunciado; el *What* y el *How* se traducen en los pain points; el *Why* (fragmentación y procesos manuales) sustenta el gap; el *Where* y el *When* delimitan el segmento inicial y los momentos del flujo (almacenamiento, reposición, decisión de pedidos); y el *How Much* contextualiza la magnitud de las pérdidas que justifica medir la reducción de bajas.
 
 ---
 
@@ -150,7 +181,7 @@ Existen soluciones de gestión comercial e inventario para minimarkets, revisada
 
 6. Incrementar la trazabilidad de los pedidos desde su creación por parte del proveedor hasta su aceptación o rechazo por parte del administrador.
 
-Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios. Aún no se cuenta con una línea base ni con metas numéricas validadas; estas mediciones son criterios de éxito propuestos, no resultados obtenidos.
+Estos resultados se evaluarán, respectivamente, mediante la cantidad de productos dados de baja por vencimiento o deterioro; el porcentaje de productos con lote y vencimiento registrados; el tiempo para identificar productos en riesgo; el tiempo entre la detección de stock bajo y la decisión de reposición; la disponibilidad de información vigente sobre productos y pedidos; y el porcentaje de pedidos con estado e historial de decisiones consultables. Se compararán con una línea base levantada durante las pruebas con usuarios.
 
 **User Assumptions**
 
@@ -186,135 +217,183 @@ Estos resultados se evaluarán, respectivamente, mediante la cantidad de product
 
 Los resultados de usuario se comprobarán con tareas de consulta de inventario y vencimientos, detección de alertas, identificación de stock bajo, creación y revisión de pedidos, y consulta de su estado. Se observarán el tiempo de ejecución, la finalización de la tarea y los errores; las entrevistas y pruebas permitirán contrastar estos resultados con las prácticas actuales de cada segmento.
 
+**Feature Assumptions**
+
+1. Se considera que permitir registrar, consultar, buscar, filtrar y actualizar productos, cantidades, lotes y vencimientos facilitará el control centralizado del inventario del minimarket.
+
+2. Se plantea que las alertas configurables sobre productos próximos a vencer y condiciones inadecuadas de temperatura o humedad permitirán identificar oportunamente productos en riesgo.
+
+3. Se considera que visualizar registros de temperatura y humedad permitirá al administrador supervisar las condiciones de conservación de los productos.
+
+4. Se plantea que permitir a los proveedores mantener actualizados sus productos, lotes y disponibilidad facilitará que los minimarkets consulten alternativas de abastecimiento desde la plataforma.
+
+5. Se considera que permitir al administrador comunicar necesidades de reposición y al proveedor generar pedidos dirigidos al minimarket permitirá centralizar la coordinación del abastecimiento.
+
+6. Se plantea que reservar al administrador la decisión de aceptar o rechazar pedidos, actualizando el inventario únicamente cuando se acepten, permitirá mantener el control y la trazabilidad de las entradas de productos.
+
+7. Se considera que ofrecer dashboards diferenciados, indicadores, alertas e historial de operaciones permitirá a cada segmento consultar rápidamente el estado de sus actividades y tomar decisiones con información centralizada.
+
+8. Se plantea que un sistema de autenticación, roles y permisos permitirá que administradores y proveedores accedan únicamente a las funcionalidades y datos correspondientes a su negocio.
+
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-Cada hipótesis sigue el esquema resultado de negocio, usuarios, resultado de usuario y funcionalidad. Las referencias entre paréntesis remiten a los supuestos de negocio (BA), de resultado de negocio (BO), de usuario (UA) y de resultado de usuario (UO) enumerados arriba. Son hipótesis por comprobar, no beneficios ya demostrados.
+Siguiendo el enunciado, se redacta **un hypothesis statement por cada feature assumption** (8 en total), con la plantilla de Lean UX: *We believe we will achieve [business outcome] if [these personas] attain [this benefit/user outcome] with [this feature]*. En la versión en español: **"Creemos que lograremos [resultado de negocio] si [persona] obtiene [resultado de usuario] con [funcionalidad]"**. Cada hipótesis indica los assumptions de los que proviene (BA = Business Assumption, BOA = Business Outcome Assumption, UA = User Assumption, UOA = User Outcome Assumption, FA = Feature Assumption) y la señal con la que se comprobará.
 
-**Hypothesis 1 (BA 1, 2, 8; BO 2, 3; UA 1; UO 1, 7).** Creemos que mejoraremos la trazabilidad y reduciremos el tiempo para identificar productos en riesgo si los administradores de minimarkets pueden consultar stock, lotes y vencimientos en un registro centralizado mediante el módulo de inventario y su dashboard. Lo comprobaremos al comparar el porcentaje de productos con lote y vencimiento registrados y el tiempo de identificación de un producto crítico frente al proceso actual.
+| ID | Feature assumption | Business outcome | Persona | User outcome | Feature |
+|:---:|:---|:---|:---|:---|:---|
+| H1 | FA1 | Mayor trazabilidad de productos, lotes y vencimientos (BOA2) | Administrador de minimarket | Confía en un registro único de stock, lotes y vencimientos (UOA1) | Registro, búsqueda, filtro y actualización de inventario por lote |
+| H2 | FA2 | Menos productos dados de baja por vencimiento o deterioro (BOA1, BOA3) | Administrador de minimarket | Se entera a tiempo de lotes próximos a vencer o fuera de rango (UOA3) | Alertas configurables de vencimiento y conservación |
+| H3 | FA3 | Menor tiempo para detectar condiciones de riesgo (BOA3) | Administrador de minimarket | Supervisa temperatura y humedad sin revisar vitrinas físicamente (UOA3) | Panel de lecturas de temperatura y humedad por área (datos simulados en esta etapa) |
+| H4 | FA4 | Más información vigente para decidir el abastecimiento (BOA5) | Proveedor de productos orgánicos | Mantiene su catálogo y disponibilidad en un solo lugar (UOA5) | Catálogo del proveedor con lotes y disponibilidad |
+| H5 | FA5 | Reposición anticipada y pedidos centralizados (BOA4, BOA6) | Administrador y proveedor | Comparten la necesidad de reposición y el pedido sin transcribir chats (UOA2, UOA5) | Necesidades de reposición y creación de pedidos por el proveedor |
+| H6 | FA6 | Trazabilidad de cada pedido desde su creación hasta su decisión (BOA6) | Administrador de minimarket | Decide qué entra a su inventario y conserva el control (UOA4, UOA6) | Aceptación o rechazo de pedidos con actualización única del inventario |
+| H7 | FA7 | Decisiones operativas más rápidas y mayor adopción (BOA5, BA12) | Administrador y proveedor | Consulta el estado de su operación en segundos (UOA7) | Dashboards diferenciados con indicadores, alertas e historial |
+| H8 | FA8 | Confianza de ambos segmentos para compartir información en la plataforma (BA3, BA4) | Administrador y proveedor | Accede solo a los datos y acciones de su negocio (UOA4) | Autenticación, roles y permisos por segmento |
 
-**Hypothesis 2 (BA 1, 5, 9, 10; BO 1, 3; UA 3; UO 3).** Creemos que reduciremos las bajas por deterioro y el tiempo de detección de condiciones riesgosas si los administradores identifican a tiempo productos o lotes afectados mediante alertas de temperatura y humedad. Primero comprobaremos la detección y atención de alertas con datos simulados; la reducción de bajas y la integración con sensores reales requerirán validación posterior en operación.
 
-**Hypothesis 3 (BA 1, 2, 4; BO 4, 5; UA 2, 4; UO 2, 7).** Creemos que mejoraremos la reposición y la información disponible para decidir compras si los administradores pueden identificar stock bajo y consultar disponibilidad de proveedores mediante alertas de inventario y catálogo compartido. Lo comprobaremos con el tiempo entre la detección de stock bajo y la decisión de reposición, y con tareas de consulta de disponibilidad completadas.
+**H1.** Creemos que lograremos **incrementar al 80 % el porcentaje de productos con lote y vencimiento registrados** si los **administradores de minimarket** obtienen **un registro único y confiable de su stock, lotes y vencimientos** con **el módulo de inventario que permite registrar, buscar, filtrar y actualizar productos por lote**. Lo comprobaremos con el porcentaje de productos con lote y vencimiento registrados y el tiempo para encontrar un producto crítico, comparado con la línea base de Excel y libreta.
 
-**Hypothesis 4 (BA 3, 4, 6; BO 5, 6; UA 5, 6, 7; UO 5, 6).** Creemos que incrementaremos la trazabilidad de los pedidos y reduciremos la dispersión de información si los proveedores pueden mantener disponibles sus productos y lotes, crear pedidos dirigidos a minimarkets y consultar su estado mediante el catálogo y el módulo de pedidos. Lo comprobaremos con el porcentaje de pedidos que conserva estado e historial consultables y con tareas de creación y seguimiento completadas sin recurrir a otros canales.
+**H2.** Creemos que lograremos **reducir en 20 % las bajas por vencimiento o deterioro** si los **administradores de minimarket** obtienen **aviso oportuno de los lotes próximos a vencer o expuestos a condiciones fuera de rango** con **alertas configurables de vencimiento y conservación**. En esta etapa lo comprobaremos con la tasa de alertas atendidas en pruebas con datos simulados; la reducción de bajas se medirá en el piloto.
 
-**Hypothesis 5 (BA 4, 6; BO 2, 6; UA 1, 7; UO 4, 6).** Creemos que mejoraremos el control del inventario y la trazabilidad del abastecimiento si los administradores pueden revisar, aceptar o rechazar pedidos mediante un flujo de aprobación con historial. Lo comprobaremos verificando que cada decisión quede registrada, que solo los pedidos aceptados actualicen el inventario y que los usuarios puedan consultar el estado resultante.
+**H3.** Creemos que lograremos **reducir el tiempo de detección de condiciones de riesgo a menos de 2 minutos** si los **administradores de minimarket** obtienen **visibilidad continua de la temperatura y la humedad de sus áreas de almacenamiento** con **un panel de lecturas por área con historial**. Lo comprobaremos con el tiempo que tarda el usuario en identificar un área fuera de rango durante la prueba de tareas.
 
-**Hypothesis 6 (BA 8, 11, 12; BO 3, 5; UA 1, 5, 7; UO 1, 5, 7).** Creemos que reduciremos el tiempo de consulta operativa y facilitaremos la adopción si administradores y proveedores pueden realizar sus tareas principales desde dashboards diferenciados con una interfaz sencilla. Lo comprobaremos con tareas de ambos segmentos, observando tiempo, finalización, errores y dificultades de uso frente a sus herramientas actuales.
+**H4.** Creemos que lograremos **que el 90 % de las consultas de disponibilidad de los minimarkets piloto se resuelva sin llamar ni escribir al proveedor** si los **proveedores** obtienen **un único lugar donde mantener actualizados su catálogo, lotes y disponibilidad** con **el catálogo del proveedor**. Lo comprobaremos con la frecuencia de actualización del catálogo y el número de consultas de disponibilidad hechas fuera de la plataforma.
 
-**Hypothesis 7 (BA 7, 11, 13; BO 1, 4; UA 1, 5; UO 1, 5).** Creemos que un servicio SaaS será viable para minimarkets y proveedores si estos perciben que la reducción de mermas y la mejora del abastecimiento compensan el costo, mediante el acceso a los módulos centrales de OrganiK sin infraestructura propia. Lo comprobaremos con entrevistas sobre disposición de adopción y pago, contrastadas posteriormente con costos y resultados medidos en pilotos; por ahora no afirmamos viabilidad económica demostrada.
+**H5.** Creemos que lograremos **que el 70 % de los pedidos entre proveedor y minimarket piloto se cree dentro de OrganiK** si **administradores y proveedores** obtienen **una forma de compartir la necesidad de reposición y convertirla en un pedido sin transcribir mensajes** con **necesidades de reposición y creación de pedidos por el proveedor**. Lo comprobaremos con el porcentaje de pedidos creados en la plataforma y los errores de cantidad reportados.
+
+**H6.** Creemos que lograremos **que el 100 % de los pedidos tenga estado e historial de decisión consultables** si los **administradores de minimarket** obtienen **el control de qué productos ingresan a su inventario** con **la aceptación o el rechazo de pedidos que actualiza el inventario una sola vez al aceptar**. Lo comprobaremos verificando que cada decisión quede registrada con actor y fecha y que solo los pedidos aceptados modifiquen el stock.
+
+**H7.** Creemos que lograremos **que el 60 % de los usuarios piloto ingrese a la plataforma al menos cinco días por semana** si **administradores y proveedores** obtienen **el estado de su operación en un solo vistazo** con **dashboards diferenciados con indicadores, alertas e historial**. Lo comprobaremos con la frecuencia de uso semanal y el tiempo de finalización de tareas de consulta.
+
+**H8.** Creemos que lograremos **que ambos segmentos acepten registrar su información operativa en OrganiK (al menos 8 de cada 10 usuarios entrevistados en validación)** si **administradores y proveedores** obtienen **la seguridad de que solo ven y modifican los datos de su propio negocio** con **autenticación, roles y permisos por segmento**. Lo comprobaremos en las entrevistas de validación y con pruebas de acceso que intenten operaciones no permitidas.
+
+La viabilidad del modelo SaaS (BA7 y BA13) no corresponde a una funcionalidad, por lo que se validará con las preguntas de disposición de pago de las entrevistas de validación y con los costos medidos en el piloto.
 
 ---
-
 #### 1.2.2.4. Lean UX Canvas.
 
-El Canvas sintetiza la propuesta de valor descrita en 1.2 para las dos personas compuestas del capítulo II. Sus beneficios y resultados son hipótesis que se contrastarán, no impactos ya observados. Las hipótesis H1-H7 remiten a los enunciados completos de 1.2.2.3.
+
+El Lean UX Canvas sintetiza la propuesta de valor para los dos segmentos y conecta el problema de negocio, los usuarios, los beneficios, las ideas de solución y las hipótesis H1-H8 de la sección anterior.
 
 <table>
-  <tr>
-    <td valign="top">
-      <strong>Business problem</strong>
-      <br><br>
-      El administrador de minimarket consulta existencias, lotes y conservación en herramientas dispersas mientras necesita detectar riesgos y decidir una reposición sin perder el control del inventario.
-      <br><br>
-      El proveedor mantiene su oferta y coordina pedidos por canales separados, lo que dificulta confirmar disponibilidad, cantidades y estado de cada operación.
-      <br><br>
-      El análisis competitivo del capítulo II muestra herramientas de inventario y compras; la oportunidad por comprobar es integrar conservación de perecibles, trazabilidad por lotes y pedidos entre ambos segmentos con aprobación del administrador.
-    </td>
-    <td rowspan="2" valign="top">
-      <strong>Solution ideas</strong>
-      <br><br>
-      - Registro de stock, lotes y vencimientos para el administrador (H1)
-      <br><br>
-      - Alertas de conservación con datos inicialmente simulados (H2)
-      <br><br>
-      - Alertas de stock bajo y consulta de disponibilidad del proveedor (H3)
-      <br><br>
-      - Catálogo del proveedor y creación y seguimiento de pedidos (H4)
-      <br><br>
-      - Aceptación o rechazo por el administrador antes de actualizar inventario (H5)
-      <br><br>
-      - Dashboards diferenciados por segmento (H6)
-      <br><br>
-      - Acceso SaaS a los módulos centrales, sujeto a validación de adopción y costo (H7)
-    </td>
-    <td valign="top">
-      <strong>Business Outcomes</strong>
-      <br><br>
-      - Bajas por deterioro o vencimiento: comparar su cantidad con una línea base operativa futura
-      <br><br>
-      - Trazabilidad de productos: medir el porcentaje con lote y vencimiento registrados
-      <br><br>
-      - Reposición: medir el tiempo entre detección de stock bajo y decisión
-      <br><br>
-      - Pedidos: medir el porcentaje con estado e historial de decisiones consultables
-      <br><br>
-      Todavía no se cuenta con línea base ni metas numéricas validadas.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <strong>Users and customers</strong>
-      <br><br>
-      - Administrador de minimarket: persona compuesta a partir de Rodrigo, Roly y Carlos; decide sobre inventario, conservación y reposición.
-      <br>
-      - Proveedor de productos orgánicos: persona compuesta a partir de Marco, Juan y Anita; mantiene oferta y coordina pedidos.
-    </td>
-    <td valign="top">
-      <strong>User benefits</strong>
-      <br><br>
-      - Administrador: localizar existencias, lotes, vencimientos y condiciones de riesgo al revisar productos y conservación.
-      <br><br>
-      - Administrador: decidir reposición y aceptar o rechazar un pedido antes de registrar la entrada al inventario.
-      <br><br>
-      - Proveedor: actualizar oferta y disponibilidad y comprobar el estado de cada pedido dirigido al minimarket.
-      <br><br>
-      - Ambos: reducir incertidumbre al consultar un historial compartido de la operación.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <strong>Hypotheses</strong>
-      <br><br>
-      - H1: registro de stock, lotes y vencimientos para localizar productos en riesgo.
-      <br><br>
-      - H2: alertas de temperatura y humedad para identificar condiciones de riesgo.
-      <br><br>
-      - H3: stock bajo y disponibilidad para decidir reposición.
-      <br><br>
-      - H4: catálogo y pedidos para el proveedor con seguimiento de estado.
-      <br><br>
-      - H5: aprobación del administrador con actualización controlada del inventario.
-      <br><br>
-      - H6: dashboards por segmento para tareas principales.
-      <br><br>
-      - H7: adopción de un servicio SaaS si el beneficio percibido compensa su costo.
-    </td>
-    <td valign="top">
-      <strong>What’s the most important thing we need to learn first?</strong>
-      <br><br>
-      Si el administrador puede identificar un producto en riesgo y aprobar una reposición sin duplicar registros, y si el proveedor puede confirmar disponibilidad y seguir el pedido, usando un mismo flujo. Después se comprobará si ese beneficio percibido justifica adoptar y pagar el servicio (H7).
-    </td>
-    <td valign="top">
-      <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
-      <br><br>
-      Probar con ambas personas un prototipo de tareas encadenadas: identificar stock o lote en riesgo, consultar disponibilidad, crear un pedido como proveedor y aceptarlo o rechazarlo como administrador. Registrar finalización, tiempo, errores y comprensión del estado; simular las alertas de conservación. Las entrevistas existentes informan el diseño, pero no sustituyen esta prueba ni demuestran beneficios operativos.
-    </td>
-  </tr>
+ <tr>
+ <td valign="top">
+ <strong>Business problem</strong>
+ <br><br>
+ El administrador de minimarket consulta existencias, lotes y conservación en herramientas dispersas mientras necesita detectar riesgos y decidir una reposición sin perder el control del inventario.
+ <br><br>
+ El proveedor mantiene su oferta y coordina pedidos por canales separados, lo que dificulta confirmar disponibilidad, cantidades y estado de cada operación.
+ <br><br>
+ El análisis competitivo muestra herramientas de inventario y compras; la oportunidad por comprobar es integrar conservación de perecibles, trazabilidad por lotes y pedidos entre ambos segmentos con aprobación del administrador.
+ </td>
+ <td rowspan="2" valign="top">
+ <strong>Solution ideas</strong>
+ <br><br>
+ - Registro de stock, lotes y vencimientos para el administrador (H1)
+ <br><br>
+ - Alertas de vencimiento y conservación, con datos inicialmente simulados (H2)
+ <br><br>
+ - Panel de temperatura y humedad por área (H3)
+ <br><br>
+ - Catálogo del proveedor con lotes y disponibilidad (H4)
+ <br><br>
+ - Necesidades de reposición y pedidos creados por el proveedor (H5)
+ <br><br>
+ - Aceptación o rechazo por el administrador antes de actualizar inventario (H6)
+ <br><br>
+ - Dashboards e historial por segmento (H7)
+ <br><br>
+ - Autenticación, roles y permisos por negocio (H8)
+ </td>
+ <td valign="top">
+ <strong>Business Outcomes</strong>
+ <br><br>
+ - Bajas por deterioro o vencimiento: comparar su cantidad con una línea base operativa futura
+ <br><br>
+ - Trazabilidad de productos: medir el porcentaje con lote y vencimiento registrados
+ <br><br>
+ - Reposición: medir el tiempo entre detección de stock bajo y decisión
+ <br><br>
+ - Pedidos: medir el porcentaje con estado e historial de decisiones consultables
+ <br><br>
+ </td>
+ </tr>
+ <tr>
+ <td valign="top">
+ <strong>Users and customers</strong>
+ <br><br>
+ - Administrador de minimarket: Persona que decide sobre inventario, conservación y reposición.
+ <br>
+ - Proveedor de productos orgánicos: Persona que mantiene oferta y coordina pedidos.
+ </td>
+ <td valign="top">
+ <strong>User benefits</strong>
+ <br><br>
+ - Administrador: localizar existencias, lotes, vencimientos y condiciones de riesgo al revisar productos y conservación.
+ <br><br>
+ - Administrador: decidir reposición y aceptar o rechazar un pedido antes de registrar la entrada al inventario.
+ <br><br>
+ - Proveedor: actualizar oferta y disponibilidad y comprobar el estado de cada pedido dirigido al minimarket.
+ <br><br>
+ - Ambos: reducir incertidumbre al consultar un historial compartido de la operación.
+ </td>
+ </tr>
+ <tr>
+ <td valign="top">
+ <strong>Hypotheses</strong>
+ <br><br>
+ - H1: Más productos con lote y vencimiento registrados si el administrador tiene un registro único de inventario por lote.
+ <br><br>
+ - H2: Menos bajas por vencimiento o deterioro si el administrador recibe alertas configurables de vencimiento y conservación.
+ <br><br>
+ - H3: Detección de condiciones de riesgo en menos de 2 minutos con un panel de temperatura y humedad por área.
+ <br><br>
+ - H4: Consultas de disponibilidad resueltas sin llamadas si el proveedor mantiene su catálogo, lotes y disponibilidad en OrganiK.
+ <br><br>
+ - H5: Pedidos creados dentro de la plataforma si ambos segmentos comparten necesidades de reposición y pedidos.
+ <br><br>
+ - H6: Pedidos con estado e historial consultables si solo el administrador acepta o rechaza y el inventario cambia una sola vez.
+ <br><br>
+ - H7: Uso frecuente de la plataforma con dashboards diferenciados por segmento.
+ <br><br>
+ - H8: Confianza para compartir información con autenticación, roles y permisos por negocio.
+ </td>
+ <td valign="top">
+ <strong>What’s the most important thing we need to learn first?</strong>
+ <br><br>
+ - ¿Los administradores podrán identificar rápidamente productos con stock bajo, próximos a vencer o con condiciones de conservación riesgosas mediante un dashboard centralizado?
+ <br><br>
+ - ¿Los proveedores podrán consultar necesidades de reposición, revisar su disponibilidad y crear pedidos dirigidos a minimarkets sin depender de canales externos?
+ <br><br>
+ - ¿Los administradores comprenderán y confiarán en el flujo de revisión, aceptación o rechazo de pedidos antes de modificar el inventario?
+ <br><br>
+ - ¿Las alertas de vencimiento, stock bajo y conservación generarán acciones concretas o serán ignoradas?
+ <br><br>
+ - ¿La separación de funciones entre administrador y proveedor será suficientemente clara para evitar confusión sobre quién puede modificar inventario y quién puede generar o aprobar pedidos?
+ <br><br>
+ ¿El valor percibido de centralizar inventario, conservación y abastecimiento será suficiente para que minimarkets y proveedores consideren adoptar OrganiK? 
+ </td>
+ <td valign="top">
+ <strong>What’s the least amount of work we need to do to learn the next most important thing?</strong>
+ <br><br>
+ - Crear un prototipo navegable del dashboard con datos ficticios pero realistas de inventario, lotes, vencimientos, temperatura, humedad y alertas.
+ <br><br>
+ - Probar el flujo principal de abastecimiento: identificar una necesidad de reposición, consultar disponibilidad, crear un pedido como proveedor y revisarlo como administrador.
+ <br><br>
+ - Simular pedidos pendientes para comprobar si el administrador entiende cómo aceptar o rechazar una propuesta y qué efecto tiene cada decisión sobre el inventario.
+ <br><br>
+ - Mostrar alertas simuladas de stock bajo, vencimiento y conservación para observar si el usuario reconoce su prioridad y realiza una acción adecuada.
+ <br><br>
+ - Probar perfiles diferenciados de administrador y proveedor para verificar si cada usuario comprende qué acciones puede realizar según su rol.
+ <br><br>
+ - Medir finalización de tareas, tiempo, errores, necesidad de asistencia y comprensión del estado de cada operación.
+ <br><br>
+ - Realizar entrevistas breves después de las pruebas para evaluar confianza, facilidad de uso, utilidad percibida, intención de adopción y disposición de pago.
+ </td>
+ </tr>
 </table>
-
-**Relación entre personas, recorridos y propuesta de valor:**
-
-| Persona y etapa del recorrido actual (capítulo II) | Necesidad observada | Valor propuesto y diferencial por validar | Hipótesis |
-|---|---|---|---|
-| Administrador: revisar productos y conservación | Encontrar existencias, lotes y productos en riesgo sin cotejar registros dispersos | Registro por lotes y vencimientos junto con alertas de conservación | H1, H2, H6 |
-| Administrador: decidir reposición y registrar resultado | Conocer stock bajo, consultar disponibilidad y controlar qué pedido entra al inventario | Flujo compartido con proveedor y aceptación exclusiva del administrador | H3, H5 |
-| Proveedor: mantener oferta y verificar solicitudes | Mostrar disponibilidad y lotes sin repetir información en varios canales | Catálogo conectado con las necesidades del minimarket | H4, H6 |
-| Proveedor: registrar, preparar y seguir el pedido | Conocer si el minimarket aceptó o rechazó la operación | Pedido con estado e historial visibles para ambos segmentos | H4, H5 |
-
-La diferenciación planteada se contrasta con el benchmark del capítulo II; la alineación visual de los User Journey Mapping de UXPressia se actualizará manualmente.
 
 ---
 

@@ -162,8 +162,6 @@ Los mock-ups representan el diseño final en alta fidelidad, integrando el *Desi
 
 ## 4.4. Web Applications UX/UI Design.
 
-Las secciones 4.4.1 a 4.4.3 forman parte de la estructura solicitada, pero sus artefactos de aplicación web aún no se incorporan en AV1. No deben confundirse con el wireframe y mock-up de la landing page de 4.3.
-
 ### 4.4.1. Web Applications Wireframes.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -174,17 +172,15 @@ Las secciones 4.4.1 a 4.4.3 forman parte de la estructura solicitada, pero sus a
 
 ## 4.5. Web Applications Prototyping.
 
-El prototipo interactivo de la aplicación web queda pendiente para el siguiente avance; la landing page implementada en Sprint 1 no sustituye esa evidencia.
-
 ## 4.6. Domain-Driven Software Architecture.
 
-La arquitectura propuesta de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación y abastecimiento para minimarkets y proveedores. Los bounded contexts delimitan responsabilidades de diseño; no implican que los servicios estén implementados en AV1. El flujo de referencia es el definido en los capítulos I y III: el proveedor crea un pedido dirigido al minimarket y solo el administrador destinatario puede aceptarlo o rechazarlo antes de modificar su inventario.
+La arquitectura propuesta de OrganiK se construye a partir del análisis del dominio de gestión de productos orgánicos, inventario, conservación y abastecimiento para minimarkets y proveedores. Los bounded contexts delimitan responsabilidades de diseño. El flujo de referencia es el definido en los capítulos I y III: el proveedor crea un pedido dirigido al minimarket y solo el administrador destinatario puede aceptarlo o rechazarlo antes de modificar su inventario.
 
-En las siguientes secciones se presenta cada nivel del modelo arquitectónico. Las láminas que todavía representan solicitudes creadas por el minimarket u órdenes de envío separadas corresponden a un diseño anterior y requieren actualización; las descripciones textuales de esta revisión y las historias del capítulo III definen el alcance vigente.
+En las siguientes secciones se presenta cada nivel del modelo arquitectónico y la relación entre sus elementos.
 
 ### 4.6.1. Design-Level Event Storming.
 
-Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas. Los diagramas elaborados antes de la revisión del flujo deben contrastarse con esta secuencia.
+Para identificar eventos y reglas de negocio, el Event Storming examina registro de productos, control de inventario, conservación, necesidades de reposición, pedidos propuestos por proveedores, decisiones del administrador y alertas.
 
 El desarrollo del proceso de Domain-Driven Design se realizó en Lucidchart: [https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1](https://lucid.app/lucidchart/122eaed5-7924-4498-b16c-62681427dde3/edit?viewport_loc=14%2C-6708%2C8686%2C7802%2C0_0&invitationId=inv_6c1afc67-fb30-4e78-9b16-eb7f89871df1)
 
@@ -282,7 +278,6 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 
 ![Software Architecture Context Diagram](assets/chapter-04/Contexto-dark.png)
 
-La lámina de contexto conserva etiquetas de solicitudes y órdenes de envío del modelo anterior. Debe redibujarse para mostrar que el proveedor crea el pedido y el administrador decide; el texto anterior expresa el flujo vigente.
 
 ---
 
@@ -293,7 +288,7 @@ En el nivel de contenedores, la arquitectura de OrganiK se organiza en aplicacio
 La arquitectura lógica de OrganiK se estructura en los siguientes contenedores:
 
 - **Landing Page**: aplicación web pública orientada a presentar la propuesta de valor de OrganiK, sus beneficios y funcionalidades principales para minimarkets y proveedores de productos orgánicos.
-- **Single Page Application (SPA)**: aplicación web propuesta en Angular para inventario, productos, proveedores, necesidades de reposición, pedidos, conservación, dashboards, perfiles e IAM. Estos módulos no forman parte de la landing page implementada en Sprint 1.
+- **Single Page Application (SPA)**: aplicación web propuesta en Angular para inventario, productos, proveedores, necesidades de reposición, pedidos, conservación, dashboards, perfiles e IAM.
 - **API REST Application**: backend encargado de exponer los servicios de negocio mediante endpoints REST. Centraliza la lógica de aplicación, validaciones, reglas de dominio y coordinación entre bounded contexts.
 - **Database**: persistencia propuesta para usuarios, perfiles, productos, inventario, lotes, necesidades de reposición, pedidos, decisiones, proveedores, alertas y lecturas de conservación.
 
@@ -312,7 +307,6 @@ En el diagrama se observa que:
 
 En el nivel de componentes se detalla la descomposición interna de la arquitectura de OrganiK, especialmente del contenedor **API REST Application**, donde se agrupan los componentes principales alineados con los bounded contexts del dominio.
 
-Los nombres Requisition y Procurements se conservan como agrupaciones de diseño. Las relaciones internas de las láminas de componentes deben revisarse antes de implementarse si representan el flujo antiguo de solicitudes y órdenes de envío.
 
 La API REST organiza sus responsabilidades en componentes especializados:
 
@@ -433,7 +427,7 @@ Estos diagramas permiten complementar la arquitectura de software, mostrando una
 
 ## 4.8. Database Design.
 
-El diseño de base de datos propuesto considera usuarios, perfiles, productos, inventario, proveedores, necesidades de reposición, pedidos y decisiones, conservación, comunicación, analítica y auditoría. Los diagramas que aún contienen entidades de órdenes de envío separadas deben actualizarse antes de tomarse como esquema de implementación.
+El diseño de base de datos propuesto considera usuarios, perfiles, productos, inventario, proveedores, necesidades de reposición, pedidos y decisiones, conservación, comunicación, analítica y auditoría.
 
 La base de datos se encuentra organizada de acuerdo con los bounded contexts definidos en la arquitectura del sistema, permitiendo mantener una separación lógica entre las distintas áreas funcionales. Esta organización facilita la trazabilidad de la información, la consistencia de los datos y la evolución del sistema conforme se incorporen nuevas funcionalidades.
 
