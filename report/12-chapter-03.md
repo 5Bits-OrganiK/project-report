@@ -241,6 +241,6 @@ A continuación se presenta la captura del Product Backlog en la herramienta de 
  
 ![Product Backlog](assets/chapter-03/spring1.png)
  
-*Figura: Product Backlog de OrganiK en [Trello / Jira / YouTrack / Pivotal Tracker].*
+*Figura: Product Backlog de OrganiK en Trello.*
  
-Enlace público al Product Backlog: [Product Backlog de OrganiK](url)
+Enlace público al Product Backlog: [Product Backlog de OrganiK en Trello](https://trello.com/invite/b/6aaf94c8244f819349bf0de9/ATTI96869889ee148c22847a13480770254571767922/sprint-backlog-1-organik)
