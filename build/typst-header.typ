@@ -7,10 +7,12 @@
 #set text(font: ("Calibri", "Segoe UI", "Arial", "Segoe UI Emoji"), lang: "es")
 #set par(justify: true, leading: 0.62em, spacing: 0.95em)
 #set page(
-  footer: context [
-    #set text(size: 8pt, fill: luma(110))
-    OrganiK · Informe de Trabajo Final — 1ASI0729 #h(1fr) #counter(page).display()
-  ],
+  footer: context {
+    if counter(page).get().first() > 1 [
+      #set text(size: 8pt, fill: luma(110))
+      OrganiK · Informe de Trabajo Final — 1ASI0729 #h(1fr) #counter(page).display()
+    ]
+  },
 )
 
 // Titulos: cada capitulo en pagina nueva, jerarquia tipografica clara.
