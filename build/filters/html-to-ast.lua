@@ -2,14 +2,16 @@
 -- en nodos nativos de Pandoc para que se renderice correctamente en PDF (Typst).
 -- Los .md siguen siendo validos para GitHub: este filtro solo actua durante el build.
 
-local function is_typst()
-  return FORMAT:match('typst') ~= nil
-end
-
 local div_stack = {}
 
 local function raw(s)
   return pandoc.RawBlock('typst', s)
+end
+
+local function count(s, pat)
+  local n = 0
+  for _ in s:gmatch(pat) do n = n + 1 end
+  return n
 end
 
 -- Reemplaza Divs con align="center" por bloques centrados de Typst.
@@ -41,26 +43,45 @@ function RawBlock(el)
   if t:match('^%s*<div[^>]*page%-break[^>]*>%s*</div>%s*$') then
     return raw('#pagebreak(weak: true)')
   end
-  if t:match('^%s*<div[^>]*>%s*$') then
-    local centered = t:match('align="center"') ~= nil or t:match('text%-align:%s*center') ~= nil
-    table.insert(div_stack, centered)
-    if centered then return raw('#align(center)[') end
-    return {}
-  end
-  if t:match('^%s*</div>%s*$') then
-    local centered = table.remove(div_stack)
-    if centered then return raw(']') end
-    return {}
-  end
   if t:match('^%s*<br%s*/?>%s*$') then
     return raw('#v(0.6em)')
   end
   if t:match('^%s*<!%-%-') then
     return {}
   end
-  local ok, doc = pcall(pandoc.read, t, 'html')
-  if not ok then return {} end
-  return expand_divs(doc.blocks)
+
+  local pre, post = pandoc.List(), pandoc.List()
+  local opens, closes = count(t, '<div[%s>]'), count(t, '</div>')
+
+  -- <div> abierto al inicio del bloque y cerrado en otro bloque (markdown de por medio)
+  while opens > closes do
+    local tag, rest = t:match('^%s*(<div[^>]*>)([%s%S]*)$')
+    if not tag then break end
+    local centered = tag:match('align="center"') ~= nil or tag:match('text%-align:%s*center') ~= nil
+    table.insert(div_stack, centered)
+    if centered then pre:insert(raw('#align(center)[')) end
+    t = rest
+    opens = opens - 1
+  end
+
+  -- </div> de cierre al final del bloque
+  while closes > opens do
+    local rest = t:match('^([%s%S]*)</div>%s*$')
+    if not rest then break end
+    local centered = table.remove(div_stack)
+    if centered then post:insert(raw(']')) end
+    t = rest
+    closes = closes - 1
+  end
+
+  local out = pandoc.List()
+  out:extend(pre)
+  if t:match('%S') then
+    local ok, doc = pcall(pandoc.read, t, 'html')
+    if ok then out:extend(expand_divs(doc.blocks)) end
+  end
+  out:extend(post)
+  return out
 end
 
 -- Inlines: <br>, <strong>, <em>, <code>, <a>, <img> sueltos dentro de parrafos y celdas.
@@ -85,13 +106,11 @@ function Inlines(inlines)
     for i = #stack, 1, -1 do
       if stack[i].kind == kind then
         local frame = table.remove(stack, i)
-        -- cerrar tambien frames abiertos dentro
         local el
         if kind == 'strong' then el = pandoc.Strong(frame.content)
         elseif kind == 'em' then el = pandoc.Emph(frame.content)
         elseif kind == 'code' then el = pandoc.Code(pandoc.utils.stringify(frame.content))
         elseif kind == 'a' then el = pandoc.Link(frame.content, frame.href or '')
-        elseif kind == 'span' then el = pandoc.Span(frame.content)
         end
         push(el)
         return true
@@ -127,7 +146,7 @@ function Inlines(inlines)
         local alt = attr_of(t, 'alt') or ''
         local w = attr_of(t, 'width')
         local attrs = {}
-        if w then attrs.width = w:gsub('px$', '') .. 'pt' end
+        if w then attrs.width = (w:gsub('px$', '')) .. 'pt' end
         if src then
           push(pandoc.Image({pandoc.Str(alt)}, src, '', pandoc.Attr('', {}, attrs)))
         end
@@ -156,8 +175,18 @@ end
 
 -- La caratula no lleva titulo de seccion visible.
 function Header(el)
-  if el.level == 1 and (el.identifier == 'carátula' or el.identifier == 'caratula') then
+  if el.level == 1 and pandoc.utils.stringify(el.content) == 'Carátula' then
     return {}
+  end
+  return nil
+end
+
+-- Un bloque de codigo con lenguaje {=typst} llega como CodeBlock: convertirlo a bloque crudo.
+function CodeBlock(el)
+  for _, c in ipairs(el.classes) do
+    if c == '{=typst}' or c == '=typst' then
+      return pandoc.RawBlock('typst', el.text)
+    end
   end
   return nil
 end

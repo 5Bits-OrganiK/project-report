@@ -36,6 +36,9 @@
   block(above: 10pt, below: 4pt, sticky: true, it.body)
 }
 
+// Las tablas largas deben poder cortarse entre paginas.
+#show figure: set block(breakable: true)
+
 // Tablas: borde fino, texto algo menor, filas que no se cortan.
 #set table(stroke: 0.5pt + luma(150), inset: 4pt)
 #show table: set text(size: 8.5pt)
