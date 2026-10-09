@@ -27,12 +27,13 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 
 #### Software Development
 
-#### Software Development
 * **GitHub:** Hosting del repositorio de código fuente y control de versiones.
   * Ruta: `https://github.com`
+* **HTML5, CSS3 y JavaScript:** Tecnologías de la Landing Page, publicada como sitio estático desde su migración del 29/09/2026 (en el Sprint 1 se construyó en Angular).
+  * Ruta: `https://developer.mozilla.org`
 * **WebStorm:** IDE utilizado para el desarrollo de la aplicación.
   * Ruta: `https://www.jetbrains.com/webstorm/`
-* **Angular 22:** Framework utilizado para construir las interfaces web de OrganiK.
+* **Angular 22:** Framework utilizado para construir la Web Application de OrganiK.
   * Ruta: `https://angular.dev`
 * **TypeScript:** Lenguaje principal para la implementación de componentes y lógica.
   * Ruta: `https://www.typescriptlang.org`
@@ -40,7 +41,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
   * Ruta: `https://material.angular.io`
 * **@ngx-translate:** Librería utilizada para la internacionalización en español e inglés.
   * Ruta: `https://github.com/ngx-translate/core`
-* **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos.
+* **HTML/CSS:** Tecnologías utilizadas para la maquetación, estructura visual y estilos responsivos de la Landing Page y de las plantillas de la Web Application.
   * Ruta: `https://developer.mozilla.org/en-US/docs/Web/HTML` and `https://developer.mozilla.org/en-US/docs/Web/CSS`
 
 #### Software Testing
@@ -84,6 +85,10 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
     <tr>
       <td>Landing Page OrganiK</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page OrganiK (repositorio del Sprint 1)</td>
+      <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK</td>
@@ -175,13 +180,13 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio de 
 Se especifican los pasos y recursos de configuración de despliegue para asegurar que la plataforma **OrganiK** sea completamente accesible en sus diferentes productos.
 
 #### Landing Page (Firebase Hosting)
-1. **Preparación:** Clonación del repositorio `organik-landingpage` y configuración local.
-2. **Construcción:** Ejecución del comando de compilación de Angular (`ng build`) para generar los archivos estáticos optimizados.
-3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar el código compilado en la nube.
+1. **Preparación:** Clonación del repositorio `organik-landing-page-static` y configuración local.
+2. **Construcción:** No requiere compilación: la Landing Page es un sitio estático (HTML5, CSS3 y JavaScript) y sus archivos se publican tal cual.
+3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar los archivos del sitio en la nube.
 * **URL de producción:** https://organik-d6e58.web.app/
 
 #### Frontend Web Application (Firebase Hosting)
-1. **Preparación:** Integración de los últimos cambios de Angular en la rama `main` del repositorio `organik-frontend`.
+1. **Preparación:** Integración de los últimos cambios de Angular en la rama `main` del repositorio `organik-web-application`.
 2. **Construcción:** Configuración del archivo de entorno (variables de entorno) para apuntar al backend público, y compilación del proyecto para producción (`ng build --configuration production`).
 3. **Despliegue:** Uso del CLI de Firebase (`firebase deploy --only hosting`) para cargar la plataforma interactiva en la nube.
 * **URL de producción:** https://organik-app-d6e58.web.app/
@@ -215,6 +220,7 @@ Se especifican los pasos y recursos de configuración de despliegue para asegura
    https://github.com/5Bits-OrganiK/organik-landingpage.git
   </a>
 </p>
+
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
@@ -314,7 +320,7 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
-  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page de <strong>OrganiK</strong>. A continuación se resumen los commits más relevantes del repositorio de la Landing Page, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial del repositorio.
+  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page de <strong>OrganiK</strong> en Angular. A continuación se resumen los commits más relevantes del repositorio <code>organik-landingpage</code>, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial del repositorio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -330,89 +336,113 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
   </thead>
   <tbody>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
       <td>main</td>
-      <td><code>e23d611</code></td>
-      <td>chore: initial commit</td>
+      <td><code>baa4cfd</code></td>
+      <td>initial commit</td>
       <td>Inicializa el repositorio de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>19-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/landing-page-html</td>
-      <td><code>3ac25f6</code></td>
-      <td>feat(landing-page): created the principal HTML of the landing page</td>
-      <td>Estructura HTML principal de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>f4caf68</code></td>
+      <td>feat(landing): build organik landing page</td>
+      <td>Construcción de la Landing Page: Home, Product Information, Videos, Plans y Starter.</td>
+      <td>20-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/i18n-configuration</td>
-      <td><code>a326659</code></td>
-      <td>feat(i18n): create i18n for english and spanish translation for the landing page</td>
-      <td>Traducciones al inglés y español de la Landing Page.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>d6e7244</code></td>
+      <td>fix(app): enable zoneless change detection</td>
+      <td>Habilita la detección de cambios sin zone.js.</td>
+      <td>20-09-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
-      <td>feature/team-profiles-images-and-icons</td>
-      <td><code>76240a9</code></td>
-      <td>feat(images-and-logo): insert the team profiles images for the landing page and logo of organik</td>
-      <td>Fotos de perfil del equipo y logo de OrganiK.</td>
-      <td>07-10-2026</td>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>515f08c</code></td>
+      <td>fix(videos): update team embed url</td>
+      <td>Actualiza la URL embebida del video del equipo.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>de7a73e</code></td>
+      <td>fix(brand): align assets with organik name</td>
+      <td>Alinea los recursos de marca con el nombre OrganiK.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>f1f246f</code></td>
+      <td>fix(videos): show youtube previews</td>
+      <td>Muestra previsualizaciones de YouTube en la sección de videos.</td>
+      <td>20-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>577bdea</code></td>
+      <td>refactor(app): move landing features to app root</td>
+      <td>Mueve las features de la landing a la raíz de la aplicación.</td>
+      <td>20-09-2026</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la nueva versión de la Landing Page de **OrganiK**. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas y la correcta adaptación de la plataforma al idioma inglés.
 
-#### Evidencia 1: Home Section y Propuesta de Valor
+##### Evidencia 1: Home Section y Propuesta de Valor
 Se desarrolló la pantalla de inicio principal destacando la propuesta de valor de OrganiK: controlar el inventario antes de que sea tarde. El diseño presenta una interfaz oscura con un dashboard visual interactivo y componentes que ilustran el estado del stock en tiempo real.
 
 ![Vista principal de OrganiK desplegada en la Landing Page.](./assets/chapter-05/execution-landing-home.jpg)
 *Figura: Vista principal de OrganiK desplegada en la Landing Page.*
 
-#### Evidencia 2: Características del Producto (Features)
+##### Evidencia 2: Características del Producto (Features)
 Se maquetó la sección informativa donde se presentan las principales capacidades de OrganiK mediante tarjetas UI, incluyendo inventario centralizado, control de lotes por código, alertas inteligentes y fechas de caducidad.
 
 ![Sección de características y funcionalidades principales.](./assets/chapter-05/execution-landing-features.jpg)
 *Figura: Sección de características y funcionalidades principales.*
 
-#### Evidencia 3: Módulo para Proveedores (Suppliers)
+##### Evidencia 3: Módulo para Proveedores (Suppliers)
 Se implementó una sección dedicada exclusivamente a los proveedores ("Reach more minimarkets"), comunicando cómo la plataforma les permite publicar su catálogo orgánico, recibir necesidades de reabastecimiento de los minimarkets y gestionar pedidos en un solo lugar.
 
 ![Sección dedicada a los proveedores de minimarkets.](./assets/chapter-05/execution-landing-suppliers.jpg)
 *Figura: Sección dedicada a los proveedores de minimarkets.*
 
-#### Evidencia 4: Demostración del Producto (Product Video)
+##### Evidencia 4: Demostración del Producto (Product Video)
 Se integró un apartado audiovisual ("See OrganiK in action") diseñado para incrustar material de video demostrativo. Esta sección permite explicar visualmente cómo la solución centraliza los procesos operativos del minimarket.
 
 ![Sección de video demostrativo del producto.](./assets/chapter-05/execution-landing-demo-video.jpg)
 *Figura: Sección de video demostrativo del producto.*
 
-#### Evidencia 5: Testimonios de Usuarios (Testimonials)
+##### Evidencia 5: Testimonios de Usuarios (Testimonials)
 Se desarrolló una sección de validación social ("What minimarkets are saying") que muestra comentarios de clientes y proveedores ficticios, destacando métricas de éxito como la reducción de desperdicios y el ahorro de tiempo semanal.
 
 ![Sección de testimonios de usuarios de OrganiK.](./assets/chapter-05/execution-landing-testimonials.jpg)
 *Figura: Sección de testimonios de usuarios de OrganiK.*
 
-#### Evidencia 6: Planes Comerciales (Pricing)
+##### Evidencia 6: Planes Comerciales (Pricing)
 Se diseñó la vista de planes de suscripción ("A plan for every minimarket size"), presentando las alternativas Basic, Professional y Enterprise. La interfaz permite cambiar entre planes para minimarkets y proveedores mediante un selector interactivo.
 
 ![Sección de planes de suscripción disponibles.](./assets/chapter-05/execution-landing-pricing.jpg)
 *Figura: Sección de planes de suscripción disponibles.*
 
-#### Evidencia 7: Presentación del Equipo (The Team)
+##### Evidencia 7: Presentación del Equipo (The Team)
 Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
 ![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
 *Figura: Perfiles de los miembros del equipo de OrganiK.*
 
-#### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
+##### Evidencia 8: Llamado a la Acción y Suscripción (Starter)
 Se construyó la sección de cierre orientada a la conversión ("Take control of your minimarket with OrganiK"). Incluye un botón de inicio de sesión directo, un gráfico de radar temático y el pie de página con enlaces a políticas de privacidad.
 
 ![Sección final de llamado a la acción y pie de página.](./assets/chapter-05/execution-landing-starter.jpg)
@@ -420,15 +450,15 @@ Se construyó la sección de cierre orientada a la conversión ("Take control of
 
 ---
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquetación y despliegue de la Landing Page estática, la implementación y documentación de los servicios Backend (API RESTful) se abordarán a partir del Sprint 2. Por lo tanto, la evidencia de documentación de servicios (Swagger/OpenAPI) se incluirá en las siguientes iteraciones.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar la primera versión de la Landing Page de **OrganiK**. El proyecto se compila y se publica con el CLI de Firebase (`firebase deploy --only hosting`), tal como se describe en la sección 5.1.4. La Web Application y los Web Services se despliegan a partir del Sprint 2 y Sprint 3, respectivamente.
+Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar la primera versión de la Landing Page de **OrganiK**. El proyecto se compila con Angular y se publica con el CLI de Firebase (`firebase deploy --only hosting`). La Web Application y los Web Services se despliegan a partir del Sprint 2 y Sprint 3, respectivamente.
 
-* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landing-page-static
+* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landingpage
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-d6e58.web.app/
 
@@ -513,7 +543,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna 
   </thead>
   <tbody>
     <tr><td>Atencio Cristobal, Cielo Valentina</td><td>U202424216</td><td>Ciel0p</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td></tr>
-    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>C</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td><td>GeGuMaGu25</td><td>—</td><td>L</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td><td>u201815005</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td><td>Alex_Torres</td><td>L</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
@@ -532,6 +562,7 @@ El seguimiento se realiza en el mismo tablero de Trello del proyecto: [Tablero d
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **US-037** | Cambiar idioma del Landing Page | T008 | Script principal de la landing | Navegación, cambio de idioma ES/EN y animaciones en `main.js`. | 4h | Torres Huaman, Alexis Calin | Done |
 | **US-039** | Consultar términos y condiciones | T009 | Páginas legales | Páginas de términos y condiciones y de política de privacidad enlazadas en el footer. | 3h | Atencio Cristobal, Cielo Valentina | Done |
+| — | Tarea técnica | T023 | Migración de la landing a HTML, CSS y JS estático | Reemplaza la implementación Angular por un sitio estático, con i18n y secciones de evidencia de la rúbrica. | 6h | Cáceres Pizarro, Albino Florencio | Done |
 | — | Tarea técnica | T010 | Página 404 de la landing | Página de error personalizada `404.html`. | 2h | Torres Huaman, Alexis Calin | Done |
 | — | Tarea técnica | T011 | Estilos globales y configuración | `.editorconfig`, Prettier y hoja de estilos global de la landing. | 3h | Quispe Almonacid, Andre Sebastian | Done |
 | — | Tarea técnica | T012 | Configuración inicial de la Web Application | Proyecto Angular, archivos de entorno de desarrollo y producción. | 4h | Olivares Lao, Gustavo Alonso | Done |
@@ -568,6 +599,38 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>101d570</code></td>
+      <td>feat(landing): migrate to static html css js</td>
+      <td>Migra la Landing Page a HTML, CSS y JavaScript estáticos.</td>
+      <td>29-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>dba8e73</code></td>
+      <td>fix(i18n): default landing language to english</td>
+      <td>Idioma inglés por defecto en la Landing Page.</td>
+      <td>29-09-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>6438274</code></td>
+      <td>feat(landing): add rubric evidence sections</td>
+      <td>Agrega secciones de evidencia de la rúbrica a la Landing Page.</td>
+      <td>02-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landingpage</td>
+      <td>main</td>
+      <td><code>b3a0723</code></td>
+      <td>feat(landing): add platform screenshots</td>
+      <td>Agrega capturas de la plataforma a la Landing Page.</td>
+      <td>02-10-2026</td>
+    </tr>
     <tr>
       <td>5Bits-OrganiK/organik-landing-page-static</td>
       <td>feature/main-script</td>
@@ -973,6 +1036,7 @@ Gestión de usuarios del minimarket con correo, rol, estado y acciones, y acceso
 
 ![Usuarios y roles de la Web Application](./assets/chapter-05/s2-app-users.jpg)
 *Figura: Vista de usuarios y roles.*
+
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -1012,7 +1076,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 </p>
 
 <p>
-  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio.
+  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio. La columna Landing Page suma <code>organik-landingpage</code> y <code>organik-landing-page-static</code>.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -1027,9 +1091,9 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
   </thead>
   <tbody>
     <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>57</td><td>59</td></tr>
-    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
-    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>4</td><td>12</td><td>16</td></tr>
-    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>23</td><td>72</td><td>95</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>10</td><td>20</td><td>30</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>2</td><td>0</td><td>2</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
   </tbody>
 </table>

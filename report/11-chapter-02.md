@@ -19,14 +19,12 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
   <tr>
     <th colspan="6">Competitive Analysis Landscape</th>
   </tr>
-
   <tr>
     <th>¿Por qué llevar a cabo este análisis?</th>
     <td colspan="5">
       Este análisis permite comparar OrganiK con soluciones existentes de gestión comercial e inventarios, identificando sus fortalezas, limitaciones y oportunidades de diferenciación. Esto permitirá establecer una propuesta de valor enfocada en la reducción de pérdidas, trazabilidad, conservación y coordinación del abastecimiento de productos orgánicos.
     </td>
   </tr>
-
   <tr>
     <th colspan="2">Competidores</th>
     <th>
@@ -50,7 +48,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       <img src="assets/chapter-02/sprysales.png" alt="Spry Sales" width="100">
     </th>
   </tr>
-
   <tr>
     <th rowspan="2">Perfil</th>
     <th>Overview</th>
@@ -67,7 +64,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Software de gestión comercial orientado a diferentes tipos de negocios, incluyendo minimarkets, con funcionalidades de inventario, pedidos, compras, proveedores y distribución.
     </td>
   </tr>
-
   <tr>
     <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
     <td>
@@ -83,7 +79,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Integración de gestión comercial, inventario, pedidos, compras, proveedores, reparto y entregas, con funcionalidades para negocios como minimarkets.
     </td>
   </tr>
-
   <tr>
     <th rowspan="2">Perfil de Marketing</th>
     <th>Mercado objetivo</th>
@@ -100,7 +95,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Minimarkets, bodegas, emprendedores y otros negocios que necesitan controlar sus operaciones comerciales, inventario, pedidos, compras, proveedores y entregas.
     </td>
   </tr>
-
   <tr>
     <th>Estrategias de marketing</th>
     <td>
@@ -116,7 +110,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Marketing orientado a la digitalización y gestión integral de negocios, destacando el control de stock, pedidos, compras, reparto y entregas.
     </td>
   </tr>
-
   <tr>
     <th rowspan="3">Perfil de Producto</th>
     <th>Productos & Servicios</th>
@@ -133,7 +126,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Software de gestión comercial con funcionalidades de control de stock, inventario, pedidos, compras, proveedores, fechas de vencimiento, reparto y entregas.
     </td>
   </tr>
-
   <tr>
     <th>Precios & Costos</th>
     <td>
@@ -149,7 +141,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Cuenta con diferentes modalidades y planes de servicio según las necesidades operativas y comerciales de cada negocio.
     </td>
   </tr>
-
   <tr>
     <th>Canales de distribución<br>(Web y/o Móvil)</th>
     <td>
@@ -165,7 +156,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Web / Móvil. Permite gestionar diferentes actividades comerciales y operativas mediante herramientas digitales.
     </td>
   </tr>
-
   <tr>
     <th rowspan="4">Análisis SWOT</th>
     <th>Fortalezas</th>
@@ -182,7 +172,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Integración de inventario, pedidos, compras, proveedores, reparto y entregas, además de funcionalidades orientadas a minimarkets.
     </td>
   </tr>
-
   <tr>
     <th>Debilidades</th>
     <td>
@@ -198,7 +187,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       En las páginas consultadas predomina el enfoque comercial; no se identificó una propuesta específica de conservación de productos orgánicos con monitoreo ambiental.
     </td>
   </tr>
-
   <tr>
     <th>Oportunidades</th>
     <td>
@@ -214,7 +202,6 @@ Sin embargo, **OrganiK busca diferenciarse mediante la especialización en produ
       Crecimiento de la digitalización de minimarkets y pequeños negocios y necesidad de centralizar sus operaciones.
     </td>
   </tr>
-
   <tr>
     <th>Amenazas</th>
     <td>
@@ -586,9 +573,7 @@ Carlos describe que el stock se revisa en estantes o almacén y se registra en E
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         La entrevista evidencia que la gestión actual depende principalmente de herramientas separadas como Excel, WhatsApp, llamadas y registros internos. Aunque estas permiten administrar productos y pedidos, la actualización manual de la información genera dificultades para mantener sincronizados el catálogo, la disponibilidad, los lotes y el estado de los pedidos.
-
 El proceso de abastecimiento comienza con la recepción de solicitudes de los minimarkets, seguida de la verificación de disponibilidad, confirmación, preparación de productos, revisión de lotes y coordinación del despacho. Cuando existen varios pedidos o modificaciones simultáneas, el seguimiento se vuelve más complejo y pueden producirse inconsistencias, como informar disponibilidad desactualizada o perder cambios realizados mediante conversaciones.
-
 En conclusión, se identifica la necesidad de centralizar la información de productos, lotes, disponibilidad y pedidos. Una plataforma que permita consultar y actualizar estos datos, además de visualizar el estado de cada operación, podría reducir la dependencia de archivos y conversaciones dispersas y facilitar la coordinación entre el proveedor y los minimarkets.
       </td>
     </tr>

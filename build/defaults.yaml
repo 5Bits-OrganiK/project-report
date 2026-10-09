@@ -1,0 +1,59 @@
+# Configuracion declarativa de Pandoc (ver Docs-as-Code guide, seccion Pandoc).
+# Uso:  pandoc --defaults=build/defaults.yaml        (o:  make pdf)
+# Ejecutar desde la raiz del repositorio.
+
+from: gfm+footnotes+smart
+to: typst
+pdf-engine: typst
+standalone: true
+
+# Cada .md se procesa aislado (evita colisiones de ids y notas al pie entre capitulos).
+file-scope: true
+
+# Las imagenes se referencian de forma relativa desde report/ o report/front-matter/.
+resource-path:
+  - .
+  - report
+  - report/front-matter
+  - report/annexes
+  - build
+
+metadata-file: build/metadata.yaml
+
+filters:
+  - build/filters/html-to-ast.lua
+
+# Orden de ensamblaje segun la estructura del informe (Estructura del Informe, project statement).
+# 04-table-of-contents.md es el indice navegable para GitHub; en el PDF se genera con build/toc.md.
+input-files:
+  - report/front-matter/01-title-page.md
+  - report/front-matter/02-version-control-log.md
+  - report/front-matter/03-collaboration-insights.md
+  - build/toc.md
+  - report/front-matter/05-student-outcomes.md
+  - report/10-chapter-01.md
+  - report/11-chapter-02.md
+  - report/12-chapter-03.md
+  - report/13-chapter-04.md
+  - report/14-chapter-05.md
+  - report/98-conclusions.md
+  - report/99-bibliography.md
+  - report/annexes/90-annex-a-raw-data.md
+
+syntax-highlighting: tango
+number-sections: false
+toc: false
+
+variables:
+  papersize: a4
+  margin:
+    x: 2.2cm
+    y: 2.4cm
+  fontsize: 10.5pt
+  mainfont: "Calibri"
+  lang: es
+
+include-in-header:
+  - build/typst-header.typ
+
+output-file: build/output/informe-organik.pdf
