@@ -166,7 +166,7 @@ El Impact Map muestra que los tres objetivos de negocio dependen de que ambos Us
 ## 3.3. Product Backlog.
  
 En esta sección se presenta el Product Backlog de OrganiK, ordenado según el valor que cada historia aporta al negocio. Las historias del Landing Page se ubican al inicio porque se implementan desde el Sprint 1. Les siguen las historias que sostienen la propuesta diferencial de OrganiK (inventario con lotes y vencimientos, catálogo del proveedor y flujo de pedidos con aprobación del administrador), luego las de conservación, consulta y análisis, y finalmente las de acceso y preferencias. Las Technical Stories del RESTful API se ubican a continuación, porque la primera versión de los Web Services se despliega en el Sprint 3. La estimación utiliza Story Points en la escala 1, 2, 3, 5 y 8.
- 
+
 | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 | --- | --- | --- | --- | --- |
 | 1 | US-031 | Conocer la propuesta de valor | Como visitante, deseo conocer qué es OrganiK y qué problema resuelve, para evaluar si se ajusta a las necesidades de mi negocio. | 3 |
@@ -175,69 +175,68 @@ En esta sección se presenta el Product Backlog de OrganiK, ordenado según el v
 | 4 | US-036 | Acceder a la aplicación según segmento | Como visitante, deseo acceder desde el Landing Page a la vista de la Web Application que corresponde a mi segmento, para empezar a usar OrganiK sin pasos adicionales. | 3 |
 | 5 | US-034 | Consultar planes de suscripción | Como visitante, deseo consultar los planes de suscripción de OrganiK, para conocer el costo y las funciones incluidas. | 2 |
 | 6 | US-037 | Cambiar idioma del Landing Page | Como visitante, deseo cambiar el idioma del Landing Page entre inglés y español, para comprender el contenido en mi idioma de preferencia. | 2 |
-| 7 | US-038 | Contactar a OrganiK | Como visitante, deseo enviar una consulta a OrganiK, para resolver mis dudas antes de registrarme. | 2 |
-| 8 | US-039 | Consultar términos y condiciones | Como visitante o usuario, deseo consultar los términos y condiciones del servicio, para conocer mis derechos y obligaciones al usar OrganiK. | 1 |
-| 9 | US-035 | Ver videos del producto y del equipo | Como visitante, deseo ver los videos About the Product y About the Team, para comprender el funcionamiento de OrganiK y conocer a su equipo. | 2 |
-| 10 | US-001 | Registrar producto en inventario | Como administrador de minimarket, deseo registrar productos en el inventario, para mantener actualizada la información de los productos disponibles. | 5 |
-| 11 | US-002 | Visualizar inventario | Como administrador de minimarket, deseo visualizar los productos registrados, para conocer el estado actual de mi inventario. | 5 |
-| 12 | US-006 | Registrar lote | Como administrador de minimarket, deseo registrar lotes de productos, para mantener la trazabilidad de los productos almacenados. | 5 |
-| 13 | US-007 | Consultar lotes | Como administrador de minimarket, deseo consultar los lotes registrados, para conocer el origen y estado de los productos. | 3 |
-| 14 | US-008 | Controlar fechas de vencimiento | Como administrador de minimarket, deseo visualizar las fechas de vencimiento de los productos, para identificar productos próximos a vencer. | 5 |
-| 15 | US-009 | Generar alertas de vencimiento | Como administrador de minimarket, deseo recibir alertas sobre productos próximos a vencer, para tomar acciones antes de que se generen pérdidas. | 3 |
-| 16 | US-016 | Registrar productos ofrecidos | Como proveedor de productos orgánicos, deseo registrar los productos que ofrezco, para ponerlos a disposición de los minimarkets. | 5 |
-| 17 | US-017 | Consultar productos ofrecidos | Como proveedor de productos orgánicos, deseo consultar los productos que tengo registrados, para mantener control sobre mi oferta dentro de la plataforma. | 3 |
-| 18 | US-015 | Consultar productos de proveedores | Como administrador de minimarket, deseo consultar los productos ofrecidos por los proveedores, para identificar opciones disponibles para abastecer el minimarket. | 5 |
-| 19 | US-021 | Crear pedido de abastecimiento | Como proveedor de productos orgánicos, deseo crear un pedido dirigido a un minimarket con productos y cantidades disponibles, para proponer una operación de abastecimiento verificable. | 5 |
-| 20 | US-019 | Consultar pedidos de abastecimiento | Como administrador de minimarket o proveedor, deseo consultar los pedidos relacionados con mi negocio, para conocer sus productos, cantidades y estado actual. | 3 |
-| 21 | US-023 | Aceptar pedido | Como administrador de minimarket, deseo aceptar un pedido dirigido a mi negocio después de verificar sus productos y cantidades, para incorporar únicamente los productos aprobados al inventario. | 5 |
-| 22 | US-024 | Rechazar pedido | Como administrador de minimarket, deseo rechazar un pedido dirigido a mi negocio, para evitar incorporar productos no aprobados al inventario. | 3 |
-| 23 | US-022 | Consultar estado de pedido | Como proveedor de productos orgánicos, deseo consultar el estado de los pedidos que generé, para conocer la decisión del administrador. | 3 |
-| 24 | US-018 | Registrar necesidad de reposición | Como administrador de minimarket, deseo registrar los productos y cantidades que necesito reponer, para orientar mis decisiones de abastecimiento sin crear un pedido en nombre del proveedor. | 5 |
-| 25 | US-020 | Consultar necesidades de reposición | Como proveedor de productos orgánicos, deseo consultar las necesidades de reposición compartidas por los minimarkets que atiendo, para preparar pedidos acordes con mi disponibilidad. | 3 |
-| 26 | US-025 | Consultar historial de abastecimiento | Como administrador de minimarket o proveedor, deseo consultar el historial de pedidos y decisiones de mi negocio, para mantener trazabilidad de las operaciones. | 3 |
-| 27 | US-010 | Consultar condiciones de conservación | Como administrador de minimarket, deseo consultar las condiciones de conservación de los productos, para identificar posibles riesgos de deterioro. | 3 |
-| 28 | US-011 | Monitorear temperatura y humedad | Como administrador de minimarket, deseo visualizar registros de temperatura y humedad, para conocer las condiciones de almacenamiento de los productos. | 5 |
-| 29 | US-012 | Generar alertas de conservación | Como administrador de minimarket, deseo recibir alertas cuando las condiciones de conservación sean inadecuadas, para reaccionar oportunamente ante posibles riesgos de deterioro. | 5 |
-| 30 | US-003 | Buscar productos en inventario | Como administrador de minimarket, deseo buscar productos dentro del inventario, para encontrarlos rápidamente. | 3 |
-| 31 | US-004 | Filtrar inventario | Como administrador de minimarket, deseo filtrar productos por categoría, estado o vencimiento, para identificar rápidamente productos que requieren atención. | 3 |
-| 32 | US-005 | Actualizar inventario | Como administrador de minimarket, deseo actualizar la información de los productos, para mantener el inventario correctamente registrado. | 5 |
-| 33 | US-030 | Consultar dashboard por segmento | Como administrador de minimarket o proveedor, deseo visualizar un dashboard con la información de mi segmento, para consultar rápidamente el estado de mis operaciones. | 5 |
-| 34 | US-013 | Registrar merma | Como administrador de minimarket, deseo registrar productos que hayan sufrido merma, para mantener un historial de pérdidas de inventario. | 3 |
-| 35 | US-014 | Registrar oferta de productos | Como administrador de minimarket, deseo registrar productos disponibles como oferta, para promocionar productos con stock disponible y mantener trazabilidad sobre su salida comercial. | 3 |
-| 36 | US-027 | Iniciar sesión | Como usuario de OrganiK, deseo iniciar sesión, para acceder a las funciones de mi segmento y negocio. | 3 |
-| 37 | US-026 | Registrar usuario | Como administrador de minimarket o proveedor, deseo registrar usuarios de mi negocio, para permitir el acceso controlado a OrganiK. | 3 |
-| 38 | US-029 | Controlar acceso según operación | Como administrador de minimarket, deseo que solo yo pueda modificar mi inventario y decidir sobre los pedidos dirigidos a mi negocio, para evitar modificaciones no autorizadas. | 5 |
-| 39 | US-028 | Gestionar permisos por rol | Como administrador de minimarket o proveedor, deseo asignar roles a los usuarios de mi negocio, para controlar las acciones que cada uno puede realizar. | 5 |
-| 40 | US-040 | Cambiar idioma de la aplicación | Como usuario de OrganiK, deseo cambiar el idioma de la Web Application entre inglés y español, para operar en mi idioma de preferencia. | 3 |
-| 41 | TS-PLT-001 | Configurar base del RESTful API | Como Developer, deseo configurar el proyecto Spring Boot con un endpoint de health check y documentación OpenAPI, para sostener el desarrollo de los Web Services. | 3 |
-| 42 | TS-PLT-002 | Configurar persistencia | Como Developer, deseo configurar Spring Data JPA con la base de datos relacional y datos iniciales, para persistir la información de OrganiK. | 5 |
-| 43 | TS-PROD-001 | Products API | Como Developer, deseo listar y registrar productos mediante /api/v1/products, para alimentar el inventario y el catálogo de proveedores. | 3 |
-| 44 | TS-PROD-002 | Product detail and update API | Como Developer, deseo consultar y actualizar productos mediante /api/v1/products/{id}, para mantener su información vigente. | 3 |
-| 45 | TS-INV-001 | Inventory API | Como Developer, deseo listar y registrar elementos del inventario mediante /api/v1/inventory, para mantener actualizado el stock del minimarket. | 3 |
-| 46 | TS-INV-002 | Inventory update API | Como Developer, deseo actualizar el inventario mediante /api/v1/inventory/{id}, para reflejar cambios en las cantidades. | 2 |
-| 47 | TS-LOT-001 | Lots API | Como Developer, deseo listar y registrar lotes mediante /api/v1/lots, para implementar la trazabilidad de los productos. | 3 |
-| 48 | TS-LOT-002 | Lot detail and update API | Como Developer, deseo consultar y actualizar lotes mediante /api/v1/lots/{id}, para mantener actualizada la trazabilidad. | 2 |
-| 49 | TS-EXP-001 | Expirations API | Como Developer, deseo consultar lotes próximos a vencer mediante /api/v1/expirations, para alimentar las alertas de vencimiento. | 3 |
-| 50 | TS-SUP-001 | Suppliers API | Como Developer, deseo listar, registrar y actualizar proveedores mediante /api/v1/suppliers, para mantener disponible la información para el abastecimiento. | 3 |
-| 51 | TS-SUP-002 | Supplier products API | Como Developer, deseo consultar y registrar los productos de cada proveedor mediante /api/v1/suppliers/{id}/products, para mostrar su catálogo. | 3 |
-| 52 | TS-ORD-002 | Supplier orders API | Como Developer, deseo crear y consultar pedidos mediante /api/v1/orders, para registrar las propuestas de abastecimiento de los proveedores. | 3 |
-| 53 | TS-ORD-003 | Order decision API | Como Developer, deseo aceptar o rechazar pedidos mediante /api/v1/orders/{id}/accept y /api/v1/orders/{id}/reject, para registrar la decisión del administrador y actualizar el inventario solo al aceptar. | 3 |
-| 54 | TS-ORD-004 | Order history API | Como Developer, deseo consultar el historial de un pedido mediante /api/v1/orders/{id}/history, para mostrar la trazabilidad a los participantes. | 3 |
-| 55 | TS-ORD-001 | Replenishment needs API | Como Developer, deseo listar y registrar necesidades de reposición mediante /api/v1/replenishment-needs, para compartirlas con proveedores vinculados. | 3 |
-| 56 | TS-CON-001 | Conservation monitoring API | Como Developer, deseo consultar lecturas de temperatura y humedad mediante /api/v1/conservation/monitoring, para mostrar las condiciones de conservación. | 3 |
-| 57 | TS-CON-002 | Conservation alerts API | Como Developer, deseo consultar las alertas de conservación mediante /api/v1/conservation/alerts, para mostrarlas al administrador. | 3 |
-| 58 | TS-INV-003 | Inventory search API | Como Developer, deseo buscar y filtrar el inventario mediante /api/v1/inventory/search, para implementar búsquedas por producto, categoría, estado o vencimiento. | 2 |
-| 59 | TS-DASH-001 | Dashboard API | Como Developer, deseo consultar indicadores mediante /api/v1/dashboard, para alimentar los dashboards de cada segmento. | 3 |
-| 60 | TS-MER-001 | Waste and offers API | Como Developer, deseo registrar mermas y ofertas mediante /api/v1/waste y /api/v1/offers, para mantener la trazabilidad de las operaciones del inventario. | 3 |
-| 61 | TS-DASH-002 | Notifications API | Como Developer, deseo consultar y actualizar notificaciones mediante /api/v1/notifications, para informar oportunamente sobre eventos relevantes. | 2 |
-| 62 | TS-IAM-001 | Sign-in API | Como Developer, deseo autenticar usuarios mediante POST /api/v1/auth/sign-in, para obtener el token, el rol y el negocio del usuario. | 2 |
-| 63 | TS-IAM-002 | Sign-up API | Como Developer, deseo registrar usuarios mediante POST /api/v1/auth/sign-up, para habilitar el acceso a OrganiK. | 2 |
-| 64 | TS-PLT-003 | Aplicar autorización por rol y negocio | Como Developer, deseo aplicar reglas de rol y negocio a todos los endpoints privados, para evitar accesos no autorizados. | 3 |
-| 65 | TS-IAM-003 | Users API | Como Developer, deseo listar y crear usuarios mediante /api/v1/users, para administrar los usuarios de cada negocio. | 3 |
-| 66 | TS-IAM-004 | User detail and update API | Como Developer, deseo consultar y actualizar usuarios mediante /api/v1/users/{id}, para mantener sus roles y estados actualizados. | 3 |
-| 67 | TS-PROF-001 | Profiles API | Como Developer, deseo consultar y actualizar perfiles mediante /api/v1/profiles/{id}, para mostrar la información del usuario y su negocio. | 3 |
-| 68 | TS-AUD-001 | Activity history API | Como Developer, deseo consultar el historial de operaciones mediante /api/v1/activity-history, para mantener la trazabilidad de las acciones realizadas. | 3 |
- 
+| 7 | US-039 | Consultar términos y condiciones | Como visitante o usuario, deseo consultar los términos y condiciones del servicio, para conocer mis derechos y obligaciones al usar OrganiK. | 1 |
+| 8 | US-035 | Ver videos del producto y del equipo | Como visitante, deseo ver los videos About the Product y About the Team, para comprender el funcionamiento de OrganiK y conocer a su equipo. | 2 |
+| 9 | US-001 | Registrar producto en inventario | Como administrador de minimarket, deseo registrar productos en el inventario, para mantener actualizada la información de los productos disponibles. | 5 |
+| 10 | US-002 | Visualizar inventario | Como administrador de minimarket, deseo visualizar los productos registrados, para conocer el estado actual de mi inventario. | 5 |
+| 11 | US-006 | Registrar lote | Como administrador de minimarket, deseo registrar lotes de productos, para mantener la trazabilidad de los productos almacenados. | 5 |
+| 12 | US-007 | Consultar lotes | Como administrador de minimarket, deseo consultar los lotes registrados, para conocer el origen y estado de los productos. | 3 |
+| 13 | US-008 | Controlar fechas de vencimiento | Como administrador de minimarket, deseo visualizar las fechas de vencimiento de los productos, para identificar productos próximos a vencer. | 5 |
+| 14 | US-009 | Generar alertas de vencimiento | Como administrador de minimarket, deseo recibir alertas sobre productos próximos a vencer, para tomar acciones antes de que se generen pérdidas. | 3 |
+| 15 | US-016 | Registrar productos ofrecidos | Como proveedor de productos orgánicos, deseo registrar los productos que ofrezco, para ponerlos a disposición de los minimarkets. | 5 |
+| 16 | US-017 | Consultar productos ofrecidos | Como proveedor de productos orgánicos, deseo consultar los productos que tengo registrados, para mantener control sobre mi oferta dentro de la plataforma. | 3 |
+| 17 | US-015 | Consultar productos de proveedores | Como administrador de minimarket, deseo consultar los productos ofrecidos por los proveedores, para identificar opciones disponibles para abastecer el minimarket. | 5 |
+| 18 | US-021 | Crear pedido de abastecimiento | Como proveedor de productos orgánicos, deseo crear un pedido dirigido a un minimarket con productos y cantidades disponibles, para proponer una operación de abastecimiento verificable. | 5 |
+| 19 | US-019 | Consultar pedidos de abastecimiento | Como administrador de minimarket o proveedor, deseo consultar los pedidos relacionados con mi negocio, para conocer sus productos, cantidades y estado actual. | 3 |
+| 20 | US-023 | Aceptar pedido | Como administrador de minimarket, deseo aceptar un pedido dirigido a mi negocio después de verificar sus productos y cantidades, para incorporar únicamente los productos aprobados al inventario. | 5 |
+| 21 | US-024 | Rechazar pedido | Como administrador de minimarket, deseo rechazar un pedido dirigido a mi negocio, para evitar incorporar productos no aprobados al inventario. | 3 |
+| 22 | US-022 | Consultar estado de pedido | Como proveedor de productos orgánicos, deseo consultar el estado de los pedidos que generé, para conocer la decisión del administrador. | 3 |
+| 23 | US-018 | Registrar necesidad de reposición | Como administrador de minimarket, deseo registrar los productos y cantidades que necesito reponer, para orientar mis decisiones de abastecimiento sin crear un pedido en nombre del proveedor. | 5 |
+| 24 | US-020 | Consultar necesidades de reposición | Como proveedor de productos orgánicos, deseo consultar las necesidades de reposición compartidas por los minimarkets que atiendo, para preparar pedidos acordes con mi disponibilidad. | 3 |
+| 25 | US-025 | Consultar historial de abastecimiento | Como administrador de minimarket o proveedor, deseo consultar el historial de pedidos y decisiones de mi negocio, para mantener trazabilidad de las operaciones. | 3 |
+| 26 | US-010 | Consultar condiciones de conservación | Como administrador de minimarket, deseo consultar las condiciones de conservación de los productos, para identificar posibles riesgos de deterioro. | 3 |
+| 27 | US-011 | Monitorear temperatura y humedad | Como administrador de minimarket, deseo visualizar registros de temperatura y humedad, para conocer las condiciones de almacenamiento de los productos. | 5 |
+| 28 | US-012 | Generar alertas de conservación | Como administrador de minimarket, deseo recibir alertas cuando las condiciones de conservación sean inadecuadas, para reaccionar oportunamente ante posibles riesgos de deterioro. | 5 |
+| 29 | US-003 | Buscar productos en inventario | Como administrador de minimarket, deseo buscar productos dentro del inventario, para encontrarlos rápidamente. | 3 |
+| 30 | US-004 | Filtrar inventario | Como administrador de minimarket, deseo filtrar productos por categoría, estado o vencimiento, para identificar rápidamente productos que requieren atención. | 3 |
+| 31 | US-005 | Actualizar inventario | Como administrador de minimarket, deseo actualizar la información de los productos, para mantener el inventario correctamente registrado. | 5 |
+| 32 | US-030 | Consultar dashboard por segmento | Como administrador de minimarket o proveedor, deseo visualizar un dashboard con la información de mi segmento, para consultar rápidamente el estado de mis operaciones. | 5 |
+| 33 | US-013 | Registrar merma | Como administrador de minimarket, deseo registrar productos que hayan sufrido merma, para mantener un historial de pérdidas de inventario. | 3 |
+| 34 | US-014 | Registrar oferta de productos | Como administrador de minimarket, deseo registrar productos disponibles como oferta, para promocionar productos con stock disponible y mantener trazabilidad sobre su salida comercial. | 3 |
+| 35 | US-027 | Iniciar sesión | Como usuario de OrganiK, deseo iniciar sesión, para acceder a las funciones de mi segmento y negocio. | 3 |
+| 36 | US-026 | Registrar usuario | Como administrador de minimarket o proveedor, deseo registrar usuarios de mi negocio, para permitir el acceso controlado a OrganiK. | 3 |
+| 37 | US-029 | Controlar acceso según operación | Como administrador de minimarket, deseo que solo yo pueda modificar mi inventario y decidir sobre los pedidos dirigidos a mi negocio, para evitar modificaciones no autorizadas. | 5 |
+| 38 | US-028 | Gestionar permisos por rol | Como administrador de minimarket o proveedor, deseo asignar roles a los usuarios de mi negocio, para controlar las acciones que cada uno puede realizar. | 5 |
+| 39 | US-040 | Cambiar idioma de la aplicación | Como usuario de OrganiK, deseo cambiar el idioma de la Web Application entre inglés y español, para operar en mi idioma de preferencia. | 3 |
+| 40 | TS-PLT-001 | Configurar base del RESTful API | Como Developer, deseo configurar el proyecto Spring Boot con un endpoint de health check y documentación OpenAPI, para sostener el desarrollo de los Web Services. | 3 |
+| 41 | TS-PLT-002 | Configurar persistencia | Como Developer, deseo configurar Spring Data JPA con la base de datos relacional y datos iniciales, para persistir la información de OrganiK. | 5 |
+| 42 | TS-PROD-001 | Products API | Como Developer, deseo listar y registrar productos mediante /api/v1/products, para alimentar el inventario y el catálogo de proveedores. | 3 |
+| 43 | TS-PROD-002 | Product detail and update API | Como Developer, deseo consultar y actualizar productos mediante /api/v1/products/{id}, para mantener su información vigente. | 3 |
+| 44 | TS-INV-001 | Inventory API | Como Developer, deseo listar y registrar elementos del inventario mediante /api/v1/inventory, para mantener actualizado el stock del minimarket. | 3 |
+| 45 | TS-INV-002 | Inventory update API | Como Developer, deseo actualizar el inventario mediante /api/v1/inventory/{id}, para reflejar cambios en las cantidades. | 2 |
+| 46 | TS-LOT-001 | Lots API | Como Developer, deseo listar y registrar lotes mediante /api/v1/lots, para implementar la trazabilidad de los productos. | 3 |
+| 47 | TS-LOT-002 | Lot detail and update API | Como Developer, deseo consultar y actualizar lotes mediante /api/v1/lots/{id}, para mantener actualizada la trazabilidad. | 2 |
+| 48 | TS-EXP-001 | Expirations API | Como Developer, deseo consultar lotes próximos a vencer mediante /api/v1/expirations, para alimentar las alertas de vencimiento. | 3 |
+| 49 | TS-SUP-001 | Suppliers API | Como Developer, deseo listar, registrar y actualizar proveedores mediante /api/v1/suppliers, para mantener disponible la información para el abastecimiento. | 3 |
+| 50 | TS-SUP-002 | Supplier products API | Como Developer, deseo consultar y registrar los productos de cada proveedor mediante /api/v1/suppliers/{id}/products, para mostrar su catálogo. | 3 |
+| 51 | TS-ORD-002 | Supplier orders API | Como Developer, deseo crear y consultar pedidos mediante /api/v1/orders, para registrar las propuestas de abastecimiento de los proveedores. | 3 |
+| 52 | TS-ORD-003 | Order decision API | Como Developer, deseo aceptar o rechazar pedidos mediante /api/v1/orders/{id}/accept y /api/v1/orders/{id}/reject, para registrar la decisión del administrador y actualizar el inventario solo al aceptar. | 3 |
+| 53 | TS-ORD-004 | Order history API | Como Developer, deseo consultar el historial de un pedido mediante /api/v1/orders/{id}/history, para mostrar la trazabilidad a los participantes. | 3 |
+| 54 | TS-ORD-001 | Replenishment needs API | Como Developer, deseo listar y registrar necesidades de reposición mediante /api/v1/replenishment-needs, para compartirlas con proveedores vinculados. | 3 |
+| 55 | TS-CON-001 | Conservation monitoring API | Como Developer, deseo consultar lecturas de temperatura y humedad mediante /api/v1/conservation/monitoring, para mostrar las condiciones de conservación. | 3 |
+| 56 | TS-CON-002 | Conservation alerts API | Como Developer, deseo consultar las alertas de conservación mediante /api/v1/conservation/alerts, para mostrarlas al administrador. | 3 |
+| 57 | TS-INV-003 | Inventory search API | Como Developer, deseo buscar y filtrar el inventario mediante /api/v1/inventory/search, para implementar búsquedas por producto, categoría, estado o vencimiento. | 2 |
+| 58 | TS-DASH-001 | Dashboard API | Como Developer, deseo consultar indicadores mediante /api/v1/dashboard, para alimentar los dashboards de cada segmento. | 3 |
+| 59 | TS-MER-001 | Waste and offers API | Como Developer, deseo registrar mermas y ofertas mediante /api/v1/waste y /api/v1/offers, para mantener la trazabilidad de las operaciones del inventario. | 3 |
+| 60 | TS-DASH-002 | Notifications API | Como Developer, deseo consultar y actualizar notificaciones mediante /api/v1/notifications, para informar oportunamente sobre eventos relevantes. | 2 |
+| 61 | TS-IAM-001 | Sign-in API | Como Developer, deseo autenticar usuarios mediante POST /api/v1/auth/sign-in, para obtener el token, el rol y el negocio del usuario. | 2 |
+| 62 | TS-IAM-002 | Sign-up API | Como Developer, deseo registrar usuarios mediante POST /api/v1/auth/sign-up, para habilitar el acceso a OrganiK. | 2 |
+| 63 | TS-PLT-003 | Aplicar autorización por rol y negocio | Como Developer, deseo aplicar reglas de rol y negocio a todos los endpoints privados, para evitar accesos no autorizados. | 3 |
+| 64 | TS-IAM-003 | Users API | Como Developer, deseo listar y crear usuarios mediante /api/v1/users, para administrar los usuarios de cada negocio. | 3 |
+| 65 | TS-IAM-004 | User detail and update API | Como Developer, deseo consultar y actualizar usuarios mediante /api/v1/users/{id}, para mantener sus roles y estados actualizados. | 3 |
+| 66 | TS-PROF-001 | Profiles API | Como Developer, deseo consultar y actualizar perfiles mediante /api/v1/profiles/{id}, para mostrar la información del usuario y su negocio. | 3 |
+| 67 | TS-AUD-001 | Activity history API | Como Developer, deseo consultar el historial de operaciones mediante /api/v1/activity-history, para mantener la trazabilidad de las acciones realizadas. | 3 |
+
 A continuación se presenta la captura del Product Backlog en la herramienta de gestión del proyecto.
  
 ![Product Backlog](assets/chapter-03/spring1.png)
