@@ -314,54 +314,244 @@ Las tareas T001-T007 descomponen la historia **US00** descrita en el Product Bac
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 <p>
-  Resumen de los commits más relevantes en el repositorio de la Landing Page de <strong>OrganiK</strong>.
+  Durante el Sprint 1 se implementó y desplegó la primera versión de la Landing Page y se inició la Web Application de <strong>OrganiK</strong> en Angular, organizada por bounded contexts (Dashboard, Inventory, Products, Suppliers, Analytics, Communication y Shared Kernel) y capas (domain, application, infrastructure, presentation). A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
+      <th>Repository</th>
       <th>Branch</th>
       <th>Commit Id</th>
       <th>Commit Message</th>
+      <th>Commit Message Body</th>
       <th>Committed on</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
       <td>main</td>
-      <td><code>cca3595</code></td>
-      <td>feat(landing): build organik landing page</td>
-      <td>20-09-2026</td>
+      <td><code>e23d611</code></td>
+      <td>chore: initial commit</td>
+      <td>Inicializa el repositorio de la Landing Page.</td>
+      <td>07-10-2026</td>
     </tr>
     <tr>
-      <td>main</td>
-      <td><code>5b45e94</code></td>
-      <td>fix(app): enable zoneless change detection</td>
-      <td>20-09-2026</td>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/landing-page-html</td>
+      <td><code>3ac25f6</code></td>
+      <td>feat(landing-page): created the principal HTML of the landing page</td>
+      <td>Estructura HTML principal de la Landing Page.</td>
+      <td>07-10-2026</td>
     </tr>
     <tr>
-      <td>main</td>
-      <td><code>a26a62c</code></td>
-      <td>fix(videos): update team embed url</td>
-      <td>20-09-2026</td>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/i18n-configuration</td>
+      <td><code>a326659</code></td>
+      <td>feat(i18n): create i18n for english and spanish translation for the landing page</td>
+      <td>Traducciones al inglés y español de la Landing Page.</td>
+      <td>07-10-2026</td>
     </tr>
     <tr>
-      <td>main</td>
-      <td><code>e957784</code></td>
-      <td>fix(brand): align assets with organik name</td>
-      <td>20-09-2026</td>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/team-profiles-images-and-icons</td>
+      <td><code>76240a9</code></td>
+      <td>feat(images-and-logo): insert the team profiles images for the landing page and logo of organik</td>
+      <td>Fotos de perfil del equipo y logo de OrganiK.</td>
+      <td>07-10-2026</td>
     </tr>
     <tr>
-      <td>main</td>
-      <td><code>7f86703</code></td>
-      <td>fix(videos): show youtube previews</td>
-      <td>20-09-2026</td>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/main-script</td>
+      <td><code>8d8c10b</code></td>
+      <td>feat(landing): add main script for navigation, i18n and animations</td>
+      <td>Script principal de navegación, i18n y animaciones.</td>
+      <td>08-10-2026</td>
     </tr>
     <tr>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/not-found-page</td>
+      <td><code>e5ac524</code></td>
+      <td>feat(landing): add custom 404 not found page</td>
+      <td>Página 404 personalizada.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/legal-pages</td>
+      <td><code>bbadccf</code></td>
+      <td>feat(landing): add privacy policy page</td>
+      <td>Página de política de privacidad enlazada en el footer.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>feature/legal-pages</td>
+      <td><code>0483e07</code></td>
+      <td>feat(landing): add terms and conditions page</td>
+      <td>Página de términos y condiciones enlazada en el footer.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
       <td>main</td>
-      <td><code>0703eef</code></td>
-      <td>refactor(app): move landing features to app root</td>
-      <td>20-09-2026</td>
+      <td><code>fc25963</code></td>
+      <td>initial commit</td>
+      <td>Inicializa el repositorio de la Web Application.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/project-configuration</td>
+      <td><code>368d664</code></td>
+      <td>feat(project-config): initial project configuration</td>
+      <td>Configuración inicial del proyecto Angular.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/project-configuration</td>
+      <td><code>2523fec</code></td>
+      <td>feat(project-config): add environment files for development and production</td>
+      <td>Archivos de entorno para desarrollo y producción.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/i18n</td>
+      <td><code>ededd82</code></td>
+      <td>feat(i18n): add i18n files for english and spanish language</td>
+      <td>Archivos de internacionalización en inglés y español.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/bounded-context-dashboard</td>
+      <td><code>8064466</code></td>
+      <td>feat(dashboard): add application layer of the bounded context</td>
+      <td>Capa de aplicación del bounded context Dashboard.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/bounded-context-dashboard</td>
+      <td><code>5cc38ab</code></td>
+      <td>feat(dashboard): add presentatiom layer of the bounded context</td>
+      <td>Capa de presentación del bounded context Dashboard.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/inventory</td>
+      <td><code>86fdf47</code></td>
+      <td>feat(inventory): add application layer of the bounded context</td>
+      <td>Capa de aplicación del bounded context Inventory.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/inventory</td>
+      <td><code>d0955e4</code></td>
+      <td>feat(inventory): add domain layer of the bounded context</td>
+      <td>Capa de dominio del bounded context Inventory.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/inventory</td>
+      <td><code>d46b599</code></td>
+      <td>feat(inventory): add infrastructure layer of the bounded context</td>
+      <td>Capa de infraestructura del bounded context Inventory.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/inventory</td>
+      <td><code>dc21981</code></td>
+      <td>feat(inventory): add presentation layer of the bounded context</td>
+      <td>Capa de presentación del bounded context Inventory.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/products</td>
+      <td><code>72ed938</code></td>
+      <td>feat(products): add domain layer of the bounded context</td>
+      <td>Capa de dominio del bounded context Products.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/products</td>
+      <td><code>4cf657e</code></td>
+      <td>feat(products): add presentation layer of the bounded context</td>
+      <td>Capa de presentación del bounded context Products.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/suppliers</td>
+      <td><code>acf7099</code></td>
+      <td>feat(suppliers): add domain layer of the bounded context</td>
+      <td>Capa de dominio del bounded context Suppliers.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/suppliers</td>
+      <td><code>044dd1f</code></td>
+      <td>feat(suppliers): add presentation layer of the bounded context</td>
+      <td>Capa de presentación del bounded context Suppliers.</td>
+      <td>08-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/analytics</td>
+      <td><code>e790530</code></td>
+      <td>feat(analytics): add application layer</td>
+      <td>Capa de aplicación del bounded context Analytics.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/analytics</td>
+      <td><code>ca0679d</code></td>
+      <td>feat(analytics): add presentation layer</td>
+      <td>Capa de presentación del bounded context Analytics.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/communication</td>
+      <td><code>ddc2bd8</code></td>
+      <td>feat(communication): add application layer</td>
+      <td>Capa de aplicación del bounded context Communication.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/communication</td>
+      <td><code>a6ea987</code></td>
+      <td>feat(communication): add presentation layer</td>
+      <td>Capa de presentación del bounded context Communication.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/shared</td>
+      <td><code>d59262e</code></td>
+      <td>feat(shared): add domain/model/domain-error.ts</td>
+      <td>Shared Kernel: error de dominio base.</td>
+      <td>09-10-2026</td>
+    </tr>
+    <tr>
+      <td>5Bits-OrganiK/organik-web-application</td>
+      <td>feature/shared</td>
+      <td><code>bfdf471</code></td>
+      <td>feat(shared): add presentation/views/prototype-flow/prototype-flow.ts</td>
+      <td>Shared Kernel: vista del flujo del prototipo.</td>
+      <td>09-10-2026</td>
     </tr>
   </tbody>
 </table>
@@ -434,15 +624,22 @@ Dado que el alcance del Sprint 1 se centró exclusivamente en el diseño, maquet
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-A continuación, se detalla la configuración de acceso a la plataforma. Se ha utilizado Firebase Hosting para asegurar un despliegue rápido, seguro y estable de la primera versión de la Landing Page de **OrganiK**.
+Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para desplegar los dos productos de interfaz de **OrganiK**: la Landing Page (nueva versión) y la primera versión de la Web Application. Ambos proyectos se compilan con Angular y se publican con el CLI de Firebase (`firebase deploy --only hosting`), tal como se describe en la sección 5.1.4. Los Web Services (Backend) se desplegarán a partir del Sprint 2.
 
+**Landing Page**
+
+* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landing-page-static
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-d6e58.web.app/
 
 ![Evidencia de despliegue en producción en Firebase.](./assets/chapter-05/execution-deployment-firebase.png)
 *Figura: Landing Page de OrganiK desplegada exitosamente en Firebase Hosting.*
 
-* **URL de Producción (Web Application):** https://organik-app-d6e58.web.app/login
+**Web Application**
+
+* **Repositorio:** https://github.com/5Bits-OrganiK/organik-web-application
+* **Entorno local:** http://localhost:4200/
+* **URL de Producción:** https://organik-app-d6e58.web.app/login
 
 ![Evidencia de despliegue de la Web Application en producción en Firebase.](./assets/chapter-05/execution-webapp-login.png)
 *Figura: Web Application de OrganiK desplegada exitosamente en Firebase Hosting.*
