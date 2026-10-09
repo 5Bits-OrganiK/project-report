@@ -474,21 +474,12 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 </p>
 
 <p>
-  En primer lugar, el <strong>Historial de Commits</strong> del repositorio demuestra que el trabajo fue organizado mediante cambios incrementales y commits siguiendo la convención de <strong>Conventional Commits</strong>. Durante el sprint se realizaron cambios relacionados con la maquetación de secciones, la adaptación visual basada en referencias, la internacionalización de contenido, la corrección de videos embebidos, la alineación de marca y la refactorización de la arquitectura por features.
+  El gráfico de <strong>Contributors</strong> de GitHub Insights muestra el número de commits y de líneas aportadas por cada integrante en el repositorio de la Landing Page, y evidencia que el trabajo se organizó mediante cambios incrementales, con commits siguiendo la convención de <strong>Conventional Commits</strong>.
 </p>
 
 <div align="center">
-  <img src="assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
-  <p><em>Figura: Historial de commits demostrando el avance incremental de la landing page de OrganiK.</em></p>
-</div>
-
-<p>
-  En segundo lugar, el gráfico de <strong>Visitors (Traffic)</strong> proporcionado por los Insights de GitHub permite evidenciar la actividad de consulta del repositorio. Las visitas y usuarios únicos reflejan que el equipo revisó recurrentemente el avance del proyecto, validando la estructura visual, el contenido de las secciones y la coherencia general de la landing page antes del despliegue.
-</p>
-
-<div align="center">
-  <img src="assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph" width="90%">
-  <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo OrganiK.</em></p>
+  <img src="assets/chapter-05/collab-landing-contributors.png" alt="Contribuidores del repositorio de la Landing Page" width="90%">
+  <p><em>Figura: Contribuidores del repositorio de la Landing Page de OrganiK (GitHub Insights).</em></p>
 </div>
 
 ---
@@ -1076,7 +1067,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 </p>
 
 <p>
-  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio. La columna Landing Page suma <code>organik-landingpage</code> y <code>organik-landing-page-static</code>.
+  La siguiente tabla resume los commits registrados por integrante (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio. La columna Landing Page corresponde a <code>organik-landing-page-static</code> y la columna Web Application a <code>organik-web-application</code>.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -1090,17 +1081,17 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
     </tr>
   </thead>
   <tbody>
-    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>57</td><td>59</td></tr>
-    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>23</td><td>72</td><td>95</td></tr>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>2</td><td>56</td><td>58</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>10</td><td>20</td><td>30</td></tr>
-    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>2</td><td>0</td><td>2</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
   </tbody>
 </table>
 
 <div align="center">
-  <img src="assets/chapter-05/s2-commits-por-integrante.png" alt="Commits por integrante en el Sprint 2" width="90%">
-  <p><em>Figura: Commits por integrante en los repositorios de la Landing Page y la Web Application.</em></p>
+  <img src="assets/chapter-05/collab-webapp-contributors.png" alt="Contribuidores del repositorio de la Web Application" width="90%">
+  <p><em>Figura: Contribuidores del repositorio de la Web Application de OrganiK (GitHub Insights).</em></p>
 </div>
 
 <p>
