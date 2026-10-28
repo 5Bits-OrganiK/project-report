@@ -445,7 +445,7 @@ Se diseñó la vista de planes de suscripción ("A plan for every minimarket siz
 *Figura: Sección de planes de suscripción disponibles.*
 
 ##### Evidencia 7: Presentación del Equipo (The Team)
-Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
+Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los seis miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
 ![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
 *Figura: Perfiles de los miembros del equipo de OrganiK.*
@@ -1072,7 +1072,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <p>
-  Durante el Sprint 2 los cinco integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
+  Durante el Sprint 2 los seis integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
 </p>
 
 <p>
